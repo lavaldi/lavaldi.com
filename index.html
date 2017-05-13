@@ -1,16 +1,109 @@
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Claudia Valdivieso Castillo</title>
-    <meta name="description" content="Claudia Valdivieso Castillo - La Valdi">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="autor" content="Claudia Valdivieso">
+    <meta name="description" content="Jesusfreak and Front end">
+    <meta property="og:title" content="Claudia Valdivieso">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lavaldi.com">
+    <meta property="og:image" content="https://lavaldi.com/lavaldi.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="600">
+    <meta property="og:description" content="Jesusfreak and front end">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@lavaldi_">
+    <meta name="twitter:creator" content="@lavaldi_">
+    <title>Claudia Valdivieso Castillo</title>
+    <link rel="alternate" type="application/rss+xml" title="La Valdi' blog" href="https://medium.com/feed/la-valdis-blog">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="favicon.png" sizes="32x32">
+    <script defer src="main.js"></script>
+    <script defer src="https://query.yahooapis.com/v1/public/yql?q=select%20channel.item.title%2Cchannel.item.link%20from%20xml%20where%20url%20%3D%20%27https%3A%2F%2Fmedium.com%2Ffeed%2Fla-valdis-blog%27%20limit%201&format=json&callback=handleRssPost"></script>
   </head>
   <body>
-    <div>
-      <h1>Hi, my name is Claudia Valdivieso</h1>
-      <h2>This site will be built soon 😁👌</h2>
-    </div>
+    <section class="hero is-fullheight is-default">
+      <div class="hero-head">
+        <div class="container">
+          <nav class="nav has-shadow">
+            <div class="container">
+              <div class="nav-left">
+                <a id="unicorn-btn" class="nav-item" href="javajscript:void(0);" title="Click me!"><img src="lavaldi-icon.png" alt="La Valdi"></a>
+              </div>
+              <span class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+              <div class="nav-right nav-menu">
+                <!--a class="nav-item is-tab" href="#">1</a>
+                <a class="nav-item is-tab" href="#">2</a>
+                <a class="nav-item is-tab" href="#">3</a>
+                <a class="nav-item is-tab" href="#">4</a-->
+                <span class="nav-item">
+                  <a class="button" href="mailto:claumavaldivieso@gmail.com">Contact me</a>
+                </span>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <div class="columns is-vcentered">
+            <div class="column is-two-thirds is-centered has-nice-link" itemscope itemtype="http://schema.org/Person">
+              <img id="profile-pic" src="lavaldi.jpg" width="140" height="140" itemprop="image">
+              <h1 class="title is-2" itemprop="name">Claudia Valdivieso</h1>
+              <h2 class="subtitle is-4" itemprop="description">Jesusfreak &amp; front end</h2>
+              <p>I'm front end developer at Orbis Ventures
+                <br>developing the web application for job search called <a href="http://aptitus.com" target="_blank">Aptitus.com</a>
+                <br>and for the pursuit of postgraduate, undergraduate and graduate courses called <a href="http://maseducacion.com" target="_blank">MásEducación</a>.
+              </p>
+              <br>
+              <p class="has-text-centered">
+                <a class="button is-large is-white" target="_blank" href="http://blog.lavaldi.com">
+                  <span class="icon">
+                    <i class="icon-pencil"></i>
+                  </span>
+                  <span>Writings</span>
+                </a>
+                <a class="button is-large is-white" target="_blank" href="https://github.com/lavaldi">
+                  <span class="icon">
+                  <i class="icon-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+                <a class="button is-large is-white" target="_blank" href="https://twitter.com/lavaldi_">
+                  <span class="icon">
+                  <i class="icon-twitter"></i>
+                  </span>
+                  <span>Tweets</span>
+                </a>
+                <a class="button is-large is-white" target="_blank" href="https://facebook.com/geekandchristian">
+                  <span class="icon">
+                  <i class="icon-facebook-official"></i>
+                  </span>
+                  <span>Facebook</span>
+                </a>
+              </p>
+              <p id="latest-blog-post">Latest Writing: <span></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <div class="container">
+          <div class="tabs is-centered">
+            <ul>
+              <li>
+                <i id="scroll-hint" class="fa fa-caret-down" aria-hidden="true"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
