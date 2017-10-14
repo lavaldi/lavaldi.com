@@ -1,0 +1,27 @@
+{
+  "name": "personal-blog",
+  "version": "1.0.0",
+  "description": "La Valdi Blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nextein",
+    "export": "nextein build && nextein export",
+    "copy-nojekyll": "cp .nojekyll out/",
+    "copy-cname": "cp CNAME out/",
+    "deploy": "npm run export && npm run copy-nojekyll && npm run copy-cname && gh-pages -t -d out -b master "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.5.3",
+    "gh-pages": "^1.0.0",
+    "moment": "^2.18.1",
+    "next": "^3.2.2",
+    "nextein": "^1.0.0-beta21",
+    "react": "^15.6.1",
+    "react-disqus-comments": "^1.1.1",
+    "react-dom": "^15.6.1",
+    "react-moment": "^0.6.5"
+  }
+}
