@@ -1,5 +1,5 @@
 {
-  "name": "personal-blog",
+  "name": "lavaldi-web",
   "version": "1.0.0",
   "description": "La Valdi Blog",
   "main": "index.js",
@@ -10,8 +10,12 @@
     "copy-cname": "cp CNAME out/",
     "deploy": "npm run export && npm run copy-nojekyll && npm run copy-cname && gh-pages -t -d out -b master "
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lavaldi/lavaldi.github.io.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Claudia Valdivieso",
   "license": "ISC",
   "dependencies": {
     "bulma": "^0.5.3",
@@ -22,6 +26,7 @@
     "react": "^15.6.1",
     "react-disqus-comments": "^1.1.1",
     "react-dom": "^15.6.1",
+    "react-ga": "^2.3.5",
     "react-moment": "^0.6.5"
   }
 }

@@ -5,8 +5,9 @@ import withPosts from 'nextein/posts'
 
 import MainHead from '../components/main-head'
 import Navigation from '../components/navigation'
+import withAnalytics from '../components/analytics'
 
-export default withPosts(() => {
+export default withAnalytics(withPosts(() => {
   const data = {
     title: "Home",
     description: "Jesusfreak and Front end"
@@ -65,4 +66,4 @@ export default withPosts(() => {
       </section>
     </main>
   )
-})
+}))

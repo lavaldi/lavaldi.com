@@ -8,6 +8,7 @@ import DisqusComments from 'react-disqus-comments'
 import MainHead from '../components/main-head'
 import Navigation from '../components/navigation'
 import Tags from '../components/tags'
+import withAnalytics from '../components/analytics'
 
 class Post extends Component {
 
@@ -20,7 +21,7 @@ class Post extends Component {
     const dataHead = {
       title: data.title,
       description: data.excerpt || "",
-      image: data.background ? data.background : null
+      image: data.background ? data.background : (data.category === "jesusfreak") ? "http://lavaldi.com/static/jesusfreak.jpg" : (data.category === "code") ? "http://lavaldi.com/static/frontend.jpg" : null
     };
 
     return (
@@ -73,7 +74,7 @@ class Post extends Component {
   }
 }
 
-export default withPost(Post)
+export default withAnalytics(withPost(Post))
 
 // Renderers -----
 

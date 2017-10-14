@@ -7,6 +7,7 @@ import withPosts, { inCategory, sortByDate } from 'nextein/posts'
 import MainHead from '../components/main-head'
 import PostListEntry from '../components/post-list-entry'
 import Navigation from '../components/navigation'
+import withAnalytics from '../components/analytics'
 
 const Writings = ({ posts }) => {
 
@@ -46,4 +47,4 @@ const Writings = ({ posts }) => {
   )
 }
 
-export default withPosts(Writings)
+export default withAnalytics(withPosts(Writings))

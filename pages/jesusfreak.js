@@ -5,11 +5,13 @@ import withPosts, { inCategory, sortByDate } from 'nextein/posts'
 import MainHead from '../components/main-head'
 import PostListEntry from '../components/post-list-entry'
 import Navigation from '../components/navigation'
+import withAnalytics from '../components/analytics'
 
 const Index = ({ posts }) => {
   const data = {
     title: "Jesus Freak",
-    description: "Entradas en la categoría Jesus Freak"
+    description: "Entradas en la categoría Jesus Freak",
+    image: "http://lavaldi.com/static/jesusfreak.jpg"
   };
   
   posts.sort(sortByDate)
@@ -45,4 +47,4 @@ const Index = ({ posts }) => {
   )
 }
 
-export default withPosts(Index)
+export default withAnalytics(withPosts(Index))
