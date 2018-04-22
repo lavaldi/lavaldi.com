@@ -1,5 +1,5 @@
 ---
-title: El perdón real conlleva sufrimiento
+title: Errar es humano, perdonar es divino
 date: 2018-03-29
 category: jesusfreak
 tag: [perdón, Dios, La Razón de Dios, Timothy Keller]
