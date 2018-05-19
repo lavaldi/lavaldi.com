@@ -63,7 +63,7 @@ Luego solo tienes que ejecutar la siguiente línea:
 python frontendmasters-dl.py --id YOUR-USERNAME --password YOUR-PASSWORD --course COURSE-ID
 ```
 
-> Nota: A mi no me funcionó la descarga usando los flags `--mute-audio --high-resolution` por eso no los uso en el comando de arriba
+> Nota: A mi no me funcionó la descarga usando los flags `--mute-audio --high-resolution` por eso no los uso en el comando de arriba ([ver issue 85](https://github.com/li-xinyang/OS_FrontendMaster-dl/issues/85))
 
 También puedes usarlo así
 
