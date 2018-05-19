@@ -1,6 +1,6 @@
 ---
 title: ¿Cómo puedo instalar pip en macOS u OS X?
-date: 2018-05-19
+date: 2018-05-17
 category: code
 tag: [pip, python, macOS]
 background: "https://i.imgur.com/A8CMAQX.jpg"
