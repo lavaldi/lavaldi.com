@@ -3,6 +3,7 @@ title: Cómo editar el hosts file en macOS
 date: 2018-02-22
 category: code
 tag: [macOS, High Sierra, hosts]
+background: "https://i.imgur.com/A8CMAQX.jpg"
 ---
 
 Abre la terminal y escribe el siguiente comando:

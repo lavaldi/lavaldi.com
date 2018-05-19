@@ -3,6 +3,7 @@ title: ¿Cómo puedo instalar pip en macOS u OS X?
 date: 2018-05-19
 category: code
 tag: [pip, python, macOS]
+background: "https://i.imgur.com/A8CMAQX.jpg"
 ---
 
 Incluso si no estás familiarizado con `Python` llega un momento en el que terminas con la necesidad de tener que instalar `pip` en tu computadora basada en macOS u OSX. La búsqueda en línea te llevará a tutoriales largos que no son los que realmente necesitas. Todo lo que tienes que hacer es ejecutar el siguiente comando.
