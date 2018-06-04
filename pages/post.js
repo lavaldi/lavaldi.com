@@ -1,48 +1,62 @@
+import React, { Component } from "react";
+import Moment from "react-moment";
+import Head from "next/head";
+import withPost, { Content } from "nextein/post";
+import DisqusComments from "react-disqus-comments";
 
-import React, { Component } from 'react'
-import Moment from 'react-moment'
-import Head from 'next/head'
-import withPost, { Content } from 'nextein/post'
-import DisqusComments from 'react-disqus-comments'
-
-import MainHead from '../components/main-head'
-import Navigation from '../components/navigation'
-import Tags from '../components/tags'
-import withAnalytics from '../components/analytics'
+import MainHead from "../components/main-head";
+import Navigation from "../components/navigation";
+import Tags from "../components/tags";
+import withAnalytics from "../components/analytics";
+import Code from "../components/code";
 
 class Post extends Component {
-
-  render () {
-    const { post } = this.props
-    const { data, content } = post
-    const date = data.date
-    const background = data.background ? ", 50% url(" + data.background + ")" : "#fff"
-    const tags = data.tag ? [].concat(data.tag) : []
+  render() {
+    const { post } = this.props;
+    const { data, content } = post;
+    const date = data.date;
+    const background = data.background
+      ? ", 50% url(" + data.background + ")"
+      : "#fff";
+    const tags = data.tag ? [].concat(data.tag) : [];
     const dataHead = {
       title: data.title,
       description: data.excerpt || "",
-      image: data.background ? data.background : (data.category === "jesusfreak") ? "http://lavaldi.com/static/jesusfreak.jpg" : (data.category === "code") ? "http://lavaldi.com/static/frontend.jpg" : null
+      image: data.background
+        ? data.background
+        : data.category === "jesusfreak"
+          ? "http://lavaldi.com/static/jesusfreak.jpg"
+          : data.category === "code"
+            ? "http://lavaldi.com/static/frontend.jpg"
+            : null
     };
 
     return (
       <main>
-        <MainHead data={dataHead} />     
+        <MainHead data={dataHead} />
         <section className="hero">
           <Navigation />
         </section>
-        <section style={
-          {
-            background: "linear-gradient( rgba(0, 0, 0, .8), rgba(0, 0, 0, .5))" + background + "",
+        <section
+          style={{
+            background:
+              "linear-gradient( rgba(0, 0, 0, .8), rgba(0, 0, 0, .5))" +
+              background +
+              "",
             backgroundSize: "cover",
             margin: "0",
             padding: "2em"
-          }
-          }>
+          }}
+        >
           <div className="container">
             <div className="content-wrap">
-              <h1 className="title is-1" style={styles.title}>{data.title}</h1>
+              <h1 className="title is-1" style={styles.title}>
+                {data.title}
+              </h1>
               <span className="tags" style={styles.tags}>
-                <Moment locale="es" format="LL" style={styles.moment}>{date}</Moment>
+                <Moment locale="es" format="LL" style={styles.moment}>
+                  {date}
+                </Moment>
                 <Tags tags={tags} />
               </span>
             </div>
@@ -52,65 +66,51 @@ class Post extends Component {
           <div className="container">
             <div className="content-wrap">
               <article className="content content-body is-medium">
-                <Content {...post}
+                <Content
+                  {...post}
                   renderers={{
                     p: Paragraph,
-                    pre: CodeBlock,
                     code: Code
                   }}
                 />
                 <hr />
-                <p><i>Gracias por leer. Déjame un mensaje por si las dudas</i> 😉</p>
+                <p>
+                  <i>Gracias por leer. Déjame un mensaje por si las dudas</i> 😉
+                </p>
               </article>
-              <DisqusComments 
-                shortname="lavaldi"
-                title={data.title}
-              />
+              <DisqusComments shortname="lavaldi" title={data.title} />
             </div>
           </div>
         </section>
-        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59ebd93dbcd8b2f5"></script> 
+        <script
+          type="text/javascript"
+          src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59ebd93dbcd8b2f5"
+        />
       </main>
-    )
+    );
   }
 }
 
-export default withAnalytics(withPost(Post))
+export default withAnalytics(withPost(Post));
 
 // Renderers -----
 
 const Paragraph = ({ children }) => {
-  return (
-   <p>
-    {children}
-   </p>
-  )
-}
-
-const Code = ({ children, className, ...rest }) => {
-  return (
-    <code className={className || 'language-js'} {...rest}>
-      {children}
-    </code>
-  )
-}
-
-const CodeBlock = ({ children }) => {
-  return <pre>{children}</pre>
-}
+  return <p>{children}</p>;
+};
 
 const styles = {
   moment: {
-    alignItems: 'center',
-    borderRadius: '3px',
-    color: '#fff',
-    display: 'inline-flex',
+    alignItems: "center",
+    borderRadius: "3px",
+    color: "#fff",
+    display: "inline-flex",
     fontStyle: "italic",
-    height: '2em',
-    justifyContent: 'center',
-    lineHeight: '1.5',
-    whiteSpace: 'nowrap',
-    marginRight: '0.5rem',
+    height: "2em",
+    justifyContent: "center",
+    lineHeight: "1.5",
+    whiteSpace: "nowrap",
+    marginRight: "0.5rem",
     marginBottom: "0.5rem"
   },
   title: {

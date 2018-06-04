@@ -27,6 +27,10 @@ export default ({ data }) => {
       <meta name="twitter:creator" content="@lavaldi_" />
       <title>{data.title} - La Valdi</title>
       <link rel="icon" href="/static/favicon.png" sizes="32x32" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai.min.css"
+      />
       <link rel="stylesheet" href="/static/main.css" />
     </Head>
   );

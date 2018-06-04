@@ -12,15 +12,15 @@ Acabo de toparme con el problema de que macOS oculta las barras de desplazamient
 
 Incluye esto en tu CSS:
 
-```javascript
+```css
 ::-webkit-scrollbar {
   -webkit-appearance: none;
   width: 7px;
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 4px;
-  background-color: rgba(0,0,0,.5);
-  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
 }
 ```
 
