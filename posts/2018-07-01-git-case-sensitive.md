@@ -1,5 +1,5 @@
 ---
-title: ¿Cómo hacer a Git sensible al renombramiento de mayúsculas/minúsculas?
+title: ¿Cómo hacer a Git case-sensitive en el renombramiento de archivos?
 date: 2018-07-01
 category: code
 tag: [git]
