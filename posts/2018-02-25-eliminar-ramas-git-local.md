@@ -3,6 +3,7 @@ title: Eliminar ramas antiguas de un repositorio Git local
 date: 2018-02-25
 category: code
 tag: [git]
+background: "https://i.imgur.com/8L8ejhH.jpg"
 ---
 
 Al trabajar con Git, en grupos de varios colaboradores, comunmente implica la creación de varias ramas. Estas ramas se van acumulando en nuestro repositorio local, aunque ya hayan sido eliminadas del repositorio remoto, debido a que las herramientas de Git no hacen este proceso de forma automática, y no existe un comando de Git que lo haga por nosotros.

@@ -3,6 +3,7 @@ title: Cómo deshacer el último commit en Git
 date: 2018-02-26
 category: code
 tag: [git]
+background: "https://i.imgur.com/8L8ejhH.jpg"
 ---
 
 Hoy vamos a ver cómo deshacer el último commit de Git sin perder los cambios.
