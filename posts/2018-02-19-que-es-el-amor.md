@@ -2,7 +2,7 @@
 title: 24 cosas que es el Amor
 date: 2018-02-19
 category: jesusfreak
-tag: [Paul David Tripp, amor, devocional]
+tag: [Paul Tripp, amor, devocional]
 background: "https://i.imgur.com/zDoZuRS.jpg"
 ---
 
@@ -18,23 +18,23 @@ Si somos seguidores de Jesucristo y creemos en la cruz para salvación, entonces
 
 Aquí hay 23 maneras más de expresar el amor cruciforme en tu vida diaria.
 
-1. EL AMOR ES estar dispuesto a complicar tu vida por las necesidades y luchas de otros sin impaciencia o ira.
+1.  EL AMOR ES estar dispuesto a complicar tu vida por las necesidades y luchas de otros sin impaciencia o ira.
 
-2. EL AMOR ES luchar activamente contra la tentación de ser crítico y juzgar a los demás mientras se busca formas de alentar y alabar.
+2.  EL AMOR ES luchar activamente contra la tentación de ser crítico y juzgar a los demás mientras se busca formas de alentar y alabar.
 
-3. EL AMOR ES hacer un compromiso diario para resistir los momentos innecesarios de conflicto que vienen de señalar y responder a las ofensas menores.
+3.  EL AMOR ES hacer un compromiso diario para resistir los momentos innecesarios de conflicto que vienen de señalar y responder a las ofensas menores.
 
-4. EL AMOR ES ser amorosamente honesto y humildemente accesible en tiempos de malentendidos.
+4.  EL AMOR ES ser amorosamente honesto y humildemente accesible en tiempos de malentendidos.
 
-5. EL AMOR ES estar más comprometido con la unidad y la comprensión que con ganar, acusar o tener razón.
+5.  EL AMOR ES estar más comprometido con la unidad y la comprensión que con ganar, acusar o tener razón.
 
-6. EL AMOR ES un compromiso diario para admitir tu pecado, debilidad y fracaso y resistir la tentación de ofrecer una excusa o cambiar la culpa.
+6.  EL AMOR ES un compromiso diario para admitir tu pecado, debilidad y fracaso y resistir la tentación de ofrecer una excusa o cambiar la culpa.
 
-7. EL AMOR ES estar dispuesto, cuando se es confrontado por otro, a examinar su corazón en vez de elevarse a su defensa o cambiar el enfoque.
+7.  EL AMOR ES estar dispuesto, cuando se es confrontado por otro, a examinar su corazón en vez de elevarse a su defensa o cambiar el enfoque.
 
-8. EL AMOR ES hacer un compromiso diario de crecer en el amor para que el amor que ofreces a otro sea cada vez más desinteresado, maduro y paciente.
+8.  EL AMOR ES hacer un compromiso diario de crecer en el amor para que el amor que ofreces a otro sea cada vez más desinteresado, maduro y paciente.
 
-9. EL AMOR ES ser renuente a hacer lo que está mal cuando has sido perjudicado, pero buscando maneras concretas y específicas de vencer el mal con el bien.
+9.  EL AMOR ES ser renuente a hacer lo que está mal cuando has sido perjudicado, pero buscando maneras concretas y específicas de vencer el mal con el bien.
 
 10. EL AMOR ES ser un buen estudiante de otro, buscando sus necesidades físicas, emocionales y espirituales para que de alguna manera puedas quitar la carga, apoyarlos mientras los llevan o animarlos a lo largo del camino.
 
