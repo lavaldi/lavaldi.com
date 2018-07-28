@@ -10,7 +10,7 @@ import withAnalytics from "../components/analytics";
 export default withAnalytics(
   withPosts(() => {
     const data = {
-      title: "Home",
+      title: "Claudia Valdivieso Castillo",
       description: "Jesusfreak and Front end"
     };
 

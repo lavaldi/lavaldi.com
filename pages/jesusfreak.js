@@ -7,15 +7,18 @@ import PostListEntry from '../components/post-list-entry'
 import Navigation from '../components/navigation'
 import withAnalytics from '../components/analytics'
 
-const Index = ({ posts }) => {
+const Index = (props) => {
+  const { posts, url } = props;
+
   const data = {
+    url: url.pathname,
     title: "Jesus Freak",
     description: "Entradas en la categoría Jesus Freak",
     image: "http://lavaldi.com/static/jesusfreak.jpg"
   };
-  
+
   posts.sort(sortByDate)
-  const subCategoryPosts =  posts
+  const subCategoryPosts = posts
     .filter(inCategory('jesusfreak', { includeSubCategories: true }))
 
   return (
@@ -38,7 +41,7 @@ const Index = ({ posts }) => {
           <div className="content-wrap">
             {
               subCategoryPosts
-              .map((post) => <PostListEntry key={post.data.url} {...post}/>)
+                .map((post) => <PostListEntry key={post.data.url} {...post} />)
             }
           </div>
         </div>

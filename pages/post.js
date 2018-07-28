@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Moment from "react-moment";
-import Head from "next/head";
 import withPost, { Content } from "nextein/post";
 import DisqusComments from "react-disqus-comments";
 
@@ -13,15 +12,16 @@ import Code from "../components/code";
 class Post extends Component {
   render() {
     const { post } = this.props;
-    const { data, content } = post;
+    const { data } = post;
     const date = data.date;
     const background = data.background
       ? ", 50% url(" + data.background + ")"
       : "#fff";
     const tags = data.tag ? [].concat(data.tag) : [];
     const dataHead = {
+      url: data.url,
       title: data.title,
-      description: data.excerpt || "",
+      description: data.excerpt || data.title,
       image: data.background
         ? data.background
         : data.category === "jesusfreak"
