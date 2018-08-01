@@ -74,7 +74,7 @@ export default withAnalytics(
                       </span>
                       <span>Tweets</span>
                     </a>
-                    <a
+                    {/* <a
                       className="button is-large is-white"
                       target="_blank"
                       href="https://fb.me/lavaldiblog"
@@ -83,7 +83,7 @@ export default withAnalytics(
                         <i className="icon-facebook-official" />
                       </span>
                       <span>Facebook</span>
-                    </a>
+                    </a> */}
                   </p>
                 </div>
               </div>
