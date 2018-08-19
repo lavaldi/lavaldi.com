@@ -29,7 +29,7 @@ _Pues has tropezado a causa de tu iniquidad._<br>
 _Tomen con ustedes palabras, y vuélvanse al Señor._<br>
 _Díganle: 'Quita toda iniquidad,_<br>
 _Y acéptanos bondadosamente,_<br>
-_Para que podamos presentar el fruto de nuestros labios.'"._
+_Para que podamos presentar el fruto de nuestros labios.'". (Oseas 14: 1-2)_
 
 Dios no quiere que vengas a él con las manos vacías.<br>
 Él te pide un sacrificio.<br>
@@ -57,7 +57,7 @@ Descubre tu corazón,<br>
 Expuesto por palabras, y dile:<br>
 _"Y nunca más diremos: ‘Dios nuestro’_<br>
 _A la obra de nuestras manos,_<br>
-_Pues en Ti el huérfano halla misericordia."_
+_Pues en Ti el huérfano halla misericordia." (Oseas 14: 3)_
 
 Ven con palabras,<br>
 Es el camino de la gracia,<br>
