@@ -45,7 +45,8 @@ Implica el regalo de un nuevo corazón (Dios nos da un nuevo corazón, Ezequiel 
 
 Y esta es la única respuesta adecuada a la revelación de Dios en el evangelio, lo que en verdad debemos hacer.
 
-* * * 
+---
 
-Aprendido del libro [Radical - Volvamos a las Raíces de la
-Fe](https://store.radical.net/shop/radical-volvamos-a-las-raices-de-la-fe/) escrito por [David Platt](https://twitter.com/plattdavid)
+---
+
+_Aprendido del libro_ [_Radical — Volvamos a las Raíces de la Fe_](http://www.radical.net/store/list/?cat=9&item=95 "Radical Book") _escrito por_ [_David Platt_](https://twitter.com/plattdavid "David Platt Twitter")_._

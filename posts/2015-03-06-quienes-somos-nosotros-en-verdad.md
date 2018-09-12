@@ -2,7 +2,7 @@
 title: ¿Quiénes somos nosotros en verdad?
 date: 2015-03-06
 category: jesusfreak
-tag: [identidad, pecado]
+tag: [identidad, pecado, Radical, David Platt]
 background: "https://cdn-images-1.medium.com/max/2000/1*h1JIa_qN1p6J-l4knyN8SA.jpeg"
 ---
 
@@ -48,10 +48,10 @@ La primera vende libros y atrae multitudes. La última **salva almas**. ¿Cuál 
 
 En el evangelio, Dios revela la profundidad de nuestra necesidad de Él. Nos muestra que **no hay nada en lo absoluto que podamos hacer para llegar a Él**. No podemos fabricar nuestra salvación. No la podemos programar. No la podemos producir. Ni siquiera la podemos iniciar. Dios tiene que abrir nuestros ojos, liberarnos, vencer nuestra maldad y apaciguar su ira. Él tiene que venir a nosotros.
 
-* * *
+---
 
 _Parafraseo de un fragmento del libro_ [_Radical — Volvamos a las Raíces de la Fe_](http://www.radical.net/store/list/?cat=9&item=95 "Radical Book") _escrito por_ [_David Platt_](https://twitter.com/plattdavid "David Platt Twitter")_._
 
-* * *
+---
 
 Fuente de la imagen de portada: [AlphaAndi](https://www.flickr.com/photos/99986429@N02/)

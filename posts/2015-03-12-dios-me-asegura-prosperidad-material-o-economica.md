@@ -2,7 +2,7 @@
 title: ¿Dios me asegura prosperidad material o económica?
 date: 2015-03-12
 category: jesusfreak
-tag: [Dios, prosperidad]
+tag: [Dios, prosperidad, Radical, David Platt]
 ---
 
 En una iglesia clandestina:
@@ -74,7 +74,7 @@ No demos cabida al afán de enriquecernos, que esto no llene nuestro corazón pu
 
 Recordemos Lucas 12. Dios sabe de qué tenemos necesidad y nos dará conforme a Su voluntad. No nos abandonará. Más bien, dejémonos guiar por Él y pongamos nuestro tesoro en Él. Como Él mismo dice:
 
-> Más bien, busquen primeramente el reino de Dios y su justicia, y todas estas cosas les serán añadidas. 
+> Más bien, busquen primeramente el reino de Dios y su justicia, y todas estas cosas les serán añadidas.
 > — Mateo 6:33
 
 ### ¡Cuán difícilmente entrarán en el reino de Dios los que tienen riquezas!
@@ -91,5 +91,9 @@ Cambiemos nuestra perspectiva de las riquezas y abramos los ojos a las necesidad
 
 Aprendamos a ponerle tope a nuestros gastos conforme a nuestras necesidades y ayudemos a los demás, no dando de lo que nos sobra, sino dándolo todo, así sea mucho o poco a la vista. Aprendamos a utilizar lo que tenemos de forma que le demos la gloria a Dios.
 
-> Jesús llamó a sus discípulos y les dijo: «Les digo la verdad, esta viuda pobre ha dado más que todos los demás que ofrendan. Pues ellos dieron una **mínima parte de lo que les sobraba**, pero ella, con lo pobre que es, **dio todo lo que tenía para vivir**». 
+> Jesús llamó a sus discípulos y les dijo: «Les digo la verdad, esta viuda pobre ha dado más que todos los demás que ofrendan. Pues ellos dieron una **mínima parte de lo que les sobraba**, pero ella, con lo pobre que es, **dio todo lo que tenía para vivir**».
 > — Marcos 12:41–44
+
+---
+
+_Aprendido del libro_ [_Radical — Volvamos a las Raíces de la Fe_](http://www.radical.net/store/list/?cat=9&item=95 "Radical Book") _escrito por_ [_David Platt_](https://twitter.com/plattdavid "David Platt Twitter")_._
