@@ -17,13 +17,15 @@ export default ({ data }) => {
       />
       <meta name="author" content="Claudia Valdivieso" />
       <meta name="description" content={data.description} />
-      <meta property="og:title" content={data.title + " - La Valdi"} />
+      <meta property="og:title" content={data.title} />
       <meta property="og:type" content="article" />
       <meta property="og:url" content={url} />
       <meta property="og:image" content={image} />
       <meta property="og:image:type" content="image/jpeg" />
       <meta property="og:description" content={data.description} />
       <meta property="og:site_name" content="La Valdi" />
+      <meta name="twitter:title" content={data.title + " by @lavaldi_"} />
+      <meta name="twitter:description" content={data.description} />
       <meta name="twitter:image:src" content={image} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@lavaldi_" />
