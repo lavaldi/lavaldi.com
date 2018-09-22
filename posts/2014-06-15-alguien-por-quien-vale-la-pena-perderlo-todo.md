@@ -3,7 +3,7 @@ title: Alguien por quien vale la pena perderlo todo
 date: 2014-06-15
 category: jesusfreak
 tag: [cristianismo, Cristo]
-background: "https://images.unsplash.com/photo-1467173572719-f14b9fb86e5f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=14fc993a6e26bbde4869a42f7969ba02&auto=format&fit=crop&w=2551&q=80"
+background: "https://i.imgur.com/6n69ME5.jpg"
 ---
 
 En Lucas 9 se nos presenta un panorama que muchos que queremos seguir a Jesús quisiéramos NO entenderlo como en realidad es:

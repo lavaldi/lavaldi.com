@@ -14,7 +14,7 @@ const Index = (props) => {
     url: url.pathname,
     title: "Front End",
     description: "Entradas en la categoría Front End",
-    image: "http://lavaldi.com/static/frontend.jpg"
+    image: "http://lavaldi.com/static/code.jpg"
   };
 
   posts.sort(sortByDate)

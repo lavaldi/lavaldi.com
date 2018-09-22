@@ -27,7 +27,7 @@ class Post extends Component {
         : data.category === "jesusfreak"
           ? "http://lavaldi.com/static/jesusfreak.jpg"
           : data.category === "code"
-            ? "http://lavaldi.com/static/frontend.jpg"
+            ? "http://lavaldi.com/static/code.jpg"
             : null
     };
 
