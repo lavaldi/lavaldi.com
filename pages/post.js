@@ -14,9 +14,6 @@ class Post extends Component {
     const { post } = this.props;
     const { data } = post;
     const date = data.date;
-    const background = data.background
-      ? ", 50% url(" + data.background + ")"
-      : "#fff";
     const tags = data.tag ? [].concat(data.tag) : [];
     const dataHead = {
       url: data.url,
@@ -25,11 +22,22 @@ class Post extends Component {
       image: data.background
         ? data.background
         : data.category === "jesusfreak"
-          ? "http://lavaldi.com/static/jesusfreak.jpg"
+          ? "https://lavaldi.com/static/jesusfreak.jpg"
           : data.category === "code"
-            ? "http://lavaldi.com/static/code.jpg"
+            ? "https://lavaldi.com/static/code.jpg"
             : null
     };
+    const backgroundImg = data.background
+      ? data.background
+      : data.category === "jesusfreak"
+        ? "https://i.imgur.com/6n69ME5.jpg"
+        : data.category === "code"
+          ? "https://i.imgur.com/7HUo6j1.jpg"
+          : null;
+
+    const background = backgroundImg
+      ? ", 50% url(" + backgroundImg + ")"
+      : "#fff";
 
     return (
       <main>

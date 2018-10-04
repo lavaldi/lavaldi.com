@@ -26,7 +26,7 @@ Jesús es aquel que dio su vida por ti en la cruz. _“Lo ves! si eso ya lo sab�
 
 ### “Jesús dio su vida por nosotros”
 
-En la [entrada anterior expliqué quiénes somos nosotros en verdad](http://lavaldi.com/jesusfreak/quienes-somos-nosotros-en-verdad), y sí, a pesar de ello, Cristo dio su vida por nosotros, para pagar nuestros pecados, pero no es así de fácil como se ve. Solo porque recibió azotes o porque lo clavaron en la cruz, ya nosotros somos perdonados, que ese fue el _“castigo”_ que hizo que Dios se olvidara de todo lo malo que hacemos. No es así.
+En la [entrada anterior expliqué quiénes somos nosotros en verdad](https://lavaldi.com/jesusfreak/quienes-somos-nosotros-en-verdad), y sí, a pesar de ello, Cristo dio su vida por nosotros, para pagar nuestros pecados, pero no es así de fácil como se ve. Solo porque recibió azotes o porque lo clavaron en la cruz, ya nosotros somos perdonados, que ese fue el _“castigo”_ que hizo que Dios se olvidara de todo lo malo que hacemos. No es así.
 
 A lo largo de la historia ha existido gente que recibió un castigos más doloroso que el de Cristo. Eso no significa que ellos fueron más valientes que Cristo o que el sacrificio de Cristo es menor que el de ellos.
 

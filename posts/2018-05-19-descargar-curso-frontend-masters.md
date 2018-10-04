@@ -23,7 +23,7 @@ La última versión de Chrome webdriver se puede encontrar en el siguiente enlac
 
 https://sites.google.com/a/chromium.org/chromedriver/downloads
 
-Para macOS puedes instalarlo de la siguiente manera sin necesidad de [cambiar el `PATH` manualmente](http://lavaldi.com/code/cambiar-varieble-entorno-path/):
+Para macOS puedes instalarlo de la siguiente manera sin necesidad de [cambiar el `PATH` manualmente](https://lavaldi.com/code/cambiar-varieble-entorno-path/):
 
 ```bash
 brew tap caskroom/cask
@@ -46,7 +46,7 @@ pip install -r requirements.txt --user
 
 El flag `--user` es importante, a mi no me funcionó sin eso.
 
-> Nota: Si no tienes `pip` instálalo usando esta guía para macOS http://lavaldi.com/code/instalar-pip-mac-os-python/ o aquí https://pip.pypa.io/en/stable/installing/
+> Nota: Si no tienes `pip` instálalo usando esta guía para macOS https://lavaldi.com/code/instalar-pip-mac-os-python/ o aquí https://pip.pypa.io/en/stable/installing/
 
 Si sale un error sobre los paquetes `nose` y `tornado` solo basta con instalarlos así
 

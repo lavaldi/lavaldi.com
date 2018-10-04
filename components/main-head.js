@@ -4,10 +4,10 @@ import Head from "next/head";
 export default ({ data }) => {
   const image = data.image
     ? data.image
-    : "http://lavaldi.com/static/lavaldi.jpg";
+    : "https://lavaldi.com/static/lavaldi.jpg";
   const url = data.url
-    ? `http://lavaldi.com${data.url}`
-    : "http://lavaldi.com"
+    ? `https://lavaldi.com${data.url}`
+    : "https://lavaldi.com";
   return (
     <Head>
       <meta charSet="utf-8" />
