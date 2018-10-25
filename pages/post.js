@@ -48,7 +48,7 @@ class Post extends Component {
         <section
           style={{
             background:
-              "linear-gradient( rgba(0, 0, 0, .8), rgba(0, 0, 0, .5))" +
+              "linear-gradient( rgba(0, 0, 0, .6), rgba(0, 0, 0, .5))" +
               background +
               "",
             backgroundSize: "cover",
