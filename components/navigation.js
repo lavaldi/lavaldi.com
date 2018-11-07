@@ -43,6 +43,11 @@ class Navigation extends Component {
                     </Link>
                   </div>
                 </div>
+                <Link href="https://github.com/lavaldi?utf8=%E2%9C%93&tab=repositories&q=talk&type=source">
+                  <a className="nav-item is-tab">
+                    <span style={styles.emoji}>💬</span> Talks
+                  </a>
+                </Link>
                 <Link href="/jesusfreak">
                   <a className="nav-item is-tab">
                     <span style={styles.emoji}>🙌</span> Jesus Freak
