@@ -2,7 +2,7 @@
 title: Misericordia
 date: 2018-10-26
 category: jesusfreak
-tag: [misericordia, John MasArthur]
+tag: [misericordia, John MacArthur]
 background: "https://i.imgur.com/QnUuAKd.jpg"
 ---
 
