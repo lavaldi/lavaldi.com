@@ -6,7 +6,7 @@ import { Content } from 'nextein/post'
 
 import Tags from './tags'
 
-export default ({ data, content, excerpt=true }) => {
+export default ({ data, content, excerpt = true }) => {
   const { url, tag, title, date, _entry, page = 'post' } = data
 
   return (
@@ -16,7 +16,7 @@ export default ({ data, content, excerpt=true }) => {
           <Link data={data} content={content}><a>{title}</a></Link>
         </h1>
         <span className="tags">
-          <Moment locale="es" format="LL" style={styles.moment}>{date}</Moment>
+          <Moment locale="es" format="LL" add={{ hours: 5 }} style={styles.moment}>{date}</Moment>
           <Tags tags={tag} />
         </span>
       </div>

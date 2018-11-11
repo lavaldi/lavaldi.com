@@ -62,7 +62,7 @@ class Post extends Component {
                 {data.title}
               </h1>
               <span className="tags" style={styles.tags}>
-                <Moment locale="es" format="LL" style={styles.moment}>
+                <Moment locale="es" format="LL" add={{ hours: 5 }} style={styles.moment}>
                   {date}
                 </Moment>
                 <Tags tags={tags} />
