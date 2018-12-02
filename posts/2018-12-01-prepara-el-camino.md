@@ -2,7 +2,7 @@
 title: Prepara el camino
 date: 2018-12-01
 category: jesusfreak
-tag: [navidad, adviento, John Piper]
+tag: [devocional, navidad, adviento, John Piper]
 background: "https://i.imgur.com/miS7Ine.jpg"
 ---
 
