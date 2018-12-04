@@ -28,3 +28,7 @@ Sí, Dios podría haberse ocupado de que Jesús tuviera una habitación en su na
 ---
 
 December 5 — [Good news of great joy: Daily readings for Advent](https://www.desiringgod.org/books/good-news-of-great-joy) — John Piper
+
+---
+
+Sigue las lecturas aquí 👉 [Buenas nuevas de gran gozo: Lecturas diarias para el Adviento](/jesusfreak/buenas-nuevas-de-gran-gozo-lecturas-diarias-para-adviento)

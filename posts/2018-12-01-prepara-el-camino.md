@@ -24,3 +24,7 @@ Cuarto, permanece mucho en las Escrituras, y memoriza los grandes pasajes! _"¿N
 ---
 
 December 1 — [Good news of great joy: Daily readings for Advent](https://www.desiringgod.org/books/good-news-of-great-joy) — John Piper
+
+---
+
+Sigue las lecturas aquí 👉 [Buenas nuevas de gran gozo: Lecturas diarias para el Adviento](/jesusfreak/buenas-nuevas-de-gran-gozo-lecturas-diarias-para-adviento)
