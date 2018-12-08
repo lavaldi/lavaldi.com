@@ -42,3 +42,4 @@ Que Dios se complace en profundizar y endulzar su adoración a Jesús en este Ad
 9. [Diciembre 8: La estrella sobrenatural de Belén](/jesusfreak/la-estrella-sobrenatural-de-belen)
 10. [Diciembre 9: Dos tipos de oposición a Jesús](/jesusfreak/dos-tipos-de-oposicion-a-jesus)
 11. [Diciembre 10: Oro, incienso y mirra](/jesusfreak/oro-incienso-y-mirra)
+12. [Diciembre 11: ¿Por qué vino Jesús?](/jesusfreak/por-que-vino-jesus)
