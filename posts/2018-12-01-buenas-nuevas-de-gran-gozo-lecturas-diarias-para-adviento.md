@@ -45,4 +45,5 @@ Que Dios se complace en profundizar y endulzar su adoración a Jesús en este Ad
 12. [Diciembre 11: ¿Por qué vino Jesús?](/jesusfreak/por-que-vino-jesus)
 13. [Diciembre 12: Reemplazando las sombras](/jesusfreak/reemplazando-las-sombras)
 14. [Diciembre 13: La Realidad final está aquí](/jesusfreak/la-realidad-final-esta-aqui)
-15. [Apéndice: Las sombras del Antiguo Testamento y la venida de Cristo](/jesusfreak/las-sombras-del-antiguo-testamento-y-la-venida-de-cristo)
+15. [Diciembre 14: Haciéndolo real para Su pueblo](/jesusfreak/haciendolo-real-para-su-pueblo)
+16. [Apéndice: Las sombras del Antiguo Testamento y la venida de Cristo](/jesusfreak/las-sombras-del-antiguo-testamento-y-la-venida-de-cristo)
