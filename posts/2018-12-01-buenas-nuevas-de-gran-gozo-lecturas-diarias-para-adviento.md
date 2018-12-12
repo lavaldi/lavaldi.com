@@ -43,5 +43,6 @@ Que Dios se complace en profundizar y endulzar su adoración a Jesús en este Ad
 10. [Diciembre 9: Dos tipos de oposición a Jesús](/jesusfreak/dos-tipos-de-oposicion-a-jesus)
 11. [Diciembre 10: Oro, incienso y mirra](/jesusfreak/oro-incienso-y-mirra)
 12. [Diciembre 11: ¿Por qué vino Jesús?](/jesusfreak/por-que-vino-jesus)
-13. [Diciembre 12: Reemplazando las sombras](/jesusfreak/reemplazando-las-sombras/)
-14. [Apéndice: Las sombras del Antiguo Testamento y la venida de Cristo](/jesusfreak/las-sombras-del-antiguo-testamento-y-la-venida-de-cristo)
+13. [Diciembre 12: Reemplazando las sombras](/jesusfreak/reemplazando-las-sombras)
+14. [Diciembre 13: La Realidad final está aquí](/jesusfreak/la-realidad-final-esta-aqui)
+15. [Apéndice: Las sombras del Antiguo Testamento y la venida de Cristo](/jesusfreak/las-sombras-del-antiguo-testamento-y-la-venida-de-cristo)
