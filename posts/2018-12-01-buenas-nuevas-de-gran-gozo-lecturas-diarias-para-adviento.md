@@ -48,4 +48,5 @@ Que Dios se complace en profundizar y endulzar su adoración a Jesús en este Ad
 15. [Diciembre 14: Haciéndolo real para Su pueblo](/jesusfreak/haciendolo-real-para-su-pueblo)
 16. [Diciembre 15: La vida y la muerte en Navidad](/jesusfreak/la-vida-y-la-muerte-en-navidad)
 17. [Diciembre 16: El contratiempo más exitoso de Dios](/jesusfreak/el-contratiempo-mas-exitoso-de-dios)
-18. [Apéndice: Las sombras del Antiguo Testamento y la venida de Cristo](/jesusfreak/las-sombras-del-antiguo-testamento-y-la-venida-de-cristo)
+18. [Diciembre 17: La mayor Salvación imaginable](/jesusfreak/la-mayor-salvalcion-imaginable)
+19. [Apéndice: Las sombras del Antiguo Testamento y la venida de Cristo](/jesusfreak/las-sombras-del-antiguo-testamento-y-la-venida-de-cristo)
