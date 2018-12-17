@@ -50,4 +50,5 @@ Que Dios se complace en profundizar y endulzar su adoración a Jesús en este Ad
 17. [Diciembre 16: El contratiempo más exitoso de Dios](/jesusfreak/el-contratiempo-mas-exitoso-de-dios)
 18. [Diciembre 17: La mayor Salvación imaginable](/jesusfreak/la-mayor-salvalcion-imaginable)
 19. [Diciembre 18: El modelo de Navidad para las misiones](/jesusfreak/el-modelo-de-navidad-para-las-misiones)
-20. [Apéndice: Las sombras del Antiguo Testamento y la venida de Cristo](/jesusfreak/las-sombras-del-antiguo-testamento-y-la-venida-de-cristo)
+20. [Diciembre 19: La Navidad es para la libertad](/jesusfreak/la-navidad-es-para-la-libertad)
+21. [Apéndice: Las sombras del Antiguo Testamento y la venida de Cristo](/jesusfreak/las-sombras-del-antiguo-testamento-y-la-venida-de-cristo)
