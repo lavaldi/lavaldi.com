@@ -52,4 +52,5 @@ Que Dios se complace en profundizar y endulzar su adoración a Jesús en este Ad
 19. [Diciembre 18: El modelo de Navidad para las misiones](/jesusfreak/el-modelo-de-navidad-para-las-misiones)
 20. [Diciembre 19: La Navidad es para la libertad](/jesusfreak/la-navidad-es-para-la-libertad)
 21. [Diciembre 20: Solidaridad navideña](/jesusfreak/solidaridad-navidena)
-22. [Apéndice: Las sombras del Antiguo Testamento y la venida de Cristo](/jesusfreak/las-sombras-del-antiguo-testamento-y-la-venida-de-cristo)
+22. [Diciembre 21: El nacimiento del Anciano de días](/jesusfreak/el-nacimiento-del-anciano-de-dias)
+23. [Apéndice: Las sombras del Antiguo Testamento y la venida de Cristo](/jesusfreak/las-sombras-del-antiguo-testamento-y-la-venida-de-cristo)
