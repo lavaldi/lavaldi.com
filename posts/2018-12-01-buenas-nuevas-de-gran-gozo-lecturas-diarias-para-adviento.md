@@ -57,4 +57,5 @@ Que Dios se complace en profundizar y endulzar su adoración a Jesús en este Ad
 24. [Diciembre 23: El don indescriptible de Dios](/jesusfreak/el-don-indescriptible-de-dios)
 25. [Diciembre 24: El Hijo de Dios apareció](/jesusfreak/el-hijo-de-dios-aparecio)
 26. [Diciembre 25: Tres regalos de navidad](/jesusfreak/tres-regalos-de-navidad)
-27. [Apéndice: Las sombras del Antiguo Testamento y la venida de Cristo](/jesusfreak/las-sombras-del-antiguo-testamento-y-la-venida-de-cristo)
+27. [Conclusión: Mi texto de Navidad favorito](/jesusfreak/mi-texto-de-navidad-favorito)
+28. [Apéndice: Las sombras del Antiguo Testamento y la venida de Cristo](/jesusfreak/las-sombras-del-antiguo-testamento-y-la-venida-de-cristo)
