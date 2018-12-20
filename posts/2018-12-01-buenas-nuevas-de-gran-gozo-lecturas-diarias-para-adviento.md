@@ -55,4 +55,5 @@ Que Dios se complace en profundizar y endulzar su adoración a Jesús en este Ad
 22. [Diciembre 21: El nacimiento del Anciano de días](/jesusfreak/el-nacimiento-del-anciano-de-dias)
 23. [Diciembre 22: Para que puedas creer](/jesusfreak/para-que-puedas-creer)
 24. [Diciembre 23: El don indescriptible de Dios](/jesusfreak/el-don-indescriptible-de-dios)
-25. [Apéndice: Las sombras del Antiguo Testamento y la venida de Cristo](/jesusfreak/las-sombras-del-antiguo-testamento-y-la-venida-de-cristo)
+25. [Diciembre 24: El Hijo de Dios apareció](/jesusfreak/el-hijo-de-dios-aparecio)
+26. [Apéndice: Las sombras del Antiguo Testamento y la venida de Cristo](/jesusfreak/las-sombras-del-antiguo-testamento-y-la-venida-de-cristo)
