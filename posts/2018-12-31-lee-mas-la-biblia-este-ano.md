@@ -5,7 +5,7 @@ category: jesusfreak
 tag: [biblia]
 ---
 
-Muchos cristianos quiere pero no desea leer la Biblia, prefieren leer las noticias, estar en las redes sociales o, simplemente, hacer otras cosas porque leer la Bilbia es aburrido. Entonces, ¿qué pueden hacer?
+Muchos cristianos quieren pero no desean leer la Biblia, prefieren leer las noticias, estar en las redes sociales o, simplemente, hacer otras cosas porque leer la Bilbia es aburrido. Entonces, ¿qué pueden hacer?
 
 Muchos piensan que la solución está en esforzarse más, comprometerse a una hora determinada todos los días o pedir que se rindan cuentas. Estas cosas pueden ayudar, pero por sí mismas, pierden el camino principal que Dios quiere para motivarnos. Santiago 2:17 dice que _"la fe por sí misma, si no tiene obras, está muerta"_. Así que cuando me faltan buenas obras, como leer la Biblia, mi problema no es principalmente la pereza o la falta de disciplina. Mi problema es la falta de fe. No confío en lo que Dios ha prometido acerca de su palabra.
 
@@ -59,7 +59,7 @@ Una vez que haya anclado su corazón con promesas de Dios, aquí hay algunas sug
 
 7. Cuando termines el día, agradécele por lo que te dio a través de su palabra, y piensa en compartir lo que recibiste con otra persona.
 
-## Obten todo lo que puedas
+## Obtén todo lo que puedas
 
 Puede que ya estés leyendo la palabra de Dios consistentemente. Pero tal vez usted podría recibir aún más de la Palabra de Dios al pasar aún más tiempo en la Palabra de Dios. El rey David dice esto sobre las palabras de Dios: _"deseables más que el oro; sí, más que mucho oro fino, más dulces que la miel y que el destilar del panal."_ (Salmo 19:10).
 
@@ -67,7 +67,7 @@ Mucho oro fino valdría millones de dólares, y la miel es deliciosamente satisf
 
 Pero la Biblia es aún mejor que ese libro, porque cuanto más lees la Biblia, más recibes de Dios mismo — y Dios es infinitamente más valioso que el oro, y mucho más satisfactorio que la miel.
 
-Así que, piensa en cómo has pasado tu tiempo durante el último año. ¿Hay cambios de horario que puedes hacer, o pues evitar perder el tiempo en otras cosas, para que puedas leer más de la Palabra de Dios? No te engañes a ti mismo. La palabra de Dios da más valor que el oro o el Amazonas, y más satisfacción que la miel o lo que sean tus antojos. Obten todo lo que puedas este año 💪.
+Así que, piensa en cómo has pasado tu tiempo durante el último año. ¿Hay cambios de horario que puedes hacer, o pues evitar perder el tiempo en otras cosas, para que puedas leer más de la Palabra de Dios? No te engañes a ti mismo. La palabra de Dios da más valor que el oro o el Amazonas, y más satisfacción que la miel o lo que sean tus antojos. Obtén todo lo que puedas este año 💪.
 
 ---
 
