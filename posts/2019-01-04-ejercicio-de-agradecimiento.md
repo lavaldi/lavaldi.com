@@ -5,7 +5,7 @@ tag: [agradecimiento]
 background: "https://i.imgur.com/deabSsp.jpg"
 ---
 
-Esta semana estaba revisando mi correo y llegué hasta uno de [Kent Dodds](https://twitter.com/kentcdodds) donde hablaba de [cómo la gratitud te hace un mejor desarrollador](https://buttondown.email/kentcdodds/archive/6a753575-44f0-484d-b2b3-9b8ef1c76dfa) y sí, es cierto, y creo que es para cada aspecto en la vida. Así que aquí les comparto un poco de lo que dice en su email y algunos agregados míos 😁
+Esta semana estaba revisando mi correo y llegué hasta uno de [Kent Dodds](https://twitter.com/kentcdodds) donde hablaba de [cómo la gratitud te hace un mejor desarrollador](https://buttondown.email/kentcdodds/archive/6a753575-44f0-484d-b2b3-9b8ef1c76dfa) y sí, es cierto, y creo que es para cada aspecto en la vida. Así que aquí les comparto un poco de lo que dice en su mail y algunos agregados míos 😁
 
 ## Ser agradecido
 
