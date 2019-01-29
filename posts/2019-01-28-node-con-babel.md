@@ -5,7 +5,7 @@ category: code
 tag: [node, babel]
 ---
 
-En estos día un amigo me preguntó sobre cómo hacer para crear un proyecto con Node.js usaando la última versión de JavaScript (ES6, ES7, ESNext) y la verdad es que no tenía un bootstrap sobre eso, así que aquí va el post sobre cómo tener una configuración mínima para usar Node.js con Babel.
+En estos día un amigo me preguntó sobre cómo hacer para crear un proyecto con Node.js usando la última versión de JavaScript (ES6, ES7, ESNext) y la verdad es que no tenía un bootstrap sobre eso, así que aquí va el post sobre cómo tener una configuración mínima para usar Node.js con Babel.
 
 El proyecto final que implementaremos aquí se puede encontrar en este [repositorio de GitHub](https://github.com/lavaldi/node-babel).
 
@@ -26,7 +26,7 @@ npm init -y
 
 > En [Cómo iniciar un proyecto con Node.js](/code/como-iniciar-un-proyecto-con-node) te enseño cómo personalizar y automatizar tu setup de npm de una forma súper cool 😎
 
-Después de configurar tu proyecto npm, puedes instalar paquetes de node (bibliotecas a.k.a librerías) en tu proyecto con npm. Una vez que instales un nuevo paquete de node, se almacenará en su archivo `package.json`. Después de todo, tu proyecto también es un paquete de node 😉.
+Después de configurar tu proyecto npm, puedes instalar paquetes de node (bibliotecas a.k.a librerías 🙈🙊) en tu proyecto con npm. Una vez que instales un nuevo paquete de node, se almacenará en su archivo `package.json`. Después de todo, tu proyecto también es un paquete de node 😉.
 
 A continuación, en la línea de comandos o en tu editor/IDE, crea una carpeta `src/` para el código fuente de tu proyecto. En esta carpeta, crea un archivo `src/index.js` como punto de entrada a su proyecto:
 
