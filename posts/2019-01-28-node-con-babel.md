@@ -5,6 +5,9 @@ category: code
 tag: [node, babel]
 ---
 
+> Este tutorial es la parte 1 de 2 en esta serie.<br>
+> Parte 2: [¿Cómo configurar Express.js en Node.js?](/code/configurar-express-en-node)
+
 En estos día un amigo me preguntó sobre cómo hacer para crear un proyecto con Node.js usando la última versión de JavaScript (ES6, ES7, ESNext) y la verdad es que no tenía un bootstrap sobre eso, así que aquí va el post sobre cómo tener una configuración mínima para usar Node.js con Babel.
 
 El proyecto final que implementaremos aquí se puede encontrar en este [repositorio de GitHub](https://github.com/lavaldi/node-babel).
@@ -192,3 +195,6 @@ import diAlgo from './mi-otro-archivo.js'
 Esta es una comprensión básica de las variables de entorno Node.js. Deben usarse para mantener seguros los datos sensibles en las aplicaciones de JavaScript, pero no deben compartirse en los repositorios públicos de GitHub cuando se usa git ⚠️
 
 Hemos terminado! Checa el [repositorio de GitHub](https://github.com/lavaldi/node-babel) 👀
+
+> Este tutorial es la parte 1 de 2 en esta serie.<br>
+> Parte 2: [¿Cómo configurar Express.js en Node.js?](/code/configurar-express-en-node)
