@@ -5,8 +5,9 @@ category: code
 tag: [node, babel]
 ---
 
-> Este tutorial es la parte 1 de 2 en esta serie.<br>
-> Parte 2: [¿Cómo configurar Express.js en Node.js?](/code/configurar-express-en-node)
+> Este tutorial es la parte 1 de 3 en esta serie.<br>
+> Parte 2: [¿Cómo configurar Express.js en Node.js?](/code/configurar-express-en-node)<br>
+> Parte 3: [Cómo crear un API REST con Express.js y Node.js](/code/como-crear-api-rest-express-node)
 
 En estos día un amigo me preguntó sobre cómo hacer para crear un proyecto con Node.js usando la última versión de JavaScript (ES6, ES7, ESNext) y la verdad es que no tenía un bootstrap sobre eso, así que aquí va el post sobre cómo tener una configuración mínima para usar Node.js con Babel.
 
@@ -196,5 +197,6 @@ Esta es una comprensión básica de las variables de entorno Node.js. Deben usar
 
 Hemos terminado! Checa el [repositorio de GitHub](https://github.com/lavaldi/node-babel) 👀
 
-> Este tutorial es la parte 1 de 2 en esta serie.<br>
-> Parte 2: [¿Cómo configurar Express.js en Node.js?](/code/configurar-express-en-node)
+> Este tutorial es la parte 1 de 3 en esta serie.<br>
+> Parte 2: [¿Cómo configurar Express.js en Node.js?](/code/configurar-express-en-node)<br>
+> Parte 3: [Cómo crear un API REST con Express.js y Node.js](/code/como-crear-api-rest-express-node)

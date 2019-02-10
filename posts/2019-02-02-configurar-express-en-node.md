@@ -5,8 +5,9 @@ category: code
 tag: [node, babel, express]
 ---
 
-> Este tutorial es la parte 2 de 2 en esta serie.<br>
-> Parte 1: [Configuración mínima de Node.js con Babel](/code/node-con-babel)
+> Este tutorial es la parte 2 de 3 en esta serie.<br>
+> Parte 1: [Configuración mínima de Node.js con Babel](/code/node-con-babel)<br>
+> Parte 3: [Cómo crear un API REST con Express.js y Node.js](/code/como-crear-api-rest-express-node)
 
 Express.js es la opción más popular cuando se trata de crear aplicaciones web con Node.js. Express.js, es un framework de aplicaciones web para Node.js, te permite crear aplicaciones de servidor en Node.js. Como una aplicación back-end, es el pegamento entre su aplicación de front-end y una posible base de datos u otras fuentes de datos (API REST, API GraphQL, etc.).
 
@@ -128,5 +129,6 @@ En lugar de exponer el puerto que se usa en el código fuente, lo has almacenado
 
 Checa el [repositorio de GitHub](https://github.com/lavaldi/simple-node-express-server) 👀. Nos vemos!
 
-> Este tutorial es la parte 2 de 2 en esta serie.<br>
-> Parte 1: [Configuración mínima de Node.js con Babel](/code/node-con-babel)
+> Este tutorial es la parte 2 de 3 en esta serie.<br>
+> Parte 1: [Configuración mínima de Node.js con Babel](/code/node-con-babel)<br>
+> Parte 3: [Cómo crear un API REST con Express.js y Node.js](/code/como-crear-api-rest-express-node)
