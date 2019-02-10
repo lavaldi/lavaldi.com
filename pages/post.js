@@ -82,8 +82,9 @@ class Post extends Component {
                   }}
                 />
                 <hr />
-                <p>
-                  <i>Gracias por leer. Déjame un mensaje por si las dudas</i> 😉
+                <p style={{ textAlign: 'center' }}>
+                  <i>Gracias por leer. Déjame tus comentarios</i> 👇<br />
+                  Encuéntrame en <a href="https://twitter.com/lavaldi_" target="_blank">Twitter</a>.
                 </p>
               </article>
               <DisqusComments shortname="lavaldi" title={data.title} />
