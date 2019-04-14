@@ -15,7 +15,7 @@ Cuando la historia de la muerte de Cristo llega a nuestros sentidos, leemos de u
 El amor al máximo es una devoción que abarca desde el Domingo de Ramos hasta el Domingo de Resurreción. Está compuesto de ocho extractos (más un prólogo) seleccionados del vasto ministerio de escritura y predicación de 32 años de John Piper en la Iglesia Bautista de Belén en las Ciudades Gemelas. Este devocional puede ser usado para devociones personales, familiares o grupales. Puede servir a cualquiera que busque una mirada firme para observar a nuestro Salvador mientras nos ama al extremo.
 
 0. Prólogo: [Una visión para Semana Santa](/jesusfreak/una-vision-para-semana-santa)
-1. Domingo de Ramos: Viendo al Rey el Domingo de Ramos
+1. Domingo de Ramos: [Viendo al Rey el Domingo de Ramos](/jesusfreak/viendo-al-rey-el-domingo-de-ramos)
 2. Lunes: Él puso su rostro por Jerusalén
 3. Martes: Profundidad del amor por nosotros
 4. Miércoles: Por qué Jesús es digno de confianza
