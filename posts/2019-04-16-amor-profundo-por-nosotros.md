@@ -28,7 +28,3 @@ Sigue el devocional de semana santa aquí 👉 [Amor al máximo](/jesusfreak/amo
 
 Las lecturas son tomadas del libro de John Piper: [Love to the Uttermost: Devotional Readings for Holy Week](https://www.desiringgod.org/books/love-to-the-uttermost).<br>
 © Desiring God. Website: desiringGod.org
-
----
-
-Imagen de portada por [Fullofeyes](https://www.fullofeyes.com/project/psalm-3418/)
