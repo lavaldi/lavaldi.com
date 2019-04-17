@@ -18,7 +18,7 @@ El amor al máximo es una devoción que abarca desde el Domingo de Ramos hasta e
 1. Domingo de Ramos: [Viendo al Rey el Domingo de Ramos](/jesusfreak/viendo-al-rey-el-domingo-de-ramos)
 2. Lunes: [Afirmó su rostro por Jerusalén](/jesusfreak/afirmo-su-rostro)
 3. Martes: [Amor profundo por nosotros](/jesusfreak/amor-profundo-por-nosotros)
-4. Miércoles: Por qué Jesús es digno de confianza
+4. Miércoles: [Por qué Jesús es digno de toda confianza](/jesusfreak/por-que-jesus-es-digno-de-toda-confianza)
 5. Jueves Santo: Jueves del Mandamiento
 6. Viernes Santo: De qué se trata el Viernes Santo
 7. Sábado: Volcán de Semana Santa
