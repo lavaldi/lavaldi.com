@@ -22,7 +22,7 @@ El amor al máximo es una devoción que abarca desde el Domingo de Ramos hasta e
 5. Jueves Santo: [Jueves del Mandamiento](/jesusfreak/jueves-del-mandamiento)
 6. Viernes Santo: [De qué se trata el Viernes Santo](/jesusfreak/de-que-se-trata-el-viernes-santo)
 7. Sábado: [Un volcán de Semana Santa](/jesusfreak/un-volcan-de-semana-santa)
-8. Domingo de Resurreción: Tal Amor de Resurrección Asombroso
+8. Domingo de Resurreción: [Qué asombroso amor de resurrección](/jesusfreak/que-asombroso-amor-de-resurreccion)
 
 ---
 
