@@ -33,16 +33,16 @@ export default withAnalytics(
                   <h1 className="title is-2">Claudia Valdivieso</h1>
                   <h2 className="subtitle is-4">Jesus Freak &amp; Front End</h2>
                   <p>
-                    I'm front end developer at Orbis Ventures
-                    <br />developing the web application for job search called{" "}
+                    I'm front end developer at Orbis Ventures.
+                    <br />I'm currently part of the{" "}
                     <a href="http://aptitus.com" target="_blank">
                       Aptitus.com
-                    </a>
-                    <br />and for the search of postgraduate, undergraduate and
-                    graduate courses called{" "}
+                    </a> team, which is a job search platform.
+                    <br />And I also work in{" "}
                     <a href="http://maseducacion.com" target="_blank">
-                      MásEducación
-                    </a>.
+                      MásEducación.com
+                    </a>, which is a platform
+                    <br />to search for courses, undergraduate or postgraduate.
                   </p>
                   <br />
                   <p className="has-text-centered">
