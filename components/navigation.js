@@ -33,12 +33,17 @@ class Navigation extends Component {
               <div className="navbar-end">
                 <div className="navbar-item has-dropdown is-hoverable">
                   <a className="navbar-link">
-                    Apps
+                    Projects
                   </a>
                   <div className="navbar-dropdown is-right">
                     <Link href="https://verbs.lavaldi.com">
-                      <a className="navbar-item">
+                      <a className="navbar-item" target="_blank">
                         <span style={styles.emoji}>🇬🇧</span> Verbs
+                      </a>
+                    </Link>
+                    <Link href="https://www.npmjs.com/package/@lavaldi/normalized-components">
+                      <a className="navbar-item" target="_blank">
+                        <span style={styles.emoji}>💅</span> normalized-styled-components
                       </a>
                     </Link>
                   </div>
