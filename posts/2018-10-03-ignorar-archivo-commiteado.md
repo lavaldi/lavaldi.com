@@ -1,5 +1,5 @@
 ---
-title: Ignorando un archivo previamente commiteado
+title: Ignorando un archivo previamente commiteado en git
 date: 2018-10-03
 category: code
 tag: [git]
