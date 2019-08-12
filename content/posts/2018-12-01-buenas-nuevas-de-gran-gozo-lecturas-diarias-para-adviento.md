@@ -11,7 +11,7 @@ tags:
 background: "https://i.imgur.com/miS7Ine.jpg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
-slug: bajo-el-ataque-navideno
+slug: buenas-nuevas-de-gran-gozo-lecturas-diarias-para-adviento
 ---
 
 El Adviento es para adorar a Jesús.
