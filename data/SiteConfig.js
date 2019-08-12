@@ -5,7 +5,6 @@ const config = {
   siteLogo: '/logos/lavaldi.jpg',
   siteUrl: 'https://www.lavaldi.com',
   repo: 'https://github.com/lavaldi/lavaldi.github.com',
-  pathPrefix: '',
   dateFromFormat: 'YYYY-MM-DD',
   dateFormat: 'MMMM Do, YYYY',
   siteDescription:
@@ -33,14 +32,6 @@ const config = {
   ],
   themeColor: '#EB374B', // Used for setting manifest and progress theme colors.
   backgroundColor: '#ffffff',
-}
-
-// Make sure pathPrefix is empty if not needed
-if (config.pathPrefix === '/') {
-  config.pathPrefix = ''
-} else {
-  // Make sure pathPrefix only contains the first forward slash
-  config.pathPrefix = `/${config.pathPrefix.replace(/^\/|\/$/g, '')}`
 }
 
 // Make sure siteUrl doesn't have an ending forward slash

@@ -18,7 +18,7 @@ export default class SEO extends Component {
       if (postMeta.thumbnail) {
         image = postMeta.thumbnail.childImageSharp.fixed.src
       }
-      postURL = urljoin(config.siteUrl, config.pathPrefix, postPath)
+      postURL = urljoin(config.siteUrl, postPath)
     } else {
       title = config.siteTitle
       description = config.siteDescription
@@ -26,7 +26,7 @@ export default class SEO extends Component {
     }
 
     image = urljoin(config.siteUrl, image)
-    const blogURL = urljoin(config.siteUrl, config.pathPrefix)
+    const blogURL = config.siteUrl
     const schemaOrgJSONLD = [
       {
         '@context': 'http://schema.org',

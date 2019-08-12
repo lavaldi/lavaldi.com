@@ -2,15 +2,14 @@ const urljoin = require('url-join')
 const config = require('./data/SiteConfig')
 
 module.exports = {
-  pathPrefix: config.pathPrefix === '' ? '/' : config.pathPrefix,
   siteMetadata: {
-    siteUrl: urljoin(config.siteUrl, config.pathPrefix),
+    siteUrl: config.siteUrl,
     rssMetadata: {
-      site_url: urljoin(config.siteUrl, config.pathPrefix),
-      feed_url: urljoin(config.siteUrl, config.pathPrefix, config.siteRss),
+      site_url: config.siteUrl,
+      feed_url: urljoin(config.siteUrl, config.siteRss),
       title: config.siteTitle,
       description: config.siteDescription,
-      image_url: `${urljoin(config.siteUrl, config.pathPrefix)}/logos/logo-48.png`,
+      image_url: `${config.siteUrl}/logos/logo-48.png`,
     },
   },
   plugins: [
@@ -92,7 +91,7 @@ module.exports = {
         name: config.siteTitle,
         short_name: config.siteTitleShort,
         description: config.siteDescription,
-        start_url: config.pathPrefix,
+        start_url: '/',
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: 'minimal-ui',
