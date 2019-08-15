@@ -3,6 +3,7 @@ title: Normalized styled-components
 date: 2019-06-12
 categories:
   - Code
+  - Popular
 tags:
   - react
   - styled-components
