@@ -642,6 +642,11 @@ h2.publication-company {
   }
 }
 
+blockquote,
+em {
+  font-family:"Noto Serif",serif;font-style:italic;
+}
+
 
 blockquote {
   color: rgba(0, 0, 0, 0.7);
@@ -773,7 +778,7 @@ blockquote {
 }
 
 .avatar {
-  max-width: 200px;
+  max-width: 120px;
   border-radius: 50%;
 }
 
@@ -796,6 +801,7 @@ blockquote {
 
   .avatar {
     margin-right: 2rem;
+    margin-bottom: 0;
   }
 }
 
