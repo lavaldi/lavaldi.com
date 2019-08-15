@@ -15,6 +15,16 @@ export default class UserInfo extends Component {
                 {`I'm software engineer at Able. I'm christian and wife, and sometimes I write about
                 christian life and programming.`}
               </p>
+              <div>
+                <a
+                  className="twitter-follow-button"
+                  href="https://twitter.com/lavaldi_"
+                  data-size="large"
+                  data-show-screen-name="false"
+                >
+                  Follow @lavaldi_
+                </a>
+              </div>
             </div>
           </div>
         </div>
