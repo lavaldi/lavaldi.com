@@ -1,6 +1,6 @@
 ---
 title: "Instalar Ruby on Rails en MacOS"
-date: 2019-06-30
+date: 2019-08-15
 categories:
   - Code
 tags:
