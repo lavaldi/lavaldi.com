@@ -19,7 +19,7 @@ pre.language-terminal code.language-terminal {
   color: #333;
 
   &::before {
-    content: '\2022 \2022 \2022';
+    content: "\2022 \2022 \2022";
     position: absolute;
     top: 0;
     left: 0;
@@ -36,8 +36,8 @@ pre.language-terminal code.language-terminal {
   }
 }
 
-code[class*='language-'],
-pre[class*='language-'],
+code[class*="language-"],
+pre[class*="language-"],
 pre code {
   font-family: $code-font-family;
   font-size: 13px;
@@ -85,7 +85,7 @@ kbd {
 
 /* Inline code */
 
-:not(pre) > code[class*='language-'] {
+:not(pre) > code[class*="language-"] {
   padding: 3px 5px;
   color: #111111;
 }
@@ -100,10 +100,10 @@ kbd {
   background: rgba(0, 0, 0, 0.06);
 }
 
-code[class*='language-css'],
-code[class*='language-scss'],
-code[class*='language-less'],
-code[class*='language-sass'] {
+code[class*="language-css"],
+code[class*="language-scss"],
+code[class*="language-less"],
+code[class*="language-sass"] {
   color: #cc99cc;
 }
 
@@ -121,8 +121,8 @@ code[class*='language-sass'] {
 @include small-breakpoint {
   code,
   pre.language-terminal code.language-terminal,
-  code[class*='language-'],
-  pre[class*='language-'],
+  code[class*="language-"],
+  pre[class*="language-"],
   pre code {
     font-size: 14px;
   }
@@ -296,20 +296,26 @@ code::selection {
   background: rgba(150, 150, 150, 0.3) !important;
 }
 
-pre[class*='language-']::-moz-selection,
-pre[class*='language-']::-moz-selection,
-code[class*='language-'] ::-moz-selection,
-code[class*='language-'] ::-moz-selection {
+pre[class*="language-"]::-moz-selection,
+pre[class*="language-"]::-moz-selection,
+code[class*="language-"] ::-moz-selection,
+code[class*="language-"] ::-moz-selection {
   text-shadow: none;
   color: inherit;
   background: rgba(150, 150, 150, 0.3) !important;
 }
 
-pre[class*='language-']::selection,
-pre[class*='language-']::selection,
-code[class*='language-'] ::selection,
-code[class*='language-'] ::selection {
+pre[class*="language-"]::selection,
+pre[class*="language-"]::selection,
+code[class*="language-"] ::selection,
+code[class*="language-"] ::selection {
   text-shadow: none;
   color: inherit;
   background: rgba(150, 150, 150, 0.3) !important;
+}
+
+.gatsby-highlight-code-line {
+  display: block;
+  background: #492073;
+  border-left: 0.4rem solid #191b40;
 }
