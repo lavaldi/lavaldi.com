@@ -13,9 +13,13 @@ I started this website as a place to document everything I learned.
 ### Around the web
 
 - **GitHub**: [lavaldi](https://github.com/lavaldi)
-- **Twitter**: [lavaldi_](https://twitter.com/lavaldi_)
+- **Twitter**: [lavaldi\_](https://twitter.com/lavaldi_)
 
 ## Projects
 
 - [Verbs](https://github.com/lavaldi/verbs) – 1000 English verb forms
 - [normalized-styled-components](https://github.com/lavaldi/normalized-components) – normalize.css as styled-components
+
+## Resume
+
+You can find my resume [here](/resume)
