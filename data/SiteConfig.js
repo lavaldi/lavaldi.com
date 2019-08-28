@@ -3,7 +3,7 @@ const config = {
   siteTitleShort: "Claudia Valdivieso",
   siteTitleAlt: "Claudia Valdivieso",
   siteLogo: "/logos/lavaldi.jpg",
-  siteUrl: "https://www.lavaldi.com",
+  siteUrl: "https://lavaldi.com",
   repo: "https://github.com/lavaldi/lavaldi.github.com",
   dateFromFormat: "YYYY-MM-DD",
   dateFormat: "MMMM Do, YYYY",
