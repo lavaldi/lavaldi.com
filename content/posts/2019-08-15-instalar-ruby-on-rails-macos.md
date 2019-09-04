@@ -3,6 +3,7 @@ title: "Instalar Ruby on Rails en MacOS"
 date: 2019-08-15
 categories:
   - Code
+  - Popular
 tags:
   - macOS
   - ruby
