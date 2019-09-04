@@ -3,6 +3,7 @@ title: ¿Dios me asegura prosperidad material o económica?
 date: 2015-03-12
 categories:
   - JesusFreak
+  - Popular
 tags:
   - Dios
   - prosperidad

@@ -3,7 +3,6 @@ title: Cómo crear un API REST con Express.js y Node.js
 date: 2019-02-09
 categories:
   - Code
-  - Popular
 tags:
   - node
   - babel
