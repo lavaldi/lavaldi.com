@@ -9,7 +9,7 @@ tags:
   - Dios
 background: "https://cdn-images-1.medium.com/max/800/1*09bihb9DoBwcw3vJ4bqh_Q.png"
 template: post
-thumbnail: '../thumbnails/jesus.png'
+thumbnail: '../thumbnails/naruto.png'
 slug: el-amor-de-dios-en-naruto-shippuden
 ---
 
