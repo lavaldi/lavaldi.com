@@ -14,11 +14,11 @@ slug: el-senor-es-mi-luz-y-mi-salvacion
 > El Señor es mi luz y mi salvación <br>
 > — Salmo 27: 1
 
-Davis está declarando lo que es la escencia del fundamento de toda su vida.
+David está declarando lo que es la escencia del fundamento de toda su vida.
 
 ¿Qué quiere decir *El Señor es mi luz*, *El Señor es mi salvación*? Podríamos entender que es El Señor quien ilumina nuestro camino como una luz, pero tal vez podríamos agregarle otro significado.
 
-En los salmos en general vemos la palabra luz muchas veces y se usa para referirse a la santidad de Dios. La santidad de Dios se refleja como una luz, nos afecta como tal, como el sol cuando sale y cambia nuestra perspectiva de ver las cosas, así la santidad de Dios es como una luz que cambia nuestro alrededor y nos cambia a nosotros, nos muestra [el bien](https://www.biblegateway.com/passage/?search=Salmos+4%3A6&version=LBLA) a traves de la bondad de su caracter.
+En los salmos en general vemos la palabra luz muchas veces y se usa para referirse a la santidad de Dios. La santidad de Dios se refleja como una luz, nos afecta como tal, como el sol cuando sale y cambia nuestra perspectiva de ver las cosas, así la santidad de Dios es como una luz que cambia nuestro alrededor y nos cambia a nosotros, nos muestra [el bien](https://www.biblegateway.com/passage/?search=Salmos+4%3A6&version=LBLA) a través de la bondad de su caracter.
 
 Cuando en el génesis Dios estaba creando y todo era caos y tinieblas, es decir, todo era desorden, lo primero que Dios pone en orden son las tinieblas y [crea la luz](https://www.biblegateway.com/passage/?search=G%C3%A9nesis+1%3A3&version=LBLA). Entonces es Dios trayendo orden y belleza. Donde hay tinieblas todo está en desorden.
 
