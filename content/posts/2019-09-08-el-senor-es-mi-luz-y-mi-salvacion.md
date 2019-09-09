@@ -1,6 +1,6 @@
 ---
 title: "El Señor es mi luz y mi salvación"
-date: 2019-09-18
+date: 2019-09-08
 categories:
   - JesusFreak
 tags:
