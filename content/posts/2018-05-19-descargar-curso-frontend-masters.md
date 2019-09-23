@@ -4,24 +4,24 @@ date: 2018-05-19
 categories:
   - Code
   - Popular
-tags: 
+tags:
   - Frontend Masters
 background: "https://i.imgur.com/A8CMAQX.jpg"
 template: post
-thumbnail: '../thumbnails/bash.png'
+thumbnail: "../thumbnails/bash.png"
 slug: descargar-curso-frontend-masters
 ---
 
 > Para este tutorial se requiere que tengas una cuenta en [Frontend Masters](https://frontendmasters.com). Puedes tener una cuenta free (para los cursos gratuitos) o suscribirte por 39USD al mes (para obtener acceso a todos los cursos).
 
-Existe un repo en Github llamado [OS_FrontendMaster-dl](https://github.com/li-xinyang/OS_FrontendMaster-dl) que sirve para descargar los videos. En el mismo repositorio se describe cómo usar el paquete, pero a mi no me ha funcionado, por eso voy a mostrarte la forma en que sí me funcionó.
+Existe un repo en Gitlab llamado [OS_FrontendMaster-dl](https://gitlab.com/nzsakib/frontendmasters) que sirve para descargar los videos. En el mismo repositorio se describe cómo usar el paquete, pero a mi no me ha funcionado, por eso voy a mostrarte la forma en que sí me funcionó.
 
 ## Requerimientos
 
 - Python 2.7
 - Google Chrome
 - ChromeDriver - WebDriver for Chrome
-- Descargar el siguiente repositorio https://github.com/li-xinyang/OS_FrontendMaster-dl
+- Descargar el siguiente repositorio https://gitlab.com/nzsakib/frontendmasters
 
 ### Instalar ChromeDriver
 
@@ -69,7 +69,7 @@ Luego solo tienes que ejecutar la siguiente línea:
 python frontendmasters-dl.py --id YOUR-USERNAME --password YOUR-PASSWORD --course COURSE-ID
 ```
 
-> Nota: A mi no me funcionó la descarga usando los flags `--mute-audio --high-resolution` por eso no los uso en el comando de arriba ([ver issue 85](https://github.com/li-xinyang/OS_FrontendMaster-dl/issues/85))
+> Nota: A mi no me funcionó la descarga usando los flags `--mute-audio --high-resolution` por eso no los uso en el comando de arriba
 
 También puedes usarlo así
 
