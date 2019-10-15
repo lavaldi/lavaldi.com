@@ -3,6 +3,7 @@ title: Configuración mínima de Node.js con Babel
 date: 2019-01-28
 categories:
   - Code
+  - Popular
 tags:
   - node
   - babel
