@@ -3,7 +3,6 @@ title: Crear subtítulos para tu video
 date: 2018-05-20
 categories:
   - Code
-  - Popular
 tags:
   - srt
   - subtitulos
