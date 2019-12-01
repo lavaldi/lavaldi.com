@@ -25,7 +25,7 @@ Ah, pero te puedes quedar dormido. Sé que continuamente necesito despertarme. E
 Que el Espíritu de Dios use estas palabras para abrir de nuevo los ojos a las glorias de Cristo y darles un nuevo sabor de su gozo indestructible.
 
 - [Introducción: Orando por plenitud esta Navidad (Juan 1:14-16)](/orando-por-plenitud-esta-navidad)
-- 1 de diciembre: La Misión de Búsqueda y Salvamento (Lucas 19:10)
+- [1 de diciembre: La Misión de Búsqueda y Salvamento (Lucas 19:10)](/mision-de-busqueda-y-salvamento)
 - 2 de diciembre: Prepara tu corazón para Cristo (Juan 5:44)
 - 3 de diciembre: Acérquese al Salvador (Hebreos 13: 20-21)
 - 4 de diciembre: De qué se trata el Adviento (Marcos 10:45)
