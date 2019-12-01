@@ -12,6 +12,8 @@ thumbnail: "../thumbnails/jesus.png"
 slug: el-amanecer-de-una-alegria-indestructible
 ---
 
+![dawning](https://i.imgur.com/oY0FyLu.jpg)
+
 La alegría que Jesús trae al mundo no es como ninguna otra en la historia. Una vez que la tenemos, no puede ser destruida. Jesús dijo: _"nadie os quitará vuestro gozo"_ (Juan 16:22).
 
 La alegría que Jesús vino a traer es de fuera de este mundo. Es el mismo gozo que Jesús mismo tiene en Dios Padre, que ha tenido desde toda la eternidad y que tendrá para siempre. No hay mayor gozo que el que Dios tiene en Dios, porque Dios es el objeto más grande de gozo, y Dios tiene los poderes más grandes para disfrutar.
@@ -51,3 +53,7 @@ Que el Espíritu de Dios use estas palabras para abrir de nuevo los ojos a las g
 - Conclusión: Nace un Salvador! Dios recibe la gloria, tú recibes la paz (Lucas 2:11-14)
 
 Este devocinal es tomado del libro [The Dawning of Indestructible Joy: Daily Readings for Advent](https://www.desiringgod.org/books/the-dawning-of-indestructible-joy) — John Piper
+
+---
+
+Imagen por <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@nestora?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Nestoras Argiris"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Nestoras Argiris</span></a>
