@@ -26,7 +26,7 @@ Que el Espíritu de Dios use estas palabras para abrir de nuevo los ojos a las g
 
 - [Introducción: Orando por plenitud esta Navidad (Juan 1:14-16)](/orando-por-plenitud-esta-navidad)
 - [1 de diciembre: La Misión de Búsqueda y Salvamento (Lucas 19:10)](/mision-de-busqueda-y-salvamento)
-- 2 de diciembre: Prepara tu corazón para Cristo (Juan 5:44)
+- [2 de diciembre: Prepara tu corazón para Cristo (Juan 5:44)](/prepara-tu-corazon-para-cristo)
 - 3 de diciembre: Acérquese al Salvador (Hebreos 13: 20-21)
 - 4 de diciembre: De qué se trata el Adviento (Marcos 10:45)
 - 5 de diciembre: Por qué ocurrió la Navidad (1 Juan 3:5, 8)
