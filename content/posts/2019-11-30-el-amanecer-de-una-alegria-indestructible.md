@@ -28,7 +28,7 @@ Que el Espíritu de Dios use estas palabras para abrir de nuevo los ojos a las g
 - [1 de diciembre: La Misión de Búsqueda y Salvamento (Lucas 19:10)](/mision-de-busqueda-y-salvamento)
 - [2 de diciembre: Prepara tu corazón para Cristo (Juan 5:44)](/prepara-tu-corazon-para-cristo)
 - [3 de diciembre: Acércate al Salvador (Hebreos 13: 20-21)](/acercate-al-salvador)
-- 4 de diciembre: De qué se trata el Adviento (Marcos 10:45)
+- [4 de diciembre: De qué se trata el Adviento (Marcos 10:45)](/de-que-se-trata-adviento)
 - 5 de diciembre: Por qué ocurrió la Navidad (1 Juan 3:5, 8)
 - 6 de diciembre: La pasión de Dios por Dios en Navidad (Juan 12:27-28)
 - 7 de diciembre: Él viene a bendecirnos (Hechos 3:22-26)
