@@ -3,12 +3,13 @@ title: Crear subtítulos para tu video
 date: 2018-05-20
 categories:
   - Code
+  - Popular
 tags:
   - srt
   - subtitulos
 background: "https://i.imgur.com/H1maXnW.png"
 template: post
-thumbnail: '../thumbnails/bash.png'
+thumbnail: "../thumbnails/bash.png"
 slug: crear-subtitulos-srt
 ---
 
@@ -70,4 +71,5 @@ El primer paso para crear un archivo SRT es crear la transcripción de tu video.
 10. ¡Felicitaciones! Ahora estás listo para subir tus subtítulos.
 
 ---
+
 Fuente: [How to Create a SRT File](https://www.3playmedia.com/2017/03/08/create-srt-file/)

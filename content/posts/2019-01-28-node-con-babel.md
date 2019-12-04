@@ -8,7 +8,7 @@ tags:
   - node
   - babel
 template: post
-thumbnail: '../thumbnails/node.png'
+thumbnail: "../thumbnails/node.png"
 slug: node-con-babel
 ---
 
@@ -50,7 +50,7 @@ touch index.js
 Para comenzar, introduciremos una declaración `console.log` en el archivo para asegurarnos de que todo se está ejecutando correctamente:
 
 ```javascript
-console.log('Hola 👋 Node.js.');
+console.log("Hola 👋 Node.js.");
 ```
 
 Vuelve a la línea de comandos, puede ejecutar este archivo con Node.js desde la carpeta raíz de su proyecto:
@@ -102,7 +102,7 @@ A continuación, intercambia node por nodemon en el script de npm:
 Cuando ejecutemos la aplicación con `npm start` desde la línea de comandos, debería ejecutarse y también se actualizará con cada nuevo cambio que realicemos en el código fuente. Intenta modificar el código para que lo veas 💪
 
 ```javascript
-console.log('Hola 👋 ejecutando continuamente Node.js!');
+console.log("Hola 👋 ejecutando continuamente Node.js!");
 ```
 
 Esto es muy chévere 🤙 porque el proceso de node se ejecuta nuevamente una vez que cambia su código, si pasa algún error lo veremos en la línea de comandos y si se soluciona, se ejecuta nuevamente.
@@ -146,9 +146,7 @@ En este archivo de configuración para Babel, podemos incluir el preset reciente
 
 ```json
 {
-  "presets": [
-    "@babel/preset-env"
-  ]
+  "presets": ["@babel/preset-env"]
 }
 ```
 
@@ -177,8 +175,8 @@ npm install dotenv --save
 Segundo, hay que importalo en el archivo donde se va a utilizar, en nuestro caso `src/index.js` para inicializarlo. La variable de entorno del archivo `.env` ahora es accesible en el código fuente.
 
 ```javascript
-import 'dotenv/config';
-console.log('Hola 👋 Node.js.');
+import "dotenv/config";
+console.log("Hola 👋 Node.js.");
 console.log(process.env.MI_PASSWORD);
 ```
 
@@ -187,17 +185,17 @@ Vuelve a lanzar `npm start` y verás la variable de entorno en la línea de coma
 Ahora, considera el siguiente código para el archivo `src/index.js`, donde se importa una función desde otro archivo de este proyecto.
 
 ```javascript
-import diAlgo from './mi-otro-archivo.js'
+import diAlgo from "./mi-otro-archivo.js";
 
-import 'dotenv/config';
+import "dotenv/config";
 ```
 
 Si usas una variable de entorno en `src/mi-otro-archivo.js`, no estará definida porque la inicialización del paquete dotenv ocurre después de la importación en el archivo `src/index.js`. Para solucionarlo, hay que inicializar dotenv antes de importar los archivos locales:
 
 ```javascript
-import 'dotenv/config';
+import "dotenv/config";
 
-import diAlgo from './mi-otro-archivo.js'
+import diAlgo from "./mi-otro-archivo.js";
 ```
 
 Esta es una comprensión básica de las variables de entorno Node.js. Deben usarse para mantener seguros los datos sensibles en las aplicaciones de JavaScript, pero no deben compartirse en los repositorios públicos de GitHub cuando se usa git ⚠️

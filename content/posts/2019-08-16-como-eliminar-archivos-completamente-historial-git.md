@@ -3,10 +3,11 @@ title: "Cómo eliminar archivos completamente del historial del repositorio de g
 date: 2019-08-16
 categories:
   - Code
+  - Popular
 tags:
   - git
 template: post
-thumbnail: '../thumbnails/git.png'
+thumbnail: "../thumbnails/git.png"
 slug: como-eliminar-archivos-completamente-historial-git
 ---
 

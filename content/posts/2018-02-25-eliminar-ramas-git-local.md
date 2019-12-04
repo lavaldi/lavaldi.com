@@ -3,7 +3,6 @@ title: Eliminar ramas antiguas de un repositorio Git local
 date: 2018-02-25
 categories:
   - Code
-  - Popular
 tags:
   - git
 background: "https://i.imgur.com/8L8ejhH.jpg"

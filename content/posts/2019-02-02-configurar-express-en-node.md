@@ -3,12 +3,13 @@ title: ¿Cómo configurar Express.js en Node.js?
 date: 2019-02-02
 categories:
   - Code
+  - Popular
 tags:
   - node
   - babel
   - express
 template: post
-thumbnail: '../thumbnails/node.png'
+thumbnail: "../thumbnails/node.png"
 slug: configurar-express-en-node
 ---
 
@@ -29,12 +30,12 @@ npm install express
 Ahora, en tu archivo `src/index.js`, usa el siguiente código para importar Express.js, para crear una instancia de una aplicación Express y para iniciarla como servidor Express:
 
 ```javascript
-import express from 'express';
+import express from "express";
 
 const app = express();
 
 app.listen(3000, () =>
-  console.log('¡Aplicación de ejemplo escuchando en el puerto 3000!'),
+  console.log("¡Aplicación de ejemplo escuchando en el puerto 3000!")
 );
 ```
 
@@ -51,16 +52,16 @@ Tu servidor Express está en funcionamiento 😎. Todo lo que debería suceder d
 En frameworks como Express.js, se pueden crear rutas una vez que se haya creado la instancia de la aplicación. Todas las rutas conforman el enrutamiento completo de la aplicación. Vamos a configurar una sola ruta:
 
 ```javascript
-import express from 'express';
+import express from "express";
 
 const app = express();
 
-app.get('/', (req, res) => {
-  res.send('¡Hola Mundo!');
+app.get("/", (req, res) => {
+  res.send("¡Hola Mundo!");
 });
 
 app.listen(3000, () =>
-  console.log('¡Aplicación de ejemplo escuchando en el puerto 3000!'),
+  console.log("¡Aplicación de ejemplo escuchando en el puerto 3000!")
 );
 ```
 
@@ -83,20 +84,20 @@ npm install cors
 A continuación, la utilizaremos como un middleware para toda la aplicación:
 
 ```javascript
-import 'dotenv/config';
-import cors from 'cors';
-import express from 'express';
+import "dotenv/config";
+import cors from "cors";
+import express from "express";
 
 const app = express();
 
 app.use(cors());
 
-app.get('/', (req, res) => {
-  res.send('¡Hola Mundo!');
+app.get("/", (req, res) => {
+  res.send("¡Hola Mundo!");
 });
 
 app.listen(3000, () =>
-  console.log('¡Aplicación de ejemplo escuchando en el puerto 3000!'),
+  console.log("¡Aplicación de ejemplo escuchando en el puerto 3000!")
 );
 ```
 
@@ -109,26 +110,28 @@ La aplicación Express puede usar literalmente un middleware, proveniente de una
 Antes de configurar las variables de entorno para la aplicación Node.js, vamos a usar una variable de entorno para configurar el puerto en lugar de codificarlo en el código fuente. Si no hay tal archivo, crea un nuevo archivo `.env` en tu proyecto. De lo contrario, use el archivo `.env` que ya está allí. Déle un nuevo par de valores clave para definir su puerto:
 
 ```javascript
-PORT=3000
+PORT = 3000;
 ```
 
 Ahora en tu archivo `src/index.js`, importa el paquete de Node que hace que las variables de entorno estén disponibles en tu código fuente y usa la variable de entorno PORT para iniciar su aplicación Express.
 
 ```javascript
-import 'dotenv/config';
-import cors from 'cors';
-import express from 'express';
+import "dotenv/config";
+import cors from "cors";
+import express from "express";
 
 const app = express();
 
 app.use(cors());
 
-app.get('/', (req, res) => {
-  res.send('¡Hola Mundo!');
+app.get("/", (req, res) => {
+  res.send("¡Hola Mundo!");
 });
 
 app.listen(process.env.PORT, () =>
-  console.log(`¡Aplicación de ejemplo escuchando en el puerto ${process.env.PORT}!`),
+  console.log(
+    `¡Aplicación de ejemplo escuchando en el puerto ${process.env.PORT}!`
+  )
 );
 ```
 

@@ -3,7 +3,6 @@ title: "Pasar una etiqueta HTML como prop en React"
 date: 2019-08-17
 categories:
   - Code
-  - Popular
 tags:
   - react
 template: post
