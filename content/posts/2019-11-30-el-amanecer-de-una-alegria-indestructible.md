@@ -30,7 +30,7 @@ Que el Espíritu de Dios use estas palabras para abrir de nuevo los ojos a las g
 - [3 de diciembre: Acércate al Salvador (Hebreos 13: 20-21)](/acercate-al-salvador)
 - [4 de diciembre: De qué se trata el Adviento (Marcos 10:45)](/de-que-se-trata-adviento)
 - [5 de diciembre: Por qué ocurrió la Navidad (1 Juan 3:5, 8)](/por-que-ocurrio-la-navidad)
-- 6 de diciembre: La pasión de Dios por Dios en Navidad (Juan 12:27-28)
+- [6 de diciembre: La pasión de Dios por Dios en Navidad (Juan 12:27-28)](/la-pasion-de-dios-por-dios-en-navidad)
 - 7 de diciembre: Él viene a bendecirnos (Hechos 3:22-26)
 - 8 de diciembre: Se puede confiar en Dios (Hechos 3:22-26)
 - 9 de diciembre: ¿Por qué el Hijo del Hombre? (Juan 1:51)
