@@ -33,7 +33,7 @@ Que el Espíritu de Dios use estas palabras para abrir de nuevo los ojos a las g
 - [6 de diciembre: La pasión de Dios por Dios en Navidad (Juan 12:27-28)](/la-pasion-de-dios-por-dios-en-navidad)
 - [7 de diciembre: Él viene a bendecirnos (Hechos 3:22-26)](/el-viene-a-bendecirnos)
 - [8 de diciembre: Se puede confiar en Dios (Hechos 3:22-26)](/se-puede-confiar-en-dios)
-- 9 de diciembre: ¿Por qué el Hijo del Hombre? (Juan 1:51)
+- [9 de diciembre: ¿Por qué el Hijo del Hombre? (Juan 1:51)](/por-que-el-hijo-del-hombre)
 - 10 de diciembre: Lo que la Navidad vino a destruir (1 Juan 3:8)
 - 11 de diciembre: La celebración del amor de Dios (Juan 3:16)
 - 12 de diciembre: La gloria de la Palabra hecha carne (Juan 1:1)
