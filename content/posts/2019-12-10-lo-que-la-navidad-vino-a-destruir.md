@@ -9,7 +9,7 @@ tags:
   - John Piper
 template: post
 thumbnail: "../thumbnails/advent.png"
-slug: lo-que-la-navidad-vino a-destruir
+slug: lo-que-la-navidad-vino-a-destruir
 ---
 
 ![Las obras del diablo](https://i.imgur.com/8XsteEy.jpg)
