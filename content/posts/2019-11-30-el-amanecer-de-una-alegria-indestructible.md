@@ -36,7 +36,7 @@ Que el Espíritu de Dios use estas palabras para abrir de nuevo los ojos a las g
 - [9 de diciembre: ¿Por qué el Hijo del Hombre? (Juan 1:51)](/por-que-el-hijo-del-hombre)
 - [10 de diciembre: Lo que la Navidad vino a destruir (1 Juan 3:8)](/lo-que-la-navidad-vino-a-destruir)
 - [11 de diciembre: La celebración del amor de Dios (Juan 3:16)](/la-celebracion-del-amor-de-dios)
-- 12 de diciembre: La gloria de la Palabra hecha carne (Juan 1:1)
+- [12 de diciembre: La gloria del Verbo hecho carne (Juan 1:1)](/la-gloria-del-verbo-hecho-carne)
 - 13 de diciembre: La historia de los cortes navideños por la mitad (Hechos 3:24)
 - 14 de diciembre: La misericordia que promete (Romanos 15: 8-9)
 - 15 de diciembre: Nuestro verdadero tesoro (Mateo 2: 10)
