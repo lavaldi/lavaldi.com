@@ -37,7 +37,7 @@ Que el Espíritu de Dios use estas palabras para abrir de nuevo los ojos a las g
 - [10 de diciembre: Lo que la Navidad vino a destruir (1 Juan 3:8)](/lo-que-la-navidad-vino-a-destruir)
 - [11 de diciembre: La celebración del amor de Dios (Juan 3:16)](/la-celebracion-del-amor-de-dios)
 - [12 de diciembre: La gloria del Verbo hecho carne (Juan 1:1)](/la-gloria-del-verbo-hecho-carne)
-- 13 de diciembre: La historia de los cortes navideños por la mitad (Hechos 3:24)
+- [13 de diciembre: La Navidad corta la historia en dos (Hechos 3:24)](/la-navidad-corta-la-historia-en-dos)
 - 14 de diciembre: La misericordia que promete (Romanos 15: 8-9)
 - 15 de diciembre: Nuestro verdadero tesoro (Mateo 2: 10)
 - 16 de diciembre: Liberados para ser parte de la familia de Dios (Marcos 10:45)
