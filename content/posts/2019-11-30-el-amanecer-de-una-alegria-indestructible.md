@@ -39,7 +39,7 @@ Que el Espíritu de Dios use estas palabras para abrir de nuevo los ojos a las g
 - [12 de diciembre: La gloria del Verbo hecho carne (Juan 1:1)](/la-gloria-del-verbo-hecho-carne)
 - [13 de diciembre: La Navidad corta la historia en dos (Hechos 3:24)](/la-navidad-corta-la-historia-en-dos)
 - [14 de diciembre: La misericordia que promete (Romanos 15: 8-9)](/la-misericordia-que-promete)
-- 15 de diciembre: Nuestro verdadero tesoro (Mateo 2: 10)
+- [15 de diciembre: Nuestro verdadero tesoro (Mateo 2: 10)](/nuestro-verdadero-tesoro)
 - 16 de diciembre: Liberados para ser parte de la familia de Dios (Marcos 10:45)
 - 17 de diciembre: Vino a servir (Marcos 10:44)
 - 18 de diciembre: Graciosa y tiernamente frustrante (Romanos 3: 25-26)
