@@ -44,7 +44,7 @@ Que el Espíritu de Dios use estas palabras para abrir de nuevo los ojos a las g
 - [17 de diciembre: Él vino a servir (Marcos 10:44)](/el-vino-a-servir)
 - [18 de diciembre: Graciosa y tiernamente frustrante (Romanos 3: 25-26)](/graciosa-y-tiernamente-frustrante)
 - [19 de diciembre: El regalo que no se puede comprar (Hechos 17:24-25)](/el-regalo-que-no-se-puede-comprar)
-- 20 de diciembre: Recibir su reconciliación (Romanos 5: 11)
+- [20 de diciembre: Recibe su reconciliación (Romanos 5: 11)](/recibe-su-reconciliacion)
 - 21 de diciembre: Prepara tus ojos para la Navidad (Mateo 16: 15-17)
 - 22 de diciembre: Algo sobre lo que vale la pena cantar (Hebreos 8: 4-10)
 - 23 de diciembre: Nuestra más profunda necesidad en Navidad (Miqueas 5:4-5)
