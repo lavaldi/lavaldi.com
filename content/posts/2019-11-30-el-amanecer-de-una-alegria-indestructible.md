@@ -46,7 +46,7 @@ Que el Espíritu de Dios use estas palabras para abrir de nuevo los ojos a las g
 - [19 de diciembre: El regalo que no se puede comprar (Hechos 17:24-25)](/el-regalo-que-no-se-puede-comprar)
 - [20 de diciembre: Recibe su reconciliación (Romanos 5: 11)](/recibe-su-reconciliacion)
 - [21 de diciembre: Prepara tus ojos para la Navidad (Mateo 16: 15-17)](/prepara-tus-ojos-para-la-navidad)
-- 22 de diciembre: Algo sobre lo que vale la pena cantar (Hebreos 8: 4-10)
+- [22 de diciembre: Algo sobre lo que vale la pena cantar (Hebreos 8: 4-10)](/algo-sobre-lo-que-vale-la-pena-cantar)
 - 23 de diciembre: Nuestra más profunda necesidad en Navidad (Miqueas 5:4-5)
 - 24 de diciembre: Disfruta de todas las promesas de Dios (Miqueas 5:2-4)
 - 25 de diciembre: Grace La nota dominante de la Navidad (Juan 6:51)
