@@ -48,7 +48,7 @@ Que el Espíritu de Dios use estas palabras para abrir de nuevo los ojos a las g
 - [21 de diciembre: Prepara tus ojos para la Navidad (Mateo 16: 15-17)](/prepara-tus-ojos-para-la-navidad)
 - [22 de diciembre: Algo sobre lo que vale la pena cantar (Hebreos 8: 4-10)](/algo-sobre-lo-que-vale-la-pena-cantar)
 - [23 de diciembre: Nuestra más profunda necesidad en Navidad (Miqueas 5:4-5)](/nuestra-mas-profunda-necesidad-en-navidad)
-- 24 de diciembre: Disfruta de todas las promesas de Dios (Miqueas 5:2-4)
+- [24 de diciembre: Disfruta de todas las promesas de Dios (Miqueas 5:2-4)](/disfruta-de-todas-las-promesas-de-dios)
 - 25 de diciembre: Grace La nota dominante de la Navidad (Juan 6:51)
 - Conclusión: Nace un Salvador! Dios recibe la gloria, tú recibes la paz (Lucas 2:11-14)
 
