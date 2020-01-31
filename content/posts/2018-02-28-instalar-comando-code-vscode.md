@@ -3,13 +3,14 @@ title: Instalar el comando `code` de Visual Studio Code en macOS
 date: 2018-02-28
 categories:
   - Code
+  - Popular
 tags:
   - vscode
   - code
   - macOS
 background: "https://i.imgur.com/A8CMAQX.jpg"
 template: post
-thumbnail: '../thumbnails/vsc.png'
+thumbnail: "../thumbnails/vsc.png"
 slug: instalar-comando-code-vscode
 ---
 
