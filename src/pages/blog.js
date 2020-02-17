@@ -22,13 +22,26 @@ export default class BlogPage extends Component {
     this.filterPosts();
   };
 
+  removeAccents = (str) => {
+    const accents = 'ÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž';
+    const accentsOut = "AAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz";
+    const splittedStr = str.split('');
+    splittedStr.forEach((letter, index) => {
+      const i = accents.indexOf(letter);
+      if (i !== -1) {
+        splittedStr[index] = accentsOut[i];
+      }
+    })
+    return splittedStr.join('');
+  }
+
   filterPosts = () => {
     const { posts, searchTerm, currentCategories } = this.state;
 
     let filteredPosts = posts.filter(post =>
-      post.node.frontmatter.title
+      this.removeAccents(post.node.frontmatter.title)
         .toLowerCase()
-        .includes(searchTerm.toLowerCase())
+        .includes(this.removeAccents(searchTerm.toLowerCase()))
     );
 
     if (currentCategories.length > 0) {
