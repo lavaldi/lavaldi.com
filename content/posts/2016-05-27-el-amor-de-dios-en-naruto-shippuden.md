@@ -19,6 +19,8 @@ Esto pasó porque Naruto estaba lleno de ira por Orochimaru quien había llevado
 
 Por la ira que tenía dentro, que sentía, Naruto llegó a tal extremo que, al convertirse en el zorro con 4 colas, se hirió a sí mismo, su piel se quemó, estaba bañado en sangre, convertido en un monstruo, aunque tenía una buena razón (que era recuperar a Sasuke), pero se dejó llevar por sus sentimientos, por lo que sentía en su corazón, por la ira…
 
+![Naruto Kyubi](https://i.imgur.com/IdtsF8o.png)
+
 Entonces, después de que terminó el capítulo tan impactante para mi, reflexioné y me dije “así sucede con las personas que se dejan llevar por su ira, se transforman en unos monstruos!!!”. Ya dice en la palabra:
 
 > *Engañoso es el corazón más que todas las cosas, y perverso; ¿quién lo conocerá?*
@@ -38,6 +40,6 @@ Y sé también que Orochimaru no era una persona buena, era perverso, malo!! Y p
 
 Así pues, me exhorto y los exhorto a ustedes a que seamos perfectos como es la voluntad de nuestro Padre para con nosotros, pensando no solo en el momento si no también en las consecuencias que vendrán y en el AMOR que debemos tenernos los unos a los otros, porque **sin amor NADA somos** ([1 Corintios 13](https://www.biblegateway.com/passage/?search=1+Corintios+13&version=LBLA)).
 
-* * *
+---
 
-Imagen de portada: *[Naruto Kyubi](http://narutonamikazeart.deviantart.com/art/Naruto-Kyubi-280669864) por [NarutoNamikazeART](http://narutonamikazeart.deviantart.com/)*
+Imagen *[Naruto Kyubi](http://narutonamikazeart.deviantart.com/art/Naruto-Kyubi-280669864) por [NarutoNamikazeART](http://narutonamikazeart.deviantart.com/)*

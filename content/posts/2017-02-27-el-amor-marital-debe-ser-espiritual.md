@@ -13,7 +13,7 @@ thumbnail: '../thumbnails/jesus.png'
 slug: el-amor-marital-debe-ser-espiritual
 ---
 
-Continuando con nuestra serie sobre las opiniones de los Puritanos sobre el amor conyugal (véase la [introducción](https://medium.com/la-valdis-blog/los-puritanos-y-el-amor-marital-93e46532dd0d)), llegamos al tema de la espiritualidad del amor conyugal, es decir, que debe ser en Cristo y de acuerdo con los mandamientos de Dios. El amor debe estar arraigado en la experiencia de estar igualmente unidos y unidos espiritualmente como creyentes. Richard Baxter (1615–1691) dijo que los maridos y esposas tienen la responsabilidad
+Continuando con nuestra serie sobre las opiniones de los Puritanos sobre el amor conyugal (véase la [introducción](/los-puritanos-y-el-amor-marital)), llegamos al tema de la espiritualidad del amor conyugal, es decir, que debe ser en Cristo y de acuerdo con los mandamientos de Dios. El amor debe estar arraigado en la experiencia de estar igualmente unidos y unidos espiritualmente como creyentes. Richard Baxter (1615–1691) dijo que los maridos y esposas tienen la responsabilidad
 
 > “especialmente de ser ayudantes de la salvación de cada uno: estimularse uno al otro a la fe, al amor, la obediencia y las buenas obras: advertir y ayudarse mutuamente contra el pecado, y todas las tentaciones: unirse en la adoración de Dios en la familia y en privado: prepararse unos a otros para el acercamiento de la muerte, y consolarse mutuamente en las esperanzas de la vida eterna” (Practical Works, 4: 234).
 

@@ -13,25 +13,16 @@ thumbnail: '../thumbnails/jesus.png'
 slug: esto-es-mi-cuerpo-y-esto-es-mi-sangre
 ---
 
-> Mientras comían, Jesús tomó pan y lo bendijo. Luego lo partió y se lo dio a sus discípulos, diciéndoles:
-
-> — Tomen y coman; esto es mi cuerpo.
-
-> Después tomó la copa, dio gracias, y se la ofreció diciéndoles:
-
-> — Beban de ella todos ustedes. Esto es mi sangre del pacto, que es derramada por muchos para el perdón de pecados. Les digo que no beberé de este fruto de la vid desde ahora en adelante, hasta el día en que beba con ustedes el vino nuevo en el reino de mi Padre.
-
-> Después de cantar los salmos, salieron al monte de los Olivos.
-
+> Mientras comían, Jesús tomó pan y lo bendijo. Luego lo partió y se lo dio a sus discípulos, diciéndoles: <br>
+> — Tomen y coman; esto es mi cuerpo.<br>
+> Después tomó la copa, dio gracias, y se la ofreció diciéndoles:<br>
+> — Beban de ella todos ustedes. Esto es mi sangre del pacto, que es derramada por muchos para el perdón de pecados. Les digo que no beberé de este fruto de la vid desde ahora en adelante, hasta el día en que beba con ustedes el vino nuevo en el reino de mi Padre.<br>
+> Después de cantar los salmos, salieron al monte de los Olivos.<br>
 > — Mateo 26:26–35
 
 No hace falta decir que este asunto ha dividido a la Iglesia visible de Cristo. Ha sido la causa de que se hayan escrito muchos volúmenes de teología muy polémica; pero no debemos abstenernos de tener una opinión firme sobre el asunto porque los teólogos hayan discutido y disentido en cuanto a él. La ausencia de una opinión sólida a este respecto ha dado lugar a la aparición de muchas supersticiones deplorables.
 
-<figure>
-
 ![](https://cdn-images-1.medium.com/max/600/1*KqP7LGptC9PDpaNNzcATuA.png)
-
-</figure>
 
 El **significado básico** de las palabras de nuestro Señor parece ser este: “Este pan *representa* mi cuerpo. Este vino *representa* mi sangre”. Nuestro Señor **no** estaba afirmando que el pan que les estaba ofreciendo a sus discípulos *era* de veras, literalmente, su cuerpo; tampoco estaba afirmando que el vino que les estaba ofreciendo a sus discípulos *era* de veras, literalmente, su sangre. Aferrémonos con firmeza a esta interpretación; hay varias razones muy serias que la respaldan.
 
