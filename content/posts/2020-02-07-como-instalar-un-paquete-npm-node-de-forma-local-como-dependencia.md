@@ -3,6 +3,7 @@ title: "Cómo instalar un paquete de Node de forma local como dependencia de un 
 date: 2020-02-07
 categories:
   - Code
+  - Popular
 tags:
   - npm
   - node
@@ -28,13 +29,13 @@ Pero ¿qué me funcionó a mi? Usar **yalc**
 
 - **Publica** un paquete con yalc, y una copia completa del paquete se copia en el registry.
 - **Instala** un paquete del registry de yalc, y el proyecto instalará esa copia de la misma manera que instalaría un paquete desde un registry externo.
-- **Actualiza** un paquete publicado en el registry de yalc, y la actualización ya está disponible en los proyectos dependientes; incluso puede publicar y actualizar automáticamente los proyectos dependientes con un solo comando. 
+- **Actualiza** un paquete publicado en el registry de yalc, y la actualización ya está disponible en los proyectos dependientes; incluso puede publicar y actualizar automáticamente los proyectos dependientes con un solo comando.
 
 Para evitar que las cosas colisionen, yalc firma cada versión publicada con un hash. Y yalc puede almacenar tantas versiones de un paquete (esa es la versión package.json) como quiera.
 
 ### tldr;
 
-*La explicación de todos los comandos viene [más adelante](#instala-yalc)*
+_La explicación de todos los comandos viene [más adelante](#instala-yalc)_
 
 En pocas palabras el flujo de trabajo básico de yalc es:
 
@@ -51,7 +52,7 @@ $ npm install -g yalc # o yarn global add yalc
 $ cd path/to/package
 my-package $ yalc publish
 
-# si el proyecto donde lo quiero probar 
+# si el proyecto donde lo quiero probar
 # ya tiene my-package como una dependencia
 project $ npm uninstall -S my-package # (or `yarn remove my-package`)
 

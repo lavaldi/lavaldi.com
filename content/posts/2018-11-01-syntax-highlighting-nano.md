@@ -3,7 +3,6 @@ title: Habilitar syntax highlighting en Nano en macOS
 date: 2018-11-01
 categories:
   - Code
-  - Popular
 tags:
   - macOS
   - nano
