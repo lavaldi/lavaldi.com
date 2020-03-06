@@ -65,7 +65,7 @@ project $ npm install # (or `yarn`)
 # desarrollo
 # -------
 
-# empiza a hackear ...
+# empieza a hackear ...
 # y al terminar
 
 my-package $ yalc push
