@@ -625,7 +625,7 @@ h2.publication-company {
     color: $light-font-color;
 
     &.comment-link,
-    &.twitter-link,
+    &.social-link,
     &.github-link {
       margin: 0 0.5rem;
     }
@@ -644,9 +644,9 @@ h2.publication-company {
 
 blockquote,
 em {
-  font-family:"Noto Serif",serif;font-style:italic;
+  font-family: "Noto Serif", serif;
+  font-style: italic;
 }
-
 
 blockquote {
   color: rgba(0, 0, 0, 0.7);
@@ -668,7 +668,6 @@ blockquote {
     border: 2px solid $error;
     background: lighten($error, 23%);
   }
-
 
   p {
     padding: 0;
@@ -752,7 +751,6 @@ blockquote {
     }
   }
 }
-
 
 .note {
   background: $light;
@@ -1000,7 +998,7 @@ iframe {
     header {
       display: flex;
       align-items: center;
-      margin-bottom: .5rem;
+      margin-bottom: 0.5rem;
     }
 
     h2 {
@@ -1019,7 +1017,6 @@ iframe {
         margin-bottom: 0;
       }
     }
-
   }
 
   .comment-date {
@@ -1034,12 +1031,12 @@ iframe {
 
 [type="submit"]:disabled,
 button[disabled] {
-  opacity: .5;
+  opacity: 0.5;
 
   &:hover,
   &:active,
   &:focus {
-    opacity: .5;
+    opacity: 0.5;
   }
 }
 

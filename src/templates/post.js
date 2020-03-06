@@ -34,6 +34,7 @@ export default class PostTemplate extends Component {
     const twitterShare = `http://twitter.com/share?text=${encodeURIComponent(
       post.title
     )}&url=${config.siteUrl}/${post.slug}/&via=lavaldi_`;
+    const facebookShare = `https://www.facebook.com/dialog/share?app_id=632333847548398&display=popup&href=${config.siteUrl}/${post.slug}/`;
 
     return (
       <Layout>
@@ -51,14 +52,22 @@ export default class PostTemplate extends Component {
             <div className="flex">
               <h1>{post.title}</h1>
               <div className="post-meta">
-                <time className="date">{date}</time>/
+                <time className="date">{date}</time>/ Share on
                 <a
-                  className="twitter-link"
+                  className="social-link"
                   href={twitterShare}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Share
+                  Twitter
+                </a>or
+                <a
+                  className="social-link"
+                  href={facebookShare}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Facebook
                 </a>
                 /
                 <span>
