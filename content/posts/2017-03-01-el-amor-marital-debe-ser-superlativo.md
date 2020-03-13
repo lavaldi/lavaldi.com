@@ -9,7 +9,7 @@ tags:
   - Puritanos
 background: "https://cdn-images-1.medium.com/max/2000/1*DtHVrFKyjxDs94pd7TYNoQ.png"
 template: post
-thumbnail: '../thumbnails/jesus.png'
+thumbnail: "../thumbnails/jesus.png"
 slug: el-amor-marital-debe-ser-superlativo
 ---
 
@@ -55,6 +55,7 @@ Este artículo fue originalmente escrito en **[Evangelio.blog por Joel Beeke](ht
 
 ---
 
-- [El amor debe ser espiritual](https://lavaldi.com/el-amor-marital-debe-ser-espiritual)
-- [El amor debe ser superlativo](https://lavaldi.com/el-amor-marital-debe-ser-superlativo)
-- [El amor debe ser sexual](https://lavaldi.com/el-amor-marital-debe-se-sexual)
+- [Introducción: Los puritanos y el amor marital](/los-puritanos-y-el-amor-marital)
+- [El amor debe ser espiritual](/el-amor-marital-debe-ser-espiritual)
+- [El amor debe ser superlativo](/el-amor-marital-debe-ser-superlativo)
+- [El amor debe ser sexual](/el-amor-marital-debe-ser-sexual)

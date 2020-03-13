@@ -39,7 +39,7 @@ Con el fin de resumir las enseñanzas puritanas sobre el amor conyugal, consider
 
 - [El amor debe ser espiritual](https://lavaldi.com/el-amor-marital-debe-ser-espiritual)
 - [El amor debe ser superlativo](https://lavaldi.com/el-amor-marital-debe-ser-superlativo)
-- [El amor debe ser sexual](https://lavaldi.com/el-amor-marital-debe-se-sexual)
+- [El amor debe ser sexual](https://lavaldi.com/el-amor-marital-debe-ser-sexual)
 
 ---
 
