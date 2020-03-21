@@ -36,11 +36,7 @@ Primero debemos inicializar Hygen en nuestro proyecto:
 ```bash
 cd your-project
 hygen init self
-```
 
-Que nos creará unos archivos de ejemplo de generadores de código, los cuales podemos explorar con total libertad y luego eliminar o modificar si deseamos hacerlo.
-
-```bash
 Loaded templates: /usr/local/lib/node_modules/hygen/src/templates
        added: _templates/generator/help/index.ejs.t
        added: _templates/generator/with-prompt/hello.ejs.t
@@ -48,7 +44,9 @@ Loaded templates: /usr/local/lib/node_modules/hygen/src/templates
        added: _templates/generator/new/hello.ejs.t
 ```
 
-```bash
+Que nos creará unos archivos de ejemplo de generadores de código, los cuales podemos explorar con total libertad y luego eliminar o modificar si deseamos hacerlo.
+
+```terminal
 _templates
 └── generator
     ├── help
@@ -97,7 +95,7 @@ El cual vamos a modificar a continuación para crear nuestro template para un po
 
 Primero modificaremos el nombre del template `hello.ejs.t` a `index.ejs.t` de tal manera que nuestra estructura de carpetas quede así:
 
-```bash
+```terminal
 _templates
 └── blog-post
     └── new
