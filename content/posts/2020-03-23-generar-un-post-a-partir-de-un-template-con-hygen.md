@@ -1,0 +1,206 @@
+---
+title: "Generar un post a partir de un template con Hygen en Gatsby"
+date: 2020-03-23
+categories:
+  - code
+tags:
+  - hygen
+  - gatsby
+template: post
+thumbnail: "../thumbnails/hygen.png"
+slug: "generar-un-post-a-partir-de-un-template-con-hygen"
+---
+
+Desde que tengo mi blog en GitHub pages siempre he sufrido con generar el archivo markdown para empezar a escribir un post debido a que lo hacía manualmente, iba a la carpeta, creaba un nuevo archivo y me ponía a escribir la fecha y el nombre y luego en el archivo escribir todo el frontmatter que necesito para un post normal... 😫😩😪
+
+Así que hace poco me dispuse a buscar un modo de automatizar esta tarea y encontré [Hygen](http://www.hygen.io/) que, según su propia descripción, es un generador de código que te permite ahorrar tiempo generando templates [ejs](https://ejs.co/) 😃
+
+Esto es lo que haremos:
+
+![Generar un post a partir de un template con Hygen](https://i.imgur.com/ocxaniF.gif)
+
+Manos a la obra! 💪
+
+## Instalación
+
+```bash
+yarn add hygen # o npm i hygen
+```
+
+también lo puedes usar con `npx` si gustas: `npx hygen ...`
+
+## Crear tu generador de código
+
+Primero debemos inicializar Hygen en nuestro proyecto:
+
+```bash
+cd your-project
+hygen init self
+```
+
+Que nos creará unos archivos de ejemplo de generadores de código, los cuales podemos explorar con total libertad y luego eliminar o modificar si deseamos hacerlo.
+
+```bash
+Loaded templates: /usr/local/lib/node_modules/hygen/src/templates
+       added: _templates/generator/help/index.ejs.t
+       added: _templates/generator/with-prompt/hello.ejs.t
+       added: _templates/generator/with-prompt/prompt.ejs.t
+       added: _templates/generator/new/hello.ejs.t
+```
+
+```bash
+_templates
+└── generator
+    ├── help
+    │   └── index.ejs.t
+    ├── new
+    │   └── hello.ejs.t
+    └── with-prompt
+        ├── hello.ejs.t
+        └── prompt.ejs.t
+
+6 directories, 5 files
+```
+
+## Construir nuestro generador de código
+
+```bash
+hygen generator new blog-post
+
+Loaded templates: _templates
+       added: _templates/blog-post/new/hello.ejs.t
+```
+
+Si abrimos el archivo `_templates/blog-post/new/hello.ejs.t` podremos observar el siguiente código de ejemplo:
+
+```
+---
+to: _templates/<%= name %>/<%= action || 'new' %>/hello.ejs.t
+---
+---
+to: app/hello.js
+---
+const hello = ```
+Hello!
+This is your first hygen template.
+
+Learn what it can do here:
+
+https://github.com/jondot/hygen```
+
+console.log(hello)
+```
+
+El cual vamos a modificar a continuación para crear nuestro template para un post de [Gatsby](https://www.gatsbyjs.org/)
+
+### Creando nuestro template
+
+Primero modificaremos el nombre del template `hello.ejs.t` a `index.ejs.t` de tal manera que nuestra estructura de carpetas quede así:
+
+```bash
+_templates
+└── blog-post
+    └── new
+        └── index.ejs.t
+
+2 directories, 1 file
+```
+
+Luego, crearemos el archivo `.hygen.js` a través del cual podremos extender la funcionalidad de Hygen, en nuestro caso, para poder agregar un par de helpers que nos ayudarán a crear nuestro template. Si quieres saber más sobre la extensibilidad de Hygen puedes ir [aquí](http://www.hygen.io/extensibility).
+
+A continuación, instalaremos el paquete `@sindresorhus/slugify` que nos permitirá convertir en un slug el título de nuestro post.
+
+```bash
+yarn add @sindresorhus/slugify
+```
+
+Ahora pasamos a modificar el archivo `.hygen.js` de la siguiente manera:
+
+```javascript
+const slugify = require('@sindresorhus/slugify');
+
+const date = [
+  new Date().getFullYear(),
+  ('0' + (new Date().getMonth() + 1)).slice(-2),
+  ('0' + new Date().getDate()).slice(-2)
+].join('-');
+
+module.exports = {
+  helpers: {
+    date: s => date,
+    slugify: s => slugify(s)
+  }
+};
+```
+
+Luego en el archivo `index.ejs.t` agregaremos el frontmatter, que necesita el template, para indicar la ruta donde será creado el archivo markdown para nuestro nuevo post y que sea creado únicamente si no existe:
+
+```ejs
+---
+to: content/posts/<%= h.date() %>-<%= h.slugify(name) %>.md
+unless_exists: true
+---
+```
+
+Como vemos estamos indicando que el archivo se cree en la ruta `content/posts/` y el nombre sea `<%= h.date() %>-<%= h.slugify(name) %>.md`. Para el nombre estamos utilizando los helpers con los cuales extendimos Hygen en el archivo `.hygen.js`, `date` y `slugify`, que generarán algo como esto `2020-03-23-titulo-de-mi-nuevo-post.md`.
+
+A continuación irá el contenido que queremos que vaya en nuestro archivo markdown. En mi caso es este:
+
+```ejs{numberLines: true}
+---
+to: content/posts/<%= h.date() %>-<%= h.slugify(name) %>.md
+unless_exists: true
+---
+// highlight-start
+---
+title: "<%= h.inflection.humanize(name) %>"
+date: <%= h.date() %>
+categories:
+  - category
+tags:
+  - tag
+template: post
+thumbnail: "../thumbnails/thumbnail.png"
+slug: "<%= h.slugify(name) %>"
+---
+
+The Post starts here
+// highlight-end
+```
+
+Para el título estamos usando el helper `inflection` que nos brinda el propio Hygen que nos ayuda a manejar los textos. Para más información sobre los Helpers e Inflections puedes ir [aquí](http://www.hygen.io/templates/#helpers-and-inflections).
+
+Y con eso estamos listos!
+
+## Usando nuestro generador
+
+Ahora podemos usar el generador de templates que hemos creado de la siguiente manera:
+
+```bash
+hygen blog-post new --name "Título de mi nuevo post"
+```
+
+🎉
+
+## Agregándo nuestro generador a npm scripts:
+
+Como somos fancies vamos a agregar el generador creado como un npm script. En nuestro `package.json` agregamos lo siguiente en la sección de scripts:
+
+```json
+{
+  ...
+  "scripts": {
+    "new:post": "hygen blog-post new --name",
+    ...
+  },
+  ...
+}
+```
+
+Y ahora lo podemos ejecutar con yarn:
+
+```bash
+yarn new:post "Título de mi nuevo post" # o npm run new:post -- "Título de mi nuevo post"
+```
+
+🎉🎉🎉
