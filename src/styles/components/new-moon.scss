@@ -315,7 +315,11 @@ code[class*="language-"] ::selection {
 }
 
 .gatsby-highlight-code-line {
+  background-color: #191919;
   display: block;
-  background: #492073;
-  border-left: 0.4rem solid #191b40;
+  margin-right: -1em;
+  margin-left: -1em;
+  padding-right: 1em;
+  padding-left: 0.75em;
+  border-left: 0.25em solid $secondary-color;
 }
