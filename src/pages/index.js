@@ -92,7 +92,7 @@ export const pageQuery = graphql`
     latest: allMarkdownRemark(
       limit: 6
       sort: { fields: [fields___date], order: DESC }
-      filter: { frontmatter: { template: { eq: "post" } } }
+      filter: { frontmatter: { template: { eq: "post" } }, isFuture: { eq: false } }
     ) {
       edges {
         node {
@@ -122,7 +122,7 @@ export const pageQuery = graphql`
     popular: allMarkdownRemark(
       limit: 7
       sort: { fields: [fields___date], order: DESC }
-      filter: { frontmatter: { categories: { eq: "Popular" } } }
+      filter: { frontmatter: { categories: { eq: "Popular" } }, isFuture: { eq: false } }
     ) {
       edges {
         node {
