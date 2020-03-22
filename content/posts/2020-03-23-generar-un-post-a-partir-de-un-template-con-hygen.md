@@ -2,7 +2,7 @@
 title: "Generar un post a partir de un template con Hygen en Gatsby"
 date: 2020-03-23
 categories:
-  - code
+  - Code
 tags:
   - hygen
   - gatsby
@@ -71,7 +71,7 @@ Loaded templates: _templates
 
 Si abrimos el archivo `_templates/blog-post/new/hello.ejs.t` podremos observar el siguiente código de ejemplo:
 
-```
+````
 ---
 to: _templates/<%= name %>/<%= action || 'new' %>/hello.ejs.t
 ---
@@ -87,7 +87,7 @@ Learn what it can do here:
 https://github.com/jondot/hygen```
 
 console.log(hello)
-```
+````
 
 El cual vamos a modificar a continuación para crear nuestro template para un post de [Gatsby](https://www.gatsbyjs.org/)
 
@@ -115,13 +115,13 @@ yarn add @sindresorhus/slugify
 Ahora pasamos a modificar el archivo `.hygen.js` de la siguiente manera:
 
 ```javascript
-const slugify = require('@sindresorhus/slugify');
+const slugify = require("@sindresorhus/slugify");
 
 const date = [
   new Date().getFullYear(),
-  ('0' + (new Date().getMonth() + 1)).slice(-2),
-  ('0' + new Date().getDate()).slice(-2)
-].join('-');
+  ("0" + (new Date().getMonth() + 1)).slice(-2),
+  ("0" + new Date().getDate()).slice(-2)
+].join("-");
 
 module.exports = {
   helpers: {
