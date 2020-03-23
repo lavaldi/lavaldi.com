@@ -62,7 +62,7 @@ pre code {
   display: block;
   padding: 1.5rem;
   overflow: auto;
-  background-color: #333;
+  background-color: #061526;
   border: 0;
   box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.15);
 }
@@ -315,11 +315,9 @@ code[class*="language-"] ::selection {
 }
 
 .gatsby-highlight-code-line {
-  background-color: #191919;
+  background-color: rgba(201, 167, 255, 0.2);
+  border-left: 0.25em solid #c9a7ff;
   display: block;
-  margin-right: -1em;
-  margin-left: -1em;
-  padding-right: 1em;
-  padding-left: 0.75em;
-  border-left: 0.25em solid $secondary-color;
+  margin: 0px -1em;
+  padding: 0px 0.75em;
 }

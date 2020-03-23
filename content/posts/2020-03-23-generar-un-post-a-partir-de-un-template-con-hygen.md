@@ -144,7 +144,7 @@ Como vemos estamos indicando que el archivo se cree en la ruta `content/posts/` 
 
 A continuación irá el contenido que queremos que vaya en nuestro archivo markdown. En mi caso es este:
 
-```ejs{numberLines: true}
+```ejs
 ---
 to: content/posts/<%= h.date() %>-<%= h.slugify(name) %>.md
 unless_exists: true
