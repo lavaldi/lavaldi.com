@@ -5,6 +5,7 @@ on:
     branches: [ gatsby ]
   pull_request:
     branches: [ gatsby ]
+  repository_dispatch:
 
 jobs:
   build:
