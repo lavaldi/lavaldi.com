@@ -4,16 +4,15 @@ slug: resume
 template: page
 ---
 
-- [lavaldi.com](https://www.lavaldi.com)
 - [claumavaldivieso@gmail.com](mailto:claumavaldivieso[AT]gmail[DOT]com)
 - Lima, Perú
 
 ## Technical Skills
 
-- **Languages** - JavaScript (ES6+), HTML5, CSS3, Bash
+- **Languages** - JavaScript, TypeScript, HTML, CSS, Bash
 - **Concepts** - RESTful API Integration, CI/CD, Agile, SSR, Scrum, Toyota Kata, DevOps
-- **Tools/Environment** - Node.js, Git, Webpack, Jenkins, Jira, AWS, CLI, Sass, Stylus, Docker, Pug
-- **Frameworks/Libraries** - React, Jest, Redux, jQuery, Bootstrap
+- **Tools/Environment** - Git, Webpack, Node.js, Jenkins, AWS, CLI, Docker, Jira
+- **Frameworks/Libraries** - React, Jest, Redux, CSS in JS, Styled Components, Pug, Sass, Stylus, jQuery, Bootstrap
 - **Data** - GraphQL, JSON
 
 ## Experience
@@ -22,22 +21,24 @@ template: page
 
 **Able** - _2019 - actually | Lima_
 
+- Develope software with React and Ruby on Rails (I still learning Rails 😅)
+
 #### Front End Developer
 
 **UND - Grupo El Comercio** - _2015 - 2019 | Lima_
 
 - Front End development (views and functionality) of the APTiTUS.com portal.
-- Developed software in React with custom backend APIs.
+- Developed software with React and custom backend APIs.
 - Use of Docker to automate the development environment and deployment of applications.
-- Use of AWS for deploy applcation (CloudFormation, S3, ECR, ECS, ELB, CloudWatch).
-- Integrated Git version control into the platform to track, manage, and simplify changes.
+- Use of AWS for deploy application (CloudFormation, S3, ECR, ECS, ELB, CloudWatch).
+- Integrated git version control into the platform to track, manage, and simplify changes.
 
 #### Front End Developer
 
 **Clicks and Bricks SAC** - _2015 | Lima_
 
 - Front End Development: views (HTML, CSS), functionality (JS) and UX of the APTiTUS.com portal.
-- Integrated Git version control into the platform to track, manage, and simplify changes
+- Integrated git version control into the platform to track, manage, and simplify changes
 
 #### Web Developer
 
