@@ -14,6 +14,8 @@ slug: jueves-del-mandamiento
 
 > Un mandamiento nuevo os doy: que os améis los unos a los otros; que como yo os he amado, así también os améis los unos a los otros. (Juan 13:34)
 
+![Jueves santo](https://i.imgur.com/MwRpV18.jpg)
+
 Hoy es Jueves Santo (Maundy Thursday). El nombre viene del latín mandatum, la primera palabra en la versión latina de Juan 13:34, _"Un mandamiento nuevo (mandatum novum) os doy; que os améis los unos a los otrosque como yo os he amado, así también os améis los unos a los otros"_. Este mandamiento fue dado por Jesús el jueves antes de su crucifixión. Así que el Jueves Santo es el "Jueves del Mandamiento".
 
 Este es el mandamiento: _"Amaos los unos a los otros, como yo os he amado a vosotros."_ Pero, ¿qué hay de Gálatas 5:14? _"Porque toda la ley en una palabra se cumple en el precepto: Amaras a tu projimo como a ti mismo"_. Si toda la ley se cumple en _"Ama a tu prójimo como a ti mismo"_, ¿qué más puede añadir _"Amaos los unos a los otros como Cristo os amó"_ al cumplimiento de toda la ley?
