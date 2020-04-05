@@ -20,6 +20,8 @@ Al leer estas terribles palabras, me encontré diciéndole a Jesús: _"Lo siento
 
 ## Mi rebelión volcánica
 
+![rebelión volcánica](https://i.imgur.com/8Bpq71E.jpg)
+
 Se me ocurrió una analogía. Los corazones de la humanidad son como un manto fundido bajo la superficie de toda la tierra. La lava fundida bajo la tierra es la maldad universal del corazón humano, la rebelión contra Dios y el egoísmo hacia la gente. Aquí y allá estalla un volcán de rebelión que Dios considera oportuno juzgar inmediatamente. Él puede hacerlo haciendo que la lava abrasadora y destructiva fluya no sólo por la montaña que hizo erupción, sino también a través de los valles que no hicieron erupción, pero que tienen la misma lava fundida del pecado bajo la superficie.
 
 La razón por la que confieso el pecado de golpear a Jesús, aunque yo no estaba allí, es que la misma lava de rebelión está en mi propio corazón. He visto suficiente para saber. Así que aunque no estalle en una atrocidad volcánica como la crucifixión, aún merece ser juzgado. Si Dios hubiera escogido hacer llover la lava de su maldad sobre sus propias cabezas y parte de ella me consumiera incluso a mí, no sería capaz de culpar a la justicia de Dios.
