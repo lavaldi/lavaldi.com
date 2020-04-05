@@ -16,6 +16,8 @@ slug: viendo-al-rey-el-domingo-de-ramos
 
 Hoy es Domingo de Ramos. Nos imaginamos recibiendo al Rey en nuestra ciudad y en nuestros corazones. Intenta dar a conocer sus intenciones viniendo, no sobre un gran semental, sino sobre un humilde burro, manso y humilde.
 
+![Domingo de Ramos](https://i.imgur.com/cpfXrZq.png)
+
 Me pregunto cuántos aquí miran a este humilde Rey-Siervo y sienten que esto es sólo una delgada capa, y que debajo de este humilde exterior hay un terrible poder y autoridad que está esperando estallar contra ustedes si se resbalan de alguna manera. Me pregunto cuántos sienten que no es realmente el placer más profundo del corazón de este Rey servir a su pueblo y satisfacer sus necesidades.
 
 Me pregunto cuántos sienten que está montando este burro de humildad como una especie de camuflaje. Y una vez que se ponga en pie, se quitará sus harapos, sacará su espada y saldrá corriendo a hacer lo que realmente le gusta hacer, es decir, juzgar y destruir. Por supuesto, algunos serán salvados, los pocos que de alguna manera podrían complacerlo. Pero ese no es el deseo de su corazón. Básicamente está enojado, siempre enojado. Y lo mejor que podemos hacer es mantenernos fuera de su camino, y tal vez, si mantenemos las reglas lo suficientemente bien, podríamos escabullirnos de él cuando esté de buen humor temporal.
@@ -38,7 +40,3 @@ Sigue el devocional de semana santa aquí 👉 [Amor al máximo](/amor-al-maximo
 
 Las lecturas son tomadas del libro de John Piper: [Love to the Uttermost: Devotional Readings for Holy Week](https://www.desiringgod.org/books/love-to-the-uttermost).<br>
 © Desiring God. Website: desiringGod.org
-
----
-
-Imagen de portada por https://www.bibledesign.net/
