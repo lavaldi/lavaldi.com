@@ -14,6 +14,8 @@ slug: que-asombroso-amor-de-resurreccion
 
 >  Por eso el Padre me ama, porque yo doy mi vida para tomarla de nuevo. Nadie me la quita, sino que yo la doy de mi propia voluntad. Tengo autoridad para darla, y tengo autoridad para tomarla de nuevo. Este mandamiento recibí de mi Padre. (Juan 10:17–18)
 
+![amor de resurrección](https://i.imgur.com/SdkTsbr.jpg)
+
 ¿Por qué dice esto Jesús? ¿Por qué insiste en su disposición a morir? Porque si no fuera verdad –si su muerte fuera forzada, si no fuera libre, si su corazón no estuviera realmente en ella– entonces se pondría un gran signo de interrogación sobre su amor por nosotros.
 
 La profundidad de su amor está en su libertad. Si él no murió por nosotros voluntariamente –si no escogió el sufrimiento y no lo abrazó– entonces, ¿cuán profundo es su amor? Así que hace hincapié en ello. Lo hace explícito. _Sale de mí, no de las circunstancias, no de la presión, sino de lo que realmente anhelo hacer._
