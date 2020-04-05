@@ -12,6 +12,8 @@ thumbnail: '../thumbnails/jesus.png'
 slug: por-que-jesus-es-digno-de-toda-confianza
 ---
 
+![Jesús es digno de toda confianza](https://i.imgur.com/Anmb4Pw.jpg)
+
 > Os lo digo desde ahora, antes de que pase, para que cuando suceda, creáis que yo soy. (Juan 13:19)
 
 Jesús mismo enseñó que todas las profecías sobre él se cumplirían. En otras palabras, tenemos un testimonio, no sólo de que los mismos escritores vieron la vida de Jesús como el cumplimiento de la profecía, sino que Jesús también lo hizo.
