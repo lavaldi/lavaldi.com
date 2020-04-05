@@ -24,6 +24,8 @@ Esto es lo que Jerusalén significó para Jesús: _"debo seguir mi camino, hoy, 
 
 Cuando Jesús afirmó su rostro para ir a Jerusalén, afirmó su rostro para morir.
 
+![Salmo 34:18](https://i.imgur.com/vOvkv7U.jpg)
+
 ## Había llegado el momento
 
 Recuerden, cuando piensen en el propósito de Jesús de morir, que él tenía una naturaleza como la nuestra. Se encogió de dolor como nosotros. Pensando humanamente, él habría disfrutado del matrimonio y de los hijos y nietos y de una larga vida y estima en la comunidad. Tenía una madre y hermanos y hermanas. Tenía lugares especiales en las montañas. Darle la espalda a todo esto, y poner su cara hacia latigazos, golpes, escupitajos, burlas y crucifixión, no fue fácil. Fue difícil.
@@ -49,4 +51,4 @@ Las lecturas son tomadas del libro de John Piper: [Love to the Uttermost: Devoti
 
 ---
 
-Imagen de portada por [Fullofeyes](https://www.fullofeyes.com/project/psalm-3418/)
+Imagen por [Fullofeyes](https://www.fullofeyes.com/project/psalm-3418/)
