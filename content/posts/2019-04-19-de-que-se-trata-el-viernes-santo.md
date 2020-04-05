@@ -24,8 +24,10 @@ Este acercamiento no es un acto físico. No es construir una torre de Babel, por
 
 ## El centro del Evangelio
 
+![Viernes Santo](https://i.imgur.com/1DUDi4c.jpg)
+
 De hecho, este es el corazón de todo el evangelio del Nuevo Testamento, ¿no es así? **Que Cristo vino al mundo para hacer un camino para que nosotros lleguemos a Dios sin ser consumidos en nuestro pecado por su santidad**.
-- _"Porque también Cristo murió[a] por los pecados una sola vez, el justo por los injustos, para llevarnos a Dios"_ (1 Pedro 3:18).
+- _"Porque también Cristo murió por los pecados una sola vez, el justo por los injustos, para llevarnos a Dios"_ (1 Pedro 3:18).
 - _"Porque por medio de El los unos y los otros tenemos nuestra entrada al Padre en un mismo Espíritu."_ (Efesios 2:18).
 - _"Nos gloriamos en Dios por medio de nuestro Señor Jesucristo, por quien ahora hemos recibido la reconciliación"_ (Romanos 5:11).
 
