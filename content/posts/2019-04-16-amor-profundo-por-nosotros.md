@@ -14,6 +14,8 @@ slug: amor-profundo-por-nosotros
 
 > Porque Cristo, cuando aún éramos débiles, a su tiempo murió por los impíos. Ciertamente, apenas morirá alguno por un justo; con todo, pudiera ser que alguno osara morir por el bueno. Mas Dios muestra su amor para con nosotros, en que siendo aún pecadores, Cristo murió por nosotros. (Romanos 5:6-8)
 
+![Romanos 5:6-8](https://i.imgur.com/7SBKtKr.jpg)
+
 Al reflexionar sobre el amor de Cristo para con nosotros, y las diferentes maneras en que la Biblia nos lo presenta, he visto cuatro maneras en que se revela la profundidad del amor de Cristo.
 
 Primero, sabemos la profundidad del amor de alguien por nosotros por lo que le cuesta. Si él sacrifica su vida por nosotros, nos asegura un amor más profundo que si sólo sacrifica unos pocos golpes. Así que veremos la profundidad del amor de Cristo por la grandeza de lo que le costó.
@@ -34,3 +36,7 @@ Sigue el devocional de semana santa aquí 👉 [Amor al máximo](/amor-al-maximo
 
 Las lecturas son tomadas del libro de John Piper: [Love to the Uttermost: Devotional Readings for Holy Week](https://www.desiringgod.org/books/love-to-the-uttermost).<br>
 © Desiring God. Website: desiringGod.org
+
+---
+
+Imagen por [Fullofeyes](https://www.fullofeyes.com/project/good-friday/)
