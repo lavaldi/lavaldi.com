@@ -17,16 +17,6 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-twitter",
     {
-      resolve: `gatsby-plugin-netlify`,
-      options: {
-        headers: {
-          "/*.js": ["cache-control: public, max-age=31536000, immutable"],
-          "/*.css": ["cache-control: public, max-age=31536000, immutable"],
-          "/sw.js": ["cache-control: public, max-age=0, must-revalidate"]
-        }
-      }
-    },
-    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "assets",
@@ -56,16 +46,16 @@ module.exports = {
               maxWidth: 850
             }
           },
-          "gatsby-remark-prismjs",
           "gatsby-remark-copy-linked-files",
           {
-            resolve: `gatsby-remark-autolink-headers`,
+            resolve: "gatsby-remark-autolink-headers",
             options: {
               offsetY: `100`,
               maintainCase: false,
               removeAccents: true
             }
-          }
+          },
+          "gatsby-remark-prismjs"
         ]
       }
     },
@@ -82,7 +72,7 @@ module.exports = {
       }
     },
     "gatsby-plugin-sharp",
-    `gatsby-transformer-sharp`,
+    "gatsby-transformer-sharp",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-sitemap",
     {
