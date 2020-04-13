@@ -21,7 +21,7 @@ yarn dev
 Create new post:
 
 ```
-yarn new:post "My post name"
+yarn new:post --title "My post title"
 ```
 
 To deploy:
