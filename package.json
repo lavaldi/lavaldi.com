@@ -6,6 +6,8 @@
   "repository": "git+https://github.com/lavaldi/lavaldi.github.io.git",
   "dependencies": {
     "@sindresorhus/slugify": "^0.11.0",
+    "canvas": "^2.6.1",
+    "chalk": "^4.0.0",
     "gatsby": "^2.13.13",
     "gatsby-image": "^2.2.4",
     "gatsby-plugin-catch-links": "^2.1.0",
@@ -30,6 +32,7 @@
     "hygen": "^5.0.3",
     "lodash": "^4.17.13",
     "lodash.kebabcase": "^4.1.1",
+    "minimist": "^1.2.5",
     "moment": "^2.24.0",
     "node-sass": "^4.11.0",
     "prismjs": "^1.15.0",
@@ -67,7 +70,8 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "new:post": "hygen blog-post new --name",
+    "new:post": "hygen blog-post new",
+    "new:banner": "node ./scripts/generate-banner.js",
     "dev": "gatsby develop",
     "serve": "gatsby serve",
     "build": "gatsby build",
