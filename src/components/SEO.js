@@ -10,12 +10,16 @@ export default class SEO extends Component {
     let description
     let image = ''
     let postURL
+    let internalSEOImage = true
 
     if (postSEO) {
       const postMeta = postNode.frontmatter
       title = postMeta.title
       description = postMeta.description ? postMeta.description : postNode.excerpt
-      if (postMeta.thumbnail) {
+      if (postMeta.seoImage) {
+        image = postMeta.seoImage
+        internalSEOImage = false
+      } else if (postMeta.thumbnail) {
         image = postMeta.thumbnail.childImageSharp.fixed.src
       }
       postURL = urljoin(config.siteUrl, postPath)
@@ -25,7 +29,7 @@ export default class SEO extends Component {
       image = config.siteLogo
     }
 
-    image = urljoin(config.siteUrl, image)
+    if (internalSEOImage) image = urljoin(config.siteUrl, image)
     const blogURL = config.siteUrl
     const schemaOrgJSONLD = [
       {

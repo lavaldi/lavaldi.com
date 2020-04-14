@@ -121,6 +121,7 @@ export const pageQuery = graphql`
             }
           }
         }
+        seoImage
         slug
         date
         categories
