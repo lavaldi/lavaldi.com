@@ -17,7 +17,7 @@ const log = console.log;
 const COLOR = {
   main: '#1E1E3F',
   highlight: '#FAD000',
-  background: '#fff'
+  background: '#A599E9'
 }
 
 const FONT_SIZE = 70;
