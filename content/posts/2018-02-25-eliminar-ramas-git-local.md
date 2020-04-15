@@ -1,33 +1,77 @@
 ---
-title: Eliminar ramas antiguas de un repositorio Git local
-date: 2018-02-25
+title: Cómo limpiar las ramas locales de Git
+date: 2020-04-14
 categories:
   - Code
 tags:
   - git
-background: "https://i.imgur.com/8L8ejhH.jpg"
 template: post
-thumbnail: '../thumbnails/git.png'
-slug: eliminar-ramas-git-local
+thumbnail: "../thumbnails/git.png"
+seoImage: "https://i.imgur.com/kwUOgyK.png"
+slug: limpiar-ramas-locales-git
 ---
 
-Al trabajar con Git, en grupos de varios colaboradores, comunmente implica la creación de varias ramas. Estas ramas se van acumulando en nuestro repositorio local, aunque ya hayan sido eliminadas del repositorio remoto, debido a que las herramientas de Git no hacen este proceso de forma automática, y no existe un comando de Git que lo haga por nosotros.
+Cuando se trabaja con Git, es bastante habitual acumular muchas ramas diferentes para las diferentes características en las que estamos trabajando.
 
-Sin embargo, con ayuda de algunos útiles comandos, es posible crear una instrucción que nos permita eliminar las ramas locales que hacen referencia a ramas remotas que ya han sido eliminadas:
+Sin embargo, cuando se fusiona (`merge`) con nuestra rama principal, puede que quieras limpiar las ramas no utilizadas para que tu espacio de trabajo en Git esté más organizado.
+
+Como desarrollador, puede ser bastante cansado tener referencias a cientos de ramas diferentes en nuestro repositorio de Git.
+
+Por ello, en este post, vamos a ver algunas de las diferentes formas de limpiar tus ramas locales de Git fácilmente.
+
+## Limpiar las ramas locales de Git individualmente
+
+En primer lugar, deseamos verificar qué ramas ya se han fusionado con la rama principal.
+
+En este caso, vamos a implicar que desea eliminar las ramas locales fusionadas con `master`.
+
+Para verificar las ramas fusionadas, usaremos el comando `git branch` con la opción `–merged`.
 
 ```bash
-git fetch -p && git branch -d `git branch -vv | grep ': gone]' | awk '{print $1}' | xargs`
+git checkout master
+
+git branch --merged <commit>
+
+  feature
+* master
 ```
 
-A continuación explico paso a paso lo que hace este conjunto de comandos:
+Si omites proporcionar el hash del commit, el comando implicará que se refiere a HEAD (también conocido como el último commit de tu rama actual).
 
-| Paso  | Comando         | Descripción                                                                                                                                                                                                                         |
-| :---: | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|   1   | git fetch -p    | Obtiene los cambios más recientes desde el repositorio remoto, y elimina ("corta") las referencias a las ramas remotas que ya no existen.                                                                                           |
-|   2   | git branch -vv  | Lista las ramas de forma detallada, lo cual incluye información el vínculo entre las ramas locales y las referencias a las ramas remotas, así como el estado de las ramas remotas.                                                  |
-|   3   | grep ': gone]'  | Del listado anterior de ramas, filtra aquellas que contengan el texto ': gone]', es decir, aquellas ramas cuyas ramas remotas vinculadas ya fueron eliminadas. Estas ramas eliminadas poseen el estado gone.                        |
-|   4   | awk '{print $1} | De la lista filtrada, obtiene la primera columna, la cual contiene el nombre de la rama local.                                                                                                                                      |
-|   5   | xargs           | Convierte las filas de nombres de ramas en una cadena de una sola línea, separando el contenido de cada fila mediante un espacio en blanco.                                                                                         |
-|   6   | git branch -d   | Elimina las ramas listadas en el paso anterior. Al utilizar la d minuscula, se indica que no se forzará la eliminación de ramas, lo que previene que se eliminen ramas locales que no hayan sido combinadas (merged) a otras ramas. |
+Ahora que tienes las ramas locales ya fusionadas con `master`, deberá eliminarlas.
 
-Esta serie de comandos trabaja solamente con el repositorio local, por lo que no hay peligro de afectar el repositorio remoto. Sin embargo, recomiendo que te asegures de haber subido (`push`) los cambios de todas las ramas, para prevenir la eliminación de ramas locales que aún tengan cambios no incluidos en el repositorio remoto.
+**La forma más fácil de eliminar ramas locales de Git es usar el comando `git branch` con la opción `-d`.**
+
+```bash
+git branch -d <branch>
+```
+
+La opción `-d` significa `–delete` y se puede usar siempre que la rama que desea limpiar esté completamente fusionada con su rama remota.
+
+**La otra forma de limpiar ramas locales en Git es usar el comando `git branch` con la opción `-D`.**
+
+En este caso, la opción `-D` significa `–delete -force` y se utiliza cuando las ramas locales aún no se fusionan con las ramas remotas.
+
+```bash
+git branch -D <branch>
+```
+
+## Limpiar todas las ramas locales de Git
+
+En algunos casos, puede ser útil tener una línea para eliminar ramas locales no utilizadas.
+
+Para aquellos que tienen curiosidad, aquí es cómo puede eliminar las ramas locales no utilizadas en una sola línea.
+
+```bash
+git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
+```
+
+Antes de ejecutar esto, hagamos una explicación rápida sobre este comando:
+
+- `git branch --merged`: primero, simplemente está enumerando todas las ramas actualmente fusionadas con la rama en la que estás actualmente;
+- `egrep -v "(^\*|master|dev)"`: está utilizando la función de coincidencia invertida de grep para excluir cualquier rama que pueda llamarse `master` o `dev`, por si acaso;
+- `xargs git branch -d`: estás eliminando todas las ramas mencionadas anteriormente.
+
+> ⚠️ Nota: puedes modificar el comando egrep para incluir tus propias ramas.
+
+Y eso es todo 🎉. Con estos comandos solo hemos borrado las ramas locales sin eliminar (~~dañar~~) las ramas en nuestro repositorio remoto 😌
