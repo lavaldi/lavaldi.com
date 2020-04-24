@@ -3,12 +3,13 @@ title: ¿Cómo cambiar mi variable de entorno PATH en macOS u OS X?
 date: 2018-05-18
 categories:
   - Code
+  - Popular
 tags:
   - path
   - macOS
 background: "https://i.imgur.com/A8CMAQX.jpg"
 template: post
-thumbnail: '../thumbnails/apple.png'
+thumbnail: "../thumbnails/apple.png"
 slug: cambiar-variable-entorno-path
 ---
 

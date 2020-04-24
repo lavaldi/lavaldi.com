@@ -3,7 +3,6 @@ title: "Cómo instalar un paquete de Node de forma local como dependencia de un 
 date: 2020-02-07
 categories:
   - Code
-  - Popular
 tags:
   - npm
   - node

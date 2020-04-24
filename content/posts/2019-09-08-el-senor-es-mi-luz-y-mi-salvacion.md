@@ -3,6 +3,7 @@ title: "El Señor es mi luz y mi salvación"
 date: 2019-09-08
 categories:
   - JesusFreak
+  - Popular
 tags:
   - Salmos
   - Naruto Shippuden
@@ -35,6 +36,6 @@ David aquí está pensando en la salvación de él mismo: _"Dios! ayúdame! sál
 
 Y todo esto me hizo recordar un capítulo de Naruto Shippuden que había vuelto a ver en estos días, el # 203
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/NoJENTq2kTI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/a6NhTN6It34?end=114" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Dios usa esos momentos de oscuridad para que nos demos cuenta de que, como David, necesitamos que Dios nos salve de nosotros mismos, de nuestras emociones, de nuestros deseos, y queda en nosotros el responder y no ser como Sasuke que, "no teniendo futuro" (como dice Temari) y teniendo amigos como Gaara y Naruto que vieron la luz, se entregó a la oscuridad.

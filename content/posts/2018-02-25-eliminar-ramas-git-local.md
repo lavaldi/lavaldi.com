@@ -3,6 +3,7 @@ title: Cómo limpiar las ramas locales de Git
 date: 2020-04-14
 categories:
   - Code
+  - Popular
 tags:
   - git
 template: post
