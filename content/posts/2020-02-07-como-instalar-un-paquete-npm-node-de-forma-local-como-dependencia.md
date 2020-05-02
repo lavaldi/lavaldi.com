@@ -1,26 +1,77 @@
 ---
-title: "Cómo instalar un paquete de Node de forma local como dependencia de un proyecto"
-date: 2020-02-07
+title: "Cómo probar un paquete npm localmente"
+date: 2020-05-04
 categories:
   - Code
 tags:
   - npm
+  - link
   - node
   - yalc
 template: post
 thumbnail: "../thumbnails/npm.png"
-slug: como-instalar-un-paquete-npm-node-de-forma-local-como-dependencia
+banner: "https://i.imgur.com/XJHiNhx.png"
+slug: como-probar-un-paquete-npm-localmente
 ---
 
-> Este post trata sobre probar tus paquetes que aún no han sido publicados en un registry de npm.
+> Este post trata sobre probar un paquete que aún no ha sido publicado en un registry de npm.
 
-Hay veces en las que se quiere instalar un paquete local como dependencia del proyecto. Puede que estés escribiendo un paquete para distribución general; o puede que estés contribuyendo a un paquete de código abierto, o un paquete personal privado, o algo interno de tu equipo. Estás trabajando en cambios locales y necesitas probarlos antes de commitearlos, y mucho menos antes de abrir un pull request o deployar una actualización. ¿Cuál es la mejor manera de añadir la copia local del paquete a un proyecto local para probar el trabajo real?
+Hay veces en las que se quiere instalar un paquete local como dependencia del proyecto. Puede que estés escribiendo un paquete para distribución general; o puede que estés contribuyendo a un paquete de código abierto, o un paquete personal privado, o algo interno de tu equipo. Estás trabajando en cambios locales y necesitas probarlos antes de commitearlos o antes de abrir un pull request o deployar una actualización. ¿Cuál es la mejor manera de probar realmente ese paquete añadiéndolo a un proyecto local?
 
 Una de las formas podría ser subir nuestros cambios a Gitub/Gitlab/Bitbucket y agregarlos como dependencia con `npm install` o `yarn add` y junto a `<remote url>[#<ref>]` (o en GitHub por ejemplo `username/repo#branch-name-or-commit-or-tag`). Pero eso requiere de estar pusheando las actualizaciones y de reinstalar el paquete en el proyecto con cada cambio.
 
 Otra opción es agregar el paquete con `npm add relative/path` o `yarn add file:relative/path`, que copian el directorio del paquete en los `node_modules` del proyecto. Lo malo es que no instala dependencias. Tampoco responde a las actualizaciones que realices. Además, el uso de una ruta relativa puede ser difícil de manejar con `../`.
 
-Pero ¿qué me funcionó a mi? Usar **yalc**
+Así que aquí te muestro dos maneras de hacerlo que me parecen presentan un enfoque más limpio. Mediante:
+
+- [npm link](#npm-link)
+- [Yalc](#yalc)
+
+## npm link
+
+Es un proceso de dos pasos: 
+1. Crea un **symlink** global para una dependencia con `npm link`. Un symlink, abreviatura de enlace simbólico, es un acceso directo que apunta a otro directorio o archivo en tu sistema.
+2. Hazle saber al proyecto donde probarás tu paquete que use el enlace simbólico global con `npm link my-package`.
+
+<!-- omit in toc -->
+### Uso
+
+Entonces en el directorio del paquete en desarrollo `my-package` ejecutaremos
+
+```bash
+$ npm link  # paso 1
+```
+
+Que lo que hace es, si mis node_modules están en `/usr/local/lib/node_modules/` entonces creará un enlace directo de `/usr/local/lib/node_modules/my-package` a `/Users/lavaldi/repos/my-package`
+
+Luego en el directorio del proyecto donde probarás el paquete:
+
+```bash
+npm link my-package # paso 2
+```
+
+Ahora puedes editar, transpilar o ejecutar pruebas en `my-package`. Todo mientras lo pruebas en un proyecto real. Los enlaces simbólicos son locales y no serás commiteados en git. Y cuando estés listo para compartir tu código, puedes publicar los cambios de `my-package` en un registry npm.
+
+<!-- omit in toc -->
+### De vuelta a la normalidad
+
+Cuando ya no desees utilizar la versión local de `my-package`, elimina el enlace simbólico. Pero cuidado, `npm unlink` es un alias para la desinstalación de npm (`npm uninstall`), no refleja el comportamiento de `npm link`.
+
+Por eso en el directorio del proyecto donde estabas probando el paquete:
+
+```bash
+npm uninstall --no-save my-package && npm install 
+```
+
+Luego puedes limpiar el enlace global, aunque su presencia no interferirá con nada. En el directorio del paquete en desarollo:
+
+```bash
+npm uninstall  # elimina el symlink
+```
+
+Dominar este proceso de dos pasos de `npm link` es una adición útil al conjunto de herramientas de cualquier desarrollador de Node.js así que espero esta información te sea valiosa.
+
+Ahora pasemos al siguiente método 👇
 
 ## Yalc
 
@@ -32,6 +83,7 @@ Pero ¿qué me funcionó a mi? Usar **yalc**
 
 Para evitar que las cosas colisionen, yalc firma cada versión publicada con un hash. Y yalc puede almacenar tantas versiones de un paquete (esa es la versión package.json) como quiera.
 
+<!-- omit in toc -->
 ### tldr;
 
 _La explicación de todos los comandos viene [más adelante](#instala-yalc)_
@@ -75,21 +127,24 @@ project $ npm install # (or `yarn`)
 # prueba el proyecto, hackea de nuevo, yalc push, repetir hasta terminar
 ```
 
+<!-- omit in toc -->
 ### Instala yalc
 
 ```bash
 $ npm install -g yalc # o `yarn global add yalc`
 ```
 
+<!-- omit in toc -->
 ### Publica un paquete en tu registry local de Yalc
 
 ```bash
-# el el directorio del paquete en desarrollo
+# en el directorio del paquete en desarrollo
 $ yalc publish
 ```
 
 Este comando lanzará al final el nombre real del paquete que usaremos en el siguiente comando.
 
+<!-- omit in toc -->
 ### Añade el paquete como una dependencia desde el registry de yalc
 
 ```bash
@@ -126,6 +181,7 @@ yalc no instala las dependencias del paquete, por lo que si el paquete en desarr
 $ npm install # or yarn
 ```
 
+<!-- omit in toc -->
 ### Sube los cambios del paquete a los proyectos dependientes locales
 
 Después de guardar los cambios en el paquete en desarrollo, simplemente ejecuta:
