@@ -182,6 +182,11 @@ ul {
 }
 
 @include small-breakpoint {
+  ol {
+    li {
+      margin-left: 3rem;
+    }
+  }
   ul {
     li {
       padding-left: 1.5rem;
