@@ -10,14 +10,15 @@ const { createCanvas, loadImage } = require('canvas')
 const parseArgs = require('minimist')
 const chalk = require('chalk')
 const fs = require('fs')
+const { COLORS } = require('./constans')
 
 // eslint-disable-next-line no-console
 const log = console.log;
 
 const COLOR = {
-  main: '#1E1E3F',
-  highlight: '#FAD000',
-  background: '#A599E9'
+  main: COLORS.portGore,
+  highlight: COLORS.gold,
+  background: COLORS.dullLavender
 }
 
 const FONT_SIZE = 70;
