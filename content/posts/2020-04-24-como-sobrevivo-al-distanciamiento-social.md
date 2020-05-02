@@ -8,7 +8,7 @@ tags:
   - Paul Tripp
 template: post
 thumbnail: "../thumbnails/jesus.png"
-seoImage: "https://i.imgur.com/rWJBs40.jpg"
+banner: "https://i.imgur.com/rWJBs40.jpg"
 slug: "como-sobrevivo-al-distanciamiento-social"
 ---
 

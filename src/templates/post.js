@@ -121,7 +121,7 @@ export const pageQuery = graphql`
             }
           }
         }
-        seoImage
+        banner
         slug
         date
         categories

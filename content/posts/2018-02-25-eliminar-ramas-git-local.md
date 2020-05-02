@@ -8,7 +8,7 @@ tags:
   - git
 template: post
 thumbnail: "../thumbnails/git.png"
-seoImage: "https://i.imgur.com/kwUOgyK.png"
+banner: "https://i.imgur.com/kwUOgyK.png"
 slug: limpiar-ramas-locales-git
 ---
 

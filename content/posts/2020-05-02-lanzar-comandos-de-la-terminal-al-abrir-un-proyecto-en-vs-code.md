@@ -7,7 +7,7 @@ tags:
   - vscode
 template: post
 thumbnail: "../thumbnails/vsc.png"
-seoImage: "https://i.imgur.com/CEnh8Y6.png"
+banner: "https://i.imgur.com/CEnh8Y6.png"
 slug: "lanzar-comandos-de-la-terminal-al-abrir-un-proyecto-en-vs-code"
 ---
 

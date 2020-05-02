@@ -8,7 +8,7 @@ tags:
   - minimist
 template: post
 thumbnail: "../thumbnails/node.png"
-seoImage: "https://i.imgur.com/GFyfBOp.png"
+banner: "https://i.imgur.com/GFyfBOp.png"
 slug: "pasar-argumentos-desde-la-linea-de-comandos-en-node-js"
 ---
 
