@@ -11,7 +11,7 @@ banner: "https://i.imgur.com/CEnh8Y6.png"
 slug: "lanzar-comandos-de-la-terminal-al-abrir-un-proyecto-en-vs-code"
 ---
 
-Estaba leyendo, como usualmente lo hago, los newsletters que me llegan al correo y en uno de esos me topé con un post de [Chris Coyier en CSS Tricks](https://css-tricks.com/some-little-improvements-to-my-vs-code-workflow-workspaces-icons-tasks/) sobre su workflow en VS Code y me pareció interesante la parte en que hablaba de lanzar comandos de la terminal al abrir un proyecto, ya que uno siempre que abre un proyecto y tiene que correr el script `start` o `dev` o `watch` (o el que sea que utilices en tu proyecto) y es un buena forma de automatizar tu workflow ☝️ así que aquí se los comparto!
+Estaba leyendo, como usualmente lo hago, los newsletters que me llegan al correo y en uno de esos me topé con un post de [Chris Coyier en CSS Tricks](https://css-tricks.com/some-little-improvements-to-my-vs-code-workflow-workspaces-icons-tasks/) sobre su workflow en VS Code y me pareció interesante la parte en que hablaba de lanzar comandos de la terminal al abrir un proyecto, ya que uno siempre que abre un proyecto y tiene que correr el script `start` o `dev` o `watch` (o el que sea que utilices en tu proyecto) y es una buena forma de automatizar tu workflow ☝️ así que aquí se los comparto!
 
 ## Tasks
 
