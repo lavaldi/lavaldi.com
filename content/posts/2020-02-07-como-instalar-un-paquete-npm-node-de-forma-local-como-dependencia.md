@@ -42,7 +42,7 @@ Entonces en el directorio del paquete en desarrollo `my-package` ejecutaremos
 $ npm link  # paso 1
 ```
 
-Que lo que hace es, si mis node_modules están en `/usr/local/lib/node_modules/` entonces creará un enlace directo de `/usr/local/lib/node_modules/my-package` a `/Users/lavaldi/repos/my-package`
+Que lo que hace es, si mis `node_modules` están en `/usr/local/lib/node_modules/` entonces creará un enlace directo de `/usr/local/lib/node_modules/my-package` a `/Users/lavaldi/repos/my-package`
 
 Luego en el directorio del proyecto donde probarás el paquete:
 
