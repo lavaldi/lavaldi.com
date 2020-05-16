@@ -64,7 +64,7 @@ $dark-border: darken($background, 3%);
     }
   }
 
-  :not(pre)>code {
+  :not(pre) > code {
     background: rgba(255, 255, 255, 0.1);
     color: $foreground;
   }
@@ -254,12 +254,7 @@ $dark-border: darken($background, 3%);
   }
 
   blockquote {
-    border: 2px solid #393939;
-    background: rgba(0, 0, 0, 0.2);
-
-    p {
-      color: $yellow;
-    }
+    border-color: #393939;
 
     a {
       color: lighten($yellow, 25%) !important;
@@ -325,7 +320,7 @@ $dark-border: darken($background, 3%);
     &:disabled {
       cursor: default;
       pointer-events: none;
-      opacity: .3;
+      opacity: 0.3;
     }
 
     &:hover,

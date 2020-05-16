@@ -649,10 +649,7 @@ em {
 }
 
 blockquote {
-  color: rgba(0, 0, 0, 0.7);
-  border: 2px solid $yellow;
-  background: lighten($yellow, 28%);
-  border-radius: $border-radius;
+  border-left: 5px solid $yellow;
   font-weight: 500;
   margin: 1.5rem 0;
   padding: 1.5rem;
@@ -660,13 +657,11 @@ blockquote {
   font-size: 1rem;
 
   &.success {
-    border: 2px solid $green;
-    background: lighten($green, 48%);
+    border-color: $green;
   }
 
   &.error {
-    border: 2px solid $error;
-    background: lighten($error, 23%);
+    border-color: $error;
   }
 
   p {
