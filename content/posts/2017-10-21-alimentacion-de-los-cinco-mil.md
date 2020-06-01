@@ -3,12 +3,13 @@ title: Alimentación de los cinco mil
 date: 2017-10-21
 categories:
   - JesusFreak
+  - Popular
 tags:
   - Medicaciones sobre los Evangelios Lucas
   - J. C. Ryle
 background: "https://i.imgur.com/2S7Ae5l.jpg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
+thumbnail: "../thumbnails/jesus.png"
 slug: alimentacion-de-los-cinco-mil
 ---
 
@@ -16,7 +17,7 @@ slug: alimentacion-de-los-cinco-mil
 
 > – Lucas 9:12-17
 
-Todo el milagro es un cuadro. Vemos en él, como en un espejo, algunas de las verdades más importantes del cristianismo. Es, en realidad, una gran parábola representada del glorioso Evangelio. 
+Todo el milagro es un cuadro. Vemos en él, como en un espejo, algunas de las verdades más importantes del cristianismo. Es, en realidad, una gran parábola representada del glorioso Evangelio.
 
 **¿Qué es aquella multitud que rodeaba a nuestro Señor en el desierto, pobre, necesitada y sin alimento?** Es una figura de la Humanidad. Somos una compañía de pobres pecadores en medio de un mundo malvado, sin fuerzas ni poder para salvarnos a nosotros mismos y en grave peligro de perecer por nuestra hambre espiritual.
 
@@ -26,10 +27,10 @@ Todo el milagro es un cuadro. Vemos en él, como en un espejo, algunas de las ve
 
 **¿Quiénes son aquellos discípulos que recibieron los panes y los peces de manos de Cristo y los llevaron a la multitud hasta que se saciaron?** Son una figura de todos los predicadores y maestros fieles del Evangelio. Su trabajo es sencillo y, sin embargo, profundamente importante. Son los encargados de poner delante de los hombres la provisión que Cristo ha hecho para sus almas. No han sido comisionados para ofrecer nada inventado por ellos. Todo lo que entregan a los hombres debe proceder de las manos de Cristo. En la medida en que ellos llevan a cabo fielmente este cometido, pueden esperar con confianza la bendición de su Maestro. Muchos, sin duda, rechazarán siempre comer el alimento que Cristo ha provisto. Pero si los ministros ofrecen el pan de vida a los hombres con fidelidad, la sangre de aquellos que se pierden no se les requerirá de sus manos.
 
-* * *
+---
 
 ¿Qué estamos haciendo nosotros? ¿Hemos descubierto que este mundo es un desierto, que nuestras almas deben ser alimentadas con el pan del Cielo o morirán eternamente? ¡Felices aquellos que han aprendido esta lección y han saboreado por experiencia que Cristo crucificado es el verdadero pan de vida! El corazón del hombre nunca puede quedar satisfecho con las cosas de este mundo. Siempre está vacío, hambriento, sediento e insatisfecho hasta que acude a Cristo. Solo aquellos que escuchan la voz de Cristo, que le siguen y que son alimentados por Él por la fe serán “saciados”.
 
-* * *
+---
 
 Ryle, J. C.. Meditaciones sobre los Evangelios: Lucas

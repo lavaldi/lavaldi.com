@@ -3,6 +3,7 @@ title: "Cómo formatear en macOS desde la terminal"
 date: 2020-03-09
 categories:
   - Code
+  - Popular
 tags:
   - macOS
   - terminal
