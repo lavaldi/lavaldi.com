@@ -66,4 +66,4 @@ Traducción del artículo escrito por Paul Tripp, [Should You Pursue Happiness?]
 
 ---
 
-Photo by [Luca Upper](https://unsplash.com/@lucistan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/happiness?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+Imagen por [Luca Upper](https://unsplash.com/@lucistan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) en [Unsplash](https://unsplash.com/s/photos/happiness?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

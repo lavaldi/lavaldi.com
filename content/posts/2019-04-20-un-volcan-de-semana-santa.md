@@ -8,7 +8,7 @@ tags:
   - semana santa
   - John Piper
 template: post
-thumbnail: '../thumbnails/jesus.png'
+thumbnail: "../thumbnails/jesus.png"
 slug: un-volcan-de-semana-santa
 ---
 
@@ -41,4 +41,4 @@ Las lecturas son tomadas del libro de John Piper: [Love to the Uttermost: Devoti
 
 ---
 
-Photo by [Marc Szeglat](https://unsplash.com/@marcszeglat?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge) on Unsplash
+Imagen por [Marc Szeglat](https://unsplash.com/@marcszeglat?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge) en Unsplash
