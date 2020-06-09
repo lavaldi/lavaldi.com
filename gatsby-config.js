@@ -55,7 +55,13 @@ module.exports = {
               removeAccents: true
             }
           },
-          "gatsby-remark-prismjs"
+          "gatsby-remark-prismjs",
+          {
+            resolve: "@weknow/gatsby-remark-twitter",
+            options: {
+              align: 'center'
+            }
+          }
         ]
       }
     },
