@@ -15,11 +15,14 @@ class ThemeProvider extends Component {
   }
 
   componentDidMount() {
-    const lsDark = JSON.parse(localStorage.getItem('dark'))
+    const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const lsDark = systemDarkMode || JSON.parse(localStorage.getItem('dark'))
 
     if (lsDark) {
       this.setState({ dark: lsDark })
     }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', this.handleSwitchSystemDarkMode)
   }
 
   componentDidUpdate(prevState) {
@@ -28,6 +31,14 @@ class ThemeProvider extends Component {
     if (prevState.dark !== dark) {
       localStorage.setItem('dark', JSON.stringify(dark))
     }
+  }
+
+  componentWillUnmount() {
+    window.matchMedia('(prefers-color-scheme: dark)').removeEventListener('change', this.handleSwitchSystemDarkMode);
+  }
+
+  handleSwitchSystemDarkMode = (event) => {
+    this.setState({ dark: event.matches })
   }
 
   toggleDark = () => {
