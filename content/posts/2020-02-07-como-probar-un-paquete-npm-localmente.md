@@ -29,12 +29,12 @@ Así que aquí te muestro dos maneras de hacerlo que me parecen presentan un enf
 
 ## npm link
 
-Es un proceso de dos pasos: 
+Es un proceso de dos pasos:
+
 1. Crea un **symlink** global para una dependencia con `npm link`. Un symlink, abreviatura de enlace simbólico, es un acceso directo que apunta a otro directorio o archivo en tu sistema.
 2. Hazle saber al proyecto donde probarás tu paquete que use el enlace simbólico global con `npm link my-package`.
 
-<!-- omit in toc -->
-### Uso
+### Uso <!-- omit in toc -->
 
 Entonces en el directorio del paquete en desarrollo `my-package` ejecutaremos
 
@@ -52,15 +52,14 @@ npm link my-package # paso 2
 
 Ahora puedes editar, transpilar o ejecutar pruebas en `my-package`. Todo mientras lo pruebas en un proyecto real. Los enlaces simbólicos son locales y no serás commiteados en git. Y cuando estés listo para compartir tu código, puedes publicar los cambios de `my-package` en un registry npm.
 
-<!-- omit in toc -->
-### De vuelta a la normalidad
+### De vuelta a la normalidad <!-- omit in toc -->
 
 Cuando ya no desees utilizar la versión local de `my-package`, elimina el enlace simbólico. Pero cuidado, `npm unlink` es un alias para la desinstalación de npm (`npm uninstall`), no refleja el comportamiento de `npm link`.
 
 Por eso en el directorio del proyecto donde estabas probando el paquete:
 
 ```bash
-npm uninstall --no-save my-package && npm install 
+npm uninstall --no-save my-package && npm install
 ```
 
 Luego puedes limpiar el enlace global, aunque su presencia no interferirá con nada. En el directorio del paquete en desarollo:
@@ -70,6 +69,17 @@ npm uninstall  # elimina el symlink
 ```
 
 Dominar este proceso de dos pasos de `npm link` es una adición útil al conjunto de herramientas de cualquier desarrollador de Node.js así que espero esta información te sea valiosa.
+
+> Nota: Si usas yarn, lo puedes hacer de la siguiente manera
+>
+> ```bash
+> # para linkear
+> yarn link # paso 1
+> yarn link my-package # paso 2
+> # para volver a la normalidad
+> yarn unlink my-package # en el directorio del proyecto donde estabas probando el paquete
+> yarn unlink # elimina el symlink global
+> ```
 
 Ahora pasemos al siguiente método 👇
 
@@ -83,8 +93,7 @@ Ahora pasemos al siguiente método 👇
 
 Para evitar que las cosas colisionen, yalc firma cada versión publicada con un hash. Y yalc puede almacenar tantas versiones de un paquete (esa es la versión package.json) como quiera.
 
-<!-- omit in toc -->
-### tldr;
+### tldr; <!-- omit in toc -->
 
 _La explicación de todos los comandos viene [más adelante](#instala-yalc)_
 
@@ -127,15 +136,13 @@ project $ npm install # (or `yarn`)
 # prueba el proyecto, hackea de nuevo, yalc push, repetir hasta terminar
 ```
 
-<!-- omit in toc -->
-### Instala yalc
+### Instala yalc <!-- omit in toc -->
 
 ```bash
 $ npm install -g yalc # o `yarn global add yalc`
 ```
 
-<!-- omit in toc -->
-### Publica un paquete en tu registry local de Yalc
+### Publica un paquete en tu registry local de Yalc <!-- omit in toc -->
 
 ```bash
 # en el directorio del paquete en desarrollo
@@ -144,8 +151,7 @@ $ yalc publish
 
 Este comando lanzará al final el nombre real del paquete que usaremos en el siguiente comando.
 
-<!-- omit in toc -->
-### Añade el paquete como una dependencia desde el registry de yalc
+### Añade el paquete como una dependencia desde el registry de yalc <!-- omit in toc -->
 
 ```bash
 # en el proyecto donde probarás el paquete
@@ -181,8 +187,7 @@ yalc no instala las dependencias del paquete, por lo que si el paquete en desarr
 $ npm install # or yarn
 ```
 
-<!-- omit in toc -->
-### Sube los cambios del paquete a los proyectos dependientes locales
+### Sube los cambios del paquete a los proyectos dependientes locales <!-- omit in toc -->
 
 Después de guardar los cambios en el paquete en desarrollo, simplemente ejecuta:
 
