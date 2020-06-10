@@ -15,14 +15,14 @@ class ThemeProvider extends Component {
   }
 
   componentDidMount() {
-    const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const lsDark = systemDarkMode || JSON.parse(localStorage.getItem('dark'))
+    const darkModeMediaQuery = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+    const lsDark = darkModeMediaQuery.matches || JSON.parse(localStorage.getItem('dark'))
 
     if (lsDark) {
       this.setState({ dark: lsDark })
     }
 
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', this.handleSwitchSystemDarkMode)
+    darkModeMediaQuery.addListener(this.handleSwitchSystemDarkMode);
   }
 
   componentDidUpdate(prevState) {
@@ -34,7 +34,8 @@ class ThemeProvider extends Component {
   }
 
   componentWillUnmount() {
-    window.matchMedia('(prefers-color-scheme: dark)').removeEventListener('change', this.handleSwitchSystemDarkMode);
+    const darkModeMediaQuery = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+    darkModeMediaQuery.removeListener(this.handleSwitchSystemDarkMode);
   }
 
   handleSwitchSystemDarkMode = (event) => {
