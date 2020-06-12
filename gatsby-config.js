@@ -184,6 +184,12 @@ module.exports = {
       options: {
         shortname: "lavaldi"
       }
-    }
+    },
+    {
+      resolve: "gatsby-plugin-canonical-urls",
+      options: {
+        siteUrl: config.siteUrl,
+      },
+    },
   ]
 };
