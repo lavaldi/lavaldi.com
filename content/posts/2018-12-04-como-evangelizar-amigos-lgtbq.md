@@ -8,13 +8,15 @@ tags:
   - hospitalidad
   - homosexualidad
   - sexualidad
-background: "https://i.imgur.com/LJUrGBv.jpg"
+banner: "https://i.imgur.com/LJUrGBv.jpg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: como-evangelizar-a-los-amigos-lgtbq
 ---
 
 Tal vez tengas un amigo o compañero de trabajo que se identifique como LGTBQ y quieras acercarte a él para presentarle el evangelio, pero no sabes cómo. Estos son unos "tips" que tomé del artículo _[How to Evangelize Friends Identifying as LGBTQ](https://www.thegospelcoalition.org/article/evangelize-friends-identifying-lgbtq/)_ escrito por [Rosaria Butterfield](https://rosariabutterfield.com/biography/), espero que te sirvan 😉
+
+![](https://i.imgur.com/LJUrGBv.jpg)
 
 ## Hospitalidad diaria
 
