@@ -7,7 +7,7 @@ tags:
   - Sabiduria
   - Proverbios
   - John MacArthur
-background: "https://cdn-images-1.medium.com/max/1000/1*uHECVSwAvFMpvvpjrkwu0w.jpeg"
+banner: "https://cdn-images-1.medium.com/max/1000/1*uHECVSwAvFMpvvpjrkwu0w.jpeg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: la-sabiduria

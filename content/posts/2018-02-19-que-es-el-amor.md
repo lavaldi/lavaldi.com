@@ -7,7 +7,7 @@ tags:
   - Paul Tripp
   - amor
   - devocional
-background: "https://i.imgur.com/zDoZuRS.jpg"
+banner: "https://i.imgur.com/zDoZuRS.jpg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: que-es-el-amor

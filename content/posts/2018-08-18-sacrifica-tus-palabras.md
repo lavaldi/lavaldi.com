@@ -6,7 +6,7 @@ categories:
 tags: 
   - Oseas
   - Paul Tripp
-background: "https://i.imgur.com/6kMuDTB.jpg"
+banner: "https://i.imgur.com/6kMuDTB.jpg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: sacrifica-tus-palabras

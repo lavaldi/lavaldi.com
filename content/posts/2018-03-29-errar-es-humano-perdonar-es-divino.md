@@ -8,7 +8,7 @@ tags:
   - Dios
   - La Razón de Dios
   - Timothy Keller
-background: "https://i.imgur.com/Q5vZLoe.jpg"
+banner: "https://i.imgur.com/Q5vZLoe.jpg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: errar-es-humano-perdonar-es-divino

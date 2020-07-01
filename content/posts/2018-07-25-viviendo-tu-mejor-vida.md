@@ -5,7 +5,7 @@ categories:
   - JesusFreak
 tags:
   - Paul Tripp
-background: "https://i.imgur.com/uBh8nwO.jpg"
+banner: "https://i.imgur.com/uBh8nwO.jpg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: viviendo-tu-mejor-vida

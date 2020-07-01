@@ -7,7 +7,7 @@ categories:
 tags:
   - srt
   - subtitulos
-background: "https://i.imgur.com/H1maXnW.png"
+banner: "https://i.imgur.com/H1maXnW.png"
 template: post
 thumbnail: "../thumbnails/bash.png"
 slug: crear-subtitulos-srt

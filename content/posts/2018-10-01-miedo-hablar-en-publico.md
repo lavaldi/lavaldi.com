@@ -5,7 +5,7 @@ categories:
   - JesusFreak
 tags:
   - Paul David Tripp
-background: "https://i.imgur.com/58nyVDe.jpg"
+banner: "https://i.imgur.com/58nyVDe.jpg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: miedo-hablar-en-publico

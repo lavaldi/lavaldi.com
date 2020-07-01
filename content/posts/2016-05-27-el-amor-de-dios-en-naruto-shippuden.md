@@ -7,7 +7,7 @@ tags:
   - Naruto Shippuden
   - amor
   - Dios
-background: "https://cdn-images-1.medium.com/max/800/1*09bihb9DoBwcw3vJ4bqh_Q.png"
+banner: "https://cdn-images-1.medium.com/max/800/1*09bihb9DoBwcw3vJ4bqh_Q.png"
 template: post
 thumbnail: '../thumbnails/naruto.png'
 slug: el-amor-de-dios-en-naruto-shippuden

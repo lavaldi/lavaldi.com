@@ -6,7 +6,7 @@ categories:
 tags:
   - Colosenses
   - Samuel Pérez Millos
-background: "https://cdn-images-1.medium.com/max/2000/1*jOmjtpJRw7Roi2ULutrg0g.png"
+banner: "https://cdn-images-1.medium.com/max/2000/1*jOmjtpJRw7Roi2ULutrg0g.png"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: la-experanza

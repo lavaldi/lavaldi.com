@@ -5,7 +5,7 @@ categories:
   - JesusFreak
 tags:
   - Scott Hubbard
-background: "https://i.imgur.com/gw5bSW3.jpg"
+banner: "https://i.imgur.com/gw5bSW3.jpg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: despiertame-hoy

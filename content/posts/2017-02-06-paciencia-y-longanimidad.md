@@ -6,7 +6,7 @@ categories:
 tags:
   - Colosenses
   - Samuel Pérez Millos
-background: "https://cdn-images-1.medium.com/max/2000/1*N3E9m3w0qpG0eJghzw55Lw.png"
+banner: "https://cdn-images-1.medium.com/max/2000/1*N3E9m3w0qpG0eJghzw55Lw.png"
 template: post
 thumbnail: "../thumbnails/jesus.png"
 slug: paciencia-y-longanimidad

@@ -6,7 +6,7 @@ categories:
 tags:
   - Juan
   - J. C. Ryle
-background: "https://i.imgur.com/TCv4ly4.jpg"
+banner: "https://i.imgur.com/TCv4ly4.jpg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: si-alguno-tiene-sed

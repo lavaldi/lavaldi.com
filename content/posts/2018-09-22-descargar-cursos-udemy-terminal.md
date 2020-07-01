@@ -6,7 +6,7 @@ categories:
 tags:
   - youtube-dl
   - Udemy
-background: "https://i.imgur.com/7HUo6j1.jpg"
+banner: "https://i.imgur.com/7HUo6j1.jpg"
 template: post
 thumbnail: '../thumbnails/bash.png'
 slug: descargar-cursos-udemy-terminal

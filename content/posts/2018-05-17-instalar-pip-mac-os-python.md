@@ -7,7 +7,7 @@ tags:
   - pip
   - python
   - macOS
-background: "https://i.imgur.com/A8CMAQX.jpg"
+banner: "https://i.imgur.com/A8CMAQX.jpg"
 template: post
 thumbnail: '../thumbnails/snake.png'
 slug: instalar-pip-mac-os-python

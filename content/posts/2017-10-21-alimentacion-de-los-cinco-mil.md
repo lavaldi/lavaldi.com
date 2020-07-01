@@ -7,7 +7,7 @@ categories:
 tags:
   - Medicaciones sobre los Evangelios Lucas
   - J. C. Ryle
-background: "https://i.imgur.com/2S7Ae5l.jpg"
+banner: "https://i.imgur.com/2S7Ae5l.jpg"
 template: post
 thumbnail: "../thumbnails/jesus.png"
 slug: alimentacion-de-los-cinco-mil

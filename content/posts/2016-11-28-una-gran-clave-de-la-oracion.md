@@ -6,7 +6,7 @@ categories:
 tags:
   - oracion
   - Mark Driscoll
-background: "https://cdn-images-1.medium.com/max/600/1*w7RldGJo7JFdwVR34eV2Rg.png"
+banner: "https://cdn-images-1.medium.com/max/600/1*w7RldGJo7JFdwVR34eV2Rg.png"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: una-gran-clave-de-la-oracion

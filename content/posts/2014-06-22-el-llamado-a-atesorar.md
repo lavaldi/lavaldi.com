@@ -7,7 +7,7 @@ tags:
   - cristianismo
   - Radical
   - David Platt
-background: "https://i.imgur.com/6n69ME5.jpg"
+banner: "https://i.imgur.com/6n69ME5.jpg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: el-llamado-a-atesorar

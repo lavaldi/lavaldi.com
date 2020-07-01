@@ -7,7 +7,7 @@ tags:
   - sexo
   - matrimonio
   - John Piper
-background: "https://cdn-images-1.medium.com/max/800/1*vBXaE2IMmq3d2JqCXYSgnQ.jpeg"
+banner: "https://cdn-images-1.medium.com/max/800/1*vBXaE2IMmq3d2JqCXYSgnQ.jpeg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: fe-y-sexo-en-el-matrimonio

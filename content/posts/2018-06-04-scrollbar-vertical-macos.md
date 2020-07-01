@@ -7,7 +7,7 @@ tags:
   - css
   - webkit
   - macOS
-background: "https://i.imgur.com/A8CMAQX.jpg"
+banner: "https://i.imgur.com/A8CMAQX.jpg"
 template: post
 thumbnail: '../thumbnails/css.png'
 slug: scrollbar-vertical-macos

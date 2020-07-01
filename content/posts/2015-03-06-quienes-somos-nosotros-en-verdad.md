@@ -8,7 +8,7 @@ tags:
   - pecado
   - Radical
   - David Platt
-background: "https://cdn-images-1.medium.com/max/2000/1*h1JIa_qN1p6J-l4knyN8SA.jpeg"
+banner: "https://cdn-images-1.medium.com/max/2000/1*h1JIa_qN1p6J-l4knyN8SA.jpeg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: quienes-somos-nosotros-en-verdad

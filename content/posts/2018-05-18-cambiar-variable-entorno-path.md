@@ -7,7 +7,7 @@ categories:
 tags:
   - path
   - macOS
-background: "https://i.imgur.com/A8CMAQX.jpg"
+banner: "https://i.imgur.com/A8CMAQX.jpg"
 template: post
 thumbnail: "../thumbnails/apple.png"
 slug: cambiar-variable-entorno-path

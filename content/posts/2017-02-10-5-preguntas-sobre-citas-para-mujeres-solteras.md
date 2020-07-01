@@ -6,7 +6,7 @@ categories:
 tags:
   - mujeres
   - Mark Driscoll
-background: "https://cdn-images-1.medium.com/max/2000/1*SXg7WKmGrquGs2lWX99bSg.png"
+banner: "https://cdn-images-1.medium.com/max/2000/1*SXg7WKmGrquGs2lWX99bSg.png"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: 5-preguntas-sobre-citas-para-mujeres-solteras

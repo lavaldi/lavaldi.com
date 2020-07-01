@@ -6,7 +6,7 @@ categories:
 tags:
   - Medicaciones sobre los Evangelios Lucas
   - J. C. Ryle
-background: "https://i.imgur.com/1Y7dOMf.jpg"
+banner: "https://i.imgur.com/1Y7dOMf.jpg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: el-recibe-a-todos

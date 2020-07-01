@@ -6,7 +6,7 @@ categories:
 tags:
   - misericordia
   - John MacArthur
-background: "https://i.imgur.com/QnUuAKd.jpg"
+banner: "https://i.imgur.com/QnUuAKd.jpg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: misericordia

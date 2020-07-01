@@ -8,7 +8,7 @@ tags:
   - Dios
   - La Razón de Dios
   - Timothy Keller
-background: "https://i.imgur.com/AlugzZE.jpg"
+banner: "https://i.imgur.com/AlugzZE.jpg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: el-perdon-de-dios

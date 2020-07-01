@@ -7,7 +7,7 @@ tags:
   - vscode
   - code
   - macOS
-background: "https://i.imgur.com/A8CMAQX.jpg"
+banner: "https://i.imgur.com/A8CMAQX.jpg"
 template: post
 thumbnail: "../thumbnails/vsc.png"
 slug: instalar-comando-code-vscode

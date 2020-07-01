@@ -8,7 +8,7 @@ tags:
   - navidad
   - adviento
   - John Piper
-background: "https://i.imgur.com/miS7Ine.jpg"
+banner: "https://i.imgur.com/miS7Ine.jpg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: buenas-nuevas-de-gran-gozo-lecturas-diarias-para-adviento

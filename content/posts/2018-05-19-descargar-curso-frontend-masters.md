@@ -5,7 +5,7 @@ categories:
   - Code
 tags:
   - Frontend Masters
-background: "https://i.imgur.com/A8CMAQX.jpg"
+banner: "https://i.imgur.com/A8CMAQX.jpg"
 template: post
 thumbnail: "../thumbnails/bash.png"
 slug: descargar-curso-frontend-masters

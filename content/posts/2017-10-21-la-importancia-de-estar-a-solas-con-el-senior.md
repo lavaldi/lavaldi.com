@@ -6,7 +6,7 @@ categories:
 tags:
   - Medicaciones sobre los Evangelios Lucas
   - J. C. Ryle
-background: "https://i.imgur.com/3CJa9Z2.jpg"
+banner: "https://i.imgur.com/3CJa9Z2.jpg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: la-importancia-de-estar-a-solas-con-el-senor

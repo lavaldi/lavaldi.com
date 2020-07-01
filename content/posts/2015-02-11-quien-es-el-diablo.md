@@ -6,7 +6,7 @@ categories:
 tags:
   - Cartas del diablo a su sobrino
   - C.S. Lewis
-background: "https://cdn-images-1.medium.com/max/800/1*9kRUtNhCf-FchPJyRhUWUA.jpeg"
+banner: "https://cdn-images-1.medium.com/max/800/1*9kRUtNhCf-FchPJyRhUWUA.jpeg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: quien-es-el-diablo

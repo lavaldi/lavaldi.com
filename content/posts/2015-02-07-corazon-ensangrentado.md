@@ -6,7 +6,7 @@ categories:
 tags: 
   - amor
   - Donald Grey Barnhouse
-background: "https://c1.staticflickr.com/5/4052/4352048108_1884eca214_b.jpg"
+banner: "https://c1.staticflickr.com/5/4052/4352048108_1884eca214_b.jpg"
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: corazon-ensangrentado
