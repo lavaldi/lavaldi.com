@@ -10,7 +10,33 @@ thumbnail: '../thumbnails/jesus.png'
 slug: encuentro-al-senor-del-libro
 ---
 
-> Encuentro a mi Señor en el libro en donde tengo la oportunidad de ver. Él es el tema de la Biblia, el centro y el corazón del libro. Él es la rosa de Sarón y el lirio de los valles. Cuando abro mi Biblia el Señor del libro está ahí. Él es el principio del libro. Él, en el principio del libro le dio a la tierra su forma. Él es el arca de refugio que enfrenta el golpe de la tormenta. Él es la zarza ardiente del desierto. Él es el retoño de la vara de Arón. A donde quiera que va mi Biblia veo al hijo de Dios, el carnero en el Monte Moriah, la escalera de la tierra al cielo, el hilo escarlata en la ventana y la serpiente levantada en alto, la roca golpeada en el desierto, el pastor con la vara y el callado, el rostro de mi Señor descubre en donde quiera que abro el libro. Él lee el nacimiento de la mujer, el Salvador que nación de una virgen, Él es el hijo de David a quien los hombres rechazaron con escarnio, sus vestimentas de gracia y de belleza, Él es el atuendo majestuoso de Arón; sin embargo, Él es un sacerdote para siempre porque Él es Melquisedec. Señor de gloria eterna a quien el apóstol Juan vio, luz de la ciudad dorada, cordero sin mancha ni falla, novio que viene a la media noche a quien esperan las vírgenes, a donde quiera que abro mi Biblia encuentro a mi Señor en el libro.
+> Encuentro a mi Señor en el libro en donde tengo la oportunidad de ver.<br>
+Él es el tema de la Biblia, el centro y el corazón del libro.<br>
+Él es la rosa de Sarón y el lirio de los valles.<br><br>
+Cuando abro mi Biblia el Señor del libro está ahí.<br>
+Él es el principio del libro. Él, en el principio del libro le dio a la tierra su forma.<br>
+Él es el arca de refugio que enfrenta el golpe de la tormenta.<br>
+Él es la zarza ardiente del desierto.<br>
+Él es el retoño de la vara de Arón.<br><br>
+A donde quiera que va mi Biblia veo al hijo de Dios,<br>
+el carnero en el Monte Moriah,<br>
+la escalera de la tierra al cielo,<br>
+el hilo escarlata en la ventana<br>
+y la serpiente levantada en alto,<br>
+la roca golpeada en el desierto,<br>
+el pastor con la vara y el callado,<br>
+el rostro de mi Señor descubre en donde quiera que abro el libro.<br><br>
+Él lee el nacimiento de la mujer,<br>
+el Salvador que nación de una virgen,<br>
+Él es el hijo de David a quien los hombres rechazaron con escarnio,<br>
+sus vestimentas de gracia y de belleza,<br>
+Él es el atuendo majestuoso de Arón;<br>
+sin embargo, Él es un sacerdote para siempre porque Él es Melquisedec.<br><br>
+Señor de gloria eterna a quien el apóstol Juan vio,<br>
+luz de la ciudad dorada,<br>
+cordero sin mancha ni falla,<br>
+novio que viene a la media noche a quien esperan las vírgenes,<br>
+a donde quiera que abro mi Biblia encuentro a mi Señor en el libro.
 
 * * *
 
