@@ -32,7 +32,7 @@
     "gatsby-transformer-remark": "2.6.2",
     "gatsby-transformer-sharp": "2.2.1",
     "hygen": "^5.0.3",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "lodash.kebabcase": "^4.1.1",
     "minimist": "^1.2.5",
     "moment": "^2.24.0",
