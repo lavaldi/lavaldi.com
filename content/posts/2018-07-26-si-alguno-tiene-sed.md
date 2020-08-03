@@ -3,12 +3,13 @@ title: Si alguno tiene sed, que venga a mí y beba
 date: 2018-07-26
 categories:
   - JesusFreak
+  - Popular
 tags:
   - Juan
   - J. C. Ryle
 banner: "https://i.imgur.com/TCv4ly4.jpg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
+thumbnail: "../thumbnails/jesus.png"
 slug: si-alguno-tiene-sed
 ---
 
