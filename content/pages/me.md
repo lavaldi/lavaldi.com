@@ -4,11 +4,11 @@ slug: me
 template: page
 ---
 
-I’m Claudia Valdivieso, christian, wife and web developer from Trujillo - Peru. I currently work as a software engineer for [Able](https://www.able.co/), and sometimes I write here.
+I’m Claudia Valdivieso, christian, wife, mother and web developer from Trujillo - Peru. I currently work as Software Engineer at [Able](https://www.able.co/), and sometimes I write here.
 
 I started this website as a place to document everything I learned.
 
-![Me](../images/claudia-carlos.jpg)
+![Me](https://i.imgur.com/y7rPSz0.gif)
 
 ### Around the web
 

@@ -7,7 +7,7 @@ const config = {
   repo: "https://github.com/lavaldi/lavaldi.github.com",
   dateFromFormat: "YYYY-MM-DD",
   dateFormat: "MMMM Do, YYYY",
-  siteDescription: "Claudia Valdivieso, christian, wife and front end.",
+  siteDescription: "Claudia Valdivieso, christian, wife, mother and front end.",
   siteRss: "/rss.xml",
   googleAnalyticsID: "UA-99146766-1",
   postDefaultCategoryID: "code",

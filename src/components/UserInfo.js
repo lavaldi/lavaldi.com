@@ -12,7 +12,7 @@ export default class UserInfo extends Component {
             </div>
             <div>
               <p>
-                {`I'm software engineer at Able. I'm christian and wife, and sometimes I write about
+                {`I'm Software Engineer at Able. I'm christian, wife, and mother, and sometimes I write about
                 christian life and programming.`}
               </p>
               <div>

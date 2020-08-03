@@ -108,6 +108,6 @@ También puedes leer/escuchar los siguientes recursos:
 
 <iframe src="https://open.spotify.com/embed-podcast/episode/5BywcNK7sT53I1IU7et7LA" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-<iframe src="https://open.spotify.com/embed-podcast/episode/103Xz3VM2MsqKc7VPe5pK8" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed-podcast/episode/1XyrCWVFexwp5dKpNCeCMY" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 Espero haberte ayudado, si es así compárte este post 😉 Gracias!

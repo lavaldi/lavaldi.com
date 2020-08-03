@@ -28,17 +28,17 @@ template: page
 **UND - Grupo El Comercio** - _2015 - 2019 | Lima_
 
 - Front End development (views and functionality) of the APTiTUS.com portal.
-- Developed software with React and custom backend APIs.
+- Develope software with React and custom backend APIs.
 - Use of Docker to automate the development environment and deployment of applications.
 - Use of AWS for deploy application (CloudFormation, S3, ECR, ECS, ELB, CloudWatch).
-- Integrated git version control into the platform to track, manage, and simplify changes.
+- Integrate git version control into the platform to track, manage, and simplify changes.
 
 #### Front End Developer
 
 **Clicks and Bricks SAC** - _2015 | Lima_
 
 - Front End Development: views (HTML, CSS), functionality (JS) and UX of the APTiTUS.com portal.
-- Integrated git version control into the platform to track, manage, and simplify changes
+- Integrate git version control into the platform to track, manage, and simplify changes.
 
 #### Web Developer
 
@@ -50,7 +50,7 @@ template: page
 
 **CLM Developers** - _2012 - 2014 | Trujillo_
 
-- Frontend and backend in Wordpress sites. 
+- Frontend and backend in Wordpress sites.
 - Frontend in Rails and Codeigniter.
 
 #### Mantenimiento - Organización de Contenidos del Sitio Web
@@ -91,4 +91,3 @@ template: page
 #### Bachelor of Computer Science
 
 **Universidad Nacional de Trujillo** - _2008 - 2012 | Trujillo_
-  
