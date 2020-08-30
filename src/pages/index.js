@@ -33,42 +33,20 @@ export default class Index extends Component {
             />
             <h1>{`Hi, I'm Claudia`}</h1>
             <p>
-              {`I'm software engineer at Able. I'm christian and wife, and sometimes I write about
-                christian life and programming.`}
+              {`I'm christian, wife, mother and a software engineer, and sometimes I write about
+                christianity and programming.`}
             </p>
-            <div className="social-buttons">
-              <div>
-                <a
-                  className="twitter-follow-button"
-                  href="https://twitter.com/lavaldi_"
-                  data-size="large"
-                  data-show-screen-name="false"
-                >
-                  Follow @lavaldi_
-                </a>
-              </div>
-              <div>
-                <GitHubButton
-                  href="https://github.com/lavaldi"
-                  data-size="large"
-                  data-show-count="true"
-                  aria-label="Follow @lavaldi on GitHub"
-                >
-                  Follow
-                </GitHubButton>
-              </div>
-            </div>
           </div>
         </div>
 
         <div className="container front-page">
           <section className="section">
-            <h2>Latest Articles</h2>
+            <h2>Latest</h2>
             <PostListing simple postEdges={latestPostEdges} />
           </section>
 
           <section className="section">
-            <h2>Most Popular</h2>
+            <h2>Popular</h2>
             <PostListing simple postEdges={popularPostEdges} />
           </section>
 
