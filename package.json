@@ -36,7 +36,7 @@
     "lodash.kebabcase": "^4.1.1",
     "minimist": "^1.2.5",
     "moment": "^2.24.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "prismjs": "^1.21.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
