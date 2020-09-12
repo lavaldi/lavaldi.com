@@ -42,4 +42,4 @@ El sexo no es el combustible de una buena relación; es la expresión o el fruto
 
 ---
 
-Artículo original en inglés _[5 Myths about Marriage](https://www.crossway.org/articles/5-myths-about-marriage/)_ escrito por Paul David Tripp en [crossway.org](https://www.crossway.org/)
+Artículo original en inglés *[5 Myths about Marriage](https://www.crossway.org/articles/5-myths-about-marriage/)* escrito por Paul David Tripp en [crossway.org](https://www.crossway.org/)

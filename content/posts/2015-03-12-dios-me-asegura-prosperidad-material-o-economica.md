@@ -104,4 +104,4 @@ Aprendamos a ponerle tope a nuestros gastos conforme a nuestras necesidades y ay
 
 ---
 
-_Aprendido del libro_ [_Radical — Volvamos a las Raíces de la Fe_](http://www.radical.net/store/list/?cat=9&item=95 "Radical Book") _escrito por_ [_David Platt_](https://twitter.com/plattdavid "David Platt Twitter")_._
+_Aprendido del libro_ [_Radical — Volvamos a las Raíces de la Fe_](http://www.radical.net/store/list/?cat=9&item=95 'Radical Book') _escrito por_ [_David Platt_](https://twitter.com/plattdavid 'David Platt Twitter')_._

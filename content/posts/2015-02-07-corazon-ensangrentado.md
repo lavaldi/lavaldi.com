@@ -1,12 +1,12 @@
 ---
 title: Corazón ensangrentado
 date: 2015-02-07
-categories: 
+categories:
   - JesusFreak
-tags: 
+tags:
   - amor
   - Donald Grey Barnhouse
-banner: "https://c1.staticflickr.com/5/4052/4352048108_1884eca214_b.jpg"
+banner: 'https://c1.staticflickr.com/5/4052/4352048108_1884eca214_b.jpg'
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: corazon-ensangrentado

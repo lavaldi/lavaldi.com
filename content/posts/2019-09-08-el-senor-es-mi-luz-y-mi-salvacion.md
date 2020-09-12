@@ -1,14 +1,13 @@
 ---
-title: "El Señor es mi luz y mi salvación"
+title: 'El Señor es mi luz y mi salvación'
 date: 2019-09-08
 categories:
   - JesusFreak
-  - Popular
 tags:
-  - Salmos
-  - Naruto Shippuden
+  - salmos
+  - naruto
 template: post
-thumbnail: "../thumbnails/naruto.png"
+thumbnail: '../thumbnails/naruto.png'
 slug: el-senor-es-mi-luz-y-mi-salvacion
 ---
 

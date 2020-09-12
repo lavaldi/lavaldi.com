@@ -29,7 +29,7 @@ Eso es, de hecho, lo que prometió. Pero había un gran obstáculo. Nuestro peca
 
 ¿Cómo puede un Dios santo y justo tratarnos a los pecadores con tanta bondad como para darnos la mayor Realidad del universo (su Hijo) para que la disfrutemos con el mayor gozo posible?
 
-La respuesta es que Dios puso nuestros pecados sobre su Hijo, y los juzgó allí, para que él pudiera quitarlos de su mente, y tratar con nosotros misericordiosamente y permanecer justos y santos al mismo tiempo. Hebreos 9:28 dice: _"Cristo fue ofrecido una sola vez para llevar los pecados de muchos"_.
+La respuesta es que Dios puso nuestros pecados sobre su Hijo, y los juzgó allí, para que él pudiera quitarlos de su mente, y tratar con nosotros misericordiosamente y permanecer justos y santos al mismo tiempo. Hebreos 9:28 dice: *"Cristo fue ofrecido una sola vez para llevar los pecados de muchos"*.
 
 Cristo llevó nuestros pecados en su propio cuerpo cuando murió. Él tomó nuestro juicio. Canceló nuestra culpa. Y eso significa que los pecados se han ido. No permanecen en la mente de Dios como base para la condenación. En ese sentido, los "olvida". Se consumen en la muerte de Cristo.
 

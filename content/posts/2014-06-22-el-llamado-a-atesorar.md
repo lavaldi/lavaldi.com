@@ -7,7 +7,7 @@ tags:
   - cristianismo
   - Radical
   - David Platt
-banner: "https://i.imgur.com/6n69ME5.jpg"
+banner: 'https://i.imgur.com/6n69ME5.jpg'
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: el-llamado-a-atesorar
@@ -39,4 +39,4 @@ Esta es la imagen de Jesús en el evangelio. **Él es alguien por quien vale la 
 
 ---
 
-_Parafraseo de un fragmento del libro_ [_Radical — Volvamos a las Raíces de la Fe_](http://www.radical.net/store/list/?cat=9&item=95 "Radical Book") _escrito por_ [_David Platt_](https://twitter.com/plattdavid "David Platt Twitter")_._
+_Parafraseo de un fragmento del libro_ [_Radical — Volvamos a las Raíces de la Fe_](http://www.radical.net/store/list/?cat=9&item=95 'Radical Book') _escrito por_ [_David Platt_](https://twitter.com/plattdavid 'David Platt Twitter')_._

@@ -27,7 +27,7 @@ A mediados del siglo XVI, Francisco Javier (1506-1552), misionero católico, esc
 
 El mayor peligro al que se enfrenta un misionero es desconfiar de la misericordia de Dios. Si se evita ese peligro, entonces todos los demás peligros pierden su aguijón.
 
-Dios hace de cada daga un cetro en nuestra mano. Como dice J.W. Alexander: _"Cada instante de trabajo presente debe ser graciosamente recompensado con un millón de años de gloria"_.
+Dios hace de cada daga un cetro en nuestra mano. Como dice J.W. Alexander: *"Cada instante de trabajo presente debe ser graciosamente recompensado con un millón de años de gloria"*.
 
 Cristo escapó del peligro de la desconfianza. Por lo tanto, Dios lo ha exaltado en gran manera!
 

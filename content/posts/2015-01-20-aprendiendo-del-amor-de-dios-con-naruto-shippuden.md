@@ -1,12 +1,12 @@
 ---
 title: Aprendiendo del amor de Dios con Naruto Shippuden
 date: 2015-01-20
-categories: 
+categories:
   - JesusFreak
 tags:
-  - Naruto Shippuden
+  - naruto
   - amor
-  - Dios
+  - dios
 template: post
 thumbnail: '../thumbnails/naruto.png'
 slug: aprendiendo-del-amor-de-dios-con-naruto-shippuden

@@ -1,9 +1,9 @@
 ---
 title: We are the champions!
 date: 2015-01-30
-categories: 
+categories:
   - JesusFreak
-tags: 
+tags:
   - Mark Cahill
   - evangelismo
 template: post
@@ -11,7 +11,7 @@ thumbnail: '../thumbnails/jesus.png'
 slug: we-are-the-champions
 ---
 
-Estoy leyendo el libro [Lo único que no podrás hacer en el cielo de Mark Cahill](http://amzn.com/B007L97CQ8) recomendado por mi amigo [Isra Marin](https://twitter.com/isramarin) ([aquí](https://isramarin.bandcamp.com/music "Isra Marin Bandcamp") pueden escuchar su música, muy recomendada!), ya que, en la iglesia a la que asisto, estamos saliendo a predicar.
+Estoy leyendo el libro [Lo único que no podrás hacer en el cielo de Mark Cahill](http://amzn.com/B007L97CQ8) recomendado por mi amigo [Isra Marin](https://twitter.com/isramarin) ([aquí](https://isramarin.bandcamp.com/music 'Isra Marin Bandcamp') pueden escuchar su música, muy recomendada!), ya que, en la iglesia a la que asisto, estamos saliendo a predicar.
 
 El punto es que hace algún tiempo estaba con esta presión (de predicar), pero tenía cierto temor al rechazo y hasta al qué dirán, las personas que me rodean, sobre mí. Y yo sé que es nuestro deber y, hasta podríamos verlo como, una obligación, pero eso suena muy feo como si tuvieras que hacer algo que no quieres. ¡Es mas bien una oportunidad!
 

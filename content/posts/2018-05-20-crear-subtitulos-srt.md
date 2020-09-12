@@ -3,13 +3,12 @@ title: Crear subtítulos para tu video
 date: 2018-05-20
 categories:
   - Code
-  - Popular
 tags:
   - srt
   - subtitulos
-banner: "https://i.imgur.com/H1maXnW.png"
+banner: 'https://i.imgur.com/H1maXnW.png'
 template: post
-thumbnail: "../thumbnails/bash.png"
+thumbnail: '../thumbnails/bash.png'
 slug: crear-subtitulos-srt
 ---
 

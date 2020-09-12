@@ -22,7 +22,7 @@ slug: para-la-gente-pequena-de-dios
 
 Si lo has hecho, no dejes que eso te desanime o te haga infeliz. Porque está implícito en la Escritura que todas las gigantescas fuerzas políticas y todos los gigantescos complejos industriales, sin que ellos siquiera lo sepan, están siendo guiados por Dios, no por su propio bien, sino por el bien del pequeño pueblo de Dios: la pequeña María y el pequeño José, que tienen que ser llevados de Nazaret a Belén. Dios maneja un imperio para bendecir a sus hijos.
 
-No pienses, porque experimentas la adversidad, que la mano del Señor se ha acortado. No es nuestra prosperidad sino nuestra santidad lo que él busca con todo su corazón. Y para ello, gobierna el mundo entero. Como dice Proverbios 21:1: _"Como canales de agua es el corazón del rey en la mano del Señor; El lo dirige donde le place."_
+No pienses, porque experimentas la adversidad, que la mano del Señor se ha acortado. No es nuestra prosperidad sino nuestra santidad lo que él busca con todo su corazón. Y para ello, gobierna el mundo entero. Como dice Proverbios 21:1: *"Como canales de agua es el corazón del rey en la mano del Señor; El lo dirige donde le place."*
 
 Él es un Dios grande para los pequeños, y tenemos grandes motivos para alegrarnos de que, sin saberlo, todos los reyes, presidentes, primeros ministros y cancilleres del mundo sigan los decretos soberanos de nuestro Padre celestial, para que nosotros, los hijos, seamos conformes a la imagen de su Hijo, Jesucristo.
 

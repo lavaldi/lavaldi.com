@@ -5,7 +5,7 @@ categories:
   - JesusFreak
 tags:
   - cristianismo
-banner: "https://i.imgur.com/6n69ME5.jpg"
+banner: 'https://i.imgur.com/6n69ME5.jpg'
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: alguien-por-quien-vale-la-pena-perderlo-todo

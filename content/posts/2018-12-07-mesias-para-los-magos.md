@@ -22,11 +22,11 @@ Así que Mateo retrata a Jesús al principio y al final de su Evangelio como un 
 
 Aquí los primeros adoradores son magos de la corte o astrólogos o sabios no de Israel, sino del Este, tal vez de Babilonia. Eran gentiles. No está claro.
 
-Y al final de Mateo, las últimas palabras de Jesús son: _"Toda potestad me ha sido dada en el cielo y en la tierra. Id, pues, y haced discípulos a todas las naciones"_.
+Y al final de Mateo, las últimas palabras de Jesús son: *"Toda potestad me ha sido dada en el cielo y en la tierra. Id, pues, y haced discípulos a todas las naciones"*.
 
 Esto no sólo abrió la puerta para que los gentiles se regocijaran en el Mesías, sino que añadió la prueba de que él era el Mesías. Porque una de las repetidas profecías era que las naciones y los reyes, de hecho, vendrían a él como el gobernante del mundo.
 
-Por ejemplo, Isaías 60:3, _"Y acudirán las naciones a tu luz, y los reyes al resplandor de tu amanecer."_. Así que Mateo añade pruebas al mesías de Jesús y muestra que él es el Mesías —un Rey, y Promesa Cumplidora— para todas las naciones, no sólo para Israel.
+Por ejemplo, Isaías 60:3, *"Y acudirán las naciones a tu luz, y los reyes al resplandor de tu amanecer."*. Así que Mateo añade pruebas al mesías de Jesús y muestra que él es el Mesías —un Rey, y Promesa Cumplidora— para todas las naciones, no sólo para Israel.
 
 ---
 

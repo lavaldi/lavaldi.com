@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Disqus as DisqusComments } from "gatsby-plugin-disqus";
 import urljoin from "url-join";
-import config from "../../data/SiteConfig";
 
 class Disqus extends Component {
   state = {
@@ -22,7 +21,7 @@ class Disqus extends Component {
   render() {
     const { postNode } = this.props;
     const post = postNode.frontmatter;
-    const url = urljoin(config.siteUrl, post.slug);
+    const url = urljoin("https://lavaldi.com", post.slug);
     const disqusConfig = {
       url,
       identifier: post.id,

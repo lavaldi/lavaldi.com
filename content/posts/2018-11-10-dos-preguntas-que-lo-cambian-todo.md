@@ -80,4 +80,4 @@ Que Dios te bendiga
 
 ---
 
-Traducción de _[Two Questions That Change Everything](https://www.paultripp.com/wednesdays-word/posts/two-questions-that-change-everything)_
+Traducción de *[Two Questions That Change Everything](https://www.paultripp.com/wednesdays-word/posts/two-questions-that-change-everything)*

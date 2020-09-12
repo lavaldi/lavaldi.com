@@ -23,9 +23,9 @@ Algunas personas trabajan a tiempo completo en la línea de producción. Otros h
 Cada minuto de trabajo en la línea de producción hace de Dios el hazmerreír de Satanás. El pecado es asunto de Satanás porque odia la luz y la belleza y la pureza y la gloria de Dios. Nada le agrada más que cuando las criaturas desconfían y desobedecen a su Creador.
 Por lo tanto, la Navidad es una buena noticia para el hombre y una buena noticia para Dios.
 
-_"Palabra fiel y digna de ser recibida por todos: que Cristo Jesús vino al mundo para salvar a los pecadores"_ (1 Timoteo 1:15). Son buenas noticias para nosotros.
+*"Palabra fiel y digna de ser recibida por todos: que Cristo Jesús vino al mundo para salvar a los pecadores"* (1 Timoteo 1:15). Son buenas noticias para nosotros.
 
-_"Para esto apareció el Hijo de Dios, para deshacer las obras del diablo"_ (1 Juan 3:8). Son buenas noticias para Dios.
+*"Para esto apareció el Hijo de Dios, para deshacer las obras del diablo"* (1 Juan 3:8). Son buenas noticias para Dios.
 
 La Navidad es una buena noticia para Dios porque Jesús ha venido a dirigir una huelga en la planta de ensamblaje de Satanás. Ha entrado directamente en la planta, ha llamado a la Solidaridad de los fieles y ha comenzado una marcha masiva.
 

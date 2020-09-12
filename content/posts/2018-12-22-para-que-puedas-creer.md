@@ -24,7 +24,7 @@ Puedes leer cada cuento de hadas que se haya escrito, cada thriller de misterio,
 
 Los thrillers espaciales de nuestros días, como Star Wars y The Empire Strikes Back, pueden hacer este gran bien por nosotros: pueden humillarnos y llevarnos al arrepentimiento, mostrándonos que realmente somos capaces de algo de la maravilla, la admiración y el asombro que rara vez sentimos cuando contemplamos al Dios eterno y al Cristo cósmico y un contacto vivo real entre ellos y nosotros en Jesús de Nazaret.
 
-Cuando Jesús dijo: _"Para esto he venido al mundo"_, dijo algo tan loco, raro, extraño y misterioso como cualquier afirmación de ciencia ficción que hayas leído (Juan 18:37).
+Cuando Jesús dijo: *"Para esto he venido al mundo"*, dijo algo tan loco, raro, extraño y misterioso como cualquier afirmación de ciencia ficción que hayas leído (Juan 18:37).
 
 Oh, cómo oro para que el Espíritu de Dios brote sobre mí y sobre ti. Oro para que el Espíritu Santo irrumpa en mi experiencia de una manera aterradora, para despertarme a la realidad inimaginable de Dios.
 

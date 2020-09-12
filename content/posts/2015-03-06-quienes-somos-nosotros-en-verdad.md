@@ -8,7 +8,7 @@ tags:
   - pecado
   - Radical
   - David Platt
-banner: "https://cdn-images-1.medium.com/max/2000/1*h1JIa_qN1p6J-l4knyN8SA.jpeg"
+banner: 'https://cdn-images-1.medium.com/max/2000/1*h1JIa_qN1p6J-l4knyN8SA.jpeg'
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: quienes-somos-nosotros-en-verdad
@@ -58,7 +58,7 @@ En el evangelio, Dios revela la profundidad de nuestra necesidad de Él. Nos mue
 
 ---
 
-_Parafraseo de un fragmento del libro_ [_Radical — Volvamos a las Raíces de la Fe_](http://www.radical.net/store/list/?cat=9&item=95 "Radical Book") _escrito por_ [_David Platt_](https://twitter.com/plattdavid "David Platt Twitter")_._
+_Parafraseo de un fragmento del libro_ [_Radical — Volvamos a las Raíces de la Fe_](http://www.radical.net/store/list/?cat=9&item=95 'Radical Book') _escrito por_ [_David Platt_](https://twitter.com/plattdavid 'David Platt Twitter')_._
 
 ---
 

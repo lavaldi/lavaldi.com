@@ -1,14 +1,13 @@
 ---
-title: "Perdónanos nuestras deudas como también nosotros perdonamos a nuestros deudores"
+title: 'Perdónanos nuestras deudas como también nosotros perdonamos a nuestros deudores'
 date: 2020-02-17
 categories:
   - JesusFreak
-  - Popular
 tags:
   - perdon
   - R. C. Sproul
 template: post
-thumbnail: "../thumbnails/jesus.png"
+thumbnail: '../thumbnails/jesus.png'
 slug: perdonanos-como-nosotros-perdonamos
 ---
 
@@ -22,7 +21,7 @@ Esta petición contiene un principio que el Nuevo Testamento se toma muy en seri
 
 En [Mateo 18:23-35](https://www.biblegateway.com/passage/?search=Mateo+18%3A23-35&version=LBLA) Jesús relata la istoria de dos hombres que debían dinero. Uno al rededor de 10 millones de dólares y el otro debía unos 18 dólares. El hombre al que se le debía la enorme cantidad perdonó a su deudor. Éste, en cambio, no quiso perdonar al hombre que le debía la mísera suma de 18 dólares.
 
-Lo más interesante es que ambos hombres pidieron lo mismo: más tiempo, no  una total condonación de la deuda. Era irrisorio que el ombre con la deuda extremadamente elevada pidiera más tiempo, pues aún para los actuales estándares salariales la cantidad adeudada era un cifra astronómica. El pago diario de entonces era aproximadamente 18 centavos. El hombre con la deuda pequeña podría haberla pagado en tres meses. Su solicitud de más tiempo no era descabellada, pero su acreedor, en lugar de expresar el perdón que había recibido, comenzó a hostigarlo. El punto debería quedar claro. Nuestras ofensas mutuas y las ofensas que la gente comete contra nosotros son como una deuda de 18 dólares, mientras que las innumerables ofensas que hemos cometido contra Dios el Señor son como la deuda de 10 millones de dólares.
+Lo más interesante es que ambos hombres pidieron lo mismo: más tiempo, no una total condonación de la deuda. Era irrisorio que el ombre con la deuda extremadamente elevada pidiera más tiempo, pues aún para los actuales estándares salariales la cantidad adeudada era un cifra astronómica. El pago diario de entonces era aproximadamente 18 centavos. El hombre con la deuda pequeña podría haberla pagado en tres meses. Su solicitud de más tiempo no era descabellada, pero su acreedor, en lugar de expresar el perdón que había recibido, comenzó a hostigarlo. El punto debería quedar claro. Nuestras ofensas mutuas y las ofensas que la gente comete contra nosotros son como una deuda de 18 dólares, mientras que las innumerables ofensas que hemos cometido contra Dios el Señor son como la deuda de 10 millones de dólares.
 
 Jonathan Edwards, en su famoso sermón "La justicia de Dios y la condenación de los pecadores", dijo que cada pecado es más o menos atroz dependiendo del honor y la majestad de aquél a quien hemos ofendido. Puesto que Dios posee honor infitido, majestad infinita, y santidad infinita, el más leve pecado tiene consecuencias infinitas. Los pecados aparentemente triviales son nada menos que una "traición cósmica" vistos a la luz del gran Rey contra el que hemos pecado. Somos deudores que no pueden pagar, y no obstante hemos sido liberados de la amenaza de la prisión por deuda. Es un insulto a Dios que neguemos el perdón y la gracia a quienes nos lo piden, y al mismo tiempo afirmemos que nosotros mismos hemos sido perdonados y salvados por gracia.
 
@@ -30,7 +29,7 @@ Hay otro punto importante a considerar aquí. Incluso en nuestro acto de perdón
 
 > Así también vosotros, cuando hayáis hecho todo lo que se os ha ordenado, decid: «Siervos inútiles somos; hemos hecho solo lo que debíamos haber hecho».
 
-Nada merecemos por nuestra obediencia, porque la obediencia —aun al nivel de la perfección— es el requisito mínimo de un ciudadano del reino de Dios. Habiendo cumplido con ese deber, lo único que podríamos reclamar sería una ausencia de castigo, pero ninguna recompensa, porque solo habríamos hecho lo que se esperaba que hiciéramos. La obediencia nunca califica como un servicio “más allá del deber”. Sin embargo, no hemos obedecido; hemos pecado gravemente. Por lo tanto, estamos meramente en una situación de postrarnos ante Dios y suplicar su perdón. Pero si lo hacemos, debemos estar preparados para mostrar nosotros mismos ese perdón; de lo contrario, nuestra posición en Cristo pende de un hilo. Lo que Jesús está diciendo, en el fondo, es esto: ***“Las personas perdonadas perdonan a los demás”***. No nos atrevamos a pretender ser poseedores de su vida y naturaleza y al mismo tiempo fallar en exhibir esa vida y naturaleza.
+Nada merecemos por nuestra obediencia, porque la obediencia —aun al nivel de la perfección— es el requisito mínimo de un ciudadano del reino de Dios. Habiendo cumplido con ese deber, lo único que podríamos reclamar sería una ausencia de castigo, pero ninguna recompensa, porque solo habríamos hecho lo que se esperaba que hiciéramos. La obediencia nunca califica como un servicio “más allá del deber”. Sin embargo, no hemos obedecido; hemos pecado gravemente. Por lo tanto, estamos meramente en una situación de postrarnos ante Dios y suplicar su perdón. Pero si lo hacemos, debemos estar preparados para mostrar nosotros mismos ese perdón; de lo contrario, nuestra posición en Cristo pende de un hilo. Lo que Jesús está diciendo, en el fondo, es esto: **_“Las personas perdonadas perdonan a los demás”_**. No nos atrevamos a pretender ser poseedores de su vida y naturaleza y al mismo tiempo fallar en exhibir esa vida y naturaleza.
 
 Para profundizar en esta idea, si Dios ha perdonado a alguien, ¿podemos nosotros hacer menos? Sería increíble pensar que nosotros, que somos tan culpables, rehusáramos perdonar a alguien que ha sido perdonado por Dios, quien está completamente libre de culpa. Debemos ser espejos de la gracia para los demás, reflejar aquello que nosotros mismos hemos recibido. De esta forma, se aplica la Regla de Oro en términos prácticos.
 

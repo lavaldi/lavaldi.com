@@ -1,58 +1,60 @@
-import React, { Component } from 'react'
-import Helmet from 'react-helmet'
+import React, { useMemo } from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../layout'
-import PostListing from '../components/PostListing'
-import config from '../../data/SiteConfig'
+import Helmet from 'react-helmet'
 
-export default class TagTemplate extends Component {
-  render() {
-    const { tag } = this.props.pageContext
-    const postEdges = this.props.data.allMarkdownRemark.edges
+import Layout from '../components/Layout'
+import Posts from '../components/Posts'
+import SEO from '../components/SEO'
 
-    return (
-      <Layout>
-        <Helmet title={`Posts tagged as "${tag}" – ${config.siteTitle}`} />
-        <div className="container">
+import { getSimplifiedPosts } from '../utils/helpers'
+import config from '../utils/config'
+
+export default function TagTemplate({ data, pageContext }) {
+  const { tag } = pageContext
+  const { totalCount } = data.allMarkdownRemark
+  const posts = data.allMarkdownRemark.edges
+  const simplifiedPosts = useMemo(() => getSimplifiedPosts(posts), [posts])
+  const message = totalCount === 1 ? ' post found.' : ' posts found.'
+
+  return (
+    <Layout>
+      <Helmet title={`Posts tagged: ${tag} | ${config.siteTitle}`} />
+      <SEO />
+      <header>
+        <div className="container text-center">
           <h1>
-            Posts tagged as <u>{tag}</u>
+            Posts tagged: <u>{tag}</u>
           </h1>
-          <PostListing postEdges={postEdges} />
+          <p class="subtitle">
+            <span className="count">{totalCount}</span>
+            {message}
+          </p>
         </div>
-      </Layout>
-    )
-  }
+      </header>
+      <section className="container">
+        <Posts data={simplifiedPosts} tags withDate />
+      </section>
+    </Layout>
+  )
 }
 
 export const pageQuery = graphql`
   query TagPage($tag: String) {
     allMarkdownRemark(
-      limit: 1000
-      sort: { fields: [fields___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] } }, isFuture: { eq: false } }
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
       totalCount
       edges {
         node {
+          id
           fields {
             slug
-            date
           }
-          excerpt
-          timeToRead
           frontmatter {
+            date(formatString: "MMMM DD, YYYY")
             title
             tags
-            categories
-            thumbnail {
-              childImageSharp {
-                fixed(width: 150, height: 150) {
-                  ...GatsbyImageSharpFixed
-                }
-              }
-            }
-            date
-            template
           }
         }
       }

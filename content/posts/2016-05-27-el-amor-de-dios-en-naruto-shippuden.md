@@ -4,13 +4,14 @@ date: 2016-05-27
 categories:
   - JesusFreak
 tags:
-  - Naruto Shippuden
+  - naruto
   - amor
-  - Dios
-banner: "https://cdn-images-1.medium.com/max/800/1*09bihb9DoBwcw3vJ4bqh_Q.png"
+  - dios
+banner: 'https://cdn-images-1.medium.com/max/800/1*09bihb9DoBwcw3vJ4bqh_Q.png'
 template: post
 thumbnail: '../thumbnails/naruto.png'
 slug: el-amor-de-dios-en-naruto-shippuden
+description: 'Ayer estaba viendo Naruto Shippuden con mi sobrina, el capítulo donde Naruto toma forma del zorro que llevaba dentro pero solo con 4 colas...'
 ---
 
 Ayer estaba viendo Naruto Shippuden con mi sobrina, el capítulo donde Naruto toma forma del zorro que llevaba dentro pero solo con 4 colas.
@@ -23,7 +24,7 @@ Por la ira que tenía dentro, que sentía, Naruto llegó a tal extremo que, al c
 
 Entonces, después de que terminó el capítulo tan impactante para mi, reflexioné y me dije “así sucede con las personas que se dejan llevar por su ira, se transforman en unos monstruos!!!”. Ya dice en la palabra:
 
-> *Engañoso es el corazón más que todas las cosas, y perverso; ¿quién lo conocerá?*
+> _Engañoso es el corazón más que todas las cosas, y perverso; ¿quién lo conocerá?_
 > — Jeremías 17:9 (RV60)
 
 Dejarse llevar por los sentimientos, por la ira, el rencor, el
@@ -42,4 +43,4 @@ Así pues, me exhorto y los exhorto a ustedes a que seamos perfectos como es la 
 
 ---
 
-Imagen *[Naruto Kyubi](http://narutonamikazeart.deviantart.com/art/Naruto-Kyubi-280669864) por [NarutoNamikazeART](http://narutonamikazeart.deviantart.com/)*
+Imagen _[Naruto Kyubi](http://narutonamikazeart.deviantart.com/art/Naruto-Kyubi-280669864) por [NarutoNamikazeART](http://narutonamikazeart.deviantart.com/)_

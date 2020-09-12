@@ -8,7 +8,7 @@ tags:
   - John Piper
 banner: "https://cdn-images-1.medium.com/max/2000/1*YwxYRvvkW_rzMlkbAOFbCQ.jpeg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
+thumbnail: "../thumbnails/jesus.png"
 slug: que-quiere-jesucristo-en-esta-navidad
 ---
 
@@ -16,7 +16,7 @@ slug: que-quiere-jesucristo-en-esta-navidad
 
 > —  Juan 17:24
 
-*¿Qué quiere Jesucristo en esta navidad?*
+_¿Qué quiere Jesucristo en esta navidad?_
 
 Podemos ver la respuesta en sus oraciones. ¿Qué le pide a Dios? Su oración más larga se encuentra en Juan 17. El clímax de su deseo es el versículo 24.
 
@@ -36,7 +36,7 @@ Pero eso solo es la mitad de lo que Jesús quiere, según los versículos culmin
 
 > Y les he dado a conocer tu nombre, y lo daré a conocer aún, para que el amor con que me has amado, esté en ellos, y yo en ellos.
 
-Es el final de la oración. ¿Cuál es la meta final de Jesús para nosotros? No que solo veamos su gloria, sino que le amemos con el mismo amor que el Padre tiene por él: *para que el amor con que me has amado, esté en ellos*.
+Es el final de la oración. ¿Cuál es la meta final de Jesús para nosotros? No que solo veamos su gloria, sino que le amemos con el mismo amor que el Padre tiene por él: _para que el amor con que me has amado, esté en ellos_.
 
 El deseo y la meta de Jesús es que veamos su gloria y, por tanto, seamos capaces de amar lo que vemos con el mismo amor que el Padre tiene por el Hijo. Y él no quiere decir que meramente imitemos el amor del Padre por el Hijo. Él quiere decir que el mismo amor del Padre llega a ser nuestro amor por el Hijo — que amemos al Hijo con el amor que el Padre tiene por su Hijo. Esto es lo que el Espíritu llega a ser y producir en nuestras vidas: amor hacia el Hijo por el Padre a través del Espíritu.
 
@@ -46,6 +46,6 @@ Lo que más deseo para la navidad este año es que usted y yo veamos a Jesucrist
 
 Esto es lo que Jesús ora por nosotros esta Navidad: “Padre, muéstrales mi gloria y dales el mismo deleite en mí que tú mismo posees.” ¡Oh, que **_veamos_** a Jesucristo con los ojos de Dios y saboreemos a Jesucristo con el corazón de Dios! Ésa es la esencia del cielo. Ése es el regalo que Jesucristo vino a comprar para pecadores con el costo de su muerte en nuestro lugar.
 
-* * *
+---
 
 _Introducción — ¿Qué Quiere Jesucristo En Esta Navidad?, [Buenas Nuevas de Gran Gozo de John Piper](http://cdn.desiringgod.org/website_uploads/documents/books-content/Good-News-Great-Joy-Spanish.pdf)_

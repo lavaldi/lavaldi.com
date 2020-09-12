@@ -51,7 +51,7 @@ Eso es lo que quieren algunas personas. Llegan al lugar en el que pueden tener l
 
 > Porque mi corazón gozó de todo mi trabajo; y esta fue mi parte de toda mi faena. Miré yo luego todas las obras que habían hecho mis manos, y el trabajo que tomé para hacerlas; y he aquí, todo era vanidad y aflicción de espíritu, y sin provecho debajo del sol. Después volví yo a mirar para ver la sabiduría y los desvaríos y la necedad; porque ¿qué podrá hacer el hombre que venga después del rey? Nada, sino lo que ya ha sido hecho.
 
-Digo, ¿qué podría hacer ahora? lo he hecho todo, ¿verdad? *¿Qué voy a hacer ahora? No hay nada más que hacer.*
+Digo, ¿qué podría hacer ahora? lo he hecho todo, ¿verdad? _¿Qué voy a hacer ahora? No hay nada más que hacer._
 
 > Y he visto que la sabiduría sobrepasa a la necedad. El sabio tiene sus ojos en su cabeza, mas el necio anda en tinieblas; pero también entendí yo que un mismo suceso acontecerá al uno como al otro.
 
@@ -61,13 +61,13 @@ Dije, tú sabes, la sabiduría es mejor que eso, ¿pero sabes qué? Ambos termin
 
 ¿Te das cuenta? Esa es la sabiduría humana.
 
-***
+---
 
 > Porque la palabra de la cruz es locura a los que se pierden; pero a los que se salvan, esto es, a nosotros, es poder de Dios. Pues está escrito: Destruiré la sabiduría de los sabios, y desecharé el entendimiento de los entendidos.
-¿Dónde está el sabio? ¿Dónde está el escriba? ¿Dónde está el disputador de este siglo? ¿No ha enloquecido Dios la sabiduría del mundo?
-Pues ya que en la sabiduría de Dios, el mundo no conoció a Dios mediante la sabiduría, agradó a Dios salvar a los creyentes por la locura de la predicación. Porque los judíos piden señales, y los griegos buscan sabiduría; pero nosotros predicamos a Cristo crucificado, para los judíos ciertamente tropezadero, y para los gentiles locura; mas para los llamados, así judíos como griegos, Cristo poder de Dios, y sabiduría de Dios.
-Porque lo insensato de Dios es más sabio que los hombres, y lo débil de Dios es más fuerte que los hombres.
+> ¿Dónde está el sabio? ¿Dónde está el escriba? ¿Dónde está el disputador de este siglo? ¿No ha enloquecido Dios la sabiduría del mundo?
+> Pues ya que en la sabiduría de Dios, el mundo no conoció a Dios mediante la sabiduría, agradó a Dios salvar a los creyentes por la locura de la predicación. Porque los judíos piden señales, y los griegos buscan sabiduría; pero nosotros predicamos a Cristo crucificado, para los judíos ciertamente tropezadero, y para los gentiles locura; mas para los llamados, así judíos como griegos, Cristo poder de Dios, y sabiduría de Dios.
+> Porque lo insensato de Dios es más sabio que los hombres, y lo débil de Dios es más fuerte que los hombres.
 
-***
+---
 
 — [John MacArthur](http://goo.gl/Pr9wpm)

@@ -8,11 +8,11 @@ tags:
   - semana santa
   - John Piper
 template: post
-thumbnail: '../thumbnails/jesus.png'
+thumbnail: "../thumbnails/jesus.png"
 slug: que-asombroso-amor-de-resurreccion
 ---
 
->  Por eso el Padre me ama, porque yo doy mi vida para tomarla de nuevo. Nadie me la quita, sino que yo la doy de mi propia voluntad. Tengo autoridad para darla, y tengo autoridad para tomarla de nuevo. Este mandamiento recibí de mi Padre. (Juan 10:17–18)
+> Por eso el Padre me ama, porque yo doy mi vida para tomarla de nuevo. Nadie me la quita, sino que yo la doy de mi propia voluntad. Tengo autoridad para darla, y tengo autoridad para tomarla de nuevo. Este mandamiento recibí de mi Padre. (Juan 10:17–18)
 
 ![amor de resurrección](https://i.imgur.com/SdkTsbr.jpg)
 
@@ -30,7 +30,7 @@ Así que aquí está el punto. **La resurrección de Jesús nos es dada como la 
 
 ## El significado de la Pascua
 
-De todas las grandes cosas que significa la Pascua, también significa esto: es un poderoso _**"Lo dije en serio"**_ detrás de la muerte de Cristo. ¡Lo dije en serio! Yo era libre. ¿Ves lo libre que soy? ¿Ves cuánto poder y autoridad tengo? Pude evitarlo. Tengo poder para tomar mi vida de la tumba. ¿Y no podría, entonces, haber devastado a mis enemigos y haber escapado de la cruz?
+De todas las grandes cosas que significa la Pascua, también significa esto: es un poderoso **_"Lo dije en serio"_** detrás de la muerte de Cristo. ¡Lo dije en serio! Yo era libre. ¿Ves lo libre que soy? ¿Ves cuánto poder y autoridad tengo? Pude evitarlo. Tengo poder para tomar mi vida de la tumba. ¿Y no podría, entonces, haber devastado a mis enemigos y haber escapado de la cruz?
 
 Mi resurrección es un grito sobre mi amor por mis ovejas: ¡Era gratis! ¡Era gratis! Yo lo elegí. Lo abracé. No me atraparon. No estaba acorralado. Nada puede obligarme a hacer lo que no elijo.
 

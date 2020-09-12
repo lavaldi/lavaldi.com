@@ -49,4 +49,4 @@ Necesitamos mostrar misericordia, en primer lugar y sobre cualquier otra cosa, a
 
 ---
 
-Resumen de la prédica de John MasArthur _[El único camino a la felicidad: Sé misericordioso](https://www.gracia.org/library/sermons-library/GAV-90-193/el-único-camino-a-la-felicidad-sé-misericordioso)_ en [Gracia a Vosotros](https://www.gracia.org)
+Resumen de la prédica de John MasArthur *[El único camino a la felicidad: Sé misericordioso](https://www.gracia.org/library/sermons-library/GAV-90-193/el-único-camino-a-la-felicidad-sé-misericordioso)* en [Gracia a Vosotros](https://www.gracia.org)

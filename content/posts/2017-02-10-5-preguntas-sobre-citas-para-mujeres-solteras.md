@@ -8,7 +8,7 @@ tags:
   - Mark Driscoll
 banner: "https://cdn-images-1.medium.com/max/2000/1*SXg7WKmGrquGs2lWX99bSg.png"
 template: post
-thumbnail: '../thumbnails/jesus.png'
+thumbnail: "../thumbnails/jesus.png"
 slug: 5-preguntas-sobre-citas-para-mujeres-solteras
 ---
 
@@ -28,15 +28,14 @@ Cualquier hombre que no te consulta, toma decisiones contigo, pregunta lo que pi
 
 ### 4. ¿Será un buen padre?
 
-Un hombre puede mirarte como algo más que una máquina de bebé, pero ¿le encantan los niños? ¿Considera a los niños una bendición, como dice la Escritura ([Salmo 127:3–5](https://www.biblegateway.com/passage/?search=Salmo+127%3A3%E2%80%935&version=RVR1960))? ¿Quiere ser un buen padre ([Efesios 6:4](https://www.biblegateway.com/passage/?search=Efesios+6%3A4&version=RVR1960))? La única manera en que un hombre puede ser un buen padre es siendo desinteresado. Si él está metido en sus amigos, sus aficiones, sus actividades, y cosas por el estilo, será un padre terrible. ¿Por qué? Porque una vez que un hombre decide caminar con Jesús como fiel miembro de la iglesia, amar a su esposa como Cristo ama a la iglesia, criar a sus hijos como pastor-papá, y trabajar su trabajo de todo corazón al Señor, él tendrá poco tiempo para mucho de cualquier otra cosa. Sin embargo, él será feliz si los deseos más profundos de su corazón son las cosas que están tomando su tiempo y energía. Si quieres ser una madre que se queda en casa con los niños, por ejemplo, entonces debes tener un hombre que piense ser un gran papá y anhela para él ese papel. Además, como tus hijas se casarán con hombres como su papá, y tus hijos crecerán para ser hombres como su papá, asegúrate de casarte con un hombre a quien quieres imitar durante generaciones. 
+Un hombre puede mirarte como algo más que una máquina de bebé, pero ¿le encantan los niños? ¿Considera a los niños una bendición, como dice la Escritura ([Salmo 127:3–5](https://www.biblegateway.com/passage/?search=Salmo+127%3A3%E2%80%935&version=RVR1960))? ¿Quiere ser un buen padre ([Efesios 6:4](https://www.biblegateway.com/passage/?search=Efesios+6%3A4&version=RVR1960))? La única manera en que un hombre puede ser un buen padre es siendo desinteresado. Si él está metido en sus amigos, sus aficiones, sus actividades, y cosas por el estilo, será un padre terrible. ¿Por qué? Porque una vez que un hombre decide caminar con Jesús como fiel miembro de la iglesia, amar a su esposa como Cristo ama a la iglesia, criar a sus hijos como pastor-papá, y trabajar su trabajo de todo corazón al Señor, él tendrá poco tiempo para mucho de cualquier otra cosa. Sin embargo, él será feliz si los deseos más profundos de su corazón son las cosas que están tomando su tiempo y energía. Si quieres ser una madre que se queda en casa con los niños, por ejemplo, entonces debes tener un hombre que piense ser un gran papá y anhela para él ese papel. Además, como tus hijas se casarán con hombres como su papá, y tus hijos crecerán para ser hombres como su papá, asegúrate de casarte con un hombre a quien quieres imitar durante generaciones.
 
 ### 5. ¿Es un hombre de una sola mujer?
 
 Los líderes de la iglesia deben establecer el modelo como “hombre de una sola mujer” para todos los hombres de Dios ([1 Timoteo 3:2](https://www.biblegateway.com/passage/?search=1+Timoteo+3%3A2&version=RVR1960)). Por lo tanto, no debería ser el chico del porno, el tipo de coquetear, el chico que tiene un montón de amigas que llama amigos, el chico que te engaña cuando estás saliendo con él, el chico que sale con varias mujeres a la vez, o el chico que te compara con otras mujeres. Si quiere ser tu esposo, su corazón, sus manos, su mente, sus ojos, su cartera y su vida necesitan ser dedicados exclusivamente a ti. Si tienes que seguir tratando de hacerle fiel o si cuestionas su lealtad, él no está listo para ser un buen marido.
 
-
 Para las solteras, no deben cambiar la sabiduría bíblica para la toma de decisiones en un caso legal en el cual ponen en tela de juicio cada mujer que conocen. Todo el mundo, incluido tu, tiene fallas, defectos, y es un trabajo en progreso. Sin embargo, debido a que casarse es la segunda decisión más importante que tomamos (siguiendo quién es nuestro Dios), debemos ser orantes, cuidadosos y bíblicos en nuestra decisión. E invitar a las personas mayores piadosas con sabiduría para ayudarnos a tomar esta decisión, también, es crucial.
 
-* * *
+---
 
 _Artículo original en inglés: [5 Dating Questions for Single Women](https://markdriscoll.org/5-dating-questions-for-single-women/) escrito por [Mark Driscoll](https://markdriscoll.org/)_

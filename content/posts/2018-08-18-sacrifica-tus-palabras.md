@@ -1,14 +1,14 @@
 ---
 title: Sacrifica tus palabras
 date: 2018-08-18
-categories: 
+categories:
   - JesusFreak
-tags: 
+tags:
   - Oseas
   - Paul Tripp
 banner: "https://i.imgur.com/6kMuDTB.jpg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
+thumbnail: "../thumbnails/jesus.png"
 slug: sacrifica-tus-palabras
 ---
 

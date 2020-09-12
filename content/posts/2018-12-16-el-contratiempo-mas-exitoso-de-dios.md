@@ -22,7 +22,7 @@ A José se le prometió gloria y poder en su sueño (Génesis 37:5-11). Pero par
 
 Pero estaba todo planeado. Porque allí en la cárcel conoció al mayordomo del Faraón, quien finalmente lo llevó al Faraón, quien lo puso sobre Egipto. Qué ruta más improbable hacia la gloria!
 
-Pero ese es el camino de Dios, incluso para su Hijo. Se vació a sí mismo y tomó la forma de un esclavo. Peor que un esclavo - un prisionero - y fue ejecutado. Pero al igual que José, mantuvo su integridad. _"Por lo cual Dios también le exaltó hasta lo sumo, y le confirió el nombre que es sobre todo nombre, para que al nombre de Jesús se doble toda rodilla"_ (Filipenses 2:9-10).
+Pero ese es el camino de Dios, incluso para su Hijo. Se vació a sí mismo y tomó la forma de un esclavo. Peor que un esclavo - un prisionero - y fue ejecutado. Pero al igual que José, mantuvo su integridad. *"Por lo cual Dios también le exaltó hasta lo sumo, y le confirió el nombre que es sobre todo nombre, para que al nombre de Jesús se doble toda rodilla"* (Filipenses 2:9-10).
 
 Y este es el camino de Dios para nosotros también. Se nos promete gloria si sufrimos con él (Romanos 8:17). El camino hacia arriba es hacia abajo. El camino hacia adelante es hacia atrás. El camino al éxito es a través de reveses divinamente designados. Siempre se verán y se sentirán como un fracaso.
 

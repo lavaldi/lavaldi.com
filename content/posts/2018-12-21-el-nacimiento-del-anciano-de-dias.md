@@ -26,7 +26,7 @@ Miqueas 5:2 lo dice así, 700 años antes de que Jesús naciera:
 
 > Pero tú, Belén Efrata, pequeña para estar entre las familias de Judá, de ti me saldrá el que será Señor en Israel; y sus salidas son desde el principio, desde los días de la eternidad.
 
-El misterio del nacimiento de Jesús no es simplemente que nació de una virgen. Ese milagro fue hecho por Dios para dar testimonio de un milagro aún mayor, a saber, que el niño nacido en Navidad era una persona que existía _"desde el principio, desde los días de la eternidad"_.
+El misterio del nacimiento de Jesús no es simplemente que nació de una virgen. Ese milagro fue hecho por Dios para dar testimonio de un milagro aún mayor, a saber, que el niño nacido en Navidad era una persona que existía *"desde el principio, desde los días de la eternidad"*.
 
 ---
 

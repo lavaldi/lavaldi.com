@@ -24,7 +24,7 @@ Aquí hay una ilustración de Adviento para los niños (y para aquellos de nosot
 
 Así es cuando Jesús viene a ser nuestro Sumo Sacerdote. Eso es la Navidad. La Navidad es el reemplazo de las sombras por lo real.
 
-_[Checa el Apéndice](/las-sombras-del-antiguo-testamento-y-la-venida-de-cristo)_
+*[Checa el Apéndice](/las-sombras-del-antiguo-testamento-y-la-venida-de-cristo)*
 
 ---
 

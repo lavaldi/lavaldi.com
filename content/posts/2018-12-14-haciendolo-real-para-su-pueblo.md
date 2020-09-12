@@ -27,7 +27,7 @@ El mejor lugar para ver a Cristo trabajando como el Mediador del nuevo pacto es 
 
 > Y el Dios de paz, que resucitó de entre los muertos a Jesús nuestro Señor, el gran Pastor de las ovejas mediante la sangre del pacto eterno, los haga aptos en toda obra buena para hacer Su voluntad, obrando El en nosotros lo que es agradable delante de El mediante Jesucristo, a quien sea la gloria por los siglos de los siglos. Amén.
 
-Las palabras _"obrando El en nosotros lo que es agradable delante de El"_ describen lo que sucede cuando Dios escribe la ley en nuestros corazones en la nueva alianza. Y las palabras _"mediante Jesucristo"_ describen a Jesús como el Mediador de esta gloriosa obra de gracia soberana.
+Las palabras *"obrando El en nosotros lo que es agradable delante de El"* describen lo que sucede cuando Dios escribe la ley en nuestros corazones en la nueva alianza. Y las palabras *"mediante Jesucristo"* describen a Jesús como el Mediador de esta gloriosa obra de gracia soberana.
 
 Así que el significado de la Navidad no es sólo que Dios reemplace las sombras con la Realidad, sino también que tome la realidad y la haga real para su pueblo. Lo escribe en nuestros corazones. Él no pone su regalo de Navidad de salvación y transformación para que tú lo tomes con tus propias fuerzas. Él lo recoge y lo pone en tu corazón y en tu mente, y te sella que eres un hijo de Dios.
 

@@ -8,7 +8,7 @@ tags:
   - David Platt
   - cristianismo
 template: post
-thumbnail: '../thumbnails/jesus.png'
+thumbnail: "../thumbnails/jesus.png"
 slug: transformacion-radical
 ---
 
@@ -51,8 +51,6 @@ Implica el regalo de un nuevo corazón (Dios nos da un nuevo corazón, Ezequiel 
 > — David Platt
 
 Y esta es la única respuesta adecuada a la revelación de Dios en el evangelio, lo que en verdad debemos hacer.
-
----
 
 ---
 

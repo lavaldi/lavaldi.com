@@ -8,7 +8,7 @@ tags:
   - semana santa
   - John Piper
 template: post
-thumbnail: '../thumbnails/jesus.png'
+thumbnail: "../thumbnails/jesus.png"
 slug: por-que-jesus-es-digno-de-toda-confianza
 ---
 

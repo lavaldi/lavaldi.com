@@ -1,183 +1,204 @@
-const urljoin = require("url-join");
-const config = require("./data/SiteConfig");
-
 module.exports = {
   siteMetadata: {
-    siteUrl: config.siteUrl,
-    rssMetadata: {
-      site_url: config.siteUrl,
-      feed_url: urljoin(config.siteUrl, config.siteRss),
-      title: config.siteTitle,
-      description: config.siteDescription,
-      image_url: `${config.siteUrl}/logos/logo-48.png`
-    }
+    title: 'Claudia Valdivieso',
+    author: {
+      name: 'Claudia Valdivieso',
+    },
+    pathPrefix: '/',
+    siteUrl: 'https://www.lavaldi.com',
+    description:
+      'Christian, wife, mother and front end.',
+    feedUrl: 'https://www.lavaldi.com/rss.xml',
+    logo: 'https://www.lavaldi.com/logo.png',
   },
   plugins: [
-    "gatsby-plugin-sass",
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-twitter",
+    // ===================================================================================
+    // Meta
+    // ===================================================================================
+
+    'gatsby-plugin-react-helmet',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        name: "assets",
-        path: `${__dirname}/static/`
-      }
+        name: 'Claudia Valdivieso',
+        short_name: 'Claudia Valdivieso',
+        description:
+          'Christian, wife, mother and front end.',
+        start_url: '/',
+        background_color: 'white',
+        theme_color: '#eb374b',
+        display: 'minimal-ui',
+        icon: `static/logo.png`,
+      },
     },
     {
-      resolve: "gatsby-plugin-typography",
+      resolve: `gatsby-plugin-feed`,
       options: {
-        pathToConfigModule: `${__dirname}/src/utils/typography.js`
-      }
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map((edge) => {
+                return Object.assign({}, edge.node.frontmatter, {
+                  description: edge.node.excerpt,
+                  date: edge.node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  custom_elements: [
+                    { 'content:encoded': edge.node.html },
+                    { author: 'hello@lavaldi.com' },
+                  ],
+                })
+              })
+            },
+            query: `
+              {
+                allMarkdownRemark(
+                  limit: 30,
+                  sort: { order: DESC, fields: [frontmatter___date] },
+                  filter: { frontmatter: { template: { eq: "post" } } }
+                ) {
+                  edges {
+                    node {
+                      excerpt
+                      html
+                      fields { 
+                        slug 
+                      }
+                      frontmatter {
+                        title
+                        date
+                        template
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: '/rss.xml',
+            title: 'Claudia Valdivieso | RSS Feed',
+          },
+        ],
+      },
+    },
+
+    // ===================================================================================
+    // Images and static
+    // ===================================================================================
+
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'posts',
+        path: `${__dirname}/content/`,
+      },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "posts",
-        path: `${__dirname}/content/`
-      }
+        name: 'assets',
+        path: `${__dirname}/static/`,
+      },
     },
+
+    // ===================================================================================
+    // Markdown
+    // ===================================================================================
+
     {
-      resolve: "gatsby-transformer-remark",
+      resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-images",
+            resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 850
-            }
+              maxWidth: 650,
+            },
           },
-          "gatsby-remark-copy-linked-files",
           {
-            resolve: "gatsby-remark-autolink-headers",
+            resolve: 'gatsby-remark-prismjs',
             options: {
-              offsetY: `100`,
-              maintainCase: false,
-              removeAccents: true
-            }
+              classPrefix: 'language-',
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: true,
+              noInlineHighlight: true,
+              prompt: {
+                user: 'root',
+                host: 'localhost',
+                global: true,
+              },
+            },
           },
-          "gatsby-remark-prismjs",
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              offsetY: `30`,
+            },
+          },
+          'gatsby-remark-prismjs',
           {
             resolve: "@weknow/gatsby-remark-twitter",
             options: {
               align: 'center'
             }
-          }
-        ]
-      }
-    },
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: config.googleAnalyticsID
-      }
-    },
-    {
-      resolve: "gatsby-plugin-nprogress",
-      options: {
-        color: config.themeColor
-      }
-    },
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-catch-links",
-    "gatsby-plugin-sitemap",
-    {
-      resolve: "gatsby-plugin-manifest",
-      options: {
-        name: config.siteTitle,
-        short_name: config.siteTitleShort,
-        description: config.siteDescription,
-        start_url: "/",
-        background_color: config.backgroundColor,
-        theme_color: config.themeColor,
-        display: "minimal-ui",
-        icons: [
-          {
-            src: "/logos/logo-432.png",
-            sizes: "32x32",
-            type: "image/png"
           },
-          {
-            src: "/logos/logo-180.png",
-            sizes: "180x180",
-            type: "image/png"
-          }
-        ]
-      }
+        ],
+      },
     },
+
+    // ===================================================================================
+    // Search
+    // ===================================================================================
+
     {
-      resolve: "gatsby-plugin-feed",
+      resolve: 'gatsby-plugin-local-search',
       options: {
-        setup(ref) {
-          const ret = ref.query.site.siteMetadata.rssMetadata;
-          ret.allMarkdownRemark = ref.query.allMarkdownRemark;
-          ret.generator = "Claudia Valdivieso";
-          return ret;
-        },
+        name: 'pages',
+        engine: 'flexsearch',
+        engineOptions: 'speed',
         query: `
-        {
-          site {
-            siteMetadata {
-              rssMetadata {
-                site_url
-                feed_url
-                title
-                description
-                image_url
-              }
-            }
-          }
-        }
-      `,
-        feeds: [
           {
-            serialize(ctx) {
-              const { rssMetadata } = ctx.query.site.siteMetadata;
-              return ctx.query.allMarkdownRemark.edges.map(edge => ({
-                categories: edge.node.frontmatter.tags,
-                date: edge.node.fields.date,
-                title: edge.node.frontmatter.title,
-                description: edge.node.excerpt,
-                url: rssMetadata.site_url + edge.node.fields.slug,
-                guid: rssMetadata.site_url + edge.node.fields.slug,
-                custom_elements: [
-                  { "content:encoded": edge.node.html },
-                  { author: config.userEmail }
-                ]
-              }));
-            },
-            query: `
-            {
-              allMarkdownRemark(
-                limit: 1000,
-                sort: { order: DESC, fields: [fields___date] },
-                filter: { frontmatter: { template: { eq: "post" } }, isFuture: { eq: false } }
-              ) {
-                edges {
-                  node {
-                    excerpt(pruneLength: 180)
-                    html
-                    timeToRead
-                    fields {
-                      slug
-                      date
-                    }
-                    frontmatter {
-                      title
-                      date
-                      categories
-                      tags
-                      template
-                    }
-                  }
+            allMarkdownRemark(filter: { frontmatter: { template: { eq: "post" } } }) {
+              nodes {
+                id
+                frontmatter {
+                  title
+                  tags
+                  slug
+                  date(formatString: "MMMM DD, YYYY")
                 }
+                rawMarkdownBody
               }
             }
-          `,
-            output: config.siteRss
           }
-        ]
-      }
+        `,
+        ref: 'id',
+        index: ['title', 'tags'],
+        store: ['id', 'slug', 'title', 'tags', 'date'],
+        normalizer: ({ data }) =>
+          data.allMarkdownRemark.nodes.map((node) => ({
+            id: node.id,
+            slug: `/${node.frontmatter.slug}`,
+            title: node.frontmatter.title,
+            body: node.rawMarkdownBody,
+            tags: node.frontmatter.tags,
+            date: node.frontmatter.date,
+          })),
+      },
     },
     {
       resolve: "gatsby-plugin-disqus",
@@ -188,8 +209,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-canonical-urls",
       options: {
-        siteUrl: config.siteUrl,
+        siteUrl: 'https://www.lavaldi.com',
       },
     },
-  ]
-};
+  ],
+}

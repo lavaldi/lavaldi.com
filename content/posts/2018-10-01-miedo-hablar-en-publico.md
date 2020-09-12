@@ -7,7 +7,7 @@ tags:
   - Paul David Tripp
 banner: "https://i.imgur.com/58nyVDe.jpg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
+thumbnail: "../thumbnails/jesus.png"
 slug: miedo-hablar-en-publico
 ---
 

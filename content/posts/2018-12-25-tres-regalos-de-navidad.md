@@ -22,9 +22,9 @@ Tres cosas. Y es maravilloso tenerlos. Se los doy brevemente como regalos de Nav
 
 ## 1. Un propósito claro para vivir
 
-Implica que tienes un propósito claro para vivir. Negativamente, es simplemente esto: no peques. _"Estas cosas os escribo para que no pequéis"_ (1 Juan 2:1). _"Para esto apareció el Hijo de Dios, para deshacer las obras del diablo"_ (1 Juan 3:8).
+Implica que tienes un propósito claro para vivir. Negativamente, es simplemente esto: no peques. *"Estas cosas os escribo para que no pequéis"* (1 Juan 2:1). *"Para esto apareció el Hijo de Dios, para deshacer las obras del diablo"* (1 Juan 3:8).
 
-Si preguntas: "¿Puedes darnos eso positivamente, en vez de negativamente?", la respuesta es: Sí, todo se resume en 1 Juan 3:23. Es un gran resumen de lo que requiere toda la carta de Juan. Note el singular "mandamiento": _"Y este es su mandamiento: Que creamos en el nombre de su Hijo Jesucristo, y nos amemos unos a otros como nos lo ha mandado"_. Estas dos cosas están tan estrechamente relacionadas que Juan las llama un mandamiento: creer en Jesús y amar a los demás. Ese es tu propósito. Esa es la suma de la vida cristiana. Confiar en Jesús, amar a la gente. Confía en Jesús, ama a la gente. Aquí está el primer regalo: un propósito para vivir.
+Si preguntas: "¿Puedes darnos eso positivamente, en vez de negativamente?", la respuesta es: Sí, todo se resume en 1 Juan 3:23. Es un gran resumen de lo que requiere toda la carta de Juan. Note el singular "mandamiento": *"Y este es su mandamiento: Que creamos en el nombre de su Hijo Jesucristo, y nos amemos unos a otros como nos lo ha mandado"*. Estas dos cosas están tan estrechamente relacionadas que Juan las llama un mandamiento: creer en Jesús y amar a los demás. Ese es tu propósito. Esa es la suma de la vida cristiana. Confiar en Jesús, amar a la gente. Confía en Jesús, ama a la gente. Aquí está el primer regalo: un propósito para vivir.
 
 ## 2. La esperanza de que nuestros fracasos sean perdonados
 
@@ -40,7 +40,7 @@ Pero ahí no es donde están la mayoría de ustedes. La mayoría de ustedes quie
 
 Finalmente, la tercera implicación de la doble verdad de que Cristo vino a destruir nuestros pecados y a perdonar nuestros pecados, es ésta: Cristo realmente nos ayudará en nuestra lucha. Él realmente te ayudará. Él está de tu lado. Él no vino a destruir el pecado porque el pecado es divertido. Él vino a destruir el pecado porque es fatal. Es una obra engañosa del diablo y nos destruirá si no luchamos contra ella. Vino a ayudarnos, no a herirnos.
 
-Así que aquí está tu tercer regalo de Navidad: Cristo te ayudará a vencer el pecado en ti. 1 Juan 4:4 dice: _"porque mayor es el que está en vosotros, que el que está en el mundo"_. Jesús está vivo, Jesús es todopoderoso, Jesús vive en nosotros por fe. Y Jesús está con nosotros, no contra nosotros. Él te ayudará. Confía en él.
+Así que aquí está tu tercer regalo de Navidad: Cristo te ayudará a vencer el pecado en ti. 1 Juan 4:4 dice: *"porque mayor es el que está en vosotros, que el que está en el mundo"*. Jesús está vivo, Jesús es todopoderoso, Jesús vive en nosotros por fe. Y Jesús está con nosotros, no contra nosotros. Él te ayudará. Confía en él.
 
 ---
 

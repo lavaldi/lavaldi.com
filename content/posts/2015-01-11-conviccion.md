@@ -1,7 +1,7 @@
 ---
 title: Convicción
 date: 2015-01-11
-categories: 
+categories:
   - JesusFreak
 tags:
   - Martyn Lloyd-Jones

@@ -41,7 +41,7 @@ María ve claramente una cosa muy notable acerca de Dios: Está a punto de cambi
 
 María e Isabel son heroínas maravillosas en el relato de Lucas. Ama la fe de estas mujeres. Lo que más le impresiona, parece, y lo que quiere impresionar a Teófilo, su noble lector, es la humildad y la alegre humildad de Isabel y María.
 
-Elizabeth dice: _"¿Por qué me ha acontecido esto a mí, que la madre de mi Señor venga a mí?"_ (Lucas 1:43). María dice: _"Porque ha mirado la humilde condición de esta su sierva"_ (Lc 1,48).
+Elizabeth dice: *"¿Por qué me ha acontecido esto a mí, que la madre de mi Señor venga a mí?"* (Lucas 1:43). María dice: *"Porque ha mirado la humilde condición de esta su sierva"* (Lc 1,48).
 
 Las únicas personas cuya alma puede magnificar verdaderamente al Señor son personas como Isabel y María, personas que reconocen su humilde estado y están abrumadas por la condescendencia del magnífico Dios.
 

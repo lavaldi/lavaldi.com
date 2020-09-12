@@ -7,7 +7,7 @@ tags:
   - Scott Hubbard
 banner: "https://i.imgur.com/gw5bSW3.jpg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
+thumbnail: "../thumbnails/jesus.png"
 slug: despiertame-hoy
 ---
 

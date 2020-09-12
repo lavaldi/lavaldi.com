@@ -21,7 +21,7 @@ Cada Adviento conmemoro el aniversario de la muerte de mi madre. Ella fue cortad
 
 Muchos de ustedes sentirán su pérdida esta Navidad con más fuerza que antes. No lo bloquees. Deja que venga. Siéntelo. ¿Para qué sirve el amor sino para intensificar nuestros afectos, tanto en la vida como en la muerte? Pero, oh, no seas amargo. Es trágicamente autodestructivo ser amargado.
 
-Jesús vino en Navidad para que pudiéramos tener vida eterna. _"He venido para que tengan vida, y la tengan en abundancia"_ (Juan 10:10). Elmer y Marion habían discutido dónde pasarían sus últimos años. Elmer dijo: "Marion y yo acordamos que nuestro último hogar sería con el Señor".
+Jesús vino en Navidad para que pudiéramos tener vida eterna. *"He venido para que tengan vida, y la tengan en abundancia"* (Juan 10:10). Elmer y Marion habían discutido dónde pasarían sus últimos años. Elmer dijo: "Marion y yo acordamos que nuestro último hogar sería con el Señor".
 
 ¿Te sientes inquieto por tu hogar? Tengo familia que viene a casa para las fiestas. Se siente bien. Creo que la razón principal por la que se siente bien es que ellos y yo estamos destinados en las profundidades de nuestro ser para un último Regreso a Casa. Todas las otras fiestas de bienvenida son un anticipo. Y los sabores son buenos.
 

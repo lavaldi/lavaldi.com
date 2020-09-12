@@ -32,19 +32,19 @@ Lo que define la humildad de Jesús es el hecho de que es principalmente un acto
 
 Así que la humildad de Jesús no era una disposición del corazón de ser finito o falible o pecaminoso. Era un corazón de infinita perfección y de infalible veracidad y libertad de todo pecado, que por esa misma razón no necesitaba ser servido. Estaba libre y lleno para desbordar en el servicio.
 
-Otro texto navideño que dice esto sería Marcos 10:45: _"Porque el Hijo del Hombre no vino para ser servido, sino para servir, y para dar su vida en rescate por muchos"_. La humildad de Jesús no era un sentido de defecto en sí mismo, sino un sentido de plenitud en sí mismo puesto a disposición de los demás para su bien. Fue una bajada voluntaria de sí mismo para hacer que la altura de su gloria estuviera disponible para que los pecadores la disfrutaran.
+Otro texto navideño que dice esto sería Marcos 10:45: *"Porque el Hijo del Hombre no vino para ser servido, sino para servir, y para dar su vida en rescate por muchos"*. La humildad de Jesús no era un sentido de defecto en sí mismo, sino un sentido de plenitud en sí mismo puesto a disposición de los demás para su bien. Fue una bajada voluntaria de sí mismo para hacer que la altura de su gloria estuviera disponible para que los pecadores la disfrutaran.
 
-Jesús hace la conexión entre su humildad navideña y las buenas nuevas para nosotros: _"Venid a mí todos los que estáis trabajados y cargados, y yo os haré descansar. Llevad mi yugo sobre vosotros, y aprended de mí, que soy manso y humilde de corazón; y hallaréis descanso para vuestras almas; porque mi yugo es fácil, y ligera mi carga"_ (Mateo 11:28-30).
+Jesús hace la conexión entre su humildad navideña y las buenas nuevas para nosotros: *"Venid a mí todos los que estáis trabajados y cargados, y yo os haré descansar. Llevad mi yugo sobre vosotros, y aprended de mí, que soy manso y humilde de corazón; y hallaréis descanso para vuestras almas; porque mi yugo es fácil, y ligera mi carga"* (Mateo 11:28-30).
 
-Su humildad hace posible nuestro alivio de las cargas. Si no fuera humilde, no habría sido _"obediente hasta la muerte, y muerte de cruz"_. Y si él no hubiera sido obediente para morir por nosotros, seríamos aplastados bajo el peso de nuestros pecados. Él se inclina para tomar nuestra condenación (Romanos 8:3).
+Su humildad hace posible nuestro alivio de las cargas. Si no fuera humilde, no habría sido *"obediente hasta la muerte, y muerte de cruz"*. Y si él no hubiera sido obediente para morir por nosotros, seríamos aplastados bajo el peso de nuestros pecados. Él se inclina para tomar nuestra condenación (Romanos 8:3).
 
 Ahora tenemos más razones para ser humildes que antes. Somos finitos, falibles, pecaminosos, y por lo tanto no tenemos base para jactarnos en absoluto. Pero ahora vemos otras cosas humillantes: Nuestra salvación no se debe a nuestro trabajo, sino a su gracia. Así que la jactancia es excluida (Efesios 2:8-9). Y la manera en que logró esa salvación misericordiosa fue a través de la autodescenso voluntario y consciente en una obediencia similar a la de un siervo hasta el punto de la muerte.
 
 Así que además de la finitud, falibilidad y pecaminosidad, ahora tenemos otros dos grandes impulsos para humillarnos: la gracia libre e inmerecida debajo de todas nuestras bendiciones y un modelo de abnegación, sacrificio y servicio que voluntariamente toma la forma de un siervo.
 
-Así que estamos llamados a unirnos a Jesús en esta humillación y servicio conscientes. _"Porque el que se enaltece será humillado, y el que se humilla será enaltecido"_ (Mateo 23:12). _"Haya, pues, en vosotros este sentir que hubo también en Cristo Jesús..."_ (Filipenses 2:5).
+Así que estamos llamados a unirnos a Jesús en esta humillación y servicio conscientes. *"Porque el que se enaltece será humillado, y el que se humilla será enaltecido"* (Mateo 23:12). *"Haya, pues, en vosotros este sentir que hubo también en Cristo Jesús..."* (Filipenses 2:5).
 
-Oremos para que esta "virtud tímida" —esta enorme tierra de nuestra salvación y de nuestra servidumbre— se asome desde su lugar tranquilo y nos conceda las vestiduras de humildad en este Adviento. _"revestíos de humildad; porque 'Dios resiste a los soberbios, y da gracia a los humildes'"_. (1 Pedro 5:5).
+Oremos para que esta "virtud tímida" —esta enorme tierra de nuestra salvación y de nuestra servidumbre— se asome desde su lugar tranquilo y nos conceda las vestiduras de humildad en este Adviento. *"revestíos de humildad; porque 'Dios resiste a los soberbios, y da gracia a los humildes'"*. (1 Pedro 5:5).
 
 ---
 

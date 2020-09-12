@@ -1,9 +1,9 @@
 ---
 title: Bedshaped
 date: 2015-01-15
-categories: 
+categories:
   - JesusFreak
-tags: 
+tags:
   - Bedshaped
   - Keane
 template: post
@@ -31,7 +31,7 @@ Por otro lado también me he sentido identificado con las otras personas, esas q
 
 > — 1 Corintios 1:27–31
 
-* * *
+---
 
 </div>
 

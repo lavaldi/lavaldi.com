@@ -24,9 +24,9 @@ slug: la-tan-esperada-visita
 
 Note dos cosas notables de estas palabras de Zacarías en Lucas 1.
 
-Primero, nueve meses antes, Zacarías no podía creer que su esposa tuviera un hijo. Ahora, lleno del Espíritu Santo, está tan seguro de la obra redentora de Dios en el Mesías venidero que la pone en tiempo pasado. Para la mente de fe, un acto de Dios prometido es tan bueno como hecho. Zacarías ha aprendido a tomar a Dios en su palabra y también tiene una seguridad notable: _"[Dios] nos ha visitado y ha efectuado redención!"_
+Primero, nueve meses antes, Zacarías no podía creer que su esposa tuviera un hijo. Ahora, lleno del Espíritu Santo, está tan seguro de la obra redentora de Dios en el Mesías venidero que la pone en tiempo pasado. Para la mente de fe, un acto de Dios prometido es tan bueno como hecho. Zacarías ha aprendido a tomar a Dios en su palabra y también tiene una seguridad notable: *"[Dios] nos ha visitado y ha efectuado redención!"*
 
-Segundo, la venida de Jesús el Mesías es una visitación de Dios a nuestro mundo: _"[El] Dios de Israel, ... nos ha visitado y ha efectuado redención"_. Durante siglos, el pueblo judío había languidecido bajo la convicción de que Dios se había retirado: el espíritu de profecía había cesado, Israel había caído en manos de Roma. Y todos los piadosos de Israel estaban esperando la visitación de Dios. Lucas nos dice en 2:25 que el devoto Simeón _"esperaba la consolación de Israel"_. Y en Lucas 2:38 la orante Ana _"esperaba la redención de Jerusalén"_.
+Segundo, la venida de Jesús el Mesías es una visitación de Dios a nuestro mundo: *"[El] Dios de Israel, ... nos ha visitado y ha efectuado redención"*. Durante siglos, el pueblo judío había languidecido bajo la convicción de que Dios se había retirado: el espíritu de profecía había cesado, Israel había caído en manos de Roma. Y todos los piadosos de Israel estaban esperando la visitación de Dios. Lucas nos dice en 2:25 que el devoto Simeón *"esperaba la consolación de Israel"*. Y en Lucas 2:38 la orante Ana *"esperaba la redención de Jerusalén"*.
 
 Eran días de gran expectación. Ahora la tan esperada visitación de Dios estaba a punto de suceder; de hecho, estaba a punto de llegar de una manera que nadie esperaba.
 

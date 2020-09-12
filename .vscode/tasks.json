@@ -3,9 +3,9 @@
   "tasks": [
     {
       "type": "npm",
-      "script": "dev",
+      "script": "develop",
       "problemMatcher": [],
-      "label": "npm: dev",
+      "label": "npm: develop",
       "detail": "gatsby develop",
       "presentation": {
         "panel": "shared",

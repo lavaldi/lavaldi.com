@@ -12,7 +12,7 @@ banner: "https://i.imgur.com/AUOz4gQ.jpg"
 slug: "a-las-madres-jovenes"
 ---
 
-En estos días estoy leyendo sobre la maternidad debido a que pronto seré mamá 🤰 y la semana pasada me topé con una prédica titulada [Female Piety](https://www.gracegems.org/20/female_piety12.htm) (La piedad femenina) de John Angell James (1785-1859) y decidí traducirla (al menos la mayor parte 😅). La comparto con ustedes a continuación.
+En estos días estoy leyendo sobre la maternidad debido a que pronto seré mamá 🤰 y la semana pasada me topé con una prédica titulada [Female Piety](https://www.gracegems.org/20/female*piety12.htm) (La piedad femenina) de John Angell James (1785-1859) y decidí traducirla (al menos la mayor parte 😅). La comparto con ustedes a continuación.
 
 ![A las madres jóvenes](https://i.imgur.com/AUOz4gQ.jpg)
 

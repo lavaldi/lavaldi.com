@@ -8,7 +8,7 @@ tags:
   - J. C. Ryle
 banner: "https://i.imgur.com/1Y7dOMf.jpg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
+thumbnail: "../thumbnails/jesus.png"
 slug: el-recibe-a-todos
 ---
 
@@ -22,10 +22,10 @@ Pero el incidente, aunque parezca insignificante, concuerda exactamente con todo
 
 Recordemos esto en cuanto a nuestras propias almas en su relación con Cristo. Podemos acercarnos a Él con valor y abrirle nuestros corazones con confianza. Él es un Salvador de infinita compasión y ternura. _“La caña cascada no quebrará, y el pábilo que humea no apagará”_ (Mateo 12: 20). Los secretos de nuestra vida espiritual pueden ser tales que no queramos que nuestro amigo más íntimo los conozca. Las heridas de nuestras conciencias pueden ser profundas, estar ulceradas y necesitar el tratamiento más delicado. Pero no tenemos por qué temer cosa alguna si lo entregamos todo a Jesús, el Hijo de Dios. Descubriremos que su bondad es ilimitada. Se verá que sus palabras son completamente ciertas: _“Soy manso y humilde de corazón; y hallaréis descanso para vuestras almas”_ (Mateo 11: 29).
 
-Recordemos esto, por último, en nuestra relación con otras personas si somos llamados a prestarles ayuda en cuanto a sus almas. Esforcémonos por andar en los pasos del ejemplo de Cristo y, como Él, ser amables, y pacientes y estar siempre deseosos de ayudar. La ignorancia de los jóvenes [espirituales] que se inician en la religión es a veces irritante. Tenemos tendencia a cansarnos de su inestabilidad e inconstancia y de sus vacilaciones entre dos opiniones. Pero recordemos a Jesús y no nos cansemos. Él recibía a todos, hablaba con todos y hacía el bien a todos. Vayamos y hagamos lo mismo. 
+Recordemos esto, por último, en nuestra relación con otras personas si somos llamados a prestarles ayuda en cuanto a sus almas. Esforcémonos por andar en los pasos del ejemplo de Cristo y, como Él, ser amables, y pacientes y estar siempre deseosos de ayudar. La ignorancia de los jóvenes [espirituales] que se inician en la religión es a veces irritante. Tenemos tendencia a cansarnos de su inestabilidad e inconstancia y de sus vacilaciones entre dos opiniones. Pero recordemos a Jesús y no nos cansemos. Él recibía a todos, hablaba con todos y hacía el bien a todos. Vayamos y hagamos lo mismo.
 
 > Como Cristo nos trata a nosotros, así tratemos a los demás.
 
-* * *
+---
 
 Ryle, J. C.. Meditaciones sobre los Evangelios: Lucas

@@ -8,17 +8,17 @@ tags:
   - Mark Driscoll
 banner: "https://cdn-images-1.medium.com/max/600/1*w7RldGJo7JFdwVR34eV2Rg.png"
 template: post
-thumbnail: '../thumbnails/jesus.png'
+thumbnail: "../thumbnails/jesus.png"
 slug: una-gran-clave-de-la-oracion
 ---
 
-En Marcos 14:36, Jesús ora, *“Abba, Padre, todas las cosas son posibles para ti; aparta de mí esta copa; mas no lo que yo quiero, sino lo que tú.”*
+En Marcos 14:36, Jesús ora, _“Abba, Padre, todas las cosas son posibles para ti; aparta de mí esta copa; mas no lo que yo quiero, sino lo que tú.”_
 
 Esta oración nos muestra tanto la intimidad relacional de Jesús con Dios (llamándolo “Abba”, que literalmente significa algo como “Padre” o “Papá”) y su sumisión a la autoridad y voluntad del Padre. En este ejemplo aprendemos dos cosas: la oración al Padre debe ser siempre respetuosa pero no necesariamente formal.
 
 Crecí en una tradición religiosa donde las oraciones fueron muy memorizadas, muy ritualizadas y muy formalizadas. Y esto nos entrena para pensar que tenemos que saltar a través de ciertos aros religiosos para conseguir que nuestras oraciones sean oídas.
 
-**Dios es un Padre amoroso que le gusta escuchar a sus hijos.** Él da la bienvenida a nuestras oraciones. El apóstol Pablo escribe en Romanos 8:15, *“Pues no habéis recibido el espíritu de esclavitud para estar otra vez en temor, sino que habéis recibido el espíritu de adopción, por el cual clamamos: !!Abba, Padre!”*
+**Dios es un Padre amoroso que le gusta escuchar a sus hijos.** Él da la bienvenida a nuestras oraciones. El apóstol Pablo escribe en Romanos 8:15, _“Pues no habéis recibido el espíritu de esclavitud para estar otra vez en temor, sino que habéis recibido el espíritu de adopción, por el cual clamamos: !!Abba, Padre!”_
 
 Nuestro Padre es soberano y supremo, pero no nos trata como un esclavista a sus esclavos o como un amo a sus perros. Y mientras que el irrespetar a Dios es un pecado, relacionarnos con Dios como nuestro Padre es nuestro privilegio y derecho como hijos adoptados por él. No tienes que ser formal con tu papá, pero debes ser respetuoso.
 
@@ -38,6 +38,6 @@ Mis hijos a menudo me dicen cosas que ya sé, pero me dicen porque quieren habla
 
 **Cuando tenga un problema o una preocupación, llévelo a Dios y hable de ello con él, tal como lo hizo Jesús.**
 
-* * *
+---
 
 Publicación original: _[The 1 Big Key to Prayer](http://markdriscoll.org/the-1-big-key-to-prayer/)_

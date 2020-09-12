@@ -1,119 +1,78 @@
-import React, { Component } from "react";
-import Helmet from "react-helmet";
-import { graphql } from "gatsby";
-import Img from "gatsby-image";
-import Layout from "../layout";
-import UserInfo from "../components/UserInfo";
-import PostTags from "../components/PostTags";
-import SEO from "../components/SEO";
-import config from "../../data/SiteConfig";
-import { formatDate, editOnGithub } from "../utils/global";
-import Disqus from "../components/Disqus";
+import React, { useEffect } from 'react'
+import { graphql } from 'gatsby'
+import Helmet from 'react-helmet'
+import Img from 'gatsby-image'
 
-export default class PostTemplate extends Component {
-  render() {
-    const { slug } = this.props.pageContext;
-    const postNode = this.props.data.markdownRemark;
-    const post = postNode.frontmatter;
-    let thumbnail;
+import Layout from '../components/Layout'
+import Sidebar from '../components/Sidebar'
+import Suggested from '../components/Suggested'
+import SEO from '../components/SEO'
+import Disqus from '../components/Disqus'
 
-    if (!post.id) {
-      post.id = slug;
-    }
+import config from '../utils/config'
 
-    if (!post.category_id) {
-      post.category_id = config.postDefaultCategoryID;
-    }
+export default function PostTemplate({ data, pageContext, ...props }) {
+  const post = data.markdownRemark
+  const { previous, next } = pageContext
+  const { thumbnail } = post.frontmatter
 
-    if (post.thumbnail) {
-      thumbnail = post.thumbnail.childImageSharp.fixed;
-    }
+  useEffect(() => {
+    const theme =
+      typeof window !== 'undefined' && localStorage.getItem('theme') === 'dark'
+        ? 'github-dark'
+        : 'github-light'
+  }, []) // eslint-disable-line
 
-    const date = formatDate(post.date);
-    const githubLink = editOnGithub(post);
-    const twitterShare = `http://twitter.com/share?text=${encodeURIComponent(
-      post.title
-    )}&url=${config.siteUrl}/${post.slug}/&via=lavaldi_`;
-    const facebookShare = `https://www.facebook.com/dialog/share?app_id=632333847548398&display=popup&href=${config.siteUrl}/${post.slug}/`;
-
-    return (
-      <Layout>
-        <Helmet>
-          <title>{`${post.title} – ${config.siteTitle}`}</title>
-        </Helmet>
-        <SEO postPath={slug} postNode={postNode} postSEO />
-        <article className="single container">
-          <header
-            className={`single-header ${!thumbnail ? "no-thumbnail" : ""}`}
-          >
-            {thumbnail ? (
-              <Img fixed={post.thumbnail.childImageSharp.fixed} />
-            ) : null}
-            <div className="flex">
-              <h1>{post.title}</h1>
-              <div className="post-meta">
-                <time className="date">{date}</time>/ Share on
-                <a
-                  className="social-link"
-                  href={twitterShare}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Twitter
-                </a>or
-                <a
-                  className="social-link"
-                  href={facebookShare}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Facebook
-                </a>
-                /
-                <span>
-                  <a className="comment-link" href="#comments">
-                    Comments
-                  </a>
-                  /
-                </span>
-                <a
-                  className="github-link"
-                  href={githubLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Edit on Github ✏️
-                </a>
+  return (
+    <Layout>
+      <Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`} />
+      <SEO postPath={post.fields.slug} postNode={post} postSEO />
+      <div className="container">
+        <section className="grid post">
+          <article>
+            <header className="article-header">
+              <div className="container">
+                <div className="thumb">
+                  {thumbnail && (
+                    <Img
+                      fixed={thumbnail.childImageSharp.fixed}
+                      className="post-thumbnail"
+                    />
+                  )}
+                  <h1>{post.frontmatter.title}</h1>
+                </div>
+                {post.frontmatter.description && (
+                  <p className="description">{post.frontmatter.description}</p>
+                )}
               </div>
-              <PostTags tags={post.tags} />
+            </header>
+            <div dangerouslySetInnerHTML={{ __html: post.html }} />
+            <div id="comments">
+              <h2>Comments</h2>
+              <Disqus postNode={post} />
             </div>
-          </header>
-
-          <div
-            className="post"
-            dangerouslySetInnerHTML={{ __html: postNode.html }}
-          />
-        </article>
-
-        <UserInfo config={config} />
-
-        <div className="container" id="comments">
-          <Disqus postNode={postNode} />
-        </div>
-      </Layout>
-    );
-  }
+          </article>
+          <Sidebar post={post} {...props} />
+        </section>
+        <Suggested previous={previous} next={next} />
+      </div>
+    </Layout>
+  )
 }
 
-/* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
-      timeToRead
       excerpt
+      fields {
+        slug
+      }
       frontmatter {
         title
+        date(formatString: "MMMM DD, YYYY")
+        tags
+        description
         thumbnail {
           childImageSharp {
             fixed(width: 150, height: 150) {
@@ -121,17 +80,7 @@ export const pageQuery = graphql`
             }
           }
         }
-        banner
-        slug
-        date
-        categories
-        tags
-        template
-      }
-      fields {
-        slug
-        date
       }
     }
   }
-`;
+`

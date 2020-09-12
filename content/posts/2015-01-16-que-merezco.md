@@ -46,6 +46,6 @@ Aunque sabemos que no hay algo por hacer respecto a nuestra salvación de la mue
 
 La carga de Dios es ligera, la nuestra no, ¿eso no debería alegrarnos? **depositar nuestra vida entera en las manos de Él** ¡ya que nosotros no sabemos tomar buenas decisiones!. Es necesario pedirle Su sabiduría constantemente.
 
-* * *
+---
 
 _Escrito por_ [_@samgarabateito_](https://twitter.com/samgarabateito)

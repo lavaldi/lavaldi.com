@@ -3,7 +3,6 @@ title: Alimentación de los cinco mil
 date: 2017-10-21
 categories:
   - JesusFreak
-  - Popular
 tags:
   - Medicaciones sobre los Evangelios Lucas
   - J. C. Ryle

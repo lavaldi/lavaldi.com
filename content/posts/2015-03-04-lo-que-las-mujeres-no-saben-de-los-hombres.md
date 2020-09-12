@@ -14,7 +14,7 @@ slug: lo-que-las-mujeres-no-saben-de-los-hombres
 
 Es muy común que las mujeres nos preocupemos si es que nuestras parejas están o no mirando a otras mujeres, o que no responda rápidamente a algunas preguntas que nosotras le hacemos, qué es lo que piensan o qué es lo más importante para ellos…
 
-Y hoy, dándole una mirada a mi timeline de [twitter](https://twitter.com/lavaldi_) me encontré con el artículo [Los ojos y la mente de los hombres](https://www.avivanuestroscorazones.com/radio/aviva-nuestros-corazones/los-ojos-y-la-mente-de-los-hombres1/), una entrevista a Shaunti Feldhahn por parte de [Aviva Nuestros Corazones](https://www.avivanuestroscorazones.com/ "Aviva Nuestros Corazones"). He aquí la respuesta.
+Y hoy, dándole una mirada a mi timeline de [twitter](https://twitter.com/lavaldi_) me encontré con el artículo [Los ojos y la mente de los hombres](https://www.avivanuestroscorazones.com/radio/aviva-nuestros-corazones/los-ojos-y-la-mente-de-los-hombres1/), una entrevista a Shaunti Feldhahn por parte de [Aviva Nuestros Corazones](https://www.avivanuestroscorazones.com/ 'Aviva Nuestros Corazones'). He aquí la respuesta.
 
 ### Los Hombres son visuales
 
@@ -24,7 +24,7 @@ Y hoy, dándole una mirada a mi timeline de [twitter](https://twitter.com/lavald
 
 <figcaption>
 
-Imagen de [François J. Perreault](https://www.flickr.com/photos/picsonthefritz/ "Ir a la galería de François J. Perreault") ([https://flic.kr/p/bTRd7n](https://flic.kr/p/bTRd7n))
+Imagen de [François J. Perreault](https://www.flickr.com/photos/picsonthefritz/ 'Ir a la galería de François J. Perreault') ([https://flic.kr/p/bTRd7n](https://flic.kr/p/bTRd7n))
 
 </figcaption>
 </figure>
@@ -35,9 +35,9 @@ Siempre he escuchado eso de que los hombres son visuales, pero hasta ahora no lo
 
 Y eso incluye a hombres muy piadosos y entregados a Dios, lo que pasa es que así es precisamente como Dios los hizo, no tiene nada que ver con el pecado.
 
-Esta atracción inicial de no poder _no notar_ a una mujer es un **reflejo involuntario.** Y por cierto, las Escrituras pueden mostrar esto fácilmente si miras a Job. Dios dijo que Job era el mejor hombre sobre la tierra y este hombre tuvo que decir, “_Hice un pacto con mis ojos ¿Cómo podía entonces mirar una virgen?” (_Job 31:1). Sí, así es. Job tuvo esta lucha, **cada hombre tiene esta lucha.** Eso es lo primero que significa que “los hombres son visuales”.
+Esta atracción inicial de no poder _no notar_ a una mujer es un **reflejo involuntario.** Y por cierto, las Escrituras pueden mostrar esto fácilmente si miras a Job. Dios dijo que Job era el mejor hombre sobre la tierra y este hombre tuvo que decir, “\_Hice un pacto con mis ojos ¿Cómo podía entonces mirar una virgen?” (\_Job 31:1). Sí, así es. Job tuvo esta lucha, **cada hombre tiene esta lucha.** Eso es lo primero que significa que “los hombres son visuales”.
 
-Lo segundo es que: **La imagen de esa mujer que él simplemente no pudo no notar está plasmada en su cerebro** y viene a formar parte de lo que se llama un “[rolodex](http://en.wikipedia.org/wiki/Rolodex "¿Qué es un rolodex?") mental” de imágenes que pueden retroceder tanto a sus años de adolescencia y que puede levantarse en su mente en cualquier momento sin previo aviso. Esta imagen simplemente aparece sin aviso y puede asaltarlo básicamente en cualquier momento del día.
+Lo segundo es que: **La imagen de esa mujer que él simplemente no pudo no notar está plasmada en su cerebro** y viene a formar parte de lo que se llama un “[rolodex](http://en.wikipedia.org/wiki/Rolodex '¿Qué es un rolodex?') mental” de imágenes que pueden retroceder tanto a sus años de adolescencia y que puede levantarse en su mente en cualquier momento sin previo aviso. Esta imagen simplemente aparece sin aviso y puede asaltarlo básicamente en cualquier momento del día.
 
 Entonces lo que sucede es lo siguiente: Cuando un hombre ve una mujer que se viste de esa manera, como una blusa con cierto escote, su tallo cerebral inesperadamente lo lleva a esa zona. Él es atraído automáticamente desde sus entrañas a esta imagen. Él automáticamente ve eso muy sexualmente.
 
@@ -69,7 +69,7 @@ Entonces las cosas están así: los hombres piensan sobre todo. Pero ellos piens
 
 <figcaption>
 
-Imagen por [Karola Riegler](https://www.flickr.com/photos/karola/ "Ir a la galería de Karola Riegler") ([https://flic.kr/p/6wdLat](https://flic.kr/p/6wdLat))
+Imagen por [Karola Riegler](https://www.flickr.com/photos/karola/ 'Ir a la galería de Karola Riegler') ([https://flic.kr/p/6wdLat](https://flic.kr/p/6wdLat))
 
 </figcaption>
 
@@ -97,7 +97,7 @@ Mientras el valor de una mujer radica en la pregunta **“¿Soy digna de ser ama
 
 Escuchar esto es tan importante para cada hombre. Pero nosotras como mujeres no nos damos cuenta de esto, porque nosotras recibimos esas palabras como “una amabilidad” pero no como “oxígeno para vivir”. **Para un hombre esto es oxígeno. El sentido de apreciación es muy importante para ellos.**
 
-* * *
+---
 
 Espero que lo leído te ayude (como lo hizo conmigo) a evitar ciertas discusiones o malentendidos innecesarios.
 

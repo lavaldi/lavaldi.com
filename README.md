@@ -15,7 +15,7 @@ yarn install
 Start the development server:
 
 ```
-yarn dev
+yarn develop
 ```
 
 Create new post:

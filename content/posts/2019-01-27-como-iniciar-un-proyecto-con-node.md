@@ -3,11 +3,10 @@ title: Cómo iniciar un proyecto con Node.js
 date: 2019-01-27
 categories:
   - Code
-  - Popular
 tags:
   - node
 template: post
-thumbnail: "../thumbnails/node.png"
+thumbnail: '../thumbnails/node.png'
 slug: como-iniciar-un-proyecto-con-node
 ---
 

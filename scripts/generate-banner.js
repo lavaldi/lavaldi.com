@@ -10,7 +10,7 @@ const { createCanvas, loadImage } = require('canvas')
 const parseArgs = require('minimist')
 const chalk = require('chalk')
 const fs = require('fs')
-const { COLORS } = require('./constans')
+const { COLORS } = require('./constants')
 
 // eslint-disable-next-line no-console
 const log = console.log;

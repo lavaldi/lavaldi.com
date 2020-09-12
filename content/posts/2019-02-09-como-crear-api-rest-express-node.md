@@ -3,7 +3,6 @@ title: Cómo crear un API REST con Express.js y Node.js
 date: 2019-02-09
 categories:
   - Code
-  - Popular
 tags:
   - node
   - babel
@@ -182,7 +181,7 @@ Para eliminar o actualizar un recurso de usuario, debe conocer al usuario exacto
 
 ## Darle sentido a REST
 
-Es posible que aún te estés preguntando: _¿Qué valor trae la combinación de URI y métodos HTTP, que constituyen la mayoría de la filosofía REST, a mi aplicación?_
+Es posible que aún te estés preguntando: *¿Qué valor trae la combinación de URI y métodos HTTP, que constituyen la mayoría de la filosofía REST, a mi aplicación?*
 
 Imaginemos que no solo devolveremos un resultado, como lo hacemos en este momento, sino que actuaríamos correctamente en la operación recibida en su lugar. Por ejemplo, el servidor Express podría estar conectado a una base de datos que almacena las entidades de los usuarios en una tabla de usuarios. Ahora, cuando consume el API REST como cliente (por ejemplo, cURL, navegador o también una aplicación React.js), puede recuperar todos los usuarios de la base de datos con un método HTTP GET en el URI de `/users` o, en el mismo recurso, crear un nuevo usuario con un método HTTP POST.
 

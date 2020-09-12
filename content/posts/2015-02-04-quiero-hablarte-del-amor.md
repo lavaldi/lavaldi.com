@@ -1,9 +1,9 @@
 ---
 title: Quiero hablarte del amor
 date: 2015-02-04
-categories: 
+categories:
   - JesusFreak
-tags: 
+tags:
   - amor
   - La Cruz y el Puñal
   - David Wilkerson
@@ -30,7 +30,7 @@ Deja de lamentarte por los pecados del pasado, ¡deja de sufrir por lo que hicis
 
 > **¡¡¡Jesucristo ven a mí!!!**
 
-* * *
+---
 
 _Extracto de la película “La Cruz y el Puñal” inspirado en el libro del mismo nombre de_ [_David Wilkerson_](http://es.wikipedia.org/wiki/David_Wilkerson)_._
 

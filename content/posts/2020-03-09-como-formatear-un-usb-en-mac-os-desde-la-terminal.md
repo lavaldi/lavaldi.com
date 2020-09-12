@@ -1,16 +1,15 @@
 ---
-title: "Cómo formatear en macOS desde la terminal"
+title: 'Cómo formatear en macOS desde la terminal'
 date: 2020-03-09
 categories:
   - Code
-  - Popular
 tags:
   - macOS
   - terminal
   - format
 template: post
-thumbnail: "../thumbnails/bash.png"
-slug: "como-formatear-en-mac-os-desde-la-terminal"
+thumbnail: '../thumbnails/bash.png'
+slug: 'como-formatear-en-mac-os-desde-la-terminal'
 ---
 
 El año pasado formatié un USB que tenía desde mi Macbook debido a que quería poner ahí unos videos para poder verlos desde la TV. Aquella vez utilicé la aplicación Disk Utility que viene en el sistema operativo y lo hice utilizando el formato MS-DOS(FAT) que se supone sería compatible para la TV así como para usarlo desde el sistema operativo Windows... pues no funcionó, luego usé la opción ExFAT (que se supone también es compatible) y tampoco funcionó 😞 así que dejé ese USB en el olvido...

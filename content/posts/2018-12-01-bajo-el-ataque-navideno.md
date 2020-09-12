@@ -55,4 +55,4 @@ Que Dios los bendiga
 
 ---
 
-Traducción de _[Under Christmas Attack](https://www.paultripp.com/wednesdays-word/posts/under-christmas-attack)_
+Traducción de *[Under Christmas Attack](https://www.paultripp.com/wednesdays-word/posts/under-christmas-attack)*

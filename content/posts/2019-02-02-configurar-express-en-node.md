@@ -3,7 +3,6 @@ title: ¿Cómo configurar Express.js en Node.js?
 date: 2019-02-02
 categories:
   - Code
-  - Popular
 tags:
   - node
   - babel
@@ -73,7 +72,7 @@ Esencialmente, cada aplicación Express es solo una serie de llamadas de funció
 
 Si una aplicación de Express consta de enrutamiento y llamadas de funciones de middleware, ¿qué ocurre con las llamadas de funciones de middleware? Hay dos tipos de middleware en Express.js: middleware de nivel de aplicación y middleware de nivel de enrutador. Exploremos un middleware de nivel de aplicación en esta sección con un caso de uso limpio y profundicemos en los otros aspectos del middleware de nivel de aplicación y de nivel de enrutador más adelante.
 
-Al usar Express.js, las personas a menudo se encuentran con el siguiente error en el navegador cuando acceden a su aplicación Express: _"Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at http://localhost:3000/. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing).”_. Lo más probable es que ocurra porque estamos accediendo a un dominio desde un dominio exterior. El intercambio de recursos de origen cruzado (CORS) se inventó para proteger las aplicaciones web en un nivel de dominio. La idea: no debería ser posible acceder a datos de otros dominios. Por ejemplo, una aplicación web con el dominio `https://example.com` no debería poder acceder a otra aplicación web con `https://website.com` de forma predeterminada. Se utiliza para restringir el acceso entre aplicaciones web.
+Al usar Express.js, las personas a menudo se encuentran con el siguiente error en el navegador cuando acceden a su aplicación Express: *"Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at http://localhost:3000/. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing).”*. Lo más probable es que ocurra porque estamos accediendo a un dominio desde un dominio exterior. El intercambio de recursos de origen cruzado (CORS) se inventó para proteger las aplicaciones web en un nivel de dominio. La idea: no debería ser posible acceder a datos de otros dominios. Por ejemplo, una aplicación web con el dominio `https://example.com` no debería poder acceder a otra aplicación web con `https://website.com` de forma predeterminada. Se utiliza para restringir el acceso entre aplicaciones web.
 
 Ahora, podemos permitir CORS agregando este encabezado de CORS faltante, porque eventualmente nos encontraremos con este error al implementar una aplicación cliente que consume para nuestro servidor Express. Sin embargo, dado que no queremos hacer esto manualmente para cada ruta, podemos usar un middleware de nivel de aplicación para agregar el encabezado CORS HTTP a cada solicitud de forma predeterminada. Por lo tanto, podríamos escribir un middleware nosotros mism@s (veremos cómo funciona esto más adelante) o usar una biblioteca de middleware para Express.js que haga el trabajo por nosotros.
 

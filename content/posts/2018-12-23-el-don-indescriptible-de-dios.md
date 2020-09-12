@@ -18,7 +18,7 @@ slug: el-don-indescriptible-de-dios
 
 ¿Cómo recibimos prácticamente la reconciliación y nos regocijamos en Dios? Una respuesta es: hazlo a través de Jesucristo. Lo que significa, al menos en parte, hacer que el retrato de Jesús en la Biblia —la obra y las palabras de Jesús retratadas en el Nuevo Testamento— sea el contenido esencial de su regocijo por Dios. La exultación sin el contenido de Cristo no honra a Cristo.
 
-En 2 Corintios 4:4-6, Pablo describe la conversión de dos maneras. En el verso 4, dice que es ver _"la gloria de Cristo, que es la imagen de Dios"_. Y en el versículo 6, dice que es ver _"la gloria de Dios en el rostro de Jesucristo"_. En cualquier caso, usted ve el punto. Tenemos a Cristo, la imagen de Dios, y tenemos a Dios en el rostro de Cristo.
+En 2 Corintios 4:4-6, Pablo describe la conversión de dos maneras. En el verso 4, dice que es ver *"la gloria de Cristo, que es la imagen de Dios"*. Y en el versículo 6, dice que es ver *"la gloria de Dios en el rostro de Jesucristo"*. En cualquier caso, usted ve el punto. Tenemos a Cristo, la imagen de Dios, y tenemos a Dios en el rostro de Cristo.
 
 En la práctica, para regocijarse en Dios, se regocija en lo que ve y sabe de Dios en el retrato de Jesucristo. Y esto llega a su experiencia más plena cuando el amor de Dios es derramado en nuestros corazones por el Espíritu Santo, como dice Romanos 5:5.
 

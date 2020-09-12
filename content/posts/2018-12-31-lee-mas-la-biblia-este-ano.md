@@ -12,7 +12,7 @@ slug: lee-mas-la-biblia-este-ano
 
 Muchos cristianos quieren pero no desean leer la Biblia, prefieren leer las noticias, estar en las redes sociales o, simplemente, hacer otras cosas porque leer la Bilbia es aburrido. Entonces, ¿qué pueden hacer?
 
-Muchos piensan que la solución está en esforzarse más, comprometerse a una hora determinada todos los días o pedir que se rindan cuentas. Estas cosas pueden ayudar, pero por sí mismas, pierden el camino principal que Dios quiere para motivarnos. Santiago 2:17 dice que _"la fe por sí misma, si no tiene obras, está muerta"_. Así que cuando me faltan buenas obras, como leer la Biblia, mi problema no es principalmente la pereza o la falta de disciplina. Mi problema es la falta de fe. No confío en lo que Dios ha prometido acerca de su palabra.
+Muchos piensan que la solución está en esforzarse más, comprometerse a una hora determinada todos los días o pedir que se rindan cuentas. Estas cosas pueden ayudar, pero por sí mismas, pierden el camino principal que Dios quiere para motivarnos. Santiago 2:17 dice que *"la fe por sí misma, si no tiene obras, está muerta"*. Así que cuando me faltan buenas obras, como leer la Biblia, mi problema no es principalmente la pereza o la falta de disciplina. Mi problema es la falta de fe. No confío en lo que Dios ha prometido acerca de su palabra.
 
 Así que aquí va una lista de lo que Dios promete hacer por nosotros a través de las Escrituras. Te animo a orar sobre estas promesas por unos minutos cada día, pidiéndole a Dios que use estas promesas para fortalecer tu fe y cambiar tu corazón.
 
@@ -56,7 +56,7 @@ Una vez que haya anclado su corazón con promesas de Dios, aquí hay algunas sug
 
 3. Usa una versión bastante literal de la Biblia como la Reina Valera (RVR) o La Biblia de las Américas (LBLA).
 
-4. Usa un [plan de lectura bíblica](https://www.ligonier.org/blog/bible-reading-plans/) que le dirá qué leer todos los días y le guiará a través de toda la Biblia sistemáticamente. (puedes seguir el [plan cronológico](http://static.esvmedia.org/assets/pdfs/rp.chronological.pdf) que es mi preferido ❤️ o el célebre [plan de Robert Murray M’Cheyne](http://www.edginet.org/mcheyne/year_classic_a4.pdf))
+4. Usa un [plan de lectura bíblica](https://www.ligonier.org/blog/bible-reading-plans/) que le dirá qué leer todos los días y le guiará a través de toda la Biblia sistemáticamente. (puedes seguir el [plan cronológico](http://static.esvmedia.org/assets/pdfs/rp.chronological.pdf) que es mi preferido ❤️ o el célebre [plan de Robert Murray M’Cheyne](http://www.edginet.org/mcheyne/year*classic*a4.pdf))
 
 5. Empieza por pedirle a Dios que incline tu corazón a su palabra (Salmo 119:36), y que abra tus ojos para ver su gloria (Salmo 119:18).
 
@@ -66,7 +66,7 @@ Una vez que haya anclado su corazón con promesas de Dios, aquí hay algunas sug
 
 ## Obtén todo lo que puedas
 
-Puede que ya estés leyendo la palabra de Dios consistentemente. Pero tal vez usted podría recibir aún más de la Palabra de Dios al pasar aún más tiempo en la Palabra de Dios. El rey David dice esto sobre las palabras de Dios: _"deseables más que el oro; sí, más que mucho oro fino, más dulces que la miel y que el destilar del panal."_ (Salmo 19:10).
+Puede que ya estés leyendo la palabra de Dios consistentemente. Pero tal vez usted podría recibir aún más de la Palabra de Dios al pasar aún más tiempo en la Palabra de Dios. El rey David dice esto sobre las palabras de Dios: *"deseables más que el oro; sí, más que mucho oro fino, más dulces que la miel y que el destilar del panal."* (Salmo 19:10).
 
 Mucho oro fino valdría millones de dólares, y la miel es deliciosamente satisfactoria. Imagina tener un libro que, ¡cuanto más leas, más oro y miel recibirás! Piénsalo: cada diez minutos extra de lectura vale más de lo que el dinero puede comprar y sabe más dulce que los mejores postres. ¡Qué libro tan asombroso! Querrás leerlo todo lo que puedas.
 
@@ -76,4 +76,4 @@ Así que, piensa en cómo has pasado tu tiempo durante el último año. ¿Hay ca
 
 ---
 
-Adaptación del artículo original en inglés _[Read the Bible More This Year](https://www.desiringgod.org/articles/read-the-bible-more-this-year)_ escrito por Steve Fuller.
+Adaptación del artículo original en inglés *[Read the Bible More This Year](https://www.desiringgod.org/articles/read-the-bible-more-this-year)* escrito por Steve Fuller.

@@ -1,97 +1,102 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Helmet from 'react-helmet'
-import urljoin from 'url-join'
-import config from '../../data/SiteConfig'
 
-export default class SEO extends Component {
-  render() {
-    const { postNode, postPath, postSEO } = this.props
-    let title
-    let description
-    let image = ''
-    let postURL
-    let useLogoAsImage = true
+import config from '../utils/config'
 
-    if (postSEO) {
-      const postMeta = postNode.frontmatter
-      title = postMeta.title
-      description = postMeta.description ? postMeta.description : postNode.excerpt
-      if (postMeta.banner) {
-        image = postMeta.banner
-        useLogoAsImage = false
-      } else if (postMeta.thumbnail) {
-        image = postMeta.thumbnail.childImageSharp.fixed.src
-      }
-      postURL = urljoin(config.siteUrl, postPath)
-    } else {
-      title = config.siteTitle
-      description = config.siteDescription
-      image = config.siteLogo
+export default function SEO({
+  postNode,
+  postPath,
+  postSEO,
+  customDescription,
+}) {
+  let title
+  let description
+  let image = ''
+  let postURL
+  let useLogoAsImage = true
+
+  if (postSEO) {
+    const postMeta = postNode.frontmatter
+    title = postMeta.title
+    description = postNode.excerpt
+
+    if (postMeta.banner) {
+      image = postMeta.banner
+      useLogoAsImage = false
+    } else if (postMeta.thumbnail) {
+      image = postMeta.thumbnail.childImageSharp.fixed.src
     }
 
-    if (useLogoAsImage) image = urljoin(config.siteUrl, image)
-    const blogURL = config.siteUrl
-    const schemaOrgJSONLD = [
+    postURL = `${config.siteUrl}${postPath}`
+  } else {
+    title = config.siteTitle
+    description = customDescription || config.description
+    image = config.siteLogo
+  }
+
+  if (useLogoAsImage) image = `${config.siteUrl}${image}`
+  const schemaOrgJSONLD = [
+    {
+      '@context': 'http://schema.org',
+      '@type': 'WebSite',
+      url: config.siteUrl,
+      name: title,
+      alternateName: title,
+    },
+  ]
+
+  if (postSEO) {
+    schemaOrgJSONLD.push(
       {
         '@context': 'http://schema.org',
-        '@type': 'WebSite',
-        url: blogURL,
-        name: title,
-        alternateName: config.siteTitleAlt ? config.siteTitleAlt : '',
-      },
-    ]
-
-    if (postSEO) {
-      schemaOrgJSONLD.push(
-        {
-          '@context': 'http://schema.org',
-          '@type': 'BreadcrumbList',
-          itemListElement: [
-            {
-              '@type': 'ListItem',
-              position: 1,
-              item: {
-                '@id': postURL,
-                name: title,
-                image,
-              },
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            item: {
+              '@id': postURL,
+              name: title,
+              image,
             },
-          ],
-        },
-        {
-          '@context': 'http://schema.org',
-          '@type': 'BlogPosting',
-          url: blogURL,
-          name: title,
-          alternateName: config.siteTitleAlt ? config.siteTitleAlt : '',
-          headline: title,
-          image: {
-            '@type': 'ImageObject',
-            url: image,
           },
-          description,
-        }
-      )
-    }
-    return (
-      <Helmet>
-        <meta name="description" content={description} />
-        <meta name="image" content={image} />
-
-        <script type="application/ld+json">{JSON.stringify(schemaOrgJSONLD)}</script>
-
-        <meta property="og:url" content={postSEO ? postURL : blogURL} />
-        {postSEO ? <meta property="og:type" content="article" /> : null}
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
-        <meta property="og:image" content={image} />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:creator" content={config.userTwitter} />
-        <meta name="twitter:title" content={title} />
-        <meta name="twitter:description" content={description} />
-        <meta name="twitter:image" content={image} />
-      </Helmet>
+        ],
+      },
+      {
+        '@context': 'http://schema.org',
+        '@type': 'BlogPosting',
+        url: config.siteUrl,
+        name: title,
+        alternateName: title,
+        headline: title,
+        image: {
+          '@type': 'ImageObject',
+          url: image,
+        },
+        description,
+      }
     )
   }
+  return (
+    <Helmet>
+      <meta name="description" content={description} />
+      <meta name="image" content={image} />
+
+      <script type="application/ld+json">
+        {JSON.stringify(schemaOrgJSONLD)}
+      </script>
+
+      <meta property="og:url" content={postSEO ? postURL : config.siteUrl} />
+      {postSEO && <meta property="og:type" content="article" />}
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={description} />
+      <meta property="og:image" content={image} />
+
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:creator" content={config.userTwitter} />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={image} />
+    </Helmet>
+  )
 }

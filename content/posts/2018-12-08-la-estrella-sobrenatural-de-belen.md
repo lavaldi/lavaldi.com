@@ -22,7 +22,7 @@ No dice que los condujo o fue antes que ellos. Sólo dice que vieron una estrell
 
 La respuesta es: No lo sabemos. Hay numerosos esfuerzos para explicarlo en términos de conjunciones de planetas o cometas o supernovas o luces milagrosas. Simplemente no lo sabemos. Y quiero exhortarlos a que no se preocupen por desarrollar teorías que al final sólo son tentativas y que tienen muy poco significado espiritual.
 
-Me arriesgo a una generalización para advertirte: La gente que está ejercitada y preocupada con cosas tales como cómo funcionaba la estrella y cómo el Mar Rojo se dividió y cómo cayó el maná y cómo Jonás sobrevivió a los peces y cómo la luna se convierte en sangre son generalmente personas que tienen lo que yo llamo una mentalidad para los marginados. No ves en ellos un profundo aprecio por las grandes cosas centrales del Evangelio: la santidad de Dios, la fealdad del pecado, la impotencia del hombre, la muerte de Cristo, la justificación sólo por la fe, la obra santificadora del Espíritu, la gloria del regreso de Cristo y el juicio final. Parece que siempre te están desviando del camino con un nuevo artículo o libro. Hay poco regocijo _centrado_.
+Me arriesgo a una generalización para advertirte: La gente que está ejercitada y preocupada con cosas tales como cómo funcionaba la estrella y cómo el Mar Rojo se dividió y cómo cayó el maná y cómo Jonás sobrevivió a los peces y cómo la luna se convierte en sangre son generalmente personas que tienen lo que yo llamo una mentalidad para los marginados. No ves en ellos un profundo aprecio por las grandes cosas centrales del Evangelio: la santidad de Dios, la fealdad del pecado, la impotencia del hombre, la muerte de Cristo, la justificación sólo por la fe, la obra santificadora del Espíritu, la gloria del regreso de Cristo y el juicio final. Parece que siempre te están desviando del camino con un nuevo artículo o libro. Hay poco regocijo *centrado*.
 
 Pero lo que está claro con respecto a este asunto de la estrella es que está haciendo algo que no puede hacer por sí misma: está guiando a los magos hacia el Hijo de Dios para que lo adoren.
 
@@ -34,7 +34,7 @@ Lucas muestra a Dios influenciando a todo el Imperio Romano para que el censo ll
 
 Este es el designio de Dios. Lo hizo entonces. Todavía lo está haciendo ahora. Su objetivo es que las naciones —todas las naciones (Mateo 24:14)— adoren a su Hijo.
 
-Esta es la voluntad de Dios para todos en su oficina, en su trabajo, en su vecindario y en su casa. Como dice Juan 4:23: _"ciertamente a los tales el Padre busca que le adoren"_.
+Esta es la voluntad de Dios para todos en su oficina, en su trabajo, en su vecindario y en su casa. Como dice Juan 4:23: *"ciertamente a los tales el Padre busca que le adoren"*.
 
 Al principio de Mateo todavía tenemos un patrón de "venida". Pero al final, el patrón es "ve-dile". Los magos vinieron y vieron. Tenemos que ir a contarlo.
 

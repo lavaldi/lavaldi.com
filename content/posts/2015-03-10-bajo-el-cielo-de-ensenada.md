@@ -5,7 +5,7 @@ categories:
   - JesusFreak
 tags:
   - testimonio
-banner: "https://instagram.flim1-1.fna.fbcdn.net/t51.2885-15/e35/21373122_1644288878935018_7164696333872267264_n.jpg"
+banner: 'https://instagram.flim1-1.fna.fbcdn.net/t51.2885-15/e35/21373122_1644288878935018_7164696333872267264_n.jpg'
 template: post
 thumbnail: '../thumbnails/jesus.png'
 slug: bajo-el-cielo-de-ensenada
@@ -13,7 +13,7 @@ slug: bajo-el-cielo-de-ensenada
 
 Por [Erick Santos](https://soundcloud.com/erick-santos) publicado el 27/10/2014
 
-* * *
+---
 
 Desde niño pensé que una vida en soledad era lo mejor. Vivir sin ataduras, sin responsabilidades, sin horarios, con la posibilidad de hacer lo que quisiera, cuando quisiera, donde quisiera y como quisiera, sin pensar en las consecuencias y sin remordimiento alguno.
 
@@ -93,6 +93,6 @@ Me divertí mucho en el patio de juegos, pero Papá vino por mí, es hora de reg
 > “Con Cristo estoy juntamente crucificado, y ya no vivo yo, mas vive Cristo en mí; y lo que ahora vivo en la carne, lo vivo en la fe del Hijo de Dios, el cual me amó y se entregó a sí mismo por mí” 
 > — Gálatas 2;20
 
-* * *
+---
 
 _Originalmente publicado en_ [_soundcloud.com_](https://soundcloud.com/erick-santos/bajo-el-cielo-de-ensenada).

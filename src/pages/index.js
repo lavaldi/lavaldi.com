@@ -1,128 +1,95 @@
-import React, { Component } from 'react'
+import React, { useMemo } from 'react'
+import { Link, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
-import { graphql } from 'gatsby'
-import GitHubButton from 'react-github-btn'
-import Layout from '../layout'
-import PostListing from '../components/PostListing'
-import ProjectListing from '../components/ProjectListing'
-import SimpleListing from '../components/SimpleListing'
+
+import Layout from '../components/Layout'
+import Posts from '../components/Posts'
+import PostsWithImage from '../components/PostsWithImage'
+import Projects from '../components/Projects'
 import SEO from '../components/SEO'
-import config from '../../data/SiteConfig'
-import projects from '../../data/projects'
-import speaking from '../../data/speaking'
+
+import { getSimplifiedPosts } from '../utils/helpers'
+import config from '../utils/config'
+
+import projects from '../data/projects'
+import speaking from '../data/speaking'
+
 import lavaldi from '../../content/images/lavaldi.jpg'
 
-export default class Index extends Component {
-  render() {
-    const { data } = this.props
+export default function BlogIndex({ data }) {
+  const latest = data.latest.edges
+  const simplifiedLatest = useMemo(() => getSimplifiedPosts(latest), [latest])
 
-    const latestPostEdges = data.latest.edges
-    const popularPostEdges = data.popular.edges
+  const Section = ({ title, children, button, ...props }) => (
+    <section {...props}>
+      <h2>
+        {title}
+        {button && (
+          <Link className="section-button" to="/blog">
+            View all
+          </Link>
+        )}
+      </h2>
+      {children}
+    </section>
+  )
 
-    return (
-      <Layout>
-        <Helmet title={`${config.siteTitle} – christian, wife and front end.`} />
-        <SEO />
+  return (
+    <Layout>
+      <Helmet title={config.siteTitle} />
+      <SEO />
+      <section className="lead">
         <div className="container">
-          <div className="lead">
-            <img
-              src={lavaldi}
-              className="lavaldi"
-              title="Claudia Valdivieso"
-              alt="Claudia Valdivieso"
-            />
-            <h1>{`Hi, I'm Claudia`}</h1>
+          <div className="copy">
+            <h1>
+              Hey! I'm Claudia Valdivieso.
+            </h1>
             <p>
-              {`I'm christian, wife, mother and a software engineer, and sometimes I write about
-                christianity and programming.`}
+              I'm christian, wife, mother and a software engineer, and sometimes
+              I write about christianity and programming. You can read about{' '}
+              <Link to="/code">code</Link>, and{' '}
+              <Link to="/jesus-freak">christianity</Link>, or learn more{' '}
+              <Link to="/me">about me</Link>.
             </p>
           </div>
+
+          <div className="image">
+            <img src={lavaldi} alt="Claudia Valdivieso" />
+          </div>
         </div>
-
-        <div className="container front-page">
-          <section className="section">
-            <h2>Latest</h2>
-            <PostListing simple postEdges={latestPostEdges} />
-          </section>
-
-          <section className="section">
-            <h2>Popular</h2>
-            <PostListing simple postEdges={popularPostEdges} />
-          </section>
-
-          <section className="section">
-            <h2>Projects</h2>
-            <ProjectListing projects={projects} />
-          </section>
-
-          <section className="section">
-            <h2>Speaking</h2>
-            <SimpleListing simple data={speaking} />
-          </section>
-        </div>
-      </Layout>
-    )
-  }
+      </section>
+      <div className="container index">
+        <Section title="Latest Articles" button>
+          <Posts data={simplifiedLatest} tags withDate />
+        </Section>
+        <Section title="Projects">
+          <Projects data={projects} />
+        </Section>
+        <Section title="Speaking">
+          <PostsWithImage data={speaking} />
+        </Section>
+      </div>
+    </Layout>
+  )
 }
 
 export const pageQuery = graphql`
   query IndexQuery {
     latest: allMarkdownRemark(
-      limit: 6
-      sort: { fields: [fields___date], order: DESC }
-      filter: { frontmatter: { template: { eq: "post" } }, isFuture: { eq: false } }
+      limit: 10
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { template: { eq: "post" } } }
     ) {
       edges {
         node {
+          id
           fields {
             slug
-            date
           }
-          excerpt
-          timeToRead
           frontmatter {
+            date(formatString: "MMMM DD, YYYY")
             title
             tags
-            categories
-            thumbnail {
-              childImageSharp {
-                fixed(width: 150, height: 150) {
-                  ...GatsbyImageSharpFixed
-                }
-              }
-            }
-            date
-            template
-          }
-        }
-      }
-    }
-    popular: allMarkdownRemark(
-      limit: 7
-      sort: { fields: [fields___date], order: DESC }
-      filter: { frontmatter: { categories: { eq: "Popular" } }, isFuture: { eq: false } }
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-            date
-          }
-          excerpt
-          timeToRead
-          frontmatter {
-            title
-            tags
-            categories
-            thumbnail {
-              childImageSharp {
-                fixed(width: 150, height: 150) {
-                  ...GatsbyImageSharpFixed
-                }
-              }
-            }
-            date
-            template
           }
         }
       }

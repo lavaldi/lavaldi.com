@@ -1,32 +1,28 @@
-import React, { Component } from "react";
-import { Link } from "gatsby";
+import React from 'react'
+import { Link } from 'gatsby'
 
-export default class Footer extends Component {
-  render() {
-    return (
-      <footer className="footer container">
-        <a
-          href="https://twitter.com/lavaldi_"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Twitter
-        </a>
-        <a
-          href="https://github.com/lavaldi"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-        <a
-          href="https://lavaldi.com/rss.xml"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          RSS
-        </a>
-      </footer>
-    );
-  }
+import gatsby from '../../content/thumbnails/gatsby.png'
+
+export default function Footer() {
+  return (
+    <footer className="footer flex">
+      <section className="container">
+        <nav className="footer-links">
+          <Link to="/code">Code</Link>
+          <Link to="/jesus-freak">Jesus Freak</Link>
+          <a
+            href="https://twitter.com/lavaldi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Twitter
+          </a>
+          <Link to="/rss.xml">RSS</Link>
+        </nav>
+        <nav className="flex justify-center">
+            With ❤️
+        </nav>
+      </section>
+    </footer>
+  )
 }
