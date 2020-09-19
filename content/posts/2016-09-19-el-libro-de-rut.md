@@ -12,6 +12,7 @@ tags:
 template: post
 thumbnail: "../thumbnails/jesus.png"
 slug: el-libro-de-rut
+banner: "https://cdn-images-1.medium.com/max/600/1*09bAvRWA1F_htj3520HWzw.png"
 ---
 
 Jesús dijo _«Escudriñad las escrituras… ellas dan testimonio de mi»_ (Juan 5:39), y eso es lo que vamos a hacer con esta serie de escritos sobre el libro de Rut 😁.
