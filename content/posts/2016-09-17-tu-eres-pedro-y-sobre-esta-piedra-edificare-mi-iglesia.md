@@ -8,6 +8,7 @@ tags:
 template: post
 thumbnail: "../thumbnails/jesus.png"
 slug: tu-eres-pedro-y-sobre-esta-piedra-edificare-mi-iglesia
+banner: "https://cdn-images-1.medium.com/max/600/1*-9pdmufcvnXrErve_G02dw.png"
 ---
 
 La confesión de Pedro:
@@ -24,11 +25,11 @@ La confesión de Pedro:
 
 Algunas palabras de este pasaje han originado dolorosas diferencias y divisiones entre los cristianos. Los hombres han porfiado y discutido su significado hasta perder la paciencia y, sin embargo, no han logrado convencerse unos a otros. Tendrá que bastarnos el considerar brevemente las palabras que son el objeto de la controversia…
 
-<figure>
+<figure style="text-align: center">
 
 ![](https://cdn-images-1.medium.com/max/600/1*-9pdmufcvnXrErve_G02dw.png)
 
-<figcaption style="text-align: center">
+<figcaption>
 
 [By the Name of Jesus](http://eikonik.deviantart.com/art/By-the-Name-of-Jesus-111620985)
 
