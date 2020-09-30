@@ -5,11 +5,11 @@ module.exports = {
       name: 'Claudia Valdivieso',
     },
     pathPrefix: '/',
-    siteUrl: 'https://www.lavaldi.com',
+    siteUrl: 'https://lavaldi.com',
     description:
       'Christian, wife, mother and front end.',
-    feedUrl: 'https://www.lavaldi.com/rss.xml',
-    logo: 'https://www.lavaldi.com/logo.png',
+    feedUrl: 'https://lavaldi.com/rss.xml',
+    logo: 'https://lavaldi.com/logo.png',
   },
   plugins: [
     // ===================================================================================
@@ -209,7 +209,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-canonical-urls",
       options: {
-        siteUrl: 'https://www.lavaldi.com',
+        siteUrl: 'https://lavaldi.com',
       },
     },
   ],
