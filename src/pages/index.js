@@ -14,7 +14,7 @@ import config from '../utils/config'
 import projects from '../data/projects'
 import speaking from '../data/speaking'
 
-import lavaldi from '../../content/images/lavaldi.jpg'
+import lavaldi from '../../content/images/lavaldi.png'
 
 export default function BlogIndex({ data }) {
   const latest = data.latest.edges

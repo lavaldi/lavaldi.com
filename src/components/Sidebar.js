@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import lavaldi from '../../content/images/lavaldi.jpg'
+import lavaldi from '../../content/images/lavaldi.png'
 
 import { slugify } from '../utils/helpers'
 
