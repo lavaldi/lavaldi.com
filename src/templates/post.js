@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import Img from 'gatsby-image'
+import urljoin from "url-join";
 
 import Layout from '../components/Layout'
 import Sidebar from '../components/Sidebar'
@@ -14,7 +15,9 @@ import config from '../utils/config'
 export default function PostTemplate({ data, pageContext, ...props }) {
   const post = data.markdownRemark
   const { previous, next } = pageContext
-  const { thumbnail } = post.frontmatter
+  const { thumbnail, slug } = post.frontmatter
+  const url = urljoin("https://lavaldi.com", slug);
+  const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(url)}`;
 
   useEffect(() => {
     const theme =
@@ -48,7 +51,8 @@ export default function PostTemplate({ data, pageContext, ...props }) {
             </header>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
             <div id="comments">
-              <h2>Comments</h2>
+              <h2>Comment or lets <a href={discussUrl} target="_blank" rel="noopener noreferrer">Discuss on Twitter</a>
+              </h2>
               <Disqus postNode={post} />
             </div>
           </article>
@@ -81,6 +85,7 @@ export const pageQuery = graphql`
           }
         }
         banner
+        slug
       }
     }
   }
