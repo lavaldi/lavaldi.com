@@ -51,7 +51,7 @@ export default function PostTemplate({ data, pageContext, ...props }) {
             </header>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
             <div id="comments">
-              <h2>Comment or lets <a href={discussUrl} target="_blank" rel="noopener noreferrer">Discuss on Twitter</a>
+              <h2>Comment or let's <a href={discussUrl} target="_blank" rel="noopener noreferrer">discuss on Twitter</a>
               </h2>
               <Disqus postNode={post} />
             </div>
