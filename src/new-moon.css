@@ -50,6 +50,16 @@ pre[class*='language-'] {
   hyphens: none;
 }
 
+code[class*='language-'] > a,
+pre[class*='language-'] > a,
+code[class*='language-'] > a:hover,
+pre[class*='language-'] > a:hover {
+  background: transparent;
+  color: var(--code-font-color);
+  cursor: text;
+  pointer-events: none;
+}
+
 /* Code blocks */
 pre[class*='language-'] {
   padding: 1.5rem;
