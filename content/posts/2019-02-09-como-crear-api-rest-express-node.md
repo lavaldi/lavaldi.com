@@ -693,7 +693,11 @@ router.delete('/:messageId', (req, res) => {
 export default router;
 ```
 
-Cada una de nuestras rutas modulares desde Express Router está montada en nuestra aplicación Express con una URI dedicada en el archivo `src/index.js` ahora. Las rutas modulares en la carpeta `src/route` solo se ocupan de sus rutas secundarias y sus detalles de implementación, mientras que el montaje en el archivo `src/index.js` se ocupa de la ruta principal y la ruta modular montada que se usa allí. Al final, no olvides eliminar todas las rutas utilizadas anteriormente que movimos a la carpeta `src/route/` en el archivo `src/index.js`.
+Ahora cada una de nuestras rutas modulares desde Express Router está montada en nuestra aplicación Express con una URI dedicada en el archivo `src/index.js`. Las rutas modulares en la carpeta `src/route` solo se ocupan de las rutas secundarias y los detalles de implementación, mientras que el archivo `src/index.js` se ocupa de la ruta principal y la ruta modular que se usa allí. Al final, no olvides eliminar todas las rutas utilizadas anteriormente del archivo `src/index.js` que movimos a la carpeta `src/route/`.
+
+### Recursos relacionados
+
+[Building a Node.js/TypeScript REST API, Part 1: Express.js](https://www.toptal.com/express-js/nodejs-typescript-rest-api-pt-1) es un tutorial (en inglés) para aquellos que desean usar TypeScript y en él usa un paquete interesante llamado `winston` que es responsable de registrar (log) las peticiones a nuestra API y las respuestas (y errores) devueltas 👌.
 
 > Este tutorial es la parte 3 de 3 en esta serie.<br>
 > Parte 1: [Configuración mínima de Node.js con Babel](/node-con-babel)<br>
