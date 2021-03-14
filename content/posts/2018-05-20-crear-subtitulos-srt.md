@@ -8,7 +8,6 @@ tags:
   - subtitulos
 banner: 'https://i.imgur.com/H1maXnW.png'
 template: post
-thumbnail: '../thumbnails/bash.png'
 slug: crear-subtitulos-srt
 ---
 

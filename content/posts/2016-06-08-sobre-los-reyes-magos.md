@@ -7,7 +7,6 @@ tags:
   - Reyes Magos
 banner: "https://cdn-images-1.medium.com/max/1000/1*llZtLGJXlX70QPdxIcnKTQ.png"
 template: post
-thumbnail: "../thumbnails/jesus.png"
 slug: sobre-los-reyes-magos
 ---
 

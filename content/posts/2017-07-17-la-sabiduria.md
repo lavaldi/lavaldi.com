@@ -9,7 +9,6 @@ tags:
   - John MacArthur
 banner: "https://cdn-images-1.medium.com/max/1000/1*uHECVSwAvFMpvvpjrkwu0w.jpeg"
 template: post
-thumbnail: "../thumbnails/jesus.png"
 slug: la-sabiduria
 ---
 

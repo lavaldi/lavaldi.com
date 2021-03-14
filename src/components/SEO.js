@@ -23,10 +23,7 @@ export default function SEO({
     if (postMeta.banner) {
       image = postMeta.banner
       useLogoAsImage = false
-    } else if (postMeta.thumbnail) {
-      image = postMeta.thumbnail.childImageSharp.fixed.src
     }
-
     postURL = `${config.siteUrl}${postPath}`
   } else {
     title = config.siteTitle

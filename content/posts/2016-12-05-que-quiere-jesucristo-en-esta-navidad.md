@@ -8,7 +8,6 @@ tags:
   - John Piper
 banner: "https://cdn-images-1.medium.com/max/2000/1*YwxYRvvkW_rzMlkbAOFbCQ.jpeg"
 template: post
-thumbnail: "../thumbnails/jesus.png"
 slug: que-quiere-jesucristo-en-esta-navidad
 ---
 

@@ -7,7 +7,6 @@ tags:
   - Paul Tripp
   - felicidad
 template: post
-thumbnail: "../thumbnails/jesus.png"
 banner: "https://i.imgur.com/Ml7NYCQ.jpg"
 slug: "deberias-perseguir-la-felicidad"
 ---

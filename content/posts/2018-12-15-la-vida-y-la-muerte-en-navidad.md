@@ -9,7 +9,6 @@ tags:
   - adviento
   - John Piper
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: la-vida-y-la-muerte-en-navidad
 ---
 

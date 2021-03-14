@@ -9,7 +9,6 @@ tags:
   - J. I. Packer
   - El Conocimiento del Dios Santo
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: el-estudio-apropiado
 ---
 

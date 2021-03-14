@@ -6,7 +6,6 @@ categories:
 tags:
   - biblia
 template: post
-thumbnail: '../thumbnails/jesus.png'
 banner: 'https://i.imgur.com/R5QdeIe.jpg'
 slug: 'jesus-lloro'
 ---

@@ -8,7 +8,6 @@ tags:
   - semana santa
   - John Piper
 template: post
-thumbnail: "../thumbnails/jesus.png"
 slug: de-que-se-trata-el-viernes-santo
 ---
 

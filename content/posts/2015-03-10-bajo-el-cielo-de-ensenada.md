@@ -7,7 +7,6 @@ tags:
   - testimonio
 banner: 'https://instagram.flim1-1.fna.fbcdn.net/t51.2885-15/e35/21373122_1644288878935018_7164696333872267264_n.jpg'
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: bajo-el-cielo-de-ensenada
 ---
 

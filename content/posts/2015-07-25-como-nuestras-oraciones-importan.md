@@ -6,7 +6,6 @@ categories:
 tags:
   - oracion
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: como-nuestras-oraciones-importan
 ---
 

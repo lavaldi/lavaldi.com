@@ -6,7 +6,6 @@ categories:
 tags:
   - cuarentena
 template: post
-thumbnail: "../thumbnails/jesus.png"
 banner: "https://i.imgur.com/u58I4tx.jpg"
 slug: "cinco-pensamientos-desde-la-cuarentena"
 ---

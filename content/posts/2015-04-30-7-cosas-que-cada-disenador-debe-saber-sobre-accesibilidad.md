@@ -6,7 +6,6 @@ categories:
 tags:
   - accesibilidad
 template: post
-thumbnail: '../thumbnails/dom.png'
 slug: cosas-que-cada-disenador-debe-saber-sobre-accesibilidad
 ---
 

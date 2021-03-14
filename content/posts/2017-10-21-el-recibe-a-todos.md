@@ -8,7 +8,6 @@ tags:
   - J. C. Ryle
 banner: "https://i.imgur.com/1Y7dOMf.jpg"
 template: post
-thumbnail: "../thumbnails/jesus.png"
 slug: el-recibe-a-todos
 ---
 

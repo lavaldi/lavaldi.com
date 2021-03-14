@@ -8,7 +8,6 @@ tags:
   - Radical
   - David Platt
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: que-necesitas-para-estar-completo
 ---
 

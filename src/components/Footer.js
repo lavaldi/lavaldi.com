@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import gatsby from '../../content/thumbnails/gatsby.png'
-
 export default function Footer() {
   return (
     <footer className="footer flex">

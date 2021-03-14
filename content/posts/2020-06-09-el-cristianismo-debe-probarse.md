@@ -7,7 +7,6 @@ tags:
   - cristianismo
   - John Piper
 template: post
-thumbnail: "../thumbnails/jesus.png"
 banner: "https://i.imgur.com/UrkTu7W.png"
 slug: "el-cristianismo-debe-probarse"
 ---

@@ -8,7 +8,6 @@ tags:
   - Meditaciones sobre los Evangelios Marcos
 banner: "https://cdn-images-1.medium.com/max/1000/1*zL1yZRStn449-JLW7H3X2w.jpeg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: a-que-solucion-debes-recurrir-en-tiempo-de-tribulacion
 ---
 

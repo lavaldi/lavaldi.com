@@ -7,7 +7,6 @@ tags:
   - git
 banner: "https://i.imgur.com/8L8ejhH.jpg"
 template: post
-thumbnail: '../thumbnails/git.png'
 slug: deshacer-ultimo-commit-git
 ---
 

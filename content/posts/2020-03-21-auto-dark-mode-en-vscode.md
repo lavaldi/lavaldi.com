@@ -7,7 +7,6 @@ tags:
   - vscode
   - macOS
 template: post
-thumbnail: "../thumbnails/vsc.png"
 slug: "auto-dark-mode-en-vscode"
 ---
 

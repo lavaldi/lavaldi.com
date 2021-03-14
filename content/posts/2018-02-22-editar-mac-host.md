@@ -9,7 +9,6 @@ tags:
   - hosts
 banner: "https://i.imgur.com/A8CMAQX.jpg"
 template: post
-thumbnail: '../thumbnails/apple.png'
 slug: editar-mac-host
 ---
 

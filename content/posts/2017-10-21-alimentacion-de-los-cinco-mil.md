@@ -8,7 +8,6 @@ tags:
   - J. C. Ryle
 banner: "https://i.imgur.com/2S7Ae5l.jpg"
 template: post
-thumbnail: "../thumbnails/jesus.png"
 slug: alimentacion-de-los-cinco-mil
 ---
 

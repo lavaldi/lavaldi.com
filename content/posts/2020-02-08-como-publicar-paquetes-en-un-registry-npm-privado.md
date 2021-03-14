@@ -7,7 +7,6 @@ tags:
   - npm
   - node
 template: post
-thumbnail: "../thumbnails/npm.png"
 slug: como-publicar-paquetes-en-un-registry-npm-privado
 ---
 

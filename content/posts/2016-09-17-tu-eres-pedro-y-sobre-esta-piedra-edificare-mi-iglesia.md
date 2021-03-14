@@ -6,7 +6,6 @@ categories:
 tags:
   - J. C. Ryle
 template: post
-thumbnail: "../thumbnails/jesus.png"
 slug: tu-eres-pedro-y-sobre-esta-piedra-edificare-mi-iglesia
 banner: "https://cdn-images-1.medium.com/max/600/1*-9pdmufcvnXrErve_G02dw.png"
 ---

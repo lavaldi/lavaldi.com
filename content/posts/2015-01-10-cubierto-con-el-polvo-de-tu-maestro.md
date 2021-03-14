@@ -7,7 +7,6 @@ tags:
   - amor
   - Juan
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: cubierto-con-el-polvo-de-tu-maestro
 ---
 

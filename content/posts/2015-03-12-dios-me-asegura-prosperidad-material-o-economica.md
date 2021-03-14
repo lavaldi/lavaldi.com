@@ -9,7 +9,6 @@ tags:
   - Radical
   - David Platt
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: dios-me-asegura-prosperidad-material-o-economica
 ---
 

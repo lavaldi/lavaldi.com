@@ -6,7 +6,6 @@ categories:
 tags:
   - El Chavo del 8,
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: la-teologia-del-chavo
 ---
 

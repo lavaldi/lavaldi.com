@@ -8,7 +8,6 @@ tags:
   - adviento
   - John Piper
 template: post
-thumbnail: "../thumbnails/advent.png"
 slug: la-navidad-corta-la-historia-en-dos
 ---
 

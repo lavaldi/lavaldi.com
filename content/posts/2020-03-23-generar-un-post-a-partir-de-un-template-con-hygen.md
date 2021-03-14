@@ -7,7 +7,6 @@ tags:
   - hygen
   - gatsby
 template: post
-thumbnail: "../thumbnails/hygen.png"
 slug: "generar-un-post-a-partir-de-un-template-con-hygen"
 ---
 
@@ -158,7 +157,6 @@ categories:
 tags:
   - tag
 template: post
-thumbnail: "../thumbnails/thumbnail.png"
 slug: "<%= h.slugify(name) %>"
 ---
 

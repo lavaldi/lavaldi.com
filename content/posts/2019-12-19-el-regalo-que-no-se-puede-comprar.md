@@ -8,7 +8,6 @@ tags:
   - adviento
   - John Piper
 template: post
-thumbnail: "../thumbnails/advent.png"
 slug: el-regalo-que-no-se-puede-comprar
 ---
 

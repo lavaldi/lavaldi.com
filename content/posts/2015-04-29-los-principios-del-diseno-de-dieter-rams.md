@@ -6,7 +6,6 @@ categories:
 tags:
   - Dieter Rams
 template: post
-thumbnail: '../thumbnails/dom.png'
 slug: principios-del-diseno-de-dieter-rams
 ---
 

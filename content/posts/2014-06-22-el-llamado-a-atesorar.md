@@ -9,7 +9,6 @@ tags:
   - David Platt
 banner: 'https://i.imgur.com/6n69ME5.jpg'
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: el-llamado-a-atesorar
 ---
 

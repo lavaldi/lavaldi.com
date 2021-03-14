@@ -9,7 +9,6 @@ tags:
   - adviento
   - John Piper
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: las-sombras-del-antiguo-testamento-y-la-venida-de-cristo
 ---
 

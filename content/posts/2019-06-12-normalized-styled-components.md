@@ -9,7 +9,6 @@ tags:
   - npm
 banner: "https://i.imgur.com/Yp1LVnF.jpg"
 template: post
-thumbnail: '../thumbnails/react.png'
 slug: normalized-styled-components
 ---
 

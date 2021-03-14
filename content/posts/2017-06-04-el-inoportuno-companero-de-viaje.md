@@ -7,7 +7,6 @@ tags:
   - C. S. Lewis
   - Las Crónicas de Narnia
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: el-inoportuno-companero-de-viaje
 ---
 

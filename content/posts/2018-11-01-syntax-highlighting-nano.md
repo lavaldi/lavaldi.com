@@ -7,7 +7,6 @@ tags:
   - macOS
   - nano
 template: post
-thumbnail: "../thumbnails/apple.png"
 slug: syntax-highlighting-nano
 ---
 

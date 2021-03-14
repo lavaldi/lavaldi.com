@@ -8,7 +8,6 @@ tags:
   - La Cruz y el Puñal
   - David Wilkerson
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: quiero-hablarte-del-amor
 ---
 

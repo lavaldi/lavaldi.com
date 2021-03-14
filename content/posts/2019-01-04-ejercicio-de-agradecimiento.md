@@ -8,7 +8,6 @@ tags:
   - Kent Dodds
 banner: "https://i.imgur.com/deabSsp.jpg"
 template: post
-thumbnail: '../thumbnails/writing.png'
 slug: ejercicio-de-agradecimiento
 ---
 

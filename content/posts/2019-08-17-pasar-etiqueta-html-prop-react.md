@@ -6,7 +6,6 @@ categories:
 tags:
   - react
 template: post
-thumbnail: "../thumbnails/react.png"
 slug: pasar-etiqueta-html-prop-react
 ---
 

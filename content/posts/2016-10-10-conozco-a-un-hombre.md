@@ -6,7 +6,6 @@ categories:
 tags:
   - poema
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: conozco-a-un-hombre
 ---
 

@@ -6,7 +6,6 @@ categories:
 tags:
   - John MacArthur
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: encuentro-al-senor-del-libro
 ---
 

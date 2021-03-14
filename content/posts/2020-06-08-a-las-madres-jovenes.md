@@ -7,7 +7,6 @@ tags:
   - maternidad
   - John Angell James
 template: post
-thumbnail: "../thumbnails/jesus.png"
 banner: "https://i.imgur.com/AUOz4gQ.jpg"
 slug: "a-las-madres-jovenes"
 ---

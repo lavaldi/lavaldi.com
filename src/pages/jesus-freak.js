@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
-import PostsWithImage from '../components/PostsWithImage'
+import Posts from '../components/Posts'
 import SEO from '../components/SEO'
 
 import { getSimplifiedPosts } from '../utils/helpers'
@@ -12,26 +12,26 @@ import config from '../utils/config'
 export default function BlogIndex({ data }) {
   const posts = data.allMarkdownRemark.edges
   const simplifiedPosts = useMemo(
-    () => getSimplifiedPosts(posts, { thumbnails: true }),
+    () => getSimplifiedPosts(posts),
     [posts]
   )
 
   return (
     <Layout>
       <Helmet title={`Jesus Freak | ${config.siteTitle}`} />
-      <SEO />
+      <SEO customDescription="About Jesus" />
       <header>
         <div className="container text-center">
           <h1>Jesus Freak</h1>
           <p className="subtitle">
-            Acerca de Jesús
+            About Jesus
           </p>
         </div>
       </header>
       <section>
         <div className="guides-section">
           <div className="container">
-            <PostsWithImage data={simplifiedPosts} />
+            <Posts data={simplifiedPosts} showYears withDate narrow />
           </div>
         </div>
       </section>
@@ -57,13 +57,6 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             description
             banner
-            thumbnail {
-              childImageSharp {
-                fixed(width: 50, height: 50) {
-                  ...GatsbyImageSharpFixed
-                }
-              }
-            }
           }
         }
       }

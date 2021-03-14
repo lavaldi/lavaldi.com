@@ -8,7 +8,6 @@ tags:
   - terminal
   - format
 template: post
-thumbnail: '../thumbnails/bash.png'
 slug: 'como-formatear-en-mac-os-desde-la-terminal'
 ---
 

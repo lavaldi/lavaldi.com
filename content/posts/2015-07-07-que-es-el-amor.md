@@ -6,7 +6,6 @@ categories:
 tags:
   - amor
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: que-es-el-amor-1-juan
 ---
 

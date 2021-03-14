@@ -8,7 +8,6 @@ tags:
   - adviento
   - John Piper
 template: post
-thumbnail: "../thumbnails/advent.png"
 slug: algo-sobre-lo-que-vale-la-pena-cantar
 ---
 

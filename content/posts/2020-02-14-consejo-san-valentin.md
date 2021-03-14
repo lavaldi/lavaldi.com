@@ -8,7 +8,6 @@ tags:
   - San Valentín
   - Paul Tripp
 template: post
-thumbnail: "../thumbnails/love.png"
 slug: consejo-san-valentin
 ---
 

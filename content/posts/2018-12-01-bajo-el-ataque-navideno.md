@@ -9,7 +9,6 @@ tags:
   - Paul Tripp
 banner: "https://i.imgur.com/bZ4p4ru.jpg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: bajo-el-ataque-navideno
 ---
 

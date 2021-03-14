@@ -7,7 +7,6 @@ tags:
   - Meditaciones sobre los Evangelios Mateo
   - J. C. Ryle
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: la-higuera-esteril
 ---
 

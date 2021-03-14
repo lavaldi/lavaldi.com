@@ -10,7 +10,6 @@ tags:
   - Timothy Keller
 banner: "https://i.imgur.com/AlugzZE.jpg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: el-perdon-de-dios
 ---
 

@@ -6,7 +6,6 @@ categories:
 tags:
   - git
 template: post
-thumbnail: "../thumbnails/git.png"
 slug: como-eliminar-archivos-completamente-historial-git
 ---
 

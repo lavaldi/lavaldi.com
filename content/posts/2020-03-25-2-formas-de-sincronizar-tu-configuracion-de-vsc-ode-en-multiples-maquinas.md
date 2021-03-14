@@ -7,7 +7,6 @@ tags:
   - vscode
   - github
 template: post
-thumbnail: "../thumbnails/vsc.png"
 slug: "2-formas-de-sincronizar-tu-configuracion-de-vsc-ode-en-multiples-maquinas"
 ---
 

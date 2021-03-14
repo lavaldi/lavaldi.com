@@ -6,7 +6,6 @@ categories:
 tags:
   - oración
 template: post
-thumbnail: "../thumbnails/jesus.png"
 banner: "https://i.imgur.com/6KkHj67.jpg"
 slug: "como-orar-por-nuestros-lideres-politicos"
 ---

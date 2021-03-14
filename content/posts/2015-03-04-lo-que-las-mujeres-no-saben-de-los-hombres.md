@@ -8,7 +8,6 @@ tags:
   - hombres
   - relaciones
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: lo-que-las-mujeres-no-saben-de-los-hombres
 ---
 

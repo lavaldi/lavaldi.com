@@ -9,7 +9,6 @@ tags:
   - Puritanos
 banner: "https://cdn-images-1.medium.com/max/2000/1*DtHVrFKyjxDs94pd7TYNoQ.png"
 template: post
-thumbnail: "../thumbnails/jesus.png"
 slug: el-amor-marital-debe-ser-espiritual
 ---
 

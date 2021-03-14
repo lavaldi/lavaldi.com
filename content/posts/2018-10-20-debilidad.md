@@ -7,7 +7,6 @@ tags:
   - Paul Tripp
 banner: "https://i.imgur.com/ZPPvSNt.jpg"
 template: post
-thumbnail: "../thumbnails/jesus.png"
 slug: debilidad
 ---
 

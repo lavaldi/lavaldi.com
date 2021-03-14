@@ -7,7 +7,6 @@ tags:
   - Bedshaped
   - Keane
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: bedshaped
 ---
 

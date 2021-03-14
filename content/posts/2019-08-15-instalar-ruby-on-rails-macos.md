@@ -9,7 +9,6 @@ tags:
   - ruby on rails
   - rbenv
 template: post
-thumbnail: "../thumbnails/rails.png"
 slug: instalar-ruby-on-rails-macos
 ---
 

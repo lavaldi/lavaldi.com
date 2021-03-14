@@ -7,7 +7,6 @@ tags:
   - Paul Tripp
 banner: "https://i.imgur.com/B3ZCkH5.jpg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: dos-preguntas-que-lo-cambian-todo
 ---
 

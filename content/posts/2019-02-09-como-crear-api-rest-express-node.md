@@ -8,7 +8,6 @@ tags:
   - babel
   - express
 template: post
-thumbnail: '../thumbnails/node.png'
 slug: como-crear-api-rest-express-node
 ---
 

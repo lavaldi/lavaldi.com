@@ -8,7 +8,6 @@ tags:
   - Charles Wesley
 banner: "https://i.imgur.com/ZFBVifY.jpg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: oh-tu-que-viniste-del-cielo
 ---
 

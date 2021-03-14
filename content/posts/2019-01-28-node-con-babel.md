@@ -7,7 +7,6 @@ tags:
   - node
   - babel
 template: post
-thumbnail: "../thumbnails/node.png"
 slug: node-con-babel
 ---
 

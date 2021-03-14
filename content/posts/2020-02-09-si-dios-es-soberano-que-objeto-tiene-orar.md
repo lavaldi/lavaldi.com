@@ -7,7 +7,6 @@ tags:
   - oracion
   - R. C. Sproul
 template: post
-thumbnail: "../thumbnails/jesus.png"
 slug: si-dios-es-soberano-que-objeto-tiene-orar
 ---
 

@@ -8,7 +8,6 @@ tags:
   - masculinidad
 banner: "https://cdn-images-1.medium.com/max/1000/1*7kJUVgiZxLG4hQQoKMB27w.jpeg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: busca-la-masculinidad-y-feminidad-maduras
 ---
 

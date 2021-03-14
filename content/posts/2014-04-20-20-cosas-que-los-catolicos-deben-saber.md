@@ -6,7 +6,6 @@ categories:
 tags:
   - cristianismo
 template: post
-thumbnail: "../thumbnails/jesus.png"
 slug: cosas-que-los-catolicos-deben-saber
 ---
 

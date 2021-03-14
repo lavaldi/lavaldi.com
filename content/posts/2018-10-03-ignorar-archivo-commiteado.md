@@ -6,7 +6,6 @@ categories:
 tags:
   - git
 template: post
-thumbnail: '../thumbnails/git.png'
 slug: ignorar-archivo-commiteado
 ---
 

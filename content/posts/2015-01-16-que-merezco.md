@@ -6,7 +6,6 @@ categories:
 tags:
   - pecado
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: que-merezco
 ---
 

@@ -9,7 +9,6 @@ tags:
   - devocional
 banner: "https://i.imgur.com/zDoZuRS.jpg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: que-es-el-amor
 ---
 

@@ -6,7 +6,6 @@ categories:
 tags:
   - Martyn Lloyd-Jones
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: conviccion
 ---
 

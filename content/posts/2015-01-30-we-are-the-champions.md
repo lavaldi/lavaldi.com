@@ -7,7 +7,6 @@ tags:
   - Mark Cahill
   - evangelismo
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: we-are-the-champions
 ---
 

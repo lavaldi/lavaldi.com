@@ -7,7 +7,6 @@ tags:
   - Frontend Masters
 banner: "https://i.imgur.com/A8CMAQX.jpg"
 template: post
-thumbnail: "../thumbnails/bash.png"
 slug: descargar-curso-frontend-masters
 ---
 

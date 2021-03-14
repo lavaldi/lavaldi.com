@@ -8,7 +8,6 @@ tags:
   - C.S. Lewis
 banner: 'https://cdn-images-1.medium.com/max/800/1*9kRUtNhCf-FchPJyRhUWUA.jpeg'
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: quien-es-el-diablo
 ---
 

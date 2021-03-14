@@ -8,7 +8,6 @@ tags:
   - John Piper
 banner: "https://cdn-images-1.medium.com/max/2000/1*TuvfptSA1OKad7qD8EKXZQ.jpeg"
 template: post
-thumbnail: "../thumbnails/jesus.png"
 slug: yo-estoy-contigo
 ---
 

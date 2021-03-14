@@ -10,7 +10,6 @@ tags:
   - sexualidad
 banner: "https://i.imgur.com/LJUrGBv.jpg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: como-evangelizar-a-los-amigos-lgtbq
 ---
 

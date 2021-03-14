@@ -8,7 +8,6 @@ tags:
   - gracia
 banner: "https://i.imgur.com/BawuOlT.jpg"
 template: post
-thumbnail: "../thumbnails/jesus.png"
 slug: puedes-decir-no-al-pecado
 ---
 

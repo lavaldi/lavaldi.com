@@ -10,7 +10,6 @@ categories:
 tags:
   - tag
 template: post
-thumbnail: "../thumbnails/thumbnail.png"
 banner: ""
 slug: "<%= h.slugify(title) %>"
 ---

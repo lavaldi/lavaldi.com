@@ -10,7 +10,6 @@ tags:
   - Timothy Keller
 banner: "https://i.imgur.com/Q5vZLoe.jpg"
 template: post
-thumbnail: "../thumbnails/jesus.png"
 slug: errar-es-humano-perdonar-es-divino
 ---
 

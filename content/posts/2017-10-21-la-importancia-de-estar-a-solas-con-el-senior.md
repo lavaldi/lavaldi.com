@@ -8,7 +8,6 @@ tags:
   - J. C. Ryle
 banner: "https://i.imgur.com/3CJa9Z2.jpg"
 template: post
-thumbnail: "../thumbnails/jesus.png"
 slug: la-importancia-de-estar-a-solas-con-el-senor
 ---
 

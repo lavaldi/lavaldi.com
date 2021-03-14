@@ -7,7 +7,6 @@ tags:
   - amor
   - Juan
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: and-the-word-became-flesh
 ---
 

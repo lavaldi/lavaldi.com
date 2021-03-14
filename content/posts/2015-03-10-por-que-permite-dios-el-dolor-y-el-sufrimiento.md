@@ -9,7 +9,6 @@ tags:
   - sufrimiento
 banner: 'https://cdn-images-1.medium.com/max/2000/1*yPEFsl_SdidersQCL3dupA.jpeg'
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: por-que-permite-dios-el-dolor-y-el-sufrimiento
 ---
 

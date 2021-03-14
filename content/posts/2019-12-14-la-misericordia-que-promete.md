@@ -8,7 +8,6 @@ tags:
   - adviento
   - John Piper
 template: post
-thumbnail: "../thumbnails/advent.png"
 slug: la-misericordia-que-promete
 ---
 

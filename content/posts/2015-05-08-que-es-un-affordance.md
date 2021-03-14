@@ -8,7 +8,6 @@ tags:
   - Donald Normal
   - James J. Gibson
 template: post
-thumbnail: '../thumbnails/dom.png'
 slug: que-es-un-affordance
 ---
 

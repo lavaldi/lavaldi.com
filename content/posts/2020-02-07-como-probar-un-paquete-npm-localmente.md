@@ -9,7 +9,6 @@ tags:
   - node
   - yalc
 template: post
-thumbnail: "../thumbnails/npm.png"
 banner: "https://i.imgur.com/XJHiNhx.png"
 slug: como-probar-un-paquete-npm-localmente
 ---

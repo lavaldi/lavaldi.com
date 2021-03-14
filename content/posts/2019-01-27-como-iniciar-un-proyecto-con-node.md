@@ -6,7 +6,6 @@ categories:
 tags:
   - node
 template: post
-thumbnail: '../thumbnails/node.png'
 slug: como-iniciar-un-proyecto-con-node
 ---
 

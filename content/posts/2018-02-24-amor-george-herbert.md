@@ -8,7 +8,6 @@ tags:
   - George Hebert
 banner: "https://i.imgur.com/NjCwx9o.jpg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: amor-george-herbert
 ---
 

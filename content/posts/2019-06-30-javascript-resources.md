@@ -8,7 +8,6 @@ tags:
   - javascript
   - resources
 template: post
-thumbnail: '../thumbnails/js.png'
 slug: javascript-resources
 ---
 

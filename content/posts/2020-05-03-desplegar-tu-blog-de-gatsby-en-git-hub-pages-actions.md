@@ -8,7 +8,6 @@ tags:
   - github
   - actions
 template: post
-thumbnail: "../thumbnails/gatsby.png"
 banner: "https://i.imgur.com/aLVxRAo.png"
 slug: "desplegar-tu-blog-de-gatsby-en-git-hub-pages-actions"
 ---

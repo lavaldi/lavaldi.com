@@ -7,7 +7,6 @@ tags:
   - salmos
   - naruto
 template: post
-thumbnail: '../thumbnails/naruto.png'
 slug: el-senor-es-mi-luz-y-mi-salvacion
 ---
 

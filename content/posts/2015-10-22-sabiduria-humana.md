@@ -7,7 +7,6 @@ tags:
   - sabiduria
   - John MacArthur
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: sabiduria-humana
 ---
 

@@ -16,12 +16,12 @@ export default function BlogIndex({ data, ...props }) {
   return (
     <Layout>
       <Helmet title={`Code | ${config.siteTitle}`} />
-      <SEO customDescription="Articles, tutorials, snippets, musings, and everything else." />
+      <SEO customDescription="Articles, tutorials and more" />
       <header>
         <div className="container text-center">
           <h1>Code</h1>
           <p className="subtitle">
-            Artículos, tutoriales y mucho más
+            Articles, tutorials and more
           </p>
         </div>
       </header>

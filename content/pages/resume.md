@@ -21,7 +21,7 @@ template: page
 
 **Able** - _2019 - actually | Lima_
 
-- Develope software with React and Ruby on Rails (I still learning Rails 😅)
+- Develope software with React and Ruby on Rails (I'm still learning Rails 😅)
 
 #### Front End Developer
 
@@ -59,32 +59,6 @@ template: page
 
 - Web development with Joomla.
 - Content Manager.
-
-## Speaking
-
-#### [Introducción a GraphQL](/graphql-talk)
-
-**UND - Internal trainings** - _2019 | Lima_
-
-#### [Front End Adventures](https://und-tech-examples.github.io/frontend-adventures/#0)
-
-**Laboratoria** - _2019 | Lima_
-
-#### [Introducción a Toyota Kata](/toyota-kata-talk/)
-
-**UND - Internal trainings** - _2018 | Lima_
-
-#### [SEO & React](/seo-react-talk/)
-
-**UND - Internal trainings** - _2018 | Lima_
-
-#### [Lo chévere de ser Front End](https://slides.com/lavaldi/lo-chevere-de-ser-frontend)
-
-**Laboratoria** - _2018 | Lima_
-
-#### [Galen Framework](https://slides.com/lavaldi/galenframework#/)
-
-**Clicks & Bricks - Internal trainings** - _2015 | Lima_
 
 ## Education
 

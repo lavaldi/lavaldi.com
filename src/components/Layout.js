@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import favicon from '../../content/thumbnails/favicon.png'
+import favicon from '../../content/images/favicon.png'
 
 import Nav from './Nav'
 import Footer from './Footer'

@@ -7,7 +7,6 @@ tags:
   - Juan
   - J. C. Ryle
 template: post
-thumbnail: "../thumbnails/jesus.png"
 banner: "https://i.imgur.com/g3e5oAb.jpg"
 slug: "cristo-conoce-de-antemano-el-devenir-futuro-de-los-cristianos"
 ---

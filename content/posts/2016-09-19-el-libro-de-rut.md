@@ -10,7 +10,6 @@ tags:
   - Jonathan Domingo
   - cristianismo
 template: post
-thumbnail: "../thumbnails/jesus.png"
 slug: el-libro-de-rut
 banner: "https://cdn-images-1.medium.com/max/600/1*09bAvRWA1F_htj3520HWzw.png"
 ---

@@ -8,7 +8,6 @@ tags:
   - Cristianismo
 banner: "https://cdn-images-1.medium.com/max/2000/1*uKg2uzDFba1PyqXq0yGwyw.jpeg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: una-muerte-que-lleva-a-la-vida
 ---
 

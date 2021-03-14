@@ -9,7 +9,6 @@ tags:
   - dios
 banner: 'https://cdn-images-1.medium.com/max/800/1*09bihb9DoBwcw3vJ4bqh_Q.png'
 template: post
-thumbnail: '../thumbnails/naruto.png'
 slug: el-amor-de-dios-en-naruto-shippuden
 description: 'Ayer estaba viendo Naruto Shippuden con mi sobrina, el capítulo donde Naruto toma forma del zorro que llevaba dentro pero solo con 4 colas...'
 ---

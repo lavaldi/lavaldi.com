@@ -8,7 +8,6 @@ tags:
   - C. S. Lewis
 banner: "https://cdn-images-1.medium.com/max/1000/1*UudU5cJH76q_UUC1Qz01uA.jpeg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: donde-estaba-cuando-todo-esto-paso
 ---
 

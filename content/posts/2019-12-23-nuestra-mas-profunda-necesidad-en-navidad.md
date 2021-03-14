@@ -8,7 +8,6 @@ tags:
   - adviento
   - John Piper
 template: post
-thumbnail: "../thumbnails/advent.png"
 slug: nuestra-mas-profunda-necesidad-en-navidad
 ---
 

@@ -8,7 +8,6 @@ tags:
   - amor
   - dios
 template: post
-thumbnail: '../thumbnails/naruto.png'
 slug: aprendiendo-del-amor-de-dios-con-naruto-shippuden
 ---
 

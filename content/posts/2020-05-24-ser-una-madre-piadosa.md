@@ -6,7 +6,6 @@ categories:
 tags:
   - maternidad
 template: post
-thumbnail: "../thumbnails/jesus.png"
 banner: "https://i.imgur.com/0Vl8NGZ.jpg"
 slug: "ser-una-madre-piadosa"
 ---

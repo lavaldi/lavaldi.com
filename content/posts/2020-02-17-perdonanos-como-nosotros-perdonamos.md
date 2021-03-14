@@ -7,7 +7,6 @@ tags:
   - perdon
   - R. C. Sproul
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: perdonanos-como-nosotros-perdonamos
 ---
 

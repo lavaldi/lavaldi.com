@@ -6,7 +6,6 @@ categories:
 tags:
   - relaciones
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: debes-dejar-de-tratar-de-complacer-a-la-gente
 ---
 

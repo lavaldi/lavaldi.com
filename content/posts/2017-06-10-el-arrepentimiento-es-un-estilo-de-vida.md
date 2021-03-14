@@ -9,7 +9,6 @@ tags:
   - Cristianismo
 banner: "https://cdn-images-1.medium.com/max/2000/1*VxwwPDmhJ496o9D28bu4lw.jpeg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: el-arrepentimiento-es-un-estilo-de-vida
 ---
 

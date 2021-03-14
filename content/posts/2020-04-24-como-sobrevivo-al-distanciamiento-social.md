@@ -7,7 +7,6 @@ tags:
   - cuarentena
   - Paul Tripp
 template: post
-thumbnail: "../thumbnails/jesus.png"
 banner: "https://i.imgur.com/rWJBs40.jpg"
 slug: "como-sobrevivo-al-distanciamiento-social"
 ---

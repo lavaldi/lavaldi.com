@@ -8,7 +8,6 @@ tags:
   - David Platt
   - cristianismo
 template: post
-thumbnail: "../thumbnails/jesus.png"
 slug: transformacion-radical
 ---
 

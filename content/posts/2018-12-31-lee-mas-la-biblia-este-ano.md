@@ -6,7 +6,6 @@ categories:
 tags:
   - biblia
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: lee-mas-la-biblia-este-ano
 ---
 

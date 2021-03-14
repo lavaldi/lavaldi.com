@@ -7,7 +7,6 @@ tags:
   - fe
   - oro
 template: post
-thumbnail: "../thumbnails/jesus.png"
 slug: la-fe-mas-preciosa-que-el-oro
 ---
 

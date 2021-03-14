@@ -8,7 +8,6 @@ tags:
   - adviento
   - John Piper
 template: post
-thumbnail: "../thumbnails/advent.png"
 slug: nace-un-salvador-dios-recibe-la-gloria-tu-recibes-la-paz
 ---
 

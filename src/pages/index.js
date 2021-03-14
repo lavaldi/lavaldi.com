@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
 import Posts from '../components/Posts'
-import PostsWithImage from '../components/PostsWithImage'
 import Projects from '../components/Projects'
 import SEO from '../components/SEO'
 
@@ -12,7 +11,6 @@ import { getSimplifiedPosts } from '../utils/helpers'
 import config from '../utils/config'
 
 import projects from '../data/projects'
-import speaking from '../data/speaking'
 
 import lavaldi from '../../content/images/lavaldi.jpg'
 
@@ -64,9 +62,6 @@ export default function BlogIndex({ data }) {
         </Section>
         <Section title="Projects">
           <Projects data={projects} />
-        </Section>
-        <Section title="Speaking">
-          <PostsWithImage data={speaking} />
         </Section>
       </div>
     </Layout>

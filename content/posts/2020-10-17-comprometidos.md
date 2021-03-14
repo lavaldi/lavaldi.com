@@ -8,7 +8,6 @@ tags:
   - noviazgo
   - matrimonio
 template: post
-thumbnail: '../thumbnails/love.png'
 banner: 'https://i.imgur.com/SaLSayE.png'
 slug: 'comprometidos'
 ---

@@ -8,7 +8,6 @@ tags:
   - Paul Tripp
 banner: "https://i.imgur.com/tEMliZJ.jpg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: cinco-mitos-sobre-matrimonio
 ---
 

@@ -8,7 +8,6 @@ tags:
   - John MacArthur
 banner: "https://i.imgur.com/QnUuAKd.jpg"
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: misericordia
 ---
 

@@ -9,7 +9,6 @@ tags:
   - Meditaciones sobre los Evangelios Mateo
   - J. C. Ryle
 template: post
-thumbnail: '../thumbnails/jesus.png'
 slug: proposito-y-el-motivo-por-los-que-se-instituyo-la-cena-del-senor
 ---
 

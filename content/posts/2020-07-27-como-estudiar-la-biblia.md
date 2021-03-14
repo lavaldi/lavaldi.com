@@ -6,7 +6,6 @@ categories:
 tags:
   - biblia
 template: post
-thumbnail: "../thumbnails/jesus.png"
 banner: "https://i.imgur.com/6n69ME5.jpg"
 slug: "como-estudiar-la-biblia"
 ---
