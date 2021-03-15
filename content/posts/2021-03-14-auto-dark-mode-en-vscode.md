@@ -7,6 +7,7 @@ tags:
   - vscode
   - macOS
 template: post
+banner: "https://i.imgur.com/RlnlHyr.png"
 slug: "auto-dark-mode-en-vscode"
 ---
 
@@ -18,15 +19,16 @@ Lo primero que tenemos que hacer es configurar nuestro sistema operativo. Entram
 
 ![macOS System Preferences -> General](https://i.imgur.com/B7fU1Lf.png)
 
-A continuación instalamos la extensión [Auto Dark Mode](https://marketplace.visualstudio.com/items?itemName=LinusU.auto-dark-mode) a nuestro VSCode.
+~~A continuación instalamos la extensión [Auto Dark Mode](https://marketplace.visualstudio.com/items?itemName=LinusU.auto-dark-mode) a nuestro VSCode.~~
 
 Luego vamos a VSCode y en nuestro settings.json agregamos
 
 ```json
 {
   ...
-  "autoDarkMode.darkTheme": "A Touch of Lilac Theme",
-  "autoDarkMode.lightTheme": "Horizon Bright"
+  "workbench.preferredDarkColorTheme": "A Touch of Lilac Theme",
+  "workbench.preferredLightColorTheme": "Horizon Bright",
+  "window.autoDetectColorScheme": true
 }
 ```
 
@@ -34,4 +36,4 @@ Solo tienes que cambiar `A Touch of Lilac Theme"` por tu dark theme favorito y `
 
 Eso es todo 🎉
 
-> Si usas Windows puedes usar la extensión [Toggle Light/Dark Theme](https://marketplace.visualstudio.com/items?itemName=danielgjackson.auto-dark-mode-windows)
+> ~~Si usas Windows puedes usar la extensión [Toggle Light/Dark Theme](https://marketplace.visualstudio.com/items?itemName=danielgjackson.auto-dark-mode-windows)~~
