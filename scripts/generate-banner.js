@@ -89,7 +89,7 @@ if (text) {
   context.font = 'bold 30pt Fira Code'
   context.fillText('lavaldi.com', 650, 530)
 
-  loadImage('./static/logos/logo-180.png').then((image) => {
+  loadImage('./content/images/lavaldi-icon.png').then((image) => {
     context.drawImage(image, 420, 515, 70, 70)
     const buffer = canvas.toBuffer('image/png')
     fs.writeFileSync('./banner.png', buffer)
