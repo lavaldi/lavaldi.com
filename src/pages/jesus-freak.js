@@ -11,10 +11,7 @@ import config from '../utils/config'
 
 export default function BlogIndex({ data }) {
   const posts = data.allMarkdownRemark.edges
-  const simplifiedPosts = useMemo(
-    () => getSimplifiedPosts(posts),
-    [posts]
-  )
+  const simplifiedPosts = useMemo(() => getSimplifiedPosts(posts), [posts])
 
   return (
     <Layout>
@@ -23,9 +20,7 @@ export default function BlogIndex({ data }) {
       <header>
         <div className="container text-center">
           <h1>Jesus Freak</h1>
-          <p className="subtitle">
-            About Jesus
-          </p>
+          <p className="subtitle">About Jesus</p>
         </div>
       </header>
       <section>

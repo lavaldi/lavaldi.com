@@ -53,7 +53,7 @@
     "new:banner": "node ./scripts/generate-banner.js",
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "format": "prettier --write \"**/*.{js,jsx,json}\"",
     "start": "npm run develop",
     "clean": "gatsby clean",
     "deploy": "yarn run clean && yarn run build && gh-pages -d public -b master"

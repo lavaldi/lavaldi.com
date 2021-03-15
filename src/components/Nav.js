@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import lavaldiIcon from '../../content/images/lavaldi-icon.png'
 
 export default function Nav() {
-  const darkModeButton = useRef();
+  const darkModeButton = useRef()
 
   const turnDark = useCallback(() => {
     const head = document.getElementsByTagName('head')[0]
@@ -13,7 +13,7 @@ export default function Nav() {
     link.href = '../dark.css'
 
     head.appendChild(link)
-  }, []);
+  }, [])
 
   const turnClear = useCallback(() => {
     const link = document.querySelectorAll('#dark-mode')
@@ -22,32 +22,28 @@ export default function Nav() {
       link.forEach((el) => el.remove())
       darkModeButton.current.textContent = '🌙'
     }
-  }, []);
+  }, [])
 
   const darkToggle = useCallback((event) => {
-    const persistedColorPreference = window.localStorage.getItem('theme');
-    const hasPersistedPreference = typeof persistedColorPreference === 'string';
-    if (hasPersistedPreference) return;
-  
-    const hasMediaQueryPreference = typeof event.matches === 'boolean';
+    const persistedColorPreference = window.localStorage.getItem('theme')
+    const hasPersistedPreference = typeof persistedColorPreference === 'string'
+    if (hasPersistedPreference) return
+
+    const hasMediaQueryPreference = typeof event.matches === 'boolean'
     if (hasMediaQueryPreference) {
-      return event.matches
-        ? turnDark()
-        : turnClear()
+      event.matches ? turnDark() : turnClear()
     }
   }, [])
 
-  useEffect(
-    () => {
-      const media = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
-      media.addListener(darkToggle);
-      
-      return () => {
-        media.removeListener(darkToggle);
-      };
-    },
-    []
-  );
+  useEffect(() => {
+    const media =
+      window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)')
+    media.addListener(darkToggle)
+
+    return () => {
+      media.removeListener(darkToggle)
+    }
+  }, [])
 
   return (
     <nav className="navbar">
@@ -56,12 +52,7 @@ export default function Nav() {
           <div>
             <Link to="/" className="brand">
               <span className="emoji">
-                <img
-                  src={lavaldiIcon}
-                  height="30"
-                  width="30"
-                  alt="La Valdi"
-                />
+                <img src={lavaldiIcon} height="30" width="30" alt="La Valdi" />
               </span>{' '}
               <span className="name">Claudia Valdivieso</span>
             </Link>
@@ -79,13 +70,13 @@ export default function Nav() {
 
                 if (theme === 'dark') {
                   localStorage.removeItem('theme')
-                  turnClear();
+                  turnClear()
                 } else {
                   if (typeof window !== 'undefined') {
                     localStorage.setItem('theme', 'dark')
                     darkModeButton.current.textContent = '☀️'
                   }
-                  turnDark();
+                  turnDark()
                 }
               }}
             >

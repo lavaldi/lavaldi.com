@@ -1,7 +1,7 @@
 /**
  * Use:
  * yarn new:banner --title [title] --fontSize [fontSize]
- * 
+ *
  * title is mandatory
  * fontSize is optional
  */
@@ -13,24 +13,24 @@ const fs = require('fs')
 const { COLORS } = require('./constants')
 
 // eslint-disable-next-line no-console
-const log = console.log;
+const log = console.log
 
 const COLOR = {
   main: COLORS.portGore,
   highlight: COLORS.gold,
-  background: COLORS.dullLavender
+  background: COLORS.dullLavender,
 }
 
-const FONT_SIZE = 70;
+const FONT_SIZE = 70
 
-function drawHighlight (context, line, x, y, lineHeight) {
+function drawHighlight(context, line, x, y, lineHeight) {
   context.fillStyle = COLOR.highlight
   const textWidth = context.measureText(line).width
-  const newX = (x - textWidth / 2) - 30
+  const newX = x - textWidth / 2 - 30
   context.fillRect(newX, y - 5, textWidth + 20, lineHeight - 15)
 }
 
-function drawLine (context, line, x, y) {
+function drawLine(context, line, x, y) {
   context.fillStyle = COLOR.main
   context.fillText(line, x, y)
 }
@@ -48,7 +48,7 @@ function drawWrappedText(context, text, x, y, lineWidth, lineHeight) {
       if (testWidth > lineWidth && n > 0) {
         drawHighlight(context, line, x, newY, lineHeight)
         drawLine(context, line, x, newY)
-        line = `${words[n]  } `
+        line = `${words[n]} `
         newY += lineHeight + 5
       } else {
         line = testLine
@@ -89,12 +89,12 @@ if (text) {
   context.font = 'bold 30pt Fira Code'
   context.fillText('lavaldi.com', 650, 530)
 
-  loadImage('./static/logos/logo-180.png').then(image => {
+  loadImage('./static/logos/logo-180.png').then((image) => {
     context.drawImage(image, 420, 515, 70, 70)
     const buffer = canvas.toBuffer('image/png')
     fs.writeFileSync('./banner.png', buffer)
     log(chalk.green(`Image was created: ${process.cwd()}/banner.png`))
   })
 } else {
-  log(chalk.red("No title :C"))
+  log(chalk.red('No title :C'))
 }

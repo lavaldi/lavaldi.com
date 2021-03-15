@@ -1,28 +1,22 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
-import urljoin from "url-join";
+import urljoin from 'url-join'
 
 import Layout from '../components/Layout'
 import Suggested from '../components/Suggested'
 import SEO from '../components/SEO'
 import Disqus from '../components/Disqus'
+import Tags from '../components/Tags'
 
 import config from '../utils/config'
 
 export default function PostTemplate({ data, pageContext, ...props }) {
   const post = data.markdownRemark
   const { previous, next } = pageContext
-  const { slug } = post.frontmatter
-  const url = urljoin("https://lavaldi.com", slug);
-  const discussUrl = `https://twitter.com/search?q=${encodeURIComponent(url)}`;
-
-  useEffect(() => {
-    const theme =
-      typeof window !== 'undefined' && localStorage.getItem('theme') === 'dark'
-        ? 'github-dark'
-        : 'github-light'
-  }, []) // eslint-disable-line
+  const { slug, tags } = post.frontmatter
+  const url = urljoin('https://lavaldi.com', slug)
+  const discussUrl = `https://twitter.com/search?q=${encodeURIComponent(url)}`
 
   return (
     <Layout>
@@ -36,13 +30,18 @@ export default function PostTemplate({ data, pageContext, ...props }) {
               {post.frontmatter.description && (
                 <p className="description">{post.frontmatter.description}</p>
               )}
+              {tags && <Tags tags={tags} />}
             </div>
           </header>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </article>
         <Suggested previous={previous} next={next} />
         <div id="comments">
-          <h2>Comment or let's <a href={discussUrl} target="_blank" rel="noopener noreferrer">discuss on Twitter</a>
+          <h2>
+            Comment or let's{' '}
+            <a href={discussUrl} target="_blank" rel="noopener noreferrer">
+              discuss on Twitter
+            </a>
           </h2>
           <Disqus postNode={post} />
         </div>

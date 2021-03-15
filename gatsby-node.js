@@ -135,7 +135,6 @@ function slugify(str) {
   )
 }
 
-
 exports.createSchemaCustomization = ({ actions, schema, getNode }) => {
   actions.createTypes([
     schema.buildObjectType({

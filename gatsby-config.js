@@ -6,8 +6,7 @@ module.exports = {
     },
     pathPrefix: '/',
     siteUrl: 'https://lavaldi.com',
-    description:
-      'Christian, wife, mother and front end.',
+    description: 'Christian, wife, mother and front end.',
     feedUrl: 'https://lavaldi.com/rss.xml',
     logo: 'https://lavaldi.com/logo.png',
   },
@@ -22,8 +21,7 @@ module.exports = {
       options: {
         name: 'Claudia Valdivieso',
         short_name: 'Claudia Valdivieso',
-        description:
-          'Christian, wife, mother and front end.',
+        description: 'Christian, wife, mother and front end.',
         start_url: '/',
         background_color: 'white',
         theme_color: '#eb374b',
@@ -151,10 +149,10 @@ module.exports = {
           },
           'gatsby-remark-prismjs',
           {
-            resolve: "@weknow/gatsby-remark-twitter",
+            resolve: '@weknow/gatsby-remark-twitter',
             options: {
-              align: 'center'
-            }
+              align: 'center',
+            },
           },
         ],
       },
@@ -201,13 +199,13 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-disqus",
+      resolve: 'gatsby-plugin-disqus',
       options: {
-        shortname: "lavaldi"
-      }
+        shortname: 'lavaldi',
+      },
     },
     {
-      resolve: "gatsby-plugin-canonical-urls",
+      resolve: 'gatsby-plugin-canonical-urls',
       options: {
         siteUrl: 'https://lavaldi.com',
       },

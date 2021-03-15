@@ -39,9 +39,7 @@ export default function BlogIndex({ data }) {
       <section className="lead">
         <div className="container">
           <div className="copy">
-            <h1>
-              Hey! I'm Claudia Valdivieso.
-            </h1>
+            <h1>Hey! I'm Claudia Valdivieso.</h1>
             <p>
               I'm christian, wife, mother and a software engineer, and sometimes
               I write about christianity and programming. You can read about{' '}

@@ -17,9 +17,7 @@ export default function Footer() {
           </a>
           <Link to="/rss.xml">RSS</Link>
         </nav>
-        <nav className="flex justify-center">
-            With ❤️
-        </nav>
+        <nav className="flex justify-center">With ❤️</nav>
       </section>
     </footer>
   )

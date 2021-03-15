@@ -20,9 +20,7 @@ export default function BlogIndex({ data, ...props }) {
       <header>
         <div className="container text-center">
           <h1>Code</h1>
-          <p className="subtitle">
-            Articles, tutorials and more
-          </p>
+          <p className="subtitle">Articles, tutorials and more</p>
         </div>
       </header>
       <section>
