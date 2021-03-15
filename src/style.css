@@ -453,36 +453,47 @@ a.link:hover {
   background: linear-gradient(transparent 70%, #f9c2c8 0);
 }
 
-a.button {
-  display: inline-block;
-  border: 2px solid var(--link-color);
-  padding: 0.75rem 1rem;
-  margin-right: 0.75rem;
+button {
+  appearance: none;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.controls > * {
+  margin-right: 4px;
+}
+
+.button {
+  border: none;
+  display: flex;
+  align-items: center;
   font-weight: 500;
-  background: var(--link-color);
-  color: white;
-  border-radius: 0.35rem;
-  font-size: 0.9rem;
+  background: var(--light-background);
+  color: var(--dark-font-color);
+  padding: 0.4rem 0.6rem;
+  font-size: 0.8rem;
+  border-radius: 3rem;
+  border-bottom: 0;
+  white-space: nowrap;
+  line-height: 1;
 }
 
-a.button.secondary {
-  border: 2px solid #edf2ff;
-  background: #edf2ff;
-  color: #f7394f;
-}
-
-a.button:hover,
-a.button.secondary:hover {
-  border: 2px solid var(--link-color-darker);
-  background: var(--link-color-darker);
+.button:hover {
+  background: #868e96;
   color: white;
 }
 
-@media screen and (min-width: 800px) {
-  a.button {
-    padding: 1rem 1.5rem;
-    font-size: 1.1rem;
-  }
+.button svg {
+  margin-right: 4px;
 }
 
 .lead .image {
@@ -959,7 +970,6 @@ a.cell {
 }
 
 .row .cell time {
-  display: block;
   font-size: 0.75rem;
   margin-bottom: 0.25rem;
 }
@@ -1270,6 +1280,10 @@ header u {
   max-width: 800px;
 }
 
+time {
+  display: block;
+}
+
 time,
 .meta {
   color: var(--light-font-color);
@@ -1352,10 +1366,6 @@ kbd {
 
 #dark-mode-button:hover {
   background: var(--transparent-bg);
-}
-
-#dark-mode-button:focus {
-  outline: none;
 }
 
 @media screen and (min-width: 800px) {

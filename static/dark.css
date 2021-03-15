@@ -59,23 +59,6 @@ a[class^='tag-']:hover {
   background: transparent;
 }
 
-a.button {
-  border: 1px solid transparent;
-  color: white;
-  background: var(--link-color-darker);
-}
-
-a.button:hover {
-  border: 1px solid transparent;
-  background: var(--link-color);
-}
-
-a.button.secondary {
-  border-color: var(--lighter-background);
-  background: var(--lighter-background);
-  color: white;
-}
-
 .navbar a {
   color: var(--transparent-text);
 }
