@@ -36,8 +36,8 @@ export default function PostTemplate({ data, pageContext, ...props }) {
               )}
               <time>{post.frontmatter.date}</time>
               {tags && <Tags tags={tags} />}
-              <div className="controls">
-                <button className="button" onClick={setCopiedToClipboard}>
+              <div className="flex controls">
+                <button className="flex button" onClick={setCopiedToClipboard}>
                   <svg
                     className="mr-1"
                     xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ export default function PostTemplate({ data, pageContext, ...props }) {
                   {isCopiedToClipboard ? 'Copied!' : 'Copy link to clipboard'}
                 </button>
                 <Link
-                  className="button"
+                  className="flex button"
                   to={`https://twitter.com/intent/tweet/?text=${encodeURIComponent(
                     post.frontmatter.title + ', post by @lavaldi'
                   )}&url=${url}`}

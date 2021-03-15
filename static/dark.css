@@ -46,15 +46,6 @@ a:hover {
   background: transparent;
 }
 
-a[class^='tag-'] {
-  background: rgba(255, 255, 255, 0.05);
-  color: var(--link-color);
-}
-a[class^='tag-']:hover {
-  background: var(--link-color);
-  color: white;
-}
-
 .lead a:hover {
   background: transparent;
 }

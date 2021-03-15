@@ -462,20 +462,12 @@ button:focus {
   outline: none;
 }
 
-.controls {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-}
-
 .controls > * {
   margin-right: 4px;
 }
 
 .button {
   border: none;
-  display: flex;
-  align-items: center;
   font-weight: 500;
   background: var(--light-background);
   color: var(--dark-font-color);
@@ -582,10 +574,6 @@ a:hover {
 
 .anchor.before {
   background: none;
-}
-
-a.gatsby-resp-image-link:hover {
-  border-bottom: none;
 }
 
 a code[class*='language-'] {
