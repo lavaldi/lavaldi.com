@@ -5,7 +5,7 @@ categories:
   - Code
 tags:
   - learn
-  - javascript
+  - JavaScript
   - resources
 template: post
 slug: javascript-resources
