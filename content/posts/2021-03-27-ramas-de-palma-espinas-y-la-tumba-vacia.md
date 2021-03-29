@@ -32,8 +32,8 @@ Durante estos próximos ocho días, que tu luto aumente para que tu alegría sea
 Que Dios te bendiga,
 Paul David Tripp
 
-1. Domingo de Ramos(/ramas-de-palma-espinas-y-la-tumba-vacia-domingo-de-ramos)
-2. Lunes(/ramas-de-palma-espinas-y-la-tumba-vacia-lunes)
+1. [Domingo de Ramos](/ramas-de-palma-espinas-y-la-tumba-vacia-domingo-de-ramos)
+2. [Lunes](/ramas-de-palma-espinas-y-la-tumba-vacia-lunes)
 3. Martes
 4. Miércoles
 5. Jueves Santo
@@ -50,7 +50,7 @@ Otros devocionales de semana santa:
 ---
 
 *Esta es una traducción del devocional por semana santa de Paul Tripp [Palm Branches, Thorns, and the Empty Tomb: A free 8-day reading plan for Palm Sunday
-through Easter Sunday](https://cdn.shopify.com/s/files/1/1695/6503/files/Journey_to_the_Cross_Download.pdf?v=1615329390). Puedes suscribirte a su [newletter](https://www.paultripp.com)).*
+through Easter Sunday](https://cdn.shopify.com/s/files/1/1695/6503/files/Journey_to_the_Cross_Download.pdf?v=1615329390). Puedes suscribirte a su [newletter aquí](https://www.paultripp.com)).*
 
 ---
 

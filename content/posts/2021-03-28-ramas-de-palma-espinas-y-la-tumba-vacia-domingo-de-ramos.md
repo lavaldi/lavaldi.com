@@ -61,4 +61,4 @@ Sigue el devocional de semana santa aquí 👉 [Ramas de palma, espinas y la tum
 ---
 
 *Esta es una traducción del devocional por semana santa de Paul Tripp [Palm Branches, Thorns, and the Empty Tomb: A free 8-day reading plan for Palm Sunday
-through Easter Sunday](https://cdn.shopify.com/s/files/1/1695/6503/files/Journey_to_the_Cross_Download.pdf?v=1615329390). Puedes suscribirte a su [newletter](https://www.paultripp.com)).*
+through Easter Sunday](https://cdn.shopify.com/s/files/1/1695/6503/files/Journey_to_the_Cross_Download.pdf?v=1615329390). Puedes suscribirte a su [newletter aquí](https://www.paultripp.com)).*
