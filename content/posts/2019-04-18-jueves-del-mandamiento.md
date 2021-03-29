@@ -8,6 +8,7 @@ tags:
   - semana santa
   - John Piper
 template: post
+banner: https://i.imgur.com/MwRpV18.jpg
 slug: jueves-del-mandamiento
 ---
 

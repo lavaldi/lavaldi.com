@@ -9,6 +9,7 @@ tags:
   - John Piper
 template: post
 slug: afirmo-su-rostro-por-jerusalen
+banner: https://i.imgur.com/vOvkv7U.jpg
 ---
 
 > Y sucedió que cuando se cumplían los días de su ascensión, El, con determinación, afirmó su rostro para ir a Jerusalén. Y envió mensajeros delante de El; y ellos fueron y entraron en una aldea de los samaritanos para hacerle preparativos. Pero no le recibieron, porque sabían que había determinado ir a Jerusalén. Al ver esto, sus discípulos Jacobo y Juan, dijeron: Señor, ¿quieres que mandemos que descienda fuego del cielo y los consuma? Pero El, volviéndose, los reprendió, y dijo: Vosotros no sabéis de qué espíritu sois, porque el Hijo del Hombre no ha venido para destruir las almas de los hombres, sino para salvarlas. Y se fueron a otra aldea. (Lucas 9:51-56)

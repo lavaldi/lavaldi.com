@@ -8,6 +8,7 @@ tags:
   - semana santa
   - John Piper
 template: post
+banner: https://i.imgur.com/SdkTsbr.jpg
 slug: que-asombroso-amor-de-resurreccion
 ---
 

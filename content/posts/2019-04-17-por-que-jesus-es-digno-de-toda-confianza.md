@@ -9,6 +9,7 @@ tags:
   - John Piper
 template: post
 slug: por-que-jesus-es-digno-de-toda-confianza
+banner: https://i.imgur.com/Anmb4Pw.jpg
 ---
 
 ![Jesús es digno de toda confianza](https://i.imgur.com/Anmb4Pw.jpg)

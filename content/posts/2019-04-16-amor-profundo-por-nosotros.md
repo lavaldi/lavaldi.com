@@ -9,6 +9,7 @@ tags:
   - John Piper
 template: post
 slug: amor-profundo-por-nosotros
+banner: https://i.imgur.com/7SBKtKr.jpg
 ---
 
 > Porque Cristo, cuando aún éramos débiles, a su tiempo murió por los impíos. Ciertamente, apenas morirá alguno por un justo; con todo, pudiera ser que alguno osara morir por el bueno. Mas Dios muestra su amor para con nosotros, en que siendo aún pecadores, Cristo murió por nosotros. (Romanos 5:6-8)

@@ -9,6 +9,7 @@ tags:
   - John Piper
 template: post
 slug: viendo-al-rey-el-domingo-de-ramos
+banner: https://i.imgur.com/cpfXrZq.png
 ---
 
 > "No temas, rebaño pequeño, porque a vuestro Padre le ha placido daros el reino." (Lucas 12:32)

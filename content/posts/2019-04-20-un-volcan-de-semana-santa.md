@@ -8,6 +8,7 @@ tags:
   - semana santa
   - John Piper
 template: post
+banner: https://i.imgur.com/8Bpq71E.jpg
 slug: un-volcan-de-semana-santa
 ---
 
