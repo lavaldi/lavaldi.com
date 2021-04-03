@@ -38,7 +38,7 @@ Paul David Tripp
 4. [Miércoles](/ramas-de-palma-espinas-y-la-tumba-vacia-miercoles)
 5. [Jueves Santo](/ramas-de-palma-espinas-y-la-tumba-vacia-jueves-santo)
 6. [Viernes Santo](/ramas-de-palma-espinas-y-la-tumba-vacia-viernes-santo)
-7. Sábado Santo
+7. [Sábado Santo](/ramas-de-palma-espinas-y-la-tumba-vacia-sabado-santo)
 8. Domingo de Resurreción
 
 ---
