@@ -18,7 +18,7 @@ Espero que su iglesia haga todo lo posible para celebrar la Resurrección de nue
 
 Pero, ¿qué harás con la Semana Santa una vez que haya pasado el Domingo de Resurrección? ¿Qué harás con la Semana Santa cuando un área particular de pecado te parezca atractiva, y te sientas débil e incapaz? ¿Qué harás con la Semana Santa cuando alguien te haya traicionado y los pensamientos de venganza entren en tu cabeza? ¿Qué harás con la Semana Santa cuando estés luchando en tu matrimonio, y parezca imposible amarse el uno al otro como Dios lo ha diseñado? ¿Qué harás con la Semana Santa cuando te enfrentes a otra situación con un hijo rebelde, y sientas que no te queda paciencia? ¿Qué harás con la Semana Santa cuando te acuestes en la cama esta noche, preguntándote cómo vas a afrontar el día de mañana? ¿Qué vas a hacer con la Semana Santa una vez que haya pasado el Domingo de Resurrección?
 
-Por mucho que me cautive y fascine la realidad de la Tumba Vacía el Domingo de Resurrección, tengo que ser honesto con ustedes: me resulta difícil recordarla una vez que la celebración de la Pascua se ha apagado. Por eso me resulta tan útil 1 Corintios 15:58:
+Por mucho que me cautive y fascine la realidad de la Tumba Vacía el Domingo de Resurrección, tengo que ser honesto con ustedes: me resulta difícil recordarla una vez que la celebración de la Semana Santa se ha terminado. Por eso me resulta tan útil 1 Corintios 15:58:
 
 > Por tanto, mis amados hermanos, estén firmes, constantes, abundando siempre en la obra del Señor, sabiendo que su trabajo en el Señor no es *en* vano.
 
