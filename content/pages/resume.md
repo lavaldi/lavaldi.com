@@ -21,16 +21,16 @@ template: page
 
 **Able** - _2019 - actually | Lima_
 
-- Develope software with React and Ruby on Rails (I'm still learning Rails 😅)
+- Software development with React and Ruby on Rails (I'm not an expert in Rails but I can do some things 😅)
 
 #### Front End Developer
 
 **UND - Grupo El Comercio** - _2015 - 2019 | Lima_
 
 - Front End development (views and functionality) of the APTiTUS.com portal.
-- Develope software with React and custom backend APIs.
+- Software development with React and custom backend APIs.
 - Use of Docker to automate the development environment and deployment of applications.
-- Use of AWS for deploy application (CloudFormation, S3, ECR, ECS, ELB, CloudWatch).
+- Use of AWS for deploying applications (CloudFormation, S3, ECR, ECS, ELB, CloudWatch).
 - Integrate git version control into the platform to track, manage, and simplify changes.
 
 #### Front End Developer
