@@ -25,7 +25,12 @@ export default function PostTemplate({ data, pageContext, ...props }) {
   return (
     <Layout>
       <Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`} />
-      <SEO postPath={post.fields.slug} postNode={post} coverPicture={coverPicture} postSEO />
+      <SEO
+        postPath={post.fields.slug}
+        postNode={post}
+        coverPicture={coverPicture}
+        postSEO
+      />
       <div className="container medium">
         <article>
           <header className="article-header">

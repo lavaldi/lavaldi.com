@@ -7,7 +7,7 @@ const path = require('path')
 
 const fs = require('fs')
 const MD5 = require('crypto-js/md5')
-const { createCanvas, loadImage } = require('canvas')
+const { createCanvas, loadImage, registerFont } = require('canvas')
 const { COLORS } = require('./scripts/constants')
 
 const COLOR = {
@@ -63,10 +63,9 @@ async function createPageCover(title, slug) {
   }
   console.log(`Creating page cover for ${slug} page`)
   // Set the font family used to write the name of the post
-  // import registerFont from 'canvas'
-  // registerFont(require.resolve(`./src/fonts/Roboto-Black.ttf`), {
-  //   family: 'Roboto'
-  // })
+  registerFont(require.resolve(`./src/fonts/FiraCode-Bold.ttf`), {
+    family: 'Fira Code'
+  })
   // Set standard social media picture size
   const width = 1200
   const height = 630
@@ -91,12 +90,14 @@ async function createPageCover(title, slug) {
   context.font = 'bold 30pt Fira Code'
   context.fillText('lavaldi.com', 650, 530)
   // Load avatar and add it to the image
-  const image = await loadImage(require.resolve(`./content/images/lavaldi-icon.png`))
+  const image = await loadImage(
+    require.resolve(`./content/images/lavaldi-icon.png`)
+  )
   context.drawImage(image, 420, 515, 70, 70)
   // Write image to file
   const buffer = canvas.toBuffer('image/png')
   fs.writeFileSync(outputFilename, buffer)
-  console.log(`${outputFilename} created`);
+  console.log(`${outputFilename} created`)
   // return hashed filename
   return outputFilename
 }
@@ -120,6 +121,7 @@ const createPages = async ({ graphql, actions }) => {
               frontmatter {
                 title
                 banner
+                categories
                 tags
                 template
               }
@@ -149,7 +151,7 @@ const createPages = async ({ graphql, actions }) => {
   posts.forEach(async (post, i) => {
     const previous = i === posts.length - 1 ? null : posts[i + 1].node
     const next = i === 0 ? null : posts[i - 1].node
-    let coverPicture;
+    let coverPicture
 
     if (post.node.frontmatter.tags) {
       post.node.frontmatter.tags.forEach((tag) => {
@@ -157,7 +159,10 @@ const createPages = async ({ graphql, actions }) => {
       })
     }
 
-    if (!post.node.frontmatter.banner) {
+    if (
+      !post.node.frontmatter.banner &&
+      post.node.frontmatter.categories.includes('Code')
+    ) {
       coverPicture = await createPageCover(
         post.node.frontmatter.title,
         post.node.fields.slug
