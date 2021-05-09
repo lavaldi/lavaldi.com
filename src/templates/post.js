@@ -14,7 +14,7 @@ import config from '../utils/config'
 
 export default function PostTemplate({ data, pageContext, ...props }) {
   const post = data.markdownRemark
-  const { previous, next } = pageContext
+  const { previous, next, coverPicture } = pageContext
   const { slug, tags } = post.frontmatter
   const url = urljoin('https://lavaldi.com', slug)
   const discussUrl = `https://twitter.com/search?q=${encodeURIComponent(url)}`
@@ -25,7 +25,12 @@ export default function PostTemplate({ data, pageContext, ...props }) {
   return (
     <Layout>
       <Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`} />
-      <SEO postPath={post.fields.slug} postNode={post} postSEO />
+      <SEO
+        postPath={post.fields.slug}
+        postNode={post}
+        coverPicture={coverPicture}
+        postSEO
+      />
       <div className="container medium">
         <article>
           <header className="article-header">

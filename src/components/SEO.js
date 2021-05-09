@@ -7,6 +7,7 @@ export default function SEO({
   postNode,
   postPath,
   postSEO,
+  coverPicture,
   customDescription,
 }) {
   let title
@@ -20,8 +21,8 @@ export default function SEO({
     title = postMeta.title
     description = postNode.excerpt
 
-    if (postMeta.banner) {
-      image = postMeta.banner
+    if (postMeta.banner || coverPicture) {
+      image = postMeta.banner ?? coverPicture
       useLogoAsImage = false
     }
     postURL = `${config.siteUrl}${postPath}`

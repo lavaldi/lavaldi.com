@@ -1,5 +1,5 @@
 ---
-title: "2 formas de sincronizar tu configuración de VSCode en múltiples máquinas"
+title: "2 formas de sincronizar tu configuración de VSCode"
 date: 2020-03-25
 categories:
   - Code

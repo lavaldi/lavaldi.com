@@ -1,5 +1,5 @@
 ---
-title: "Cómo eliminar archivos completamente del historial del repositorio de git"
+title: "Eliminar archivos del historial de git"
 date: 2019-08-16
 categories:
   - Code
