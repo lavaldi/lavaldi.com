@@ -71,7 +71,7 @@ export const pageQuery = graphql`
     latest: allMarkdownRemark(
       limit: 10
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { template: { eq: "post" } } }
+      filter: { frontmatter: { template: { eq: "post" } }, isFuture: { eq: false } }
     ) {
       edges {
         node {
