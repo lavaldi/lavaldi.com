@@ -1,5 +1,5 @@
 ---
-title: "6 maneras de mejorar su matrimonio"
+title: "6 maneras de mejorar tu matrimonio"
 date: 2021-05-18
 categories:
   - JesusFreak
@@ -8,7 +8,7 @@ tags:
   - Paul Tripp
 template: post
 banner: https://imgur.com/62beSl1.jpg
-slug: "6-maneras-de-mejorar-su-matrimonio"
+slug: "6-maneras-de-mejorar-tu-matrimonio"
 ---
 
 ![](https://imgur.com/62beSl1.jpg)
