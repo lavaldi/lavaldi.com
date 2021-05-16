@@ -8,7 +8,7 @@ I’m Claudia Valdivieso, christian, wife, mother and web developer from Trujill
 
 I started this website as a place to document everything I learned.
 
-![Me and my family](https://i.imgur.com/R7NOycK.jpg)
+![Santiago and me](https://imgur.com/Rz4id1v.gif)
 
 ### Around the web
 
