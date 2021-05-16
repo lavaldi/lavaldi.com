@@ -38,7 +38,10 @@ export const pageQuery = graphql`
   query JesusFreakQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { categories: { in: "JesusFreak" } }, isFuture: { eq: false }  }
+      filter: {
+        frontmatter: { categories: { in: "JesusFreak" } }
+        isFuture: { eq: false }
+      }
     ) {
       edges {
         node {

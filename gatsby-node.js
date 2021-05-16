@@ -64,7 +64,7 @@ async function createPageCover(title, slug) {
   console.log(`Creating page cover for ${slug} page`)
   // Set the font family used to write the name of the post
   registerFont(require.resolve(`./src/fonts/FiraCode-Bold.ttf`), {
-    family: 'Fira Code'
+    family: 'Fira Code',
   })
   // Set standard social media picture size
   const width = 1200

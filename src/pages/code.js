@@ -36,7 +36,10 @@ export const pageQuery = graphql`
   query CodeQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { categories: { in: "Code" } }, isFuture: { eq: false }  }
+      filter: {
+        frontmatter: { categories: { in: "Code" } }
+        isFuture: { eq: false }
+      }
     ) {
       edges {
         node {
