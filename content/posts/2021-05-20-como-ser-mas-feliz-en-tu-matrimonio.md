@@ -58,3 +58,7 @@ Paul David Tripp
 3. ¿Por qué deberías alegrarte por las molestias de poca importancia y los desafíos significativos que experimentas? Sé específico. ¿Cómo te han refinado, o cómo te están refinando?
 4. ¿De qué manera está sufriendo tu cónyuge? ¿Cómo puedes apoyarle y animarle mientras las diversas pruebas les afligen? ¿Cómo puedes luchar contra la impaciencia y la arrogancia cuando tropiezan?
 5. Identifica a otra pareja en tu vida que esté pasando por dificultades matrimoniales. ¿Cómo puedes apoyarles y animarles y hablar de la verdad en amor ante su situación? ¿Necesitarás luchar contra la impaciencia y la justicia propia cuando ellos tropiecen?
+
+---
+
+_Traducción de [How to Be Happier in Your Marriage - Wednesday’s Word Weekly Devotional - Paul Tripp](https://www.paultripp.com/wednesdays-word/posts/how-to-be-happier-in-your-marriage_
