@@ -19,7 +19,7 @@ function getRandomColor() {
 export default function Tags({ tags }) {
   return (
     <div className="cell tags">
-      {tags.map((tag) => (
+      {tags ? tags.map((tag) => (
         <Link
           key={tag}
           to={`/tags/${slugify(tag)}`}
@@ -29,7 +29,7 @@ export default function Tags({ tags }) {
         >
           #{tag}
         </Link>
-      ))}
+      )) : null}
     </div>
   )
 }
