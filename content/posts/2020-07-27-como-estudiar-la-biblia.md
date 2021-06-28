@@ -97,7 +97,7 @@ También puedes leer/escuchar los siguientes recursos:
 
 👉 [Cómo estudiar la Escritura, con Kay Arthur](https://www.avivanuestroscorazones.com/season/como-estudiar-la-escritura-con-kay-arthur/) compartido en [Aviva Nuestros Corazones](https://www.avivanuestroscorazones.com/)
 
-👉 [Guía de Inicio Rápido del Estudio de la Biblia](https://notasdegracia.files.wordpress.com/2020/06/ca0c7-spanishtranslationofthejourneywomenbiblestudyguide.pdf) compartida por [Notas de Gracia](https://notasdegracia.org/)
+👉 [Guía de Inicio Rápido del Estudio de la Biblia](https://static1.squarespace.com/static/59236d8ea5790a9197367fd3/t/5ecd29e22dd571390ca6383b/1590503907689/Spanish+Translation+of+the+Journeywomen+Bible+Study+Guide.pdf) compartida por [The Journey Women Podcast](https://journeywomenpodcast.com/bible-study)
 
 <iframe src="https://open.spotify.com/embed-podcast/episode/15rdUM59kzA8v3UKh4Glva" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
