@@ -22,7 +22,7 @@ En este caso, vamos a implicar que desea eliminar las ramas locales fusionadas c
 
 Para verificar las ramas fusionadas, usaremos el comando `git branch` con la opción `–merged`.
 
-```bash
+```shell
 git checkout master
 
 git branch --merged <commit>
@@ -37,7 +37,7 @@ Ahora que tienes las ramas locales ya fusionadas con `master`, deberá eliminarl
 
 **La forma más fácil de eliminar ramas locales de Git es usar el comando `git branch` con la opción `-d`.**
 
-```bash
+```shell
 git branch -d <branch>
 ```
 
@@ -47,7 +47,7 @@ La opción `-d` significa `–delete` y se puede usar siempre que la rama que de
 
 En este caso, la opción `-D` significa `–delete -force` y se utiliza cuando las ramas locales aún no se fusionan con las ramas remotas.
 
-```bash
+```shell
 git branch -D <branch>
 ```
 
@@ -57,7 +57,7 @@ En algunos casos, puede ser útil tener una línea para eliminar ramas locales n
 
 Para aquellos que tienen curiosidad, aquí es cómo puede eliminar las ramas locales no utilizadas en una sola línea.
 
-```bash
+```shell
 git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
 ```
 

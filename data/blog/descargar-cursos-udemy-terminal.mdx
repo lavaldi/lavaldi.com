@@ -13,7 +13,7 @@ Hola 👋, hoy quiero compartirles cómo descargar un curso que **compraste** en
 
 Lo primero que tienes que hacer es instalar `youtube-dl`. Para macOS lo puedes hacer la siguiente manera:
 
-```bash
+```shell
 brew install youtube-dl
 ```
 
@@ -23,7 +23,7 @@ brew install youtube-dl
 
 También necesitas instalar `ffmpeg` para que el audio salga junto con el video:
 
-```bash
+```shell
 brew install ffmpeg
 ```
 
@@ -33,7 +33,7 @@ brew install ffmpeg
 
 Luego para descargar solo ejecuta el siguiente comando:
 
-```bash
+```shell
 youtube-dl -u <email> -p <password> -o "./%(playlist)s/%(chapter_number)s-%(chapter)s/%(autonumber)03d-%(title)s.%(ext)s" https://www.udemy.com/<course_name>/
 ```
 

@@ -18,7 +18,7 @@ Manos a la obra! 💪
 
 ## Instalación
 
-```bash
+```shell
 yarn add hygen # o npm i hygen
 ```
 
@@ -28,7 +28,7 @@ también lo puedes usar con `npx` si gustas: `npx hygen ...`
 
 Primero debemos inicializar Hygen en nuestro proyecto:
 
-```bash
+```shell
 cd your-project
 hygen init self
 
@@ -41,7 +41,7 @@ Loaded templates: /usr/local/lib/node_modules/hygen/src/templates
 
 Que nos creará unos archivos de ejemplo de generadores de código, los cuales podemos explorar con total libertad y luego eliminar o modificar si deseamos hacerlo.
 
-```bash
+```shell
 _templates
 └── generator
     ├── help
@@ -57,7 +57,7 @@ _templates
 
 ## Construir nuestro generador de código
 
-```bash
+```shell
 hygen generator new blog-post
 
 Loaded templates: _templates
@@ -90,7 +90,7 @@ El cual vamos a modificar a continuación para crear nuestro template para un po
 
 Primero modificaremos el nombre del template `hello.ejs.t` a `index.ejs.t` de tal manera que nuestra estructura de carpetas quede así:
 
-```bash
+```shell
 _templates
 └── blog-post
     └── new
@@ -103,7 +103,7 @@ Luego, crearemos el archivo `.hygen.js` a través del cual podremos extender la 
 
 A continuación, instalaremos el paquete `@sindresorhus/slugify` que nos permitirá convertir en un slug el título de nuestro post.
 
-```bash
+```shell
 yarn add @sindresorhus/slugify
 ```
 
@@ -166,7 +166,7 @@ Y con eso estamos listos!
 
 Ahora podemos usar el generador de templates que hemos creado de la siguiente manera:
 
-```bash
+```shell
 hygen blog-post new --name "Título de mi nuevo post"
 ```
 
@@ -189,7 +189,7 @@ Como somos fancies vamos a agregar el generador creado como un npm script. En nu
 
 Y ahora lo podemos ejecutar con yarn:
 
-```bash
+```shell
 yarn new:post "Título de mi nuevo post" # o npm run new:post -- "Título de mi nuevo post"
 ```
 

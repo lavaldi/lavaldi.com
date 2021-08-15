@@ -10,7 +10,7 @@ Here I share what I learn in my path as software developer. It has transformed o
 
 ## Running Locally
 
-```bash
+```shell
 $ git clone https://github.com/lavaldi/lavaldi.com.git
 $ cd lavaldi.com
 $ yarn

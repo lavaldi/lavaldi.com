@@ -12,7 +12,7 @@ La versión básica de Nano que viene con macOS no admite el resaltado de sintax
 
 Antes de nada, deberás instalar las herramientas de línea de comandos para Xcode. Esto es necesario para ejecutar los comandos de Brew que usaremos más adelante. Abre una terminal y escribe:
 
-```bash
+```shell
 xcode-select --install
 ```
 
@@ -20,7 +20,7 @@ xcode-select --install
 
 También necesitarás [Homebrew](https://brew.sh/) para instalar una nueva versión de Nano que hará posible resaltar la sintaxis. [Homebrew](https://brew.sh/) es un administrador de paquetes para macOS, que facilita la instalación, actualización o eliminación de programas. Para instalarlo, ejecuta el siguiente comando:
 
-```bash
+```shell
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
@@ -28,13 +28,13 @@ También necesitarás [Homebrew](https://brew.sh/) para instalar una nueva versi
 
 Lo último que tenemos que instalar es Nano. Si ya tienes una versión instalada (lo cual es muy probable), ejecuta:
 
-```bash
+```shell
 brew upgrade nano
 ```
 
 De lo contrario, instálalo con el siguiente comando:
 
-```bash
+```shell
 brew install nano
 ```
 
@@ -42,20 +42,20 @@ brew install nano
 
 La instalación de Nano creó archivos nanorc para cada idioma en `/usr/local/share/nano`. Si desea habilitar el resaltado de sintaxis para algunos idiomas crea o edita el archivo `~/.nanorc`.
 
-```bash
+```shell
 nano ~/.nanorc
 ```
 
 y agregar los archivos para los lenguajes que gustes:
 
-```bash
+```shell
 include /usr/local/share/nano/html.nanorc
 include /usr/local/share/nano/javascript.nanorc
 ```
 
 O si desea habilitar el resaltado de sintaxis para todos los lenguajes disponibles, agregue la siguiente línea:
 
-```bash
+```shell
 include /usr/local/share/nano/*.nanorc
 ```
 

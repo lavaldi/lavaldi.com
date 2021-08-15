@@ -17,7 +17,7 @@ Express.js es intercambiable con otros frameworks de aplicaciones web para el ba
 
 La aplicación Node.js [del tutorial anterior](/node-con-babel) viene con una secuencia de comandos para reiniciar su aplicación una vez que el código fuente haya cambiado, Babel para habilitar las funciones de JavaScript que aún no son compatibles con Node.js y las variables de entorno para la información sensible de tu aplicación. Esa es una excelente base para comenzar a utilizar Express.js en Node.js. Continuemos instalando Express.js en la aplicación Node.js desde la línea de comandos:
 
-```bash
+```shell
 npm install express
 ```
 
@@ -35,7 +35,7 @@ app.listen(3000, () =>
 
 Una vez que inicies la aplicación en la línea de comandos con `npm start`, deberías poder ver esta salida en la línea de comandos:
 
-```bash
+```shell
 Example app listening on port 3000!
 ```
 
@@ -71,7 +71,7 @@ Al usar Express.js, las personas a menudo se encuentran con el siguiente error e
 
 Ahora, podemos permitir CORS agregando este encabezado de CORS faltante, porque eventualmente nos encontraremos con este error al implementar una aplicación cliente que consume para nuestro servidor Express. Sin embargo, dado que no queremos hacer esto manualmente para cada ruta, podemos usar un middleware de nivel de aplicación para agregar el encabezado CORS HTTP a cada solicitud de forma predeterminada. Por lo tanto, podríamos escribir un middleware nosotros mism@s (veremos cómo funciona esto más adelante) o usar una biblioteca de middleware para Express.js que haga el trabajo por nosotros.
 
-```bash
+```shell
 npm install cors
 ```
 

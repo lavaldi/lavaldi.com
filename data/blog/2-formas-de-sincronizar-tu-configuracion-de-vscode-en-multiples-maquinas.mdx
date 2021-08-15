@@ -16,7 +16,7 @@ Derrepente tienes una máquina para el trabajo y una personal o te compraste una
 
 En tu terminar escribe el siguiente comando:
 
-```bash
+```shell
 # UNIX:
 code --list-extensions | xargs -L 1 echo code --install-extension
 
@@ -26,7 +26,7 @@ code --list-extensions | % { "code --install-extension $_" }
 
 Cuya salida será algo así
 
-```bash
+```shell
 code --install-extension 2gua.rainbow-brackets
 code --install-extension DanielThielking.aws-cloudformation-yaml
 code --install-extension aaron-bond.better-comments
@@ -37,13 +37,13 @@ code --install-extension ahmadawais.shades-of-purple
 
 Esa salida podemos guardarla en un bashero, por ejemplo `vscode-extension-list.sh`, de la siguiente manera:
 
-```bash
+```shell
 code --list-extensions | xargs -L 1 echo code --install-extension > vscode-extension-list.sh
 ```
 
 A continuación le damos permisos de ejecución:
 
-```bash
+```shell
 chmod +x vscode-extension-list.sh
 ```
 
@@ -53,7 +53,7 @@ Luego subimos este archivo a nuestro [repositorio de GitHub](https://help.github
 
 [Clonamos el repositorio](https://help.github.com/es/enterprise/2.18/user/github/creating-cloning-and-archiving-repositories/cloning-a-repository) que creamos anteriormente en la máquina donde queremos instalar nuestras extensiones de VSCode y ejecutamos el siguiente comando:
 
-```bash
+```shell
 # UNIX
 ./vscode-extension-list.sh
 ```
@@ -94,7 +94,7 @@ De regreso en VSCode, abre la paleta de comandos con <kbd>command</kbd> + <kbd>s
 
 Ahora que ingresaste el token, todas las configuraciones actuales de VSCode se subirán a un gist de GitHub, y el terminal OUTPUT en VSCode mostrará un mensaje similar a la captura de pantalla a continuación.
 
-```bash
+```shell
 CODE SETTINGS SYNC UPLOAD SUMMARY
 Version: 3.4.3
 --------------------
@@ -136,7 +136,7 @@ Puedes ver que mis archivos de configuración y la configuración de las extensi
 
 Abrimos nuevamente la paleta de comandos y tipeamos `Sync: Download Settings`, te pedirá el token generado anteriormente, lo ingresamos. A continuación te pedirá el ID del Gist generado cuando subiste tu configuración. ¿Cómo lo obtienes? Pues entrando a gist.github.com/TU-USUARIO o copiándolo de la salida de la terminal OUTPUT en VSCode cuando subiste tu configuración:
 
-```bash
+```shell
 GitHub Gist: 389263be0b040d3f4a5f0ca39*******
 ```
 

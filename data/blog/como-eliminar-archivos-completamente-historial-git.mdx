@@ -13,7 +13,7 @@ Pero primero, debes encontrar la ruta del archivo en tu repositorio.
 
 Ejecuta el comando con la ruta del archivo:
 
-```bash
+```shell
 git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch path_to_file" HEAD
 ```
 
@@ -21,7 +21,7 @@ git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch path_to_f
 
 Si deseas sincronizar con el repositorio remoto, solo realiza un git push:
 
-```bash
+```shell
 git push -all
 ```
 

@@ -33,7 +33,7 @@ Es un proceso de dos pasos:
 
 Entonces en el directorio del paquete en desarrollo `my-package` ejecutaremos
 
-```bash
+```shell
 $ npm link  # paso 1
 ```
 
@@ -41,7 +41,7 @@ Que lo que hace es, si mis `node_modules` están en `/usr/local/lib/node_modules
 
 Luego en el directorio del proyecto donde probarás el paquete:
 
-```bash
+```shell
 npm link my-package # paso 2
 ```
 
@@ -53,13 +53,13 @@ Cuando ya no desees utilizar la versión local de `my-package`, elimina el enlac
 
 Por eso en el directorio del proyecto donde estabas probando el paquete:
 
-```bash
+```shell
 npm uninstall --no-save my-package && npm install
 ```
 
 Luego puedes limpiar el enlace global, aunque su presencia no interferirá con nada. En el directorio del paquete en desarollo:
 
-```bash
+```shell
 npm uninstall  # elimina el symlink
 ```
 
@@ -67,7 +67,7 @@ Dominar este proceso de dos pasos de `npm link` es una adición útil al conjunt
 
 > Nota: Si usas yarn, lo puedes hacer de la siguiente manera
 >
-> ```bash
+> ```shell
 > # para linkear
 > yarn link # paso 1
 > yarn link my-package # paso 2
@@ -94,7 +94,7 @@ _La explicación de todos los comandos viene [más adelante](#instala-yalc)_
 
 En pocas palabras el flujo de trabajo básico de yalc es:
 
-```bash
+```shell
 # configuración
 # --------------
 
@@ -133,13 +133,13 @@ project $ npm install # (or `yarn`)
 
 ### Instala yalc <!-- omit in toc -->
 
-```bash
+```shell
 $ npm install -g yalc # o `yarn global add yalc`
 ```
 
 ### Publica un paquete en tu registry local de Yalc <!-- omit in toc -->
 
-```bash
+```shell
 # en el directorio del paquete en desarrollo
 $ yalc publish
 ```
@@ -148,7 +148,7 @@ Este comando lanzará al final el nombre real del paquete que usaremos en el sig
 
 ### Añade el paquete como una dependencia desde el registry de yalc <!-- omit in toc -->
 
-```bash
+```shell
 # en el proyecto donde probarás el paquete
 $ yalc add <dependency name>
 ```
@@ -177,7 +177,7 @@ yalc también agregará el archivo `yalc.lock`, que lista las dependencias del p
 
 yalc no instala las dependencias del paquete, por lo que si el paquete en desarrollo tiene sus propias dependencias en el `package.json`, éstas deberán ser instaladas en el proyecto de prueba como un segundo paso:
 
-```bash
+```shell
 # en el proyecto donde se prueba el paquete
 $ npm install # or yarn
 ```
@@ -186,7 +186,7 @@ $ npm install # or yarn
 
 Después de guardar los cambios en el paquete en desarrollo, simplemente ejecuta:
 
-```bash
+```shell
 # en el directorio del paquete en desarrollo
 $ yalc push # shorthand para yalc publish --push
 
@@ -201,12 +201,12 @@ Esto publicará una nueva versión en el respository de yalc y actualizará auto
 
 Si no deseas actualizar automáticamente la dependencia en todos los proyectos en los que se ha añadido (por ejemplo, si tiene varios proyectos con versiones distintas de la dependencia), utiliza:
 
-```bash
+```shell
 # en el directorio del paquete en desarrollo
 $ yalc publish
 ```
 
-```bash
+```shell
 # en el proyecto donde se prueba el paquete
 $ yalc update
 ```

@@ -10,7 +10,7 @@ La vez pasada había agregado a un gist un archivo que no quería que permanezca
 
 Clona el gist como si fuera un repo normal de git:
 
-```bash
+```shell
 # reemplaza el ID del Gist
 git clone git@github.com:[GIST_ID].git
 ```
@@ -19,13 +19,13 @@ Trátalo como un repo normal.
 
 En mi caso, para deshacer el commit hice un:
 
-```bash
+```shell
 git reset --hard HEAD~1
 ```
 
 Y cuando estuve todo estuvo listo, forcé el push:
 
-```bash
+```shell
 git push -f origin master
 ```
 

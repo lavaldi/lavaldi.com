@@ -25,7 +25,7 @@ https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 Para macOS puedes instalarlo de la siguiente manera sin necesidad de [cambiar el `PATH` manualmente](https://lavaldi.com/cambiar-varieble-entorno-path/):
 
-```bash
+```shell
 brew tap caskroom/cask
 brew cask install chromedriver
 ```
@@ -34,13 +34,13 @@ brew cask install chromedriver
 
 Ingresa a la carpeta del repositorio
 
-```bash
+```shell
 cd OS_FrontendMaster-dl
 ```
 
 y ejecuta:
 
-```bash
+```shell
 pip install -r requirements.txt --user
 ```
 
@@ -50,7 +50,7 @@ El flag `--user` es importante, a mi no me funcionó sin eso.
 
 Si sale un error sobre los paquetes `nose` y `tornado` solo basta con instalarlos así
 
-```bash
+```shell
 sudo easy_install nose
 sudo easy_install tornado
 ```
@@ -59,7 +59,7 @@ sudo easy_install tornado
 
 Luego solo tienes que ejecutar la siguiente línea:
 
-```bash
+```shell
 python frontendmasters-dl.py --id YOUR-USERNAME --password YOUR-PASSWORD --course COURSE-ID
 ```
 
@@ -67,7 +67,7 @@ python frontendmasters-dl.py --id YOUR-USERNAME --password YOUR-PASSWORD --cours
 
 También puedes usarlo así
 
-```bash
+```shell
 python frontendmasters-dl.py
 ```
 

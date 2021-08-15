@@ -22,7 +22,7 @@ Vamos a usar [rbenv](https://github.com/sstephenson/rbenv) para instalar y admin
 
 Para hacer esto, ejecuta los siguientes comandos en tu Terminal:
 
-```bash
+```shell
 brew install rbenv ruby-build
 
 # Agrega rbenv a bash para que se cargue cada vez que abra una terminal
@@ -43,19 +43,19 @@ ruby -v
 
 Instalar Rails es tan simple como ejecutar el siguiente comando en la Terminal:
 
-```bash
+```shell
 gem install rails -v 6.0.0.rc1
 ```
 
 Rails ahora está instalado, pero para que podamos usar el ejecutable de rails, necesitamos decirle a rbenv que lo vea:
 
-```bash
+```shell
 rbenv rehash
 ```
 
 Y ahora podemos verificar que Rails está instalado:
 
-```bash
+```shell
 rails -v
 # Rails 6.0.0.rc1
 ```
@@ -64,7 +64,7 @@ rails -v
 
 Vamos a instalar sqlite3 desde homebrew porque no podemos usar la versión integrada con macOS sin tener algunos problemas.
 
-```bash
+```shell
 brew install sqlite3
 ```
 
@@ -76,13 +76,13 @@ Hay mucha documentación sobre ambos, por lo que puede elegir uno con el que se 
 
 Puedes instalar el servidor [MySQL](http://www.mysql.com/) y el cliente desde Homebrew:
 
-```bash
+```shell
 brew install mysql
 ```
 
 Una vez que este comando haya terminado, le da un par de comandos para ejecutar. Siga las instrucciones y ejecútelas:
 
-```bash
+```shell
 # mysql se ejecutará al iniciar sesión:
 brew services start mysql
 ```
@@ -93,13 +93,13 @@ Por defecto, el usuario mysql es `root` sin contraseña. Cuando haya terminado, 
 
 Puedes instalar el servidor y el cliente de [PostgreSQL](http://www.postgresql.org/) desde Homebrew:
 
-```bash
+```shell
 brew install postgresql
 ```
 
 Una vez que este comando haya terminado, le da un par de comandos para ejecutar. Siga las instrucciones y ejecútelas:
 
-```bash
+```shell
 # postgresql se ejecutará al iniciar sesión:
 brew services start postgresql
 ```
@@ -110,13 +110,13 @@ Por defecto, el usuario postgresql es su nombre de usuario OS X actual sin contr
 
 Mojave cambió la ubicación de los archivos de encabezado necesarios para compilar extensiones C. Es posible que debas ejecutar el siguiente comando para instalar pg u otras gemas que requieren extensiones C:
 
-```bash
+```shell
 sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
 ```
 
 Y ahora, el momento de la verdad. Creemos su primera aplicación Rails:
 
-```bash
+```shell
 rails new myapp
 
 #### Si usas MySQL

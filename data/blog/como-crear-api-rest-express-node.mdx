@@ -15,7 +15,7 @@ Una aplicación Express se usa con más frecuencia como una aplicación backend 
 
 Sin embargo, no confunda la aplicación cliente siempre con el frontend y la aplicación del servidor siempre con el backend aquí. Estos términos no pueden ser intercambiados tan fácilmente. Mientras que una aplicación de interfaz de usuario es generalmente algo que se ve en el navegador, un sistema de fondo generalmente ejecuta una lógica de negocios que no debería estar expuesta en un navegador y, a menudo, también se conecta a una base de datos.
 
-```bash
+```shell
 Frontend -> Backend -> Database
 ```
 
@@ -39,19 +39,19 @@ Si no has oído hablar de cURL, esta sección te ofrece una breve descripción d
 
 Primero, instalémoslo en la línea de comandos. Por ahora, la guía de instalación es para usuarios de MacOS y Ubuntu, pero creo que al buscar "curl para windows" en línea encontrarás una guía de configuración. En esta guía, utilizaremos Homebrew para instalarlo en MacOS. Si no tienes Homebrew, instátelo con el siguiente comando en la línea de comandos:
 
-```bash
+```shell
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 A continuación, instale cURL con Homebrew:
 
-```bash
+```shell
 brew install curl
 ```
 
 Para Ubuntu:
 
-```bash
+```shell
 sudo apt-get install curl
 ```
 
@@ -100,7 +100,7 @@ app.listen(process.env.PORT, () =>
 
 Ahora inicia nuevamente el servidor Express en la línea de comandos, si aún no se está ejecutando, y ejecuta cuatro comandos cURL en otra pestaña de la línea de comandos. Debería ver el siguiente resultado:
 
-```bash
+```shell
 curl http://localhost:3000
 -> Recibió un método GET
 
@@ -180,7 +180,7 @@ Es posible que aún te estés preguntando: *¿Qué valor trae la combinación de
 
 Imaginemos que no solo devolveremos un resultado, como lo hacemos en este momento, sino que actuaríamos correctamente en la operación recibida en su lugar. Por ejemplo, el servidor Express podría estar conectado a una base de datos que almacena las entidades de los usuarios en una tabla de usuarios. Ahora, cuando consume el API REST como cliente (por ejemplo, cURL, navegador o también una aplicación React.js), puede recuperar todos los usuarios de la base de datos con un método HTTP GET en el URI de `/users` o, en el mismo recurso, crear un nuevo usuario con un método HTTP POST.
 
-```bash
+```shell
 // Making sense of the Naming
 
 Método de la ruta Express <=> Método HTTP <=> Operación REST
@@ -189,13 +189,13 @@ Camino de la ruta Express <=> URI <=> Recurso REST
 
 De repente, podrás leer y escribir datos desde y hacia una base de datos desde una aplicación cliente. Todo lo que lo hace posible es una aplicación de back-end que le permite escribir una interfaz (por ejemplo, API REST) ​​para las operaciones CRUD.
 
-```bash
+```shell
 Cliente -> API REST -> Servidor -> Base de Datos
 ```
 
 Mientras que es importante notar que la API REST pertenece a la aplicación del servidor. Puede llevar esto siempre un paso más allá al tener varias aplicaciones de servidor que ofrecen API REST. A menudo, vienen con el nombre de microservicios o servicios web, mientras que cada aplicación de servidor ofrece una funcionalidad bien encapsulada. Los servidores ni siquiera tienen que usar el mismo lenguaje de programación, ya que se están comunicando a través de una interfaz independiente del lenguaje de programación. Además, las interfaces (API) no tienen que ser necesariamente API REST.
 
-```bash
+```shell
        -> API REST -> Servidor -> API GraphQL -> Servidor -> Base de Datos
 Cliente
        -> API REST -> Servidor -> Base de Datos
@@ -287,7 +287,7 @@ Pruebe las cuatro rutas con cURL en la línea de comandos. Sólo se trata de lee
 
 Veamos cómo se puede implementar un escenario para crear un mensaje en nuestra aplicación Express. Ya que estamos creando un mensaje sin una base de datos, necesitamos una biblioteca auxiliar para generar identificadores únicos para nosotros. Instale esta biblioteca auxiliar desde la línea de comandos:
 
-```bash
+```shell
 npm install uuid
 ```
 
@@ -340,7 +340,7 @@ app.post('/messages', (req, res) => {
 
 Sin embargo, el acceso directo a la carga útil de una solicitud HTTP POST de esta manera no lo proporciona Express fuera de la caja. O bien, tendría que transformar la carga útil del cuerpo usted mismo o utilizar un middleware dedicado para que esta transformación se realice por usted. Instale y use un middleware conocido para este propósito:
 
-```bash
+```shell
 npm install body-parser
 ```
 
@@ -370,7 +370,7 @@ Ahora se puede acceder al cuerpo con el texto del mensaje en la solicitud si se 
 
 En los últimos pasos, hemos instalado un nuevo middleware para Express y lo hemos puesto a disposición en un nivel de aplicación. Cada solicitud que llega a una de nuestras rutas Express pasa por el middleware. Por lo tanto, todos los datos enviados por un cliente a nuestro servidor están disponibles en la solicitud entrante. Inténtalo creando un mensaje tú mism@. En una solicitud de cURL puede especificar encabezados HTTP con el indicador `-H`, es decir, como decimos que queremos transferir JSON, y los datos como carga útil con el indicador `-d`. Deberías poder crear mensajes de esta manera:
 
-```bash
+```shell
 curl -X POST -H "Content-Type:application/json" http://localhost:3000/messages -d '{"text":"Hola de nuevo, Mundo"}'
 ```
 
@@ -440,7 +440,7 @@ app.delete('/messages/:messageId', (req, res) => {
 
 Puedes probarlo con el siguiente comando cURL:
 
-```bash
+```shell
 curl -X DELETE http://localhost:3000/messages/1
 ```
 
@@ -464,7 +464,7 @@ Es la primera vez que rompe las reglas de ser completamente REST, porque se ofre
 
 En este momento, toda nuestra implementación se encuentra en el archivo `src/index.js`. Sin embargo, en algún momento es posible que desees modularizar los detalles de su implementación y colocarlos en archivos y carpetas dedicados, mientras que el archivo `src/index.js` solo debe preocuparse de poner todo junto e iniciar la aplicación. Antes de sumergirnos en modularizar el enrutamiento, veamos cómo podemos modularizar nuestros datos de muestra primero en los llamados modelos. Desde su carpeta `src` escriba los siguientes comandos para crear una estructura de carpeta/archivo para los modelos.
 
-```bash
+```shell
 mkdir models
 cd models
 touch index.js

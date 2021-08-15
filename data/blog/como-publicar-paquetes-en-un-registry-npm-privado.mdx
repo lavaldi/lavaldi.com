@@ -25,7 +25,7 @@ Hay tres formas de configurar el registry privado en tu paquete.
 
 ### Logueándote si tienes usuario y contraseña
 
-```bash
+```shell
 npm login --registry https://your-registry-url/
 ```
 
@@ -41,7 +41,7 @@ Reemplaza "your-registry-url" por la url real del registry privado y "00000000-0
 
 ### Usando el CLI
 
-```bash
+```shell
 npm config set '//your-registry-url/:_authToken' '00000000-0000-0000-0000-000000000000'
 ```
 
@@ -51,7 +51,7 @@ Reemplaza con los datos reales.
 
 Todo lo que queda por hacer es ejecutar
 
-```bash
+```shell
 npm publish
 ```
 
@@ -65,7 +65,7 @@ registry=https://your-registry-url/
 
 Lo que es bueno es que sin ninguna otra configuración puedes instalar cualquier paquete del registro npm junto con esos. Así que puedes instalar lodash con la configuración anterior desde el registro de npm así como instalar un paquete desde el registro privado.
 
-```bash
+```shell
 npm install <paquete-desde-registry-privado>
 npm install lodash # paquete desde el registry de NPM
 ```

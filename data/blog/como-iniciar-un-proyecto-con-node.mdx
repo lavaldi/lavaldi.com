@@ -9,7 +9,7 @@ Esta semana me llegó a mi correo un newsletter sobre JavaScript y me pareció m
 
 Generalmente cuando iniciamos un nuevo proyecto Node.js, usamos `npm` para generar mi proyecto inicial.
 
-```bash
+```shell
 npm init
 ```
 
@@ -34,13 +34,13 @@ Estos cuatro comandos hacen todo lo que hacemos manualmente y más, configurando
 
 Puedes ver tu configuración `npm` actual ingresando `npm config list` en la línea de comandos. Para ver simplemente la configuración que afecta a `npm init` puedes hacer grep para "init":
 
-```bash
+```shell
 npm config list | grep init
 ```
 
 Hay una serie de valores predeterminados que puedes establecer; nombre del autor, correo electrónico del autor, url del autor, la licencia y la versión. Para configurarlos, puede ingresarlos en la línea de comandos o usar `npm config edit` para abrir el archivo de configuración en su editor de texto. Sin embargo, la línea de comandos es bastante fácil, puedes configurar los cinco valores predeterminados de esta manera:
 
-```bash
+```shell
 npm set init.author.name "Tu nombre"
 npm set init.author.email "tu@email.com"
 npm set init.author.url "https://tu-url.com"
@@ -54,7 +54,7 @@ Una vez que hayas personalizado eso a tu gusto, `npm init -y` siempre producirá
 
 Hay algunas mejoras que haría a los comandos de Tierney, aunque agradezco que Twitter lo haya restringido. Aquí hay un guión de bash que he encontrado inspirado en su tweet.
 
-```bash
+```shell
 function node-project {
   git init
   npx license $(npm get init.license) -o "$(npm get init.author.name)" > LICENSE

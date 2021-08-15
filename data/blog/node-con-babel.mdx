@@ -18,14 +18,14 @@ El proyecto final que implementaremos aquí se puede encontrar en este [reposito
 
 Para comenzar con un nuevo proyecto, debemos crear una carpeta donde se aloje nuestro proyecto, en la línea de comandos:
 
-```bash
+```shell
 mkdir mi-proyecto
 cd mi-proyecto
 ```
 
 Una vez dentro de la carpeta del proyecto, puedes inicializarlo como proyecto npm. Puedes hacerlo con la configuración por defecto de npm con
 
-```bash
+```shell
 npm init -y
 ```
 
@@ -35,7 +35,7 @@ Después de configurar tu proyecto npm, puedes instalar paquetes de node (biblio
 
 A continuación, en la línea de comandos o en tu editor/IDE, crea una carpeta `src/` para el código fuente de tu proyecto. En esta carpeta, crea un archivo `src/index.js` como punto de entrada a su proyecto:
 
-```bash
+```shell
 mkdir src
 cd src
 touch index.js
@@ -49,7 +49,7 @@ console.log("Hola 👋 Node.js.");
 
 Vuelve a la línea de comandos, puede ejecutar este archivo con Node.js desde la carpeta raíz de su proyecto:
 
-```bash
+```shell
 node src/index.js
 ```
 
@@ -74,7 +74,7 @@ En la línea de comandos, ejecuta el mismo script que antes, pero con `npm start
 
 La única preocupación restante es que tenemos que ejecutar el script anterior cada vez que realicemos un cambio en nuestro código fuente. Podemos cambiar esto con un proceso de node que siempre esté en ejecución. Para remediar esto, instalaremos la biblioteca de [nodemon](https://github.com/remy/nodemon) comúnmente utilizada en la línea de comandos como una [dependencia de desarrollo](https://docs.npmjs.com/files/package.json#dependencies) para nuestro proyecto.
 
-```bash
+```shell
 npm install nodemon --save-dev
 ```
 
@@ -105,7 +105,7 @@ Esto es muy chévere 🤙 porque el proceso de node se ejecuta nuevamente una ve
 
 Con la configuración anterios podríamos desarrollar una aplicación con Node.js normalmente, pero hay más para configurar un proyecto sofisticado Node.js que sea capaz de usar funciones de lenguaje JavaScript recientes (ECMAScript) que no están incluidas en las versiones recientes de Node.js. Ahí es donde [Babel](https://babeljs.io/) se vuelve útil. Puedes instalarlo desde la línea de comandos para las dependencias de desarrollo de su proyecto.
 
-```bash
+```shell
 npm install @babel/core @babel/node --save-dev
 ```
 
@@ -126,13 +126,13 @@ A continuación, agrégualo a tu script de npm:
 
 Nada debería cambiar cuando ejecutes la aplicación de nuevo, piensa que eso es solo la superficie. Bajo el capó, Babel transpila tu código a JavaScript puro. Puedes usar tranquilamente una nueva función o característica de JavaScript, que no se ha introducido en Node.js. Babel se asegura de que Node.js lo entienda. Sin embargo, todavía hay un paso crucial para incluir las próximas funciones de lenguaje con Babel. Puedes activar las diferentes y nuevas funciones de JavaScript agregándolas como ajustes preestablecidos a Babel. Para eso, agregamos el preset de Babel más común:
 
-```bash
+```shell
 npm install @babel/preset-env --save-dev
 ```
 
 Ahora, en la carpeta raíz del proyecto, crea un archivo `.babelrc` en la línea de comando:
 
-```bash
+```shell
 touch .babelrc
 ```
 
@@ -150,7 +150,7 @@ Ahora puedes incluir las próximas funciones de JavaScript en su archivo `src/in
 
 Es importante establecer datos como claves de API privadas y credenciales de usuario como contraseñas, nombre de usuario y correo electrónico como variables de entorno, pero sin exponerlas en el código fuente. Para esto, colocamos las variables de entorno en un archivo dedicado que está a salvo del acceso externo. El archivo `.env` nos permite configurar las variables de entorno para Node.js como accesibles en el código fuente del proyecto. En la línea de comandos, en la carpeta raíz del proyecto, crea un archivo `.env`:
 
-```bash
+```shell
 touch .env
 ```
 
@@ -162,7 +162,7 @@ MI_PASSWORD=esteesmipasswordsecreto
 
 dotenv es otra biblioteca útil para hacer que las variables de entorno sean accesibles en el código fuente. Primero, los intalaremos como dependencia normal:
 
-```bash
+```shell
 npm install dotenv --save
 ```
 
