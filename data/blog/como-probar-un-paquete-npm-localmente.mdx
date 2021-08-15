@@ -1,0 +1,220 @@
+---
+title: "Cómo probar un paquete npm localmente"
+publishedAt: '2020-05-04'
+tags:
+  - npm
+  - link
+  - node
+  - yalc
+banner: "https://i.imgur.com/XJHiNhx.png"
+---
+
+> Este post trata sobre probar un paquete que aún no ha sido publicado en un registry de npm.
+
+Hay veces en las que se quiere instalar un paquete local como dependencia del proyecto. Puede que estés escribiendo un paquete para distribución general; o puede que estés contribuyendo a un paquete de código abierto, o un paquete personal privado, o algo interno de tu equipo. Estás trabajando en cambios locales y necesitas probarlos antes de commitearlos o antes de abrir un pull request o deployar una actualización. ¿Cuál es la mejor manera de probar realmente ese paquete añadiéndolo a un proyecto local?
+
+Una de las formas podría ser subir nuestros cambios a Gitub/Gitlab/Bitbucket y agregarlos como dependencia con `npm install` o `yarn add` y junto a `<remote url>[#<ref>]` (o en GitHub por ejemplo `username/repo#branch-name-or-commit-or-tag`). Pero eso requiere de estar pusheando las actualizaciones y de reinstalar el paquete en el proyecto con cada cambio.
+
+Otra opción es agregar el paquete con `npm add relative/path` o `yarn add file:relative/path`, que copian el directorio del paquete en los `node_modules` del proyecto. Lo malo es que no instala dependencias. Tampoco responde a las actualizaciones que realices. Además, el uso de una ruta relativa puede ser difícil de manejar con `../`.
+
+Así que aquí te muestro dos maneras de hacerlo que me parecen presentan un enfoque más limpio. Mediante:
+
+- [npm link](#npm-link)
+- [Yalc](#yalc)
+
+## npm link
+
+Es un proceso de dos pasos:
+
+1. Crea un **symlink** global para una dependencia con `npm link`. Un symlink, abreviatura de enlace simbólico, es un acceso directo que apunta a otro directorio o archivo en tu sistema.
+2. Hazle saber al proyecto donde probarás tu paquete que use el enlace simbólico global con `npm link my-package`.
+
+### Uso <!-- omit in toc -->
+
+Entonces en el directorio del paquete en desarrollo `my-package` ejecutaremos
+
+```bash
+$ npm link  # paso 1
+```
+
+Que lo que hace es, si mis `node_modules` están en `/usr/local/lib/node_modules/` entonces creará un enlace directo de `/usr/local/lib/node_modules/my-package` a `/Users/lavaldi/repos/my-package`
+
+Luego en el directorio del proyecto donde probarás el paquete:
+
+```bash
+npm link my-package # paso 2
+```
+
+Ahora puedes editar, transpilar o ejecutar pruebas en `my-package`. Todo mientras lo pruebas en un proyecto real. Los enlaces simbólicos son locales y no serás commiteados en git. Y cuando estés listo para compartir tu código, puedes publicar los cambios de `my-package` en un registry npm.
+
+### De vuelta a la normalidad <!-- omit in toc -->
+
+Cuando ya no desees utilizar la versión local de `my-package`, elimina el enlace simbólico. Pero cuidado, `npm unlink` es un alias para la desinstalación de npm (`npm uninstall`), no refleja el comportamiento de `npm link`.
+
+Por eso en el directorio del proyecto donde estabas probando el paquete:
+
+```bash
+npm uninstall --no-save my-package && npm install
+```
+
+Luego puedes limpiar el enlace global, aunque su presencia no interferirá con nada. En el directorio del paquete en desarollo:
+
+```bash
+npm uninstall  # elimina el symlink
+```
+
+Dominar este proceso de dos pasos de `npm link` es una adición útil al conjunto de herramientas de cualquier desarrollador de Node.js así que espero esta información te sea valiosa.
+
+> Nota: Si usas yarn, lo puedes hacer de la siguiente manera
+>
+> ```bash
+> # para linkear
+> yarn link # paso 1
+> yarn link my-package # paso 2
+> # para volver a la normalidad
+> yarn unlink my-package # en el directorio del proyecto donde estabas probando el paquete
+> yarn unlink # elimina el symlink global
+> ```
+
+Ahora pasemos al siguiente método 👇
+
+## Yalc
+
+**yalc** mantiene su propia "registry" local, en `~/.yalc`.
+
+- **Publica** un paquete con yalc, y una copia completa del paquete se copia en el registry.
+- **Instala** un paquete del registry de yalc, y el proyecto instalará esa copia de la misma manera que instalaría un paquete desde un registry externo.
+- **Actualiza** un paquete publicado en el registry de yalc, y la actualización ya está disponible en los proyectos dependientes; incluso puede publicar y actualizar automáticamente los proyectos dependientes con un solo comando.
+
+Para evitar que las cosas colisionen, yalc firma cada versión publicada con un hash. Y yalc puede almacenar tantas versiones de un paquete (esa es la versión package.json) como quiera.
+
+### tldr; <!-- omit in toc -->
+
+_La explicación de todos los comandos viene [más adelante](#instala-yalc)_
+
+En pocas palabras el flujo de trabajo básico de yalc es:
+
+```bash
+# configuración
+# --------------
+
+$ npm install -g yalc # o yarn global add yalc
+
+
+# usa yalc
+# -----------------------
+
+$ cd path/to/package
+my-package $ yalc publish
+
+# si el proyecto donde lo quiero probar
+# ya tiene my-package como una dependencia
+project $ npm uninstall -S my-package # (or `yarn remove my-package`)
+
+project $ yalc add my-package
+
+# si my-package tiene dependencias
+project $ npm install # (or `yarn`)
+
+
+# desarrollo
+# -------
+
+# empieza a hackear ...
+# y al terminar
+
+my-package $ yalc push
+
+# si las dependencias de my-package cambiaron, instala las dependencies
+project $ npm install # (or `yarn`)
+
+# prueba el proyecto, hackea de nuevo, yalc push, repetir hasta terminar
+```
+
+### Instala yalc <!-- omit in toc -->
+
+```bash
+$ npm install -g yalc # o `yarn global add yalc`
+```
+
+### Publica un paquete en tu registry local de Yalc <!-- omit in toc -->
+
+```bash
+# en el directorio del paquete en desarrollo
+$ yalc publish
+```
+
+Este comando lanzará al final el nombre real del paquete que usaremos en el siguiente comando.
+
+### Añade el paquete como una dependencia desde el registry de yalc <!-- omit in toc -->
+
+```bash
+# en el proyecto donde probarás el paquete
+$ yalc add <dependency name>
+```
+
+Si miras tu `package.json` verás que la dependencia ha sido añadida, con una ruta parecida a `file:.yalc/`.
+
+```json
+"dependencies": {
+  "my-package": "file:.yalc/my-package"
+}
+```
+
+yalc también agregará el archivo `yalc.lock`, que lista las dependencias del proyecto agregadas con yalc. Después de que yalc agregue el paquete y el `yalc.lock` en el directorio raíz del proyecto dependiente (donde pruebas tu paquete) se verá algo como:
+
+```json
+{
+  "version": "v1",
+  "packages": {
+    "my-package": {
+      "signature": "...", // un hash para identificar la versión del paquete en el registry de yalc
+      "file": true // tipo de la conexión de yalc
+    }
+  }
+}
+```
+
+yalc no instala las dependencias del paquete, por lo que si el paquete en desarrollo tiene sus propias dependencias en el `package.json`, éstas deberán ser instaladas en el proyecto de prueba como un segundo paso:
+
+```bash
+# en el proyecto donde se prueba el paquete
+$ npm install # or yarn
+```
+
+### Sube los cambios del paquete a los proyectos dependientes locales <!-- omit in toc -->
+
+Después de guardar los cambios en el paquete en desarrollo, simplemente ejecuta:
+
+```bash
+# en el directorio del paquete en desarrollo
+$ yalc push # shorthand para yalc publish --push
+
+Pushing my-package@<version> in path/to/my-package
+Pushing my-package@<version>-<hash8> added ==> path/to/my-project/node_modules/package.
+Pushing my-package@<version> in path/to/my-project2
+Pushing my-package@<version>-<hash8> added ==> path/to/my-project2/node_modules/package.
+my-package@<version>-<hash8> published in store.
+```
+
+Esto publicará una nueva versión en el respository de yalc y actualizará automáticamente todos los proyectos locales donde yalc añadió el paquete a la nueva versión.
+
+Si no deseas actualizar automáticamente la dependencia en todos los proyectos en los que se ha añadido (por ejemplo, si tiene varios proyectos con versiones distintas de la dependencia), utiliza:
+
+```bash
+# en el directorio del paquete en desarrollo
+$ yalc publish
+```
+
+```bash
+# en el proyecto donde se prueba el paquete
+$ yalc update
+```
+
+Cuando las dependencias del paquete cambien, reinstala las dependencias del proyecto de dependencia (por ejemplo, `npm i` o `yarn`).
+
+That's it!
+
+---
+
+¿Tienes otros flujos de trabajo favoritos para desarrollar paquetes que serán publicados? Me encantaría saber, ¡deja un comentario abajo! 💬👇

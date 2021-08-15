@@ -1,0 +1,19 @@
+{
+  "name": "Claudia Valdivieso",
+  "short_name": "lavaldi.com",
+  "description": "Front-end developer and JavaScript enthusiast.",
+  "icons": [
+    {
+      "src": "/static/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#F5F3FF",
+  "theme_color": "#F5F3FF",
+  "display": "standalone",
+  "dir": "ltr",
+  "lang": "en-US",
+  "orientation": "portrait-primary",
+  "start_url": "../../index.html"
+}

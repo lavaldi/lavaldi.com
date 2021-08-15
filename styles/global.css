@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: optional;
+  src: url(/fonts/inter-var-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+.skip-nav {
+  @apply absolute px-4 py-2 transition-transform duration-200 transform -translate-y-12 left-1/4 focus:top-4 focus:translate-y-3 -top-8;
+}
+
+.sticky-nav {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  backdrop-filter: saturate(180%) blur(20px);
+  transition: background-color 0.1 ease-in-out;
+}
+
+.prose > :first-child {
+  /* Override removing top margin, causing layout shift */
+  margin-top: 1.25em !important;
+  margin-bottom: 1.25em !important;
+}
+
+::selection {
+  background-color: #50fa7b;
+  color: #6d17e8;
+}
+
+.mdx-marker {
+  @apply block px-4 -mx-4 border-l-4 border-purple-500;
+}
