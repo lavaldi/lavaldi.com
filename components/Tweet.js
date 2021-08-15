@@ -47,10 +47,8 @@ export default function Tweet({
         </a>
         <a
           href={authorUrl}
-          className="author"
           target="_blank"
           rel="noopener noreferrer"
-          // eslint-disable-next-line react/jsx-no-duplicate-props
           className="flex flex-col ml-4 !no-underline"
         >
           <span
