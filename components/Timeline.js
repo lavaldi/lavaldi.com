@@ -99,6 +99,14 @@ export default function Timeline() {
       </h3>
       <Year>2021</Year>
       <ul>
+      <Step title="Create a blog for my articles on Christianity">
+          You can check it out here
+          {" 👉 "}
+          <ExternalLink href="https://prosigohacialameta.com">
+            prosigohacialameta.com
+          </ExternalLink>
+          {" (in spanish). "}
+        </Step>
         <Step title="Publish my first article on an external page">
           I published an article on&nbsp;
           <ExternalLink href="https://escuelafrontend.com">

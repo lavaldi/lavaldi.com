@@ -2,6 +2,7 @@ import Link from 'next/link';
 
 import Container from '@/components/Container';
 import ProjectCard from '@/components/ProjectCard';
+import ExternalLink from '@/components/ExternalLink';
 
 export default function Home({ videos }) {
   return (
@@ -16,9 +17,9 @@ export default function Home({ videos }) {
             <a>code</a>
           </Link>
           {", and "}
-          <Link href="/???">
+          <ExternalLink href="https://prosigohacialameta.com/">
             <a>christianity</a>
-          </Link>
+          </ExternalLink>
           {", or learn more "}
           <Link href="/about">
             <a>about me</a>
