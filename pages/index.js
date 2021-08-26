@@ -3,8 +3,10 @@ import Link from 'next/link';
 import Container from '@/components/Container';
 import ProjectCard from '@/components/ProjectCard';
 import ExternalLink from '@/components/ExternalLink';
+import BlogPost from '@/components/BlogPost';
+import { getFilesFrontMatter } from '@/lib/mdx';
 
-export default function Home({ videos }) {
+export default function Home({ lastPosts }) {
   return (
     <Container>
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
@@ -18,7 +20,7 @@ export default function Home({ videos }) {
           </Link>
           {", and "}
           <ExternalLink href="https://prosigohacialameta.com/">
-            <a>christianity</a>
+            christianity
           </ExternalLink>
           {", or learn more "}
           <Link href="/about">
@@ -26,6 +28,12 @@ export default function Home({ videos }) {
           </Link>
           {"."}
         </h2>
+        <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-purple-700 dark:text-white flex justify-between w-full">
+          Last Posts <Link href="/blog"><a><small className="text-lg underline">view all</small></a></Link>
+        </h3>
+        {lastPosts.map((frontMatter) => (
+          <BlogPost key={frontMatter.title} {...frontMatter} />
+        ))}
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-purple-700 dark:text-white">
           Side Projects
         </h3>
@@ -44,4 +52,10 @@ export default function Home({ videos }) {
       </div>
     </Container>
   );
+}
+
+export async function getStaticProps() {
+  const lastPosts = await getFilesFrontMatter('blog', 5);
+
+  return { props: { lastPosts } };
 }

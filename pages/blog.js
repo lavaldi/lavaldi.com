@@ -2,16 +2,13 @@ import { useState } from 'react';
 
 import Container from '@/components/Container';
 import BlogPost from '@/components/BlogPost';
-import { getAllFilesFrontMatter } from '@/lib/mdx';
+import { getFilesFrontMatter } from '@/lib/mdx';
 
 export default function Blog({ posts }) {
   const [searchValue, setSearchValue] = useState('');
-  const filteredBlogPosts = posts
-    .sort(
-      (a, b) =>
-        Number(new Date(b.publishedAt)) - Number(new Date(a.publishedAt))
-    )
-    .filter((frontMatter) => frontMatter.title?.toLowerCase().includes(searchValue.toLowerCase()));
+  const filteredBlogPosts = posts.filter(
+    (frontMatter) => frontMatter.title?.toLowerCase().includes(searchValue.toLowerCase())
+  );
 
   return (
     <Container
@@ -53,7 +50,7 @@ export default function Blog({ posts }) {
 }
 
 export async function getStaticProps() {
-  const posts = await getAllFilesFrontMatter('blog');
+  const posts = await getFilesFrontMatter('blog');
 
   return { props: { posts } };
 }
