@@ -1,0 +1,36 @@
+---
+title: 'Cómo buscar un comando usado previamente en el historial de la terminal'
+publishedAt: '2021-09-11'
+banner: ''
+tags:
+  - terminal
+---
+
+De vez en cuando se da el caso de que trato de buscar un comando que anteriormente usé para buscar qué puerto está usando una app o un comando que ejecuté para que funcione algo que no recuerdo del todo, así que me pregunté si se podría buscar en el historial de la terminal 🤔.
+
+Haciendo una búsqueda rápida el google encontré estas dos formas:
+
+1. Usando `Ctrl` + `R`
+
+Si por ejemplo quieres buscar un comando que empieza con ssh, presiona `Ctrl` + `R` y escribe `ssh`. Esto buscará el comando desde los más recientes hasta los más antiguos. Si tienes más de un comando que empieza con ssh, puedes usar `Ctrl` + `R` una y otra vez hasta encontrar el que buscas. Una vez encontrado el comando, presiona `Enter` para ejecutarlo.
+
+2. Usando `grep`
+
+Otra forma sería filtrando el historial con `grep`, por ejemplo ejecutar `history | grep ssh` mostrará todos los comandos del historial que contengan `ssh`.
+
+```shell
+   50  ssh-keygen -t rsa -b 4096 -C "claumavaldivieso@gmail.com"
+   51  pbcopy < ~/.ssh/id_rsa.pub
+   53  ls -al ~/.ssh
+   54  eval "$(ssh-agent -s)"
+   55  open ~/.ssh/config
+   56  touch ~/.ssh/config
+   57  nano ~/.ssh/config
+   58  ssh-add -K ~/.ssh/id_rsa
+  174  cat ~/.ssh/id_rsa.pub
+  177  ssh-add -l
+  178  cd ~/.ssh
+  182  ls ~/.ssh
+  183  ssh-add -l
+  191  ssh-add -K ~/.ssh/id_rsa_carlos
+```
