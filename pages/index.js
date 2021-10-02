@@ -14,15 +14,15 @@ export default function Home({ lastPosts }) {
           Hey! I’m Claudia Valdivieso
         </h1>
         <h2 className="prose text-gray-600 dark:text-gray-400 mb-16">
-          I'm christian ✝️, wife 👫, mother 👨‍👩‍👦 and front-end 👩‍💻, and sometimes I write about christianity and programming. You can read about&nbsp;
-          <Link href="/blog">
-            <a>code</a>
-          </Link>
-          {", and "}
+          I'm christian ✝️, wife 👫, mother 👨‍👩‍👦 and front-end 👩‍💻, and sometimes I write about&nbsp;
           <ExternalLink href="https://prosigohacialameta.com/">
             christianity
           </ExternalLink>
-          {", or learn more "}
+          {", and "}
+          <Link href="/blog">
+            <a>programming</a>
+          </Link>
+          {".  You can read more "}
           <Link href="/about">
             <a>about me</a>
           </Link>
