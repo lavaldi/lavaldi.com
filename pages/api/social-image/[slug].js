@@ -93,7 +93,6 @@ const getBanner = async (title) => {
 
 module.exports = async (req, res) => {
   const { slug } = req.query;
-  debugger
   const isValid = isValidPostSlug(slug);
 
   if (!isValid) {
