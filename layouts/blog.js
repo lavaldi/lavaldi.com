@@ -2,13 +2,13 @@ import Image from 'next/image';
 import { parseISO, format } from 'date-fns';
 
 import Container from '@/components/Container';
+import Share from '@/components/Share';
 
 const editUrl = (slug) =>
   `https://github.com/lavaldi/lavaldi.com/edit/main/data/blog/${slug}.mdx`;
+const getUrl = (slug) => `https://lavaldi.com/blog/${slug}`;
 const discussUrl = (slug) =>
-  `https://mobile.twitter.com/search?q=${encodeURIComponent(
-    `https://lavaldi.com/blog/${slug}`
-  )}`;
+  `https://mobile.twitter.com/search?q=${encodeURIComponent(getUrl(slug))}`;
 
 export default function BlogLayout({ children, frontMatter }) {
   return (
@@ -42,9 +42,11 @@ export default function BlogLayout({ children, frontMatter }) {
             {frontMatter.readingTime.text}
           </p>
         </div>
+        <Share title={frontMatter.title} url={getUrl(frontMatter.slug)} />
         <div className="prose dark:prose-dark max-w-none w-full mb-16">
           {children}
         </div>
+        <Share title={frontMatter.title} url={getUrl(frontMatter.slug)} />
         <div className="text-sm text-purple-700 dark:text-purple-300">
           <a
             href={discussUrl(frontMatter.slug)}
