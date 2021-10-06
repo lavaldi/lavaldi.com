@@ -43,11 +43,11 @@ export default function BlogLayout({ children, frontMatter }) {
           </p>
         </div>
         <Share title={frontMatter.title} url={getUrl(frontMatter.slug)} />
-        <div className="prose dark:prose-dark max-w-none w-full mb-16">
+        <div className="prose dark:prose-dark max-w-none w-full">
           {children}
         </div>
         <Share title={frontMatter.title} url={getUrl(frontMatter.slug)} />
-        <div className="text-sm text-purple-700 dark:text-purple-300">
+        <div className="text-sm text-purple-700 dark:text-purple-300 mt-16">
           <a
             href={discussUrl(frontMatter.slug)}
             target="_blank"

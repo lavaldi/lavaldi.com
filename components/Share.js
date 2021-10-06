@@ -7,9 +7,9 @@ export default function Share({ title, url }) {
   });
 
   return (
-    <div className="flex space-x-1 mt-5">
+    <div className="flex w-full space-x-1 mt-5">
       <button
-        className="flex items-center border-none bg-purple-500 dark:bg-purple-300 text-white dark:text-black px-2.5 py-1.5 text-sm rounded-full whitespace-nowrap hover:bg-purple-300 hover:text-black"
+        className="inline-flex items-center p-2 border border-gray-200 text-xs leading-4 font-medium rounded text-gray-700 dark:text-gray-300 hover:text-purple-600 focus:outline-none focus:border-purple-300 focus:shadow-outline-blue active:text-gray-800"
         onClick={setCopiedToClipboard}
       >
         <svg
@@ -32,7 +32,7 @@ export default function Share({ title, url }) {
         {isCopiedToClipboard ? 'Copied!' : 'Copy link to clipboard'}
       </button>
       <ExternalLink
-        className="flex items-center border-none bg-purple-500 dark:bg-purple-300 text-white dark:text-black px-2.5 py-1.5 text-sm rounded-full whitespace-nowrap hover:bg-purple-300 hover:text-black"
+        className="inline-flex items-center p-2 border border-gray-200 text-xs leading-4 font-medium rounded text-gray-700 dark:text-gray-300 hover:text-purple-600 focus:outline-none focus:border-purple-300 focus:shadow-outline-blue active:text-gray-800"
         href={`https://twitter.com/intent/tweet/?text=${encodeURIComponent(
           title + ', post by @lavaldi'
         )}&url=${url}`}
