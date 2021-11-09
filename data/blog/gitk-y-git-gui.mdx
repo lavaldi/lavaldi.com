@@ -1,0 +1,64 @@
+---
+title: 'gitk y git gui'
+publishedAt: '2021-11-08'
+banner: 'https://i.imgur.com/FWbPqAK.png'
+summary: 'Cuando instalas git probablemente quieras instalar alguna interfaz... la verdad es que, aunque a mi me gusta la terminal, de vez en cuando quiero ver el código modificado en una interfaz más legible.'
+tags:
+  - git
+  - gitk
+  - git gui
+  - macOS
+---
+
+Cuando instalas git probablemente quieras instalar alguna interfaz gráfica y hay taaantas, tanto gratis como de pago, pero la verdad es que, aunque a mi me gusta mucho la terminal, de vez en cuando quiero ver el código modificado en una interfaz un poco más legible, es aquí donde entran las herramientas gráficas: `gitk` y `git gui`.
+
+## gitk
+
+`gitk` es un visor gráfico del histórico. Hay que considerarlo como una interfaz gráfica mejorada sobre `git log`. Es la herramienta que hay que utilizar cuando se quiere encontrar algo que sucedió en el pasado o visualizar el histórico de un proyecto.
+
+Gitk es muy fácil de invocar desde la línea de comandos. Simplemente, hay que moverse con cd hasta un repositorio de Git y teclear:
+
+```shell
+gitk [git log options]
+```
+
+Gitk admite muchas opciones desde la línea de comandos, la mayoría de las cuales se pasan desde la acción `git log` subyacente. Probablemente una de las más útiles sea la opción `--all` que indica a gitk que muestre todos los commit accesibles desde cualquier referencia, no sólo desde el HEAD. La interfaz de gitk tiene este aspecto:
+
+![gitk](https://i.imgur.com/PPJGrWv.png)
+
+En la parte superior hay algo que se parece un poco a la salida de `git log --graph`, donde cada punto representa un commit, las líneas representan relaciones entre padres e hijos y las referencias aparecen como cajas coloreadas. El punto amarillo representa un HEAD y el punto rojo los cambios que faltan hacer commit. En la parte inferior se encuentra un commit seleccionado con los archivos modificados a la derecha y la vista de comentarios y cambios a la izquierda. En medio hay una serie de controles que se usan para buscar en el histórico.
+
+## git gui
+
+La herramienta tiene este aspecto:
+
+![git gui](https://i.imgur.com/33qMidw.png)
+
+A la izquierda está el índice con los cambios no preparados al principio y los preparados al final. Es posible mover archivos completos entre los dos estados haciendo clic en sus respectivos iconos o seleccionar un archivo para visualizarlo haciendo clic en su nombre.
+
+A la derecha, en la parte superior, se encuentra la vista de diferencias que muestra los cambios producidos en el archivo seleccionado. Se pueden preparar bloques o líneas individualmente haciendo clic con el botón derecho sobre esta zona.
+
+En la parte inferior se encuentra el área de mensajes y acciones. Escribiendo un mensaje en la caja de texto y haciendo clic en el botón "Commit" se hace lo mismo que con `git commit`. Es posible rectificar el último commit eligiendo "Amend" en el botón de opción, con lo que se actualizará la zona de cambios preparados o "Staged Changes" con el contenido del último commit. Así es posible poner un cambio como pre-preparado o no preparado, modificar el mensaje de un commit y, a continuación, hacer clic en "Commit" para sustituir un commit anterior por uno nuevo.
+
+## Instalación en macOS
+
+Antes de instalar estas herramientas sigue los siguientes pasos:
+
+1. Primero debes asegurarte que tienes `git`. Comprueba la versión de git con `git --version`. Si es que te muestra una versión salta al paso 2.
+
+- Actualiza Homebrew con `brew update`.
+- Instala la última versión de Git desde Homebrew con `brew install git`.
+
+2. Luego tenemos que instalar `git gui` con `brew install git-gui`
+
+Y eso es todo! ya podemos usar `gitk` y `git gui` en nuestra terminal!
+
+## Conclusión
+
+`gitk` y `git gui` son herramientas de git, cada una adaptada para un propósito específico: la visualización del histórico y creación de commits, respectivamente, simples pero muy útiles!
+
+## Recursos
+
+- Más sobre gitk en la [documentación de Atlassian](https://www.atlassian.com/git/tutorials/gitk).
+- [Documentación oficial de gitk](https://git-scm.com/docs/gitk)
+- [Documentación oficial de git gui](https://git-scm.com/docs/git-gui)
