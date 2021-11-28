@@ -103,7 +103,7 @@ export default function Timeline() {
       <Year>2021</Year>
       <ul>
         <Step title="Publish my second article on escuelafrontend.com">
-          This timne was about&nbsp;
+          This time was about&nbsp;
           <ExternalLink href="https://www.escuelafrontend.com/articulos/diferencias-valor-y-referencia-en-js">
             Value vs References in JavaScript
           </ExternalLink>
