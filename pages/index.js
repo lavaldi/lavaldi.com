@@ -14,22 +14,28 @@ export default function Home({ lastPosts }) {
           Hey! I’m Claudia Valdivieso
         </h1>
         <h2 className="prose text-gray-600 dark:text-gray-400 mb-16">
-          I'm christian ✝️, wife 👫, mother 👨‍👩‍👦 and front-end 👩‍💻, and sometimes I write about&nbsp;
+          I'm christian ✝️, wife 👫, mother 👨‍👩‍👦 and front-end 👩‍💻, and sometimes I
+          write about&nbsp;
           <ExternalLink href="https://prosigohacialameta.com/">
             christianity
           </ExternalLink>
-          {", and "}
+          {', and '}
           <Link href="/blog">
             <a>programming</a>
           </Link>
-          {".  You can read more "}
+          {'.  You can read more about me '}
           <Link href="/about">
-            <a>about me</a>
+            <a>here</a>
           </Link>
-          {"."}
+          {'.'}
         </h2>
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-purple-700 dark:text-white flex justify-between w-full">
-          Last Posts <Link href="/blog"><a><small className="text-lg underline">view all</small></a></Link>
+          Last Posts{' '}
+          <Link href="/blog">
+            <a>
+              <small className="text-lg underline">view all</small>
+            </a>
+          </Link>
         </h3>
         {lastPosts.map((frontMatter) => (
           <BlogPost key={frontMatter.title} {...frontMatter} />
@@ -38,15 +44,31 @@ export default function Home({ lastPosts }) {
           Side Projects
         </h3>
         <ProjectCard
+          title="Prosigo hacia la meta"
+          description="Christian blog made it with Gatsby, Theme UI and MDX"
+          githubUrl="https://github.com/lavaldi/prosigohacialameta.com"
+          webUrl="https://prosigohacialameta.com"
+          icon="✝️"
+        />
+        <ProjectCard
+          title="lavaldi.com"
+          description="This blog, made it with Next.js, Tailwind CSS and MDX"
+          githubUrl="https://github.com/lavaldi/lavaldi.com"
+          webUrl="."
+          icon="✍️"
+        />
+        <ProjectCard
           title="Verbs"
-          description="A PWA (with pure JavaScript) of 1000 English verb forms (I have to improve the code 😅)."
-          href="https://verbs.lavaldi.com/"
+          description="A PWA of 1000 English verbs forms made it with next-pwa."
+          githubUrl="https://github.com/lavaldi/verbs"
+          webUrl="https://verbs.lavaldi.com"
           icon="🇺🇸"
         />
         <ProjectCard
           title="Normalized Styled Components"
           description="An NPM package to get normalize.css as styled-components."
-          href="https://www.npmjs.com/package/@lavaldi/normalized-components"
+          githubUrl="https://github.com/lavaldi/normalized-components"
+          webUrl="https://www.npmjs.com/package/@lavaldi/normalized-components"
           icon="💅"
         />
       </div>
