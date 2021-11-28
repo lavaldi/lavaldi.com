@@ -58,10 +58,13 @@ const FullTimeline = () => (
     <Year>2014</Year>
     <ul>
       <Step title="Create Spinity Technologies">
-        I created a company with some friends to make video games while we supported ourselves developing websites with WordPress, it was a nice experience, it didn't last long due to lack of experience and focus.
+        I created a company with some friends to make video games while we
+        supported ourselves developing websites with WordPress, it was a nice
+        experience, it didn't last long due to lack of experience and focus.
       </Step>
       <Step title="Web Developer at Bonzzu Inc.">
-        Development of web pages with CMS WordPress: templates and plugins (HTML, CSS, JS and PHP).
+        Development of web pages with CMS WordPress: templates and plugins
+        (HTML, CSS, JS and PHP).
       </Step>
     </ul>
     <Divider />
@@ -99,24 +102,31 @@ export default function Timeline() {
       </h3>
       <Year>2021</Year>
       <ul>
-      <Step title="Create a blog for my articles on Christianity">
+        <Step title="Publish my second article on escuelafrontend.com">
+          This timne was about&nbsp;
+          <ExternalLink href="https://www.escuelafrontend.com/articulos/diferencias-valor-y-referencia-en-js">
+            Value vs References in JavaScript
+          </ExternalLink>
+          {'.'}
+        </Step>
+        <Step title="Create a blog for my articles on Christianity">
           You can check it out here
-          {" 👉 "}
+          {' 👉 '}
           <ExternalLink href="https://prosigohacialameta.com">
             prosigohacialameta.com
           </ExternalLink>
-          {" (in spanish). "}
+          {' (in spanish). '}
         </Step>
         <Step title="Publish my first article on an external page">
           I published an article on&nbsp;
           <ExternalLink href="https://escuelafrontend.com">
             escuelafrontend.com
           </ExternalLink>
-          {" about "}
+          {' about '}
           <ExternalLink href="https://escuelafrontend.com/articulos/hoisting-ejemplos-practicos">
             Hoisting in JavaScript
           </ExternalLink>
-          {"."}
+          {'.'}
         </Step>
         <Step title="Web UI Developer at Globant 🌐">
           I'm extremely excited about this new role 🤩.
@@ -126,27 +136,32 @@ export default function Timeline() {
       <Year>2020</Year>
       <ul>
         <Step title="I became a mom 🤱">
-          Great year to have a child, huh? The delivery was a bit difficult but God was with us 🙌
+          Great year to have a child, huh? The delivery was a bit difficult but
+          God was with us 🙌
         </Step>
       </ul>
       <Divider />
       <Year>2019</Year>
       <ul>
         <Step title="Software Engineer at Able.co 👩‍💻">
-          Software development with React and Ruby on Rails (I'm not an expert in Rails but I can do some things 😅)
+          Software development with React and Ruby on Rails (I'm not an expert
+          in Rails but I can do some things 😅)
         </Step>
         <Step title="Managing internal tech talks at UND - Grupo El Comercio 🗣️">
-          I organize the internal tech talks on my work with my dear friend Pedro Pairazamán.
+          I organize the internal tech talks on my work with my dear friend
+          Pedro Pairazamán.
         </Step>
         <Step title="Talk about front-end at Laboratoria">
-          With some teammates we went to Laboratoria to talk about the live as front-end developers.
+          With some teammates we went to Laboratoria to talk about the live as
+          front-end developers.
         </Step>
       </ul>
       <Divider />
       <Year>2016</Year>
       <ul>
         <Step title="Got Married 🥳">
-          We had a pretty ceremony with family and friends, and it was better than I could have imagined 😌
+          We had a pretty ceremony with family and friends, and it was better
+          than I could have imagined 😌
         </Step>
       </ul>
       {isShowingFullTimeline ? (

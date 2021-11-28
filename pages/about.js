@@ -13,19 +13,24 @@ export default function About() {
         </h1>
         <div className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
           <p>
-            Hey! I’m Claudia Valdivieso, christian ✝️, wife 👫, mother 👨‍👩‍👦 and front-end 👩‍💻 (yep, in that order). I'm currently working as a Web UI Developer at&nbsp;
-            <ExternalLink href="https://globant.com">
-              Globant
-            </ExternalLink>
-            .
+            Hey! I’m Claudia Valdivieso, christian ✝️, wife 👫, mother 👨‍👩‍👦 and
+            front-end 👩‍💻 (yep, in that order). I'm currently working as a Web UI
+            Developer at&nbsp;
+            <ExternalLink href="https://globant.com">Globant</ExternalLink>.
           </p>
           <p>
-            I grew up in Trujillo, a city in northern Peru,
-            graduated with a bachelor's degree in Computer Science. I spend my free
-            time playing with my boy, reading, running, biking, and enjoying time with friends
-            and family in Lima - Peru.
+            I grew up in Trujillo, a city in northern Peru, graduated with a
+            bachelor's degree in Computer Science. I spend my free time playing
+            with my boy, reading, running, biking, and enjoying time with
+            friends and family in Lima - Peru.
           </p>
-          <Image src="https://imgur.com/Rz4id1v.gif" alt="Santiago and me" width="698" height="932" layout="responsive" />
+          <Image
+            src="https://imgur.com/Rz4id1v.gif"
+            alt="Santiago and me on Mother's Day"
+            width="698"
+            height="932"
+            layout="responsive"
+          />
         </div>
         <Timeline />
       </div>
