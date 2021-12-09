@@ -14,7 +14,7 @@
     "comma-number": "^2.1.0",
     "date-fns": "^2.25.0",
     "mdx-prism": "^0.3.4",
-    "next": "12.0.1",
+    "next": "12.0.5",
     "next-mdx-remote": "^3.0.4",
     "next-themes": "^0.0.15",
     "preact": "^10.5.15",
