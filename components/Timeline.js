@@ -102,6 +102,12 @@ export default function Timeline() {
       </h3>
       <Year>2021</Year>
       <ul>
+        <Step title="Publish my third article on escuelafrontend.com">
+          <ExternalLink href="https://www.escuelafrontend.com/articulos/clonar-objetos-en-javascript">
+            Ways to clone objects in JavaScript
+          </ExternalLink>
+          {'.'}
+        </Step>
         <Step title="Publish my second article on escuelafrontend.com">
           This time was about&nbsp;
           <ExternalLink href="https://www.escuelafrontend.com/articulos/diferencias-valor-y-referencia-en-js">
