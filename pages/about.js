@@ -28,7 +28,7 @@ export default function About() {
           </p>
           <Image
             src={santiagoAndMe}
-            alt="Santiago and me on Mother's Day"
+            alt="Santiago and me"
             priority
           />
         </div>
