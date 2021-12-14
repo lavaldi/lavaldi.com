@@ -153,13 +153,47 @@ export default function Timeline() {
           Software development with React and Ruby on Rails (I'm not an expert
           in Rails but I can do some things 😅)
         </Step>
+        <Step title="Organize the fourth UND Talk 🗣️">
+          On June, the talk was about&nbsp;
+          <ExternalLink href="https://photos.app.goo.gl/QjUDxowWx65z77227">
+            DevOps a call for creativity.
+          </ExternalLink>
+        </Step>
+        <Step title="Organize the third UND Talk 🗣️">
+          On June, the talk was about Integrating marketing with technology.
+        </Step>
+        <Step title="Organize the second UND Talk 🗣️">
+          On May, the talk was about&nbsp;
+          <ExternalLink href="https://photos.app.goo.gl/Q1LhXGamFby7qtPQA">
+            Confidence.
+          </ExternalLink>
+        </Step>
+        <Step title="Organize the first UND Talk 🗣️">
+          On May, the talk was about&nbsp;
+          <ExternalLink href="https://photos.app.goo.gl/Kv8iQiCoAfCi2nZK8">
+            Agile y Growth mindset.
+          </ExternalLink>
+        </Step>
         <Step title="Managing internal tech talks at UND - Grupo El Comercio 🗣️">
           I organize the internal tech talks on my work with my dear friend
           Pedro Pairazamán.
         </Step>
         <Step title="Talk about front-end at Laboratoria">
-          With some teammates we went to Laboratoria to talk about the live as
-          front-end developers.
+          <ExternalLink href="https://photos.app.goo.gl/smUtUpVAoDHV7vNb7">
+            Together with Kathia and Daniela we went to Laboratoria again
+          </ExternalLink>{' '}
+          on January to talk about the live as front-end developers.
+        </Step>
+      </ul>
+      <Divider />
+      <Year>2018</Year>
+      <ul>
+        <Step title="Talk about front-end at Laboratoria">
+          In July,&nbsp;
+          <ExternalLink href="https://photos.app.goo.gl/gLpe1RorbugZSRASA">
+            we went with Kathia Neira to Laboratoria
+          </ExternalLink>{' '}
+          to talk about our live as front-end developers.
         </Step>
       </ul>
       <Divider />
