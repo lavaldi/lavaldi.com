@@ -2,6 +2,8 @@
 
 Here I share what I learn in my path as software developer. It has transformed over the years - from Jekyll, to Hubspot, to Nextein, to Gatsby and finally to Next.js/React/MDX.
 
+_Based on [leerob.io](https://github.com/leerob/leerob.io/)_
+
 ## Built Using
 
 - [Next.js](https://nextjs.org/)
