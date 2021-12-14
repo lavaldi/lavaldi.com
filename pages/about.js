@@ -4,6 +4,8 @@ import Container from '@/components/Container';
 import ExternalLink from '@/components/ExternalLink';
 import Timeline from '@/components/Timeline';
 
+import santiagoAndMe from '../public/santiago-and-me.jpg';
+
 export default function About() {
   return (
     <Container title="About – Claudia Valdivieso">
@@ -25,11 +27,9 @@ export default function About() {
             friends and family in Lima - Peru.
           </p>
           <Image
-            src="https://imgur.com/Rz4id1v.gif"
+            src={santiagoAndMe}
             alt="Santiago and me on Mother's Day"
-            width="698"
-            height="932"
-            layout="responsive"
+            priority
           />
         </div>
         <Timeline />
