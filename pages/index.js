@@ -45,21 +45,21 @@ export default function Home({ lastPosts }) {
         </h3>
         <ProjectCard
           title="Prosigo hacia la meta"
-          description="Christian blog made it with Gatsby, Theme UI and MDX"
+          description="Christian blog made with Gatsby, Theme UI and MDX"
           githubUrl="https://github.com/lavaldi/prosigohacialameta.com"
           webUrl="https://prosigohacialameta.com"
           icon="✝️"
         />
         <ProjectCard
           title="lavaldi.com"
-          description="This blog, made it with Next.js, Tailwind CSS and MDX"
+          description="This blog, made with Next.js, Tailwind CSS and MDX"
           githubUrl="https://github.com/lavaldi/lavaldi.com"
           webUrl="."
           icon="✍️"
         />
         <ProjectCard
           title="Verbs"
-          description="A PWA of 1000 English verbs forms made it with next-pwa."
+          description="A PWA of 1000 English verbs forms made with next-pwa."
           githubUrl="https://github.com/lavaldi/verbs"
           webUrl="https://verbs.lavaldi.com"
           icon="🇺🇸"
