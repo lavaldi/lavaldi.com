@@ -42,6 +42,25 @@ const Step = ({ title, children }) => {
 const FullTimeline = () => (
   <>
     <Divider />
+    <Year>2018</Year>
+    <ul>
+      <Step title="Talk about front-end at Laboratoria">
+        In July,&nbsp;
+        <ExternalLink href="https://photos.app.goo.gl/gLpe1RorbugZSRASA">
+          we went with Kathia Neira to Laboratoria
+        </ExternalLink>{' '}
+        to talk about our live as front-end developers.
+      </Step>
+    </ul>
+    <Divider />
+    <Year>2016</Year>
+    <ul>
+      <Step title="Got Married 🥳">
+        We had a pretty ceremony with family and friends, and it was better than
+        I could have imagined 😌
+      </Step>
+    </ul>
+    <Divider />
     <Year>2015</Year>
     <ul>
       <Step title="Got Engaged 💍">
@@ -183,25 +202,6 @@ export default function Timeline() {
             Together with Kathia and Daniela we went to Laboratoria again
           </ExternalLink>{' '}
           on January to talk about the live as front-end developers.
-        </Step>
-      </ul>
-      <Divider />
-      <Year>2018</Year>
-      <ul>
-        <Step title="Talk about front-end at Laboratoria">
-          In July,&nbsp;
-          <ExternalLink href="https://photos.app.goo.gl/gLpe1RorbugZSRASA">
-            we went with Kathia Neira to Laboratoria
-          </ExternalLink>{' '}
-          to talk about our live as front-end developers.
-        </Step>
-      </ul>
-      <Divider />
-      <Year>2016</Year>
-      <ul>
-        <Step title="Got Married 🥳">
-          We had a pretty ceremony with family and friends, and it was better
-          than I could have imagined 😌
         </Step>
       </ul>
       {isShowingFullTimeline ? (
