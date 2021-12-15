@@ -6,7 +6,8 @@
     "postbuild": "node ./scripts/generate-rss.mjs && node ./scripts/generate-sitemap.mjs",
     "start": "next start",
     "lint": "next lint",
-    "new:banner": "node ./scripts/generate-banner.mjs"
+    "new:banner": "node ./scripts/generate-banner.mjs",
+    "new:post": "hygen blog-post new"
   },
   "dependencies": {
     "@mapbox/rehype-prism": "^0.8.0",
@@ -29,6 +30,7 @@
   },
   "devDependencies": {
     "@p-mcgowan/minimist": "^2.1.0",
+    "@sindresorhus/slugify": "1.1.0",
     "autoprefixer": "^10.3.7",
     "canvas": "^2.8.0",
     "chalk": "^5.0.0",
@@ -36,6 +38,7 @@
     "eslint-config-next": "^12.0.1",
     "globby": "12.0.2",
     "gray-matter": "^4.0.3",
+    "hygen": "^6.1.0",
     "postcss": "^8.3.11",
     "prettier": "^2.3.2",
     "reading-time": "^1.5.0",
