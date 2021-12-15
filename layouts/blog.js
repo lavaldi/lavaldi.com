@@ -46,22 +46,28 @@ export default function BlogLayout({ children, frontMatter }) {
         <div className="prose dark:prose-dark max-w-none w-full">
           {children}
         </div>
-        <Share title={frontMatter.title} url={getUrl(frontMatter.slug)} />
-        <div className="text-sm text-purple-700 dark:text-purple-300 mt-16">
+        <div className="prose dark:prose-dark text-lg font-medium mt-16">
+          ¿Te gustó este artículo? déjamelo saber en{' '}
           <a
             href={discussUrl(frontMatter.slug)}
             target="_blank"
             rel="noopener noreferrer"
+            className="text-purple-700 dark:text-purple-300"
           >
-            {'Discuss on Twitter'}
-          </a>
-          {` • `}
+            Twitter
+          </a>{' '}
+          y compártelo con tus amigos 👇
+        </div>
+        <Share title={frontMatter.title} url={getUrl(frontMatter.slug)} />
+        <div className="prose dark:prose-dark text-lg font-medium mt-16">
+          ¿Encontraste algún error en este artículo? Edítalo en{' '}
           <a
             href={editUrl(frontMatter.slug)}
             target="_blank"
             rel="noopener noreferrer"
+            className="text-purple-700 dark:text-purple-300"
           >
-            {'Edit on GitHub'}
+            GitHub
           </a>
         </div>
       </article>
