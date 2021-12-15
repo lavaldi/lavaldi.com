@@ -5,7 +5,7 @@ unless_exists: true
 ---
 title: "<%= h.inflection.humanize(title) %>"
 summary: ""
-publishedAt: <%= h.date() %>
+publishedAt: "<%= h.date() %>"
 tags:
   - tag
 banner: ""
