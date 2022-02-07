@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-import { pick } from '@/lib/utils';
 import { allBlogs } from '.contentlayer/data';
+import { pick } from '@/lib/utils';
 import Container from '@/components/Container';
 import ProjectCard from '@/components/ProjectCard';
 import ExternalLink from '@/components/ExternalLink';
@@ -92,11 +92,14 @@ export default function Home({ lastPosts }) {
 }
 
 export async function getStaticProps() {
-  const posts = allBlogs.map((post) =>
-    pick(post, ['slug', 'title', 'summary', 'publishedAt'])
-  );
-  console.log(posts);
-  const lastPosts = posts.slice(5);
+  const posts = allBlogs
+    .map((post) => pick(post, ['slug', 'title', 'publishedAt']))
+    .sort(
+      (a, b) =>
+        Number(new Date(b.publishedAt)) - Number(new Date(a.publishedAt))
+    );
+  const lastPosts = posts.slice(0, 5);
+  console.log(lastPosts);
 
   return { props: { lastPosts } };
 }

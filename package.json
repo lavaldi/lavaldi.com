@@ -14,7 +14,6 @@
     "comma-number": "^2.1.0",
     "contentlayer": "^0.0.34",
     "date-fns": "^2.25.0",
-    "mdx-bundler": "^8.0.1",
     "next": "12.0.9",
     "next-contentlayer": "^0.0.34",
     "next-themes": "^0.0.15",
