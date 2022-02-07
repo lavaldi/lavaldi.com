@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 import Container from '@/components/Container';
 import ProjectCard from '@/components/ProjectCard';
@@ -10,25 +11,38 @@ export default function Home({ lastPosts }) {
   return (
     <Container>
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
-        <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-purple-700 dark:text-white">
-          Hey! I’m Claudia Valdivieso
-        </h1>
-        <h2 className="prose text-gray-600 dark:text-gray-400 mb-16">
-          I'm christian ✝️, wife 👫, mother 👨‍👩‍👦 and front-end 👩‍💻, and sometimes I
-          write about&nbsp;
-          <ExternalLink href="https://prosigohacialameta.com/">
-            christianity
-          </ExternalLink>
-          {', and '}
-          <Link href="/blog">
-            <a>programming</a>
-          </Link>
-          {'.  You can read more about me '}
-          <Link href="/about">
-            <a>here</a>
-          </Link>
-          {'.'}
-        </h2>
+        <div className="flex flex-col-reverse sm:flex-row items-start">
+          <div className="flex flex-col pr-8">
+            <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-purple-700 dark:text-white">
+              Claudia Valdivieso
+            </h1>
+            <h2 className="prose text-gray-600 dark:text-gray-400 mb-16">
+              I'm christian ✝️, wife 👫, mother 👨‍👩‍👦 and front-end 👩‍💻, and
+              sometimes I write about&nbsp;
+              <ExternalLink href="https://prosigohacialameta.com/">
+                christianity
+              </ExternalLink>
+              {', and '}
+              <Link href="/blog">
+                <a>programming</a>
+              </Link>
+              {'.  You can read more about me '}
+              <Link href="/about">
+                <a>here</a>
+              </Link>
+              {'.'}
+            </h2>
+          </div>
+          <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
+            <Image
+              alt="Claudia Valdivieso"
+              height={176}
+              width={176}
+              src="/lavaldi.jpg"
+              className="rounded-full"
+            />
+          </div>
+        </div>
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-purple-700 dark:text-white flex justify-between w-full">
           Last Posts{' '}
           <Link href="/blog">
