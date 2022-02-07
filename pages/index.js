@@ -99,7 +99,6 @@ export async function getStaticProps() {
         Number(new Date(b.publishedAt)) - Number(new Date(a.publishedAt))
     );
   const lastPosts = posts.slice(0, 5);
-  console.log(lastPosts);
 
   return { props: { lastPosts } };
 }
