@@ -16,8 +16,7 @@ export default function About() {
         <div className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
           <p>
             Hey! I’m Claudia Valdivieso, christian ✝️, wife 👫, mother 👨‍👩‍👦 and
-            front-end 👩‍💻 (yep, in that order). I'm currently working as a
-            Engineer at&nbsp;
+            front-end 👩‍💻 (yep, in that order). I'm currently working as Software Engineer at&nbsp;
             <ExternalLink href="https://draftea.com/">
               Draftea
             </ExternalLink>
