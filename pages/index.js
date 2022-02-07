@@ -1,11 +1,12 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
+import { allBlogs } from '.contentlayer/data';
+import { pick } from 'contentlayer/client';
 import Container from '@/components/Container';
 import ProjectCard from '@/components/ProjectCard';
 import ExternalLink from '@/components/ExternalLink';
 import BlogPost from '@/components/BlogPost';
-import { getFilesFrontMatter } from '@/lib/mdx';
 
 export default function Home({ lastPosts }) {
   return (
@@ -91,7 +92,13 @@ export default function Home({ lastPosts }) {
 }
 
 export async function getStaticProps() {
-  const lastPosts = await getFilesFrontMatter('blog', 5);
+  const posts = allBlogs
+    .map((post) => pick(post, ['slug', 'title', 'publishedAt']))
+    .sort(
+      (a, b) =>
+        Number(new Date(b.publishedAt)) - Number(new Date(a.publishedAt))
+    );
+  const lastPosts = posts.slice(0, 5);
 
   return { props: { lastPosts } };
 }
