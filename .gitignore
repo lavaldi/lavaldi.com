@@ -36,3 +36,7 @@ yarn-error.log*
 public/sitemap.xml
 public/feed.xml
 banner.png
+
+
+# Contentlayer
+.contentlayer

@@ -1,7 +1,9 @@
-module.exports = {
+const { withContentlayer } = require('next-contentlayer');
+
+module.exports = withContentlayer()({
   images: {
     domains: [
-      'imgur.com', // Imgur for banners
+      'imgur.com' // Imgur for banners
     ]
   },
   webpack: (config, { dev, isServer }) => {
@@ -16,4 +18,4 @@ module.exports = {
 
     return config;
   }
-};
+});
