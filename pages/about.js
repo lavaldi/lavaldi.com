@@ -16,9 +16,12 @@ export default function About() {
         <div className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
           <p>
             Hey! I’m Claudia Valdivieso, christian ✝️, wife 👫, mother 👨‍👩‍👦 and
-            front-end 👩‍💻 (yep, in that order). I'm currently working as a Web UI
-            Developer at&nbsp;
-            <ExternalLink href="https://globant.com">Globant</ExternalLink>.
+            front-end 👩‍💻 (yep, in that order). I'm currently working as a
+            Engineer at&nbsp;
+            <ExternalLink href="https://draftea.com/">
+              Draftea
+            </ExternalLink>
+            .
           </p>
           <p>
             I grew up in Trujillo, a city in northern Peru, graduated with a
@@ -26,11 +29,7 @@ export default function About() {
             with my boy, reading, running, biking, and enjoying time with
             friends and family in Lima - Peru.
           </p>
-          <Image
-            src={santiagoAndMe}
-            alt="Santiago and me"
-            priority
-          />
+          <Image src={santiagoAndMe} alt="Santiago and me" priority />
         </div>
         <Timeline />
       </div>

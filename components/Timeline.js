@@ -121,6 +121,9 @@ export default function Timeline() {
       </h3>
       <Year>2021</Year>
       <ul>
+        <Step title="Software Engineer at Draftea ⚽">
+          Getting started in mobile development with Flutter 🐦.
+        </Step>
         <Step title="Publish my third article on escuelafrontend.com">
           <ExternalLink href="https://www.escuelafrontend.com/articulos/clonar-objetos-en-javascript">
             Ways to clone objects in JavaScript
