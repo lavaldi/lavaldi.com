@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import { allBlogs } from '.contentlayer/data';
-import { pick } from '@/lib/utils';
+import { pick } from 'contentlayer/client';
 import Container from '@/components/Container';
 import ProjectCard from '@/components/ProjectCard';
 import ExternalLink from '@/components/ExternalLink';

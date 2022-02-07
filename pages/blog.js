@@ -1,8 +1,8 @@
 import { useState } from 'react';
+import { pick } from 'contentlayer/client';
 
 import Container from '@/components/Container';
 import BlogPost from '@/components/BlogPost';
-import { pick } from '@/lib/utils';
 import { allBlogs } from '.contentlayer/data';
 
 export default function Blog({ posts }) {
@@ -51,9 +51,12 @@ export default function Blog({ posts }) {
 }
 
 export async function getStaticProps() {
-  const posts = allBlogs.map((post) =>
-    pick(post, ['slug', 'title', 'summary', 'publishedAt'])
-  );
+  const posts = allBlogs
+    .map((post) => pick(post, ['slug', 'title', 'publishedAt']))
+    .sort(
+      (a, b) =>
+        Number(new Date(b.publishedAt)) - Number(new Date(a.publishedAt))
+    );
 
   return { props: { posts } };
 }
