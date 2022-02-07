@@ -2,7 +2,8 @@ import { useState } from 'react';
 
 import Container from '@/components/Container';
 import BlogPost from '@/components/BlogPost';
-import { getFilesFrontMatter } from '@/lib/mdx';
+import { pick } from '@/lib/utils';
+import { allBlogs } from '.contentlayer/data';
 
 export default function Blog({ posts }) {
   const [searchValue, setSearchValue] = useState('');
@@ -50,7 +51,9 @@ export default function Blog({ posts }) {
 }
 
 export async function getStaticProps() {
-  const posts = await getFilesFrontMatter('blog');
+  const posts = allBlogs.map((post) =>
+    pick(post, ['slug', 'title', 'summary', 'publishedAt'])
+  );
 
   return { props: { posts } };
 }

@@ -1,41 +1,39 @@
-import { MDXRemote } from 'next-mdx-remote';
-
-import { getFiles, getFileBySlug } from '@/lib/mdx';
 import { getTweets } from '@/lib/twitter';
 import BlogLayout from '@/layouts/blog';
 import Tweet from '@/components/Tweet';
-import MDXComponents from '@/components/MDXComponents';
 
-export default function Blog({ mdxSource, tweets, frontMatter }) {
+export default function Blog({ post, tweets }) {
+  const Component = useMemo(
+    () => getMDXComponent(post.body.code),
+    [post.body.code]
+  );
   const StaticTweet = ({ id }) => {
     const tweet = tweets.find((tweet) => tweet.id === id);
     return <Tweet {...tweet} />;
   };
 
-  const content = <MDXRemote {...mdxSource} components={{
-    ...MDXComponents,
-    StaticTweet
-  }} />;
-
-  return <BlogLayout frontMatter={frontMatter}>{content}</BlogLayout>;
+  return (
+    <BlogLayout post={post}>
+      <Component
+        components={{
+          ...components,
+          StaticTweet
+        }}
+      />
+    </BlogLayout>
+  );
 }
 
 export async function getStaticPaths() {
-  const posts = await getFiles('blog');
-
   return {
-    paths: posts.map((p) => ({
-      params: {
-        slug: p.replace(/\.mdx/, '')
-      }
-    })),
+    paths: allBlogs.map((p) => ({ params: { slug: p.slug } })),
     fallback: false
   };
 }
 
 export async function getStaticProps({ params }) {
-  const post = await getFileBySlug('blog', params.slug);
-  const tweets = await getTweets(post.tweetIDs);
+  const post = allBlogs.find((post) => post.slug === params.slug);
+  const tweets = await getTweets(post.tweetIds);
 
-  return { props: { ...post, tweets } };
+  return { props: { post, tweets } };
 }
