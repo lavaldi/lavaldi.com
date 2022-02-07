@@ -1,5 +1,5 @@
 ---
-title: "Generar un post a partir de un template con Hygen en Gatsby"
+title: 'Generar un post a partir de un template con Hygen en Gatsby'
 publishedAt: '2020-03-23'
 tags:
   - hygen
@@ -66,7 +66,7 @@ Loaded templates: _templates
 
 Si abrimos el archivo `_templates/blog-post/new/hello.ejs.t` podremos observar el siguiente código de ejemplo:
 
-```ejs
+````ejs
 ---
 to: _templates/<%= name %>/<%= action || 'new' %>/hello.ejs.t
 ---
@@ -82,7 +82,7 @@ Learn what it can do here:
 https://github.com/jondot/hygen```
 
 console.log(hello)
-```
+````
 
 El cual vamos a modificar a continuación para crear nuestro template para un post de [Gatsby](https://www.gatsbyjs.org/)
 
@@ -110,18 +110,18 @@ yarn add @sindresorhus/slugify
 Ahora pasamos a modificar el archivo `.hygen.js` de la siguiente manera:
 
 ```javascript
-const slugify = require("@sindresorhus/slugify");
+const slugify = require('@sindresorhus/slugify');
 
 const date = [
   new Date().getFullYear(),
-  ("0" + (new Date().getMonth() + 1)).slice(-2),
-  ("0" + new Date().getDate()).slice(-2)
-].join("-");
+  ('0' + (new Date().getMonth() + 1)).slice(-2),
+  ('0' + new Date().getDate()).slice(-2)
+].join('-');
 
 module.exports = {
   helpers: {
-    date: s => date,
-    slugify: s => slugify(s)
+    date: (s) => date,
+    slugify: (s) => slugify(s)
   }
 };
 ```
@@ -139,7 +139,7 @@ Como vemos estamos indicando que el archivo se cree en la ruta `content/posts/` 
 
 A continuación irá el contenido que queremos que vaya en nuestro archivo markdown. En mi caso es este:
 
-```ejs{5-16}
+```ejs
 ---
 to: content/posts/<%= h.date() %>-<%= h.slugify(name) %>.md
 unless_exists: true

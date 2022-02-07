@@ -1,5 +1,5 @@
 ---
-title: "Pasar una etiqueta HTML como prop en React"
+title: 'Pasar una etiqueta HTML como prop en React'
 publishedAt: '2019-08-17'
 tags:
   - react
@@ -9,11 +9,11 @@ tags:
 
 La respuesta es sí, y es muy fácil:
 
-```javascript{5}
-import React from "react";
-import ReactDOM from "react-dom";
+```javascript
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const App = props => {
+const App = (props) => {
   const { tag: Tag } = props; // 👀 he aquí el truco
   return (
     <div className="App">
@@ -22,17 +22,17 @@ const App = props => {
   );
 };
 
-const rootElement = document.getElementById("root");
+const rootElement = document.getElementById('root');
 ReactDOM.render(<App tag="h1" />, rootElement);
 ```
 
 Ahora `Tag` puede ser cualquier nombre que tu quieras darle. Por ejemplo, puedes cambiarlo por `Element` y tendríamos el mismo resultado:
 
-```javascript{5,8}
-import React from "react";
-import ReactDOM from "react-dom";
+```javascript
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const App = props => {
+const App = (props) => {
   const { tag: Element } = props; // 👀
   return (
     <div className="App">
@@ -41,7 +41,7 @@ const App = props => {
   );
 };
 
-const rootElement = document.getElementById("root");
+const rootElement = document.getElementById('root');
 ReactDOM.render(<App tag="h1" />, rootElement);
 ```
 

@@ -1,12 +1,12 @@
 ---
-title: "Cómo probar un paquete npm localmente"
+title: 'Cómo probar un paquete npm localmente'
 publishedAt: '2020-05-04'
 tags:
   - npm
   - link
   - node
   - yalc
-banner: "https://i.imgur.com/XJHiNhx.png"
+banner: 'https://i.imgur.com/XJHiNhx.png'
 ---
 
 > Este post trata sobre probar un paquete que aún no ha sido publicado en un registry de npm.
@@ -29,7 +29,7 @@ Es un proceso de dos pasos:
 1. Crea un **symlink** global para una dependencia con `npm link`. Un symlink, abreviatura de enlace simbólico, es un acceso directo que apunta a otro directorio o archivo en tu sistema.
 2. Hazle saber al proyecto donde probarás tu paquete que use el enlace simbólico global con `npm link my-package`.
 
-### Uso <!-- omit in toc -->
+### Uso
 
 Entonces en el directorio del paquete en desarrollo `my-package` ejecutaremos
 
@@ -47,7 +47,7 @@ npm link my-package # paso 2
 
 Ahora puedes editar, transpilar o ejecutar pruebas en `my-package`. Todo mientras lo pruebas en un proyecto real. Los enlaces simbólicos son locales y no serás commiteados en git. Y cuando estés listo para compartir tu código, puedes publicar los cambios de `my-package` en un registry npm.
 
-### De vuelta a la normalidad <!-- omit in toc -->
+### De vuelta a la normalidad
 
 Cuando ya no desees utilizar la versión local de `my-package`, elimina el enlace simbólico. Pero cuidado, `npm unlink` es un alias para la desinstalación de npm (`npm uninstall`), no refleja el comportamiento de `npm link`.
 
@@ -88,7 +88,7 @@ Ahora pasemos al siguiente método 👇
 
 Para evitar que las cosas colisionen, yalc firma cada versión publicada con un hash. Y yalc puede almacenar tantas versiones de un paquete (esa es la versión package.json) como quiera.
 
-### tldr; <!-- omit in toc -->
+### tldr;
 
 _La explicación de todos los comandos viene [más adelante](#instala-yalc)_
 
@@ -131,13 +131,13 @@ project $ npm install # (or `yarn`)
 # prueba el proyecto, hackea de nuevo, yalc push, repetir hasta terminar
 ```
 
-### Instala yalc <!-- omit in toc -->
+### Instala yalc
 
 ```shell
 $ npm install -g yalc # o `yarn global add yalc`
 ```
 
-### Publica un paquete en tu registry local de Yalc <!-- omit in toc -->
+### Publica un paquete en tu registry local de Yalc
 
 ```shell
 # en el directorio del paquete en desarrollo
@@ -146,7 +146,7 @@ $ yalc publish
 
 Este comando lanzará al final el nombre real del paquete que usaremos en el siguiente comando.
 
-### Añade el paquete como una dependencia desde el registry de yalc <!-- omit in toc -->
+### Añade el paquete como una dependencia desde el registry de yalc
 
 ```shell
 # en el proyecto donde probarás el paquete
@@ -182,7 +182,7 @@ yalc no instala las dependencias del paquete, por lo que si el paquete en desarr
 $ npm install # or yarn
 ```
 
-### Sube los cambios del paquete a los proyectos dependientes locales <!-- omit in toc -->
+### Sube los cambios del paquete a los proyectos dependientes locales
 
 Después de guardar los cambios en el paquete en desarrollo, simplemente ejecuta:
 

@@ -95,6 +95,7 @@ export async function getStaticProps() {
   const posts = allBlogs.map((post) =>
     pick(post, ['slug', 'title', 'summary', 'publishedAt'])
   );
+  console.log(posts);
   const lastPosts = posts.slice(5);
 
   return { props: { lastPosts } };
