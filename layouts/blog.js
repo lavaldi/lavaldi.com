@@ -43,11 +43,11 @@ export default function BlogLayout({ children, post }) {
           </p>
         </div>
         <Share title={post.title} url={getUrl(post.slug)} />
-        <div className="prose dark:prose-dark max-w-none w-full">
+        <div className="prose dark:prose-dark max-w-none w-full mb-8">
           {children}
         </div>
-        <div className="prose dark:prose-dark text-lg font-medium mt-16">
-          ¿Te gustó este artículo? déjamelo saber en{' '}
+        <div className="w-full prose dark:prose-dark text-lg font-medium border-t pt-8 border-gray-500">
+          ¿Te gustó este artículo? cuéntamelo en{' '}
           <a
             href={discussUrl(post.slug)}
             target="_blank"
@@ -56,18 +56,18 @@ export default function BlogLayout({ children, post }) {
           >
             Twitter
           </a>{' '}
-          y compártelo con tus amigos 👇
+          y/o compártelo 👇
         </div>
         <Share title={post.title} url={getUrl(post.slug)} />
         <div className="prose dark:prose-dark text-lg font-medium mt-16">
-          ¿Encontraste algún error en este artículo? Edítalo en{' '}
+          ¿Encontraste algún error en este artículo?{' '}
           <a
             href={editUrl(post.slug)}
             target="_blank"
             rel="noopener noreferrer"
             className="text-purple-700 dark:text-purple-300"
           >
-            GitHub
+            Edítalo en GitHub
           </a>
         </div>
       </article>
