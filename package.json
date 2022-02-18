@@ -14,7 +14,7 @@
     "comma-number": "^2.1.0",
     "contentlayer": "^0.0.34",
     "date-fns": "^2.25.0",
-    "next": "12.0.9",
+    "next": "12.1.0",
     "next-contentlayer": "^0.0.34",
     "next-themes": "^0.0.15",
     "preact": "^10.5.15",
