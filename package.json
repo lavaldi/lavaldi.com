@@ -32,7 +32,6 @@
     "eslint": "^8.1.0",
     "eslint-config-next": "^12.0.1",
     "globby": "12.0.2",
-    "gray-matter": "^4.0.3",
     "hygen": "^6.1.0",
     "postcss": "^8.3.11",
     "prettier": "^2.3.2",
