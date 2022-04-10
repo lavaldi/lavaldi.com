@@ -10,7 +10,7 @@
     "new:post": "hygen blog-post new"
   },
   "dependencies": {
-    "@tailwindcss/typography": "^0.4.1",
+    "@tailwindcss/typography": "^0.5.2",
     "comma-number": "^2.1.0",
     "contentlayer": "^0.0.34",
     "date-fns": "^2.25.0",
@@ -21,19 +21,19 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-use-clipboard": "^1.0.7",
-    "tailwindcss": "^2.2.17"
+    "tailwindcss": "^3.0.23"
   },
   "devDependencies": {
     "@p-mcgowan/minimist": "^2.1.0",
     "@sindresorhus/slugify": "1.1.0",
-    "autoprefixer": "^10.3.7",
+    "autoprefixer": "^10.4.4",
     "canvas": "^2.8.0",
     "chalk": "^5.0.0",
     "eslint": "^8.1.0",
     "eslint-config-next": "^12.0.1",
     "globby": "12.0.2",
     "hygen": "^6.1.0",
-    "postcss": "^8.3.11",
+    "postcss": "^8.4.12",
     "prettier": "^2.3.2",
     "reading-time": "^1.5.0",
     "rehype": "^12.0.1",
