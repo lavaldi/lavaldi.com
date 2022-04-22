@@ -9,14 +9,19 @@ async function generate() {
     feed_url: 'https://lavaldi.com/feed.xml'
   });
 
-  allBlogs.map((post) => {
-    feed.item({
-      title: post.title,
-      url: `https://lavaldi.com/blog/${post.slug}`,
-      date: post.publishedAt,
-      description: post.summary
+  allBlogs
+    .sort(
+      (a, b) =>
+        Number(new Date(b.publishedAt)) - Number(new Date(a.publishedAt))
+    )
+    .map((post) => {
+      feed.item({
+        title: post.title,
+        url: `https://lavaldi.com/blog/${post.slug}`,
+        date: post.publishedAt,
+        description: post.summary
+      });
     });
-  });
 
   writeFileSync('./public/feed.xml', feed.xml({ indent: true }));
 }
