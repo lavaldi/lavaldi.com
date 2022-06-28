@@ -9,6 +9,7 @@
 import canvasLib from 'canvas';
 import { minimist } from '@p-mcgowan/minimist';
 import chalk from 'chalk';
+import slugify from '@sindresorhus/slugify';
 import fs from 'fs';
 
 const COLORS = {
@@ -100,7 +101,7 @@ if (text) {
   canvasLib.loadImage('./public/static/favicons/lavaldi-icon.png').then((image) => {
     context.drawImage(image, 420, 515, 70, 70)
     const buffer = canvas.toBuffer('image/png')
-    fs.writeFileSync('./banner.png', buffer)
+    fs.writeFileSync(`./public/banners/${slugify(text)}.png`, buffer);
     log(chalk.green(`Image was created: ${process.cwd()}/banner.png`))
   })
 } else {
