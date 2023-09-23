@@ -2,8 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run setup && next build",
-    "build-only": "next build",
+    "build": "next build",
     "start": "next start"
   },
   "dependencies": {
