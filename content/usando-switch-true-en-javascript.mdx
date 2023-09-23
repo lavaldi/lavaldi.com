@@ -1,0 +1,142 @@
+---
+title: 'Usando switch(true) en JavaScript'
+publishedAt: '2021-09-12'
+banner: 'https://i.imgur.com/09Facl1.png'
+tags:
+  - javascript
+  - switch
+---
+
+En mi anterior trabajo noté que uno de mis compañeros de equipo usaba `switch(true)`. La verdad es que no había visto nunca ese uso de la sentencia `switch`. Así que me puse a hacer la tarea, encontrando que [Kyle Shevlin](https://twitter.com/kyleshevlin) lo llama el [_"Pattern Matching"_](https://kyleshevlin.com/pattern-matching), así que en este post vamos a ver lo aprendido acerca de este patrón.
+
+## `switch` básico
+
+La mayoría de los desarrolladores de JavaScript están familiarizados con la sentencia `switch` ([mdn docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)), pero para aquellos que son más nuevos en el lenguaje, vamos a repasarla brevemente.
+
+La sentencia `switch` permite comparar una expresión con uno de los diferentes casos:
+
+```javascript
+const city = 'Lima';
+
+const getCountryByCity = () => {
+  switch (city) {
+    case 'Madrid':
+      return 'Madrid es la capital de España';
+    case 'London':
+      return 'London es la capital de Inglaterra';
+    case 'Lima':
+      return 'Lima es la capital de Perú';
+    default:
+      return 'No se pudo encontrar de qué país esta ciudad es capital.';
+  }
+};
+```
+
+En este ejemplo, la _expresión_ (la variable `ciudad`) se compara con cada caso de la sentencia `switch`. Si el caso coincide con el resultado de la expresión, el caso se ejecutará, en este ejemplo devolverá una cadena.
+
+## `switch(true)`
+
+El caso es que la expresión a evaluar dentro de la sentencia `switch` [no solo puede ser un valor sino también una expresión en sí](https://www.ecma-international.org/ecma-262/10.0/index.html#sec-switch-statement). Esto quiere decir que podemos hacer cosas como estas:
+
+- Hacer múltiples comparaciones con el mismo valor.
+- Utilizar funciones de predicado [^1] para hacer coincidir los _cases_.
+- Usar múltiples valores en esas funciones de predicado.
+- Usar `RegExp.prototype.test` para comparar patrones.
+- y cualquier otra cosa que se nos ocurra!
+
+Entonces, la expresión en un _case_ será evaluada antes de coincidir. Si la expresión en el _case_ se evalúa como verdadero entonces coincide con dicho caso.
+
+```javascript
+switch (true) {
+  case 1 + 1 === 2:
+    // Este caso se evalúa como verdadero por lo tanto será ejecutado
+    break;
+  default:
+    // Este caso no será ejecutado
+    break;
+}
+```
+
+## Por qué es útil
+
+`switch(true)` se puede utilizar en muchas situaciones diferentes como por ejemplo para reemplazar complejas declaraciones if/else.
+
+Un escenario común en el que esto se vuelve útil es si estás validando datos o tipos de datos y tienes un conjunto de criterios que harán que la validación falle:
+
+```javascript
+const user = {
+  firstName: 'Claudia',
+  lastName: 'Valdivieso',
+  email: 'correo@email.com',
+  number: '980765432'
+};
+
+if (!user) {
+  throw new Error('El usuario debe estar definido.');
+}
+
+if (!user.firstName) {
+  throw new Error('El primer nombre del usuario debe estar definido.');
+}
+
+if (typeof user.firstName !== 'string') {
+  throw new Error('El primer nombre del usuario debe ser una cadena.');
+}
+
+// ...otras validaciones
+
+return user;
+```
+
+Esto puede ser reescrito usando `switch(true)` así:
+
+```javascript
+const user = {
+  firstName: 'Claudia',
+  lastName: 'Valdivieso',
+  email: 'correo@email.com',
+  number: '980765432'
+};
+
+switch (true) {
+  case !user:
+    throw new Error('El usuario debe estar definido.');
+  case !user.firstName:
+    throw new Error('El primer nombre del usuario debe estar definido.');
+  case typeof user.firstName !== 'string':
+    throw new Error('El primer nombre del usuario debe ser una cadena.');
+  // ...otras validaciones
+  default:
+    return user;
+}
+```
+
+Tanto el if/else como el switch true pueden ser escritos con los criterios de validación abstraídos para una mejor legibilidad:
+
+```javascript
+switch (true) {
+  case !isDefined(user):
+    throw new Error('El usuario debe estar definido.');
+  case !isString(user.firstName):
+    throw new Error('El primer nombre del usuario debe ser una cadena.');
+  case !isValidEmail(user.email):
+    throw new Error('El correo del usuario debe ser un correo válido.');
+  case !isValidPhoneNumber(user.number):
+    throw new Error('El teléfono del usuario debe ser un teléfono válido.');
+  // ...otras validaciones
+  default:
+    return user;
+}
+```
+
+## Resumen
+
+En mi opinión, este forma de uso del `switch` ofrece una legibilidad más limpia cuando se comprueban múltiples condiciones que muchos bloques if/else. Además, siempre es útil ser consciente de estos patrones para que estén disponibles para ser empleados cuando sea apropiado. Si estás en un equipo, la adopción de este patrón va a depender del gusto de tu equipo y de las convenciones de código.
+
+## Notas adicionales
+
+Existe una propuesta del TC39 para añadir la concordancia de patrones a JavaScript, pero lleva bastante tiempo estancada en la fase 1. Puedes encontrar el repo de la propuesta [aquí](https://github.com/tc39/proposal-pattern-matching).
+
+Hay un paquete interesante llamado [safety-match](https://github.com/suchipi/safety-match) para pattern marching con TypeScript.
+
+[^1] Una función que retorna un booleano.

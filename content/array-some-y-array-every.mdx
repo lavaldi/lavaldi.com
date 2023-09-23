@@ -1,0 +1,59 @@
+---
+title: 'Array.some() y Array.every()'
+summary: 'En 2009, ECMAScript 5 introdujo nuevos métodos de Array. Algunos son bastante populares, otros como some() y every() parecen ser menos utilizados, por lo que los examinaremos más de cerca.'
+publishedAt: '2021-12-15'
+tags:
+  - JavaScript
+  - Array
+banner: 'https://i.imgur.com/irG9u3R.png'
+---
+
+`Array.some()` y `Array.every()` fueron introducidos en ECMAScript 5 en el 2009 (sí 😱) y parece que hasta hoy están saliendo a la luz, así que vamos a examinarlos más de cerca.
+
+## The `Array.some()` method
+
+`Array.some()` devuelve `true` si al menos un elemento del array coincide con algún criterio que especifiques como parte de una función callback.
+
+```js
+[-10, 0, 10].some((x) => x < 0); // true
+[1, 2, 3, 4].some((x) => x < 0); // false
+```
+
+Algo que notar es que `some()` deja de iterar sobre el array en cuanto encuentra un elemento que coincide con el criterio especificado. Solo en el caso de no encontrar ningún elemento que coincida se puede decir que ha recorrido todo el array.
+
+## The `Array.every()` method
+
+`Array.every()` devuelve `true` si todos los elementos del array coinciden con algún criterio que especifiques como parte de una función de devolución de llamada.
+
+```js
+[1, 2, 3, 4].every((x) => x < 0); // false
+[1, 2, 3, 4].every((x) => x >= 0); // true
+```
+
+Al igual que en el caso de `some()`, la ejecución de `every()` termina en cuanto `every()` encuentra un elemento del array que no coincide con el criterio especificado, devuelve inmediatamente `false` y no itera sobre los elementos restantes.
+
+## Parametros para el callback
+
+Tanto en `some()` como en `every()`la función callback recibe 3 argumentos: el elemento actual del array a probar, el índice y el propio array. Puedes evaluar esos parámetros como desees para determinar si devuelve `true` o `false`:
+
+```js
+function callback(element, index, array) {
+  // ...
+}
+```
+
+## ¿Cuándo usar `Array.filter()` sobre `Array.some()` o `Array.every()`?
+
+Cuando quieres ver si algunos elementos cumplen algún criterio y luego hacer algo con ellos. Por ejemplo:
+
+```js
+const fruits = ['apples', 'oranges', 'pears', 'apples', 'bananas'];
+
+// Obtener un array solo con las manzanas
+const apples = fruits.filter((fruit) => fruit === 'apples');
+
+// Si hay manzanas entonces las cuento
+if (apples.length > 0) {
+  alert(`You have ${apples.length} apples!`);
+}
+```

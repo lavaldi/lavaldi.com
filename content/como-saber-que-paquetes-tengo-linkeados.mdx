@@ -1,0 +1,20 @@
+---
+title: 'Cómo saber qué paquetes tengo linkeados en mi proyecto'
+publishedAt: '2021-12-10'
+banner: 'https://i.imgur.com/2XSTrhn.png'
+tags:
+  - yarn
+  - npm
+---
+
+Cuando estamos trabajando en local y tenemos una librería de componentes o alguna librería interna, lo usual es [linkear esa librería a nuestro proyecto principal](/blog/como-probar-un-paquete-npm-localmente), pero qué pasa cuando tenemos varias librerías internar y luego no nos acordamos cuáles son las que tenemos linkeadas? 😅 Pues a continuación vamos a ver una solución para eso.
+
+Lo único que tenemos que hacer para saber qué librerías tenemos linkeadas es correr el siguiente comando:
+
+```shell
+( ls -l node_modules ; ls -l node_modules/@* ) | grep ^l
+```
+
+Esto mostrará un listado de los paquetes linkeados con scope o sin scope.
+
+_Tomado de [github.com](https://github.com/yarnpkg/yarn/issues/1722#issuecomment-330369365)_

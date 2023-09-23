@@ -1,0 +1,78 @@
+---
+title: '¿Cómo ver lo que hay en un stash sin aplicarlo?'
+summary: 'A menudo guardamos trabajo para más tarde, luego aparecen otras cosas y, unas semanas más tarde, queremos inspeccionar qué tenemos en la pila de stash y averiguar qué cambios hice ¿Cómo puedo hacer esto?'
+publishedAt: '2022-06-21'
+tags:
+  - git
+banner: 'https://lavaldi.com/banners/como-ver-lo-que-hay-en-un-stash-sin-aplicarlo.png'
+---
+
+A menudo guardamos trabajo para más tarde, luego aparecen otras cosas y, unas semanas más tarde, queremos inspeccionar qué tenemos en la pila de stash y averiguar qué cambios haría si lo aplicara al árbol de trabajo en su estado actual. ¿Cómo puedo hacer esto?
+
+## `git stash show`
+
+Este comando nos mostrará los archivos que cambiaron en el stash más reciente.
+
+```shell
+data/blog/ver-lo-que-hay-en-un-stash-sin-aplicarlo.mdx | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+```
+
+Si le agregamos la opción `-p` podremos ver la diferencia.
+
+```shell
+git stash show -p
+```
+
+```shell
+diff --git a/lib/features/transactions/presentation/widgets/transaction_info_dialog.dart b/lib/features/transactions/pres
+entation/widgets/transaction_info_dialog.dart
+index 006ca2f5..faad27cd 100644
+--- a/lib/features/transactions/presentation/widgets/transaction_info_dialog.dart
++++ b/lib/features/transactions/presentation/widgets/transaction_info_dialog.dart
+[...]
+@@ -25,22 +79,7 @@ class TransactionInfoDialog extends StatelessWidget {
+       title: Wrap(
+         alignment: WrapAlignment.center,
+         children: <Widget>[
+-          Container(
+-            width: 44,
+-            height: 44,
+-            alignment: Alignment.center,
+-            decoration: BoxDecoration(
+-              borderRadius: BorderRadius.circular(44),
+-              color: ColorPalette.white.withOpacity(0.08),
+-            ),
+-            child: SvgPicture.asset(
+-              Images.iconTicket,
+-              color: ColorPalette.white,
+-              fit: BoxFit.scaleDown,
+-              width: 20,
+-              height: 20,
+-            ),
+-          ),
++          icon.value(),
+         ],
+       ),
+       content: SizedBox(
+```
+
+Si el stash que nos interesa no es el más reciente, debemos agregar el nombre del stash al final del comando:
+
+```shell
+git stash show -p stash@{2}
+```
+
+Y si eres fan de gitk, puedes ver el último elemento de la pila de stash con:
+
+```shell
+gitk stash
+```
+
+![Usando gitk para mostrar lo que hay en el stash](https://i.imgur.com/XAYcqkJ.png)
+
+También puede usar ver cualquiera de sus stashes agregar el nombre del stash:
+
+```shell
+gitk stash@{2}
+```

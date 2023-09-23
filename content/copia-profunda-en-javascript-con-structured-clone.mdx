@@ -1,0 +1,66 @@
+---
+title: 'Copia profunda en JavaScript con structuredClone'
+summary: 'JavaScript expone ahora structuredClone(), una función incorporada para copiar en profundidad.'
+publishedAt: '2021-12-20'
+tags:
+  - clone
+  - objects
+  - javascript
+banner: 'https://lavaldi.com/banners/copia-profunda-en-javascript-con-structured-clone.png'
+---
+
+Hace poco escribí un artículo sobre [cómo clonar objectos en JavaScript](https://www.escuelafrontend.com/articulos/clonar-objetos-en-javascript) donde explico al menos 4 formas de hacerlo, pero no había hecho notar la existencia de `structuredClone` debido a que esta API todavía no estaba disponible en los navegadores. Pero hace poco [Firefox lanzó dicha API en su versión 94](https://caniuse.com/?search=structuredClone) y Node 17 y Deno 1.14 la han implementado también, y no va a pasar mucho tiempo para que los demás navegadores la implementen, por ello podemos empezar a utilizar esta función ahora mismo y no sentirnos mal por ello.
+
+## Copias profundas
+
+Hacer [una copia superficial](https://www.escuelafrontend.com/articulos/clonar-objetos-en-javascript) significa que los cambios en valores profundamente anidados serán visibles en la copia, así como en el original. Lo contrario a ello es una copia profunda.
+
+Un algoritmo de copia profunda también copia las propiedades de un objeto una a una, pero se invoca a sí mismo recursivamente cuando encuentra una referencia a otro objeto, creando también una copia de ese objeto. Esto puede ser muy importante para asegurar que dos piezas de código no compartan accidentalmente un objeto y manipulen sin saberlo el estado del otro.
+
+Antes no había una forma fácil o agradable de crear una copia profunda de un valor en JavaScript. La solución más común a este problema era un hack basado en JSON:
+
+```js
+const myDeepCopy = JSON.parse(JSON.stringify(myOriginal));
+```
+
+De hecho, esta fue una solución tan popular, que V8 optimizó agresivamente `JSON.parse()` y específicamente el patrón anterior para hacerlo lo más rápido posible. Y aunque es rápido, viene con un par de defectos y trampas:
+
+- **Estructuras de datos recursivas:** `JSON.stringify()` se lanzará cuando le des una estructura de datos recursiva. Esto puede ocurrir fácilmente cuando se trabaja con listas enlazadas o árboles.
+- **Tipos incorporados:** `JSON.stringify()` se lanzará si el valor contiene otros tipos incorporados de JS como Map, Set, Date, RegExp o ArrayBuffer.
+- **Funciones:** `JSON.stringify()` descartará silenciosamente las funciones.
+
+## Clonación estructurada
+
+La plataforma ya necesitaba la capacidad de crear copias profundas de valores JavaScript en un par de lugares: El almacenamiento de un valor JS en IndexedDB requiere alguna forma de serialización para que pueda ser almacenado en el disco y posteriormente deserializado para restaurar el valor JS. Del mismo modo, el envío de mensajes a un WebWorker a través de postMessage() requiere la transferencia de un valor JS de un ámbito JS a otro. El algoritmo que se utiliza para esto se llama "Structured Clone", y hasta hace poco, no era fácilmente accesible para los desarrolladores.
+
+Esto ha cambiado. La especificación HTML fue modificada para exponer una función llamada `structuredClone()` que ejecuta exactamente ese algoritmo como medio para que los desarrolladores puedan crear fácilmente copias profundas de valores JavaScript.
+
+```js
+const myDeepCopy = structuredClone(myOriginal);
+```
+
+Eso es todo. Esa es toda la API. Si quieres profundizar checa la [documentación en MDN](https://developer.mozilla.org/en-US/docs/Web/API/structuredClone).
+
+### Características y limitaciones
+
+La clonación estructurada resuelve muchas (aunque no todas) las deficiencias de la técnica `JSON.stringify()`. La clonación estructurada puede manejar estructuras de datos cíclicas, soporta muchos tipos de datos incorporados y es generalmente más robusta y a menudo más rápida.
+
+Sin embargo, sigue teniendo algunas limitaciones:
+
+- **Prototipos:** Si utilizas `structuredClone()` con una instancia de clase, obtendrás un objeto plano como valor de retorno, ya que la clonación estructurada descarta la cadena de prototipos del objeto.
+- **Funciones:** Si el objeto contiene funciones, éstas serán descartadas silenciosamente.
+- **No clonables:** Algunos valores no son clonables de forma estructurada, sobre todo los nodos `Error` y DOM.
+
+Si alguna de estas limitaciones es un obstáculo para tu caso de uso, puedes usar la implementación de Lodash: [cloneDeep()](https://lodash.com/docs/4.17.15#cloneDeep).
+
+### Rendimiento
+
+[Surma hizo una comparación a principios de 2018](https://surma.dev/things/deep-copy/index.html), antes de que se expusiera `structuredClone()`. En ese entonces, `JSON.parse()` era la opción más rápida para objetos muy pequeños. Las técnicas que se basaban en la clonación estructurada eran (significativamente) más rápidas para los objetos más grandes. Considerando que el nuevo `structuredClone()` viene sin la sobrecarga de abusar de otras APIs y es más robusto que `JSON.parse()`, [Surma](https://twitter.com/DasSurma) recomienda que lo hagas tu enfoque por defecto para crear copias profundas.
+
+## Conclusión
+
+Si necesitas crear una copia profunda de un valor en JS, ya sea porque utilizas estructuras de datos inmutables o porque quieres asegurarte de que una función puede manipular un objeto sin afectar al original, ya no necesitas buscar soluciones o bibliotecas. El ecosistema JS tiene ahora `structuredClone()`. Wujuuu!! 🥳
+
+## Fuente
+
+- [Deep-copying in JavaScript using structuredClone](https://web.dev/structured-clone/)

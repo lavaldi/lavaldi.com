@@ -1,0 +1,82 @@
+---
+title: 'Cómo actualizar un paquete de yarn a la última versión'
+publishedAt: '2021-08-25'
+banner: 'https://i.imgur.com/pLF2KNF.png'
+tags:
+  - yarn
+---
+
+Sabes que necesitas actualizar un paquete, pero no estás seguro de qué versión es la última y si romperá tu código o no 🙈.
+
+Vamos a recorrer la actualización de `gatsby` para un proyecto.
+
+## Primero, comprueba en qué punto te encuentras
+
+¿En qué versión estás? ¿Qué pasa con este paquete?
+
+Podemos ver aquí que el paquete está en la versión `2.24.57` - ¿está actualizado, es viejo?
+
+```shell
+> yarn why gatsby
+yarn why v1.22.10
+[1/4] 🤔  Why do we have the module "gatsby"...?
+[2/4] 🚚  Initialising dependency graph...
+[3/4] 🔍  Finding dependency...
+[4/4] 🚡  Calculating file sizes...
+=> Found "gatsby@2.24.57"
+info Has been hoisted to "gatsby"
+info This module exists because it's specified in "dependencies".
+info Disk size without dependencies: "27.79MB"
+info Disk size with unique dependencies: "27.79MB"
+info Disk size with transitive dependencies: "27.79MB"
+info Number of shared dependencies: 531
+✨  Done in 2.16s.
+```
+
+## Siguiente: ¿cómo de desactualizado está el paquete?
+
+Yarn nos da el comando `outdated` para comprobarlo. Puedes ejecutarlo para todas tus dependencias o puedes pasar un nombre de paquete para comprobar sólo un paquete.
+
+```shell
+> yarn outdated gatsby
+yarn outdated v1.22.10
+info Color legend :
+ "<red>"    : Major Update backward-incompatible updates
+ "<yellow>" : Minor Update backward-compatible features
+ "<green>"  : Patch Update backward-compatible bug fixes
+Package Current Wanted  Latest Package Type URL
+gatsby  2.24.57 2.32.13 3.12.0 dependencies https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby#readme
+✨  Done in 5.54s.
+```
+
+## Ok, vamos a actualizar
+
+Si sólo haces `yarn upgrade gatsby` ahora, seguirá usando la versión especificada en package.json.
+
+Si queremos asegurarnos de que se instala la más reciente y también se actualiza package.json, podemos especificar la bandera `--latest`:
+
+```shell
+> yarn upgrade gatsby --latest
+yarn upgrade v1.22.10
+[1/4] 🔍  Resolving packages...
+[2/4] 🚚  Fetching packages...
+[3/4] 🔗  Linking dependencies...
+[4/4] 🔨  Rebuilding all packages...
+success Saved lockfile.
+success Saved 341 new dependencies.
+info Direct dependencies
+└─ gatsby@3.12.0
+info All dependencies
+├─ @babel/compat-data@7.15.0
+├─ ...
+├─ ...
+├─ ...
+└─ yurnalist@2.1.0
+✨  Done in 134.68s.
+```
+
+Con esto, los archivos `package.json` y `yarn.lock` se actualizarán después de este comando.
+
+## ¡Hemos terminado!
+
+Si ejecutamos nuevamente `yarn why gatsby` veremos que ahora muestra la nueva versión 🎉

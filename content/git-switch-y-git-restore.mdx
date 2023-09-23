@@ -1,0 +1,104 @@
+---
+title: 'git switch y git restore'
+publishedAt: '2021-10-04'
+banner: 'https://i.imgur.com/vsRYwjs.png'
+summary: 'Hace poco descubrí dos nuevas adiciones a la lista de comandos de git: git restore y git switch cuando hacía un pair programming, así que vamos a hablar un poco de ellas en este post.'
+tags:
+  - git
+---
+
+Hace poco descubrí dos nuevas adiciones a la lista de comandos de git: `git restore` y `git switch` cuando hacía un pair programming, así que vamos a hablar un poco de ellas en este post.
+
+Para entender por qué surgieron, revisemos primero el comando `git checkout`.
+
+## `git checkout`
+
+Esta es una de las muchas razones por las que aquellas personas que quieren aprender git lo encuentran confuso. Y es que su efecto depende del contexto.
+
+La forma en que la mayoría de la gente lo utiliza es para cambiar la rama activa en su repositorio local. Más exactamente, para cambiar la rama a la que apunta HEAD. Por ejemplo, puedes cambiar a la rama de desarrollo si estás en la rama principal:
+
+```shell
+git checkout develop
+```
+
+También puedes hacer que tu puntero HEAD haga referencia a un commit específico en lugar de a una rama:
+
+```shell
+git checkout f8c540805b7e16753c65619ca3d7514178353f39
+```
+
+Donde las cosas se complican es que si proporcionas un archivo como argumento en lugar de una rama o un commit. Lo que hará será descartar tus cambios locales en ese archivo y lo restaurará al estado de la rama.
+
+Por ejemplo, si estás en la rama `develop` y realizaste unos cambios al archivo `test.txt`, entonces puedes restaurar el archivo tal como está en el último commit de su rama con:
+
+```shell
+git checkout test.txt
+```
+
+A este punto te preguntarás ¿por qué tener un comando que haga 2 acciones diferentes? Bueno, las cosas son un poco más sutiles que eso. Si miramos la [documentación de git][], podemos ver que el comando tiene un argumento extra que normalmente se omite:
+
+```shell
+git checkout <tree-ish> -- <pathspec>
+```
+
+¿Qué es `<tree-ish>`? Pues puede significar muchas cosas diferentes, pero lo más común es que signifique el hash de un commit o el nombre de una rama. Por defecto se considera que es la rama actual, pero puede ser cualquier otra rama o commit. Así, por ejemplo, si estás en la rama de `develop` y deseas cambiar el archivo `test.txt` para ser la versión de la rama `main`, puedes hacerlo así:
+
+```shell
+git checkout main -- test.txt
+```
+
+Teniendo esto en cuenta, quizá las cosas empiecen a tener sentido. Cuando proporcionas sólo una rama o un commit como argumento para `git checkout`, entonces cambiará todos tus archivos a su estado en la revisión correspondiente, pero si también especificas un nombre de archivo, sólo cambiará el estado de ese archivo para que coincida con la revisión especificada.
+
+## Los nuevos chicos del barrio
+
+![git switch y git restore](https://i.imgur.com/hIMeeal.jpg)
+
+Así que, aunque las cosas empiecen a tener sentido después de leer los párrafos anteriores, debemos admitir que sigue siendo confuso, especialmente para los recién llegados. Es por eso que en [la versión 2.23 de git][], se han introducido dos nuevos comandos para reemplazar el antiguo `git checkout` (que todavía está disponible, pero la gente nueva en git debería empezar con estos preferentemente). Como era de esperar, básicamente cada uno implementa uno de los dos comportamientos descritos anteriormente, dividiendo `git checkout` en dos.
+
+## `git switch`
+
+Este comando implementa el comportamiento de `git checkout` cuando se ejecuta sólo contra un nombre de rama. Así que puedes usarlo para cambiar entre ramas o commits.
+
+```shell
+git switch develop
+```
+
+Mientras que con `git checkout` puedes cambiar a un commit y pasar a un estado HEAD separado, por defecto `git switch` no lo permite. Necesitas proporcionar la bandera `-d`:
+
+```shell
+git switch -d f8c540805b7e16753c65619ca3d7514178353f39
+```
+
+Otra diferencia es que con `git checkout` puedes crear y cambiar a la nueva rama en un solo comando usando la bandera `-b`:
+
+```shell
+git checkout -b new-branch
+```
+
+Puedes hacer lo mismo con el nuevo, pero la bandera es `-c`:
+
+```shell
+git switch -c new-branch
+```
+
+## `git restore`
+
+Este comando implementa el comportamiento de `git checkout` cuando se ejecuta contra un archivo. Puedes restaurar, como el nombre sugiere, el estado de un archivo a una revisión git especificada (la rama actual por defecto)
+
+```shell
+git restore -- test.txt
+```
+
+## Conclusión
+
+Estos métodos todavía están marcados como experimentales, pero a todos los efectos están aquí para quedarse, así que te animo a empezar a usarlos ya que tienen mucho más sentido y son menos confusos.
+
+Se pueden encontrar más detalles sobre los dos comandos en su documentación de git:
+
+- [git switch][]
+- [git restore][]
+
+[documentación de git]: https://git-scm.com/docs/git-checkout
+[la versión 2.23 de git]: https://github.com/git/git/blob/master/Documentation/RelNotes/2.23.0.txt
+[git switch]: https://git-scm.com/docs/git-switch
+[git restore]: https://git-scm.com/docs/git-restore
