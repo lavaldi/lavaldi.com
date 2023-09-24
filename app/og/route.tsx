@@ -28,13 +28,15 @@ export async function GET(req: NextRequest) {
           style={{
             marginLeft: 190,
             marginRight: 190,
-            display: "flex",
+            display: "inline",
             fontSize: 130,
             fontFamily: "Fira Code",
             letterSpacing: "-0.05em",
             fontStyle: "normal",
-            lineHeight: "120px",
             whiteSpace: "pre-wrap",
+            padding: ".25em 0",
+            background: "#FAD000",
+            boxShadow: ".5em 0 0 #FAD000, -.5em 0 0 #FAD000",
           }}
         >
           {postTitle}
